@@ -1,0 +1,8 @@
+#storybook-docs {
+  direction: ltr;
+  overflow: auto;
+  height: 100vh;
+}
+.sb-show-main.sb-main-padded {
+  padding: 0;
+}

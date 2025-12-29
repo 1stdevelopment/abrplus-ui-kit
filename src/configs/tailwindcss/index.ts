@@ -2,7 +2,9 @@
 
 const config = {
   content: {
-    files: ["./src/**/*.{js,ts,jsx,tsx,html}"],
+    files: [
+      "./src/**/*.{js,ts,jsx,tsx,html}",
+    ],
   },
   theme: {
     fontFamily: {

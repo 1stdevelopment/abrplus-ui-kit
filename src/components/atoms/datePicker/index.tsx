@@ -5,13 +5,13 @@ import { useTranslation } from 'react-i18next';
 
 import { InputFieldError, colors } from '@configs';
 
-import { datePickerColors } from '../../../core/constants/datepickerColors';
 import { Render } from '../../../utilities/render';
 import { Flex } from '../../antOverrides/flex';
 import { Text } from '../../antOverrides/text';
 import { Icon } from '../../atoms/icon';
 import { Tooltip } from '../../atoms/tooltip';
 import { InputErrorMessage } from '../../molecules/inputErrorMessage';
+import { datePickerColors } from 'src/constants';
 
 export interface DatePickerProps extends Omit<Props, 'wrapperClassName' | 'error'> {
   wrapperClassName?: string;

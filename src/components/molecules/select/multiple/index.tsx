@@ -11,7 +11,7 @@ import React, {
 import { useTranslation } from 'react-i18next';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, i18nInstance, useInteractions } from '@configs';
+import { colors } from '@configs';
 
 import { InputErrorMessage, Tag } from '../..';
 import { Flex, InfiniteLoader, Loading, Text } from '../../../antOverrides';
@@ -23,6 +23,7 @@ import { SelectPlaceholder } from '../components/placeholder';
 import { SelectSuffix } from '../components/suffix';
 import { CustomizedAntSelectConfig, generateSelectClassNames } from '../style';
 import { DefaultSelectOption, SelectProps, SelectRawValue } from '../types';
+import { useInteractions } from '@hooks';
 
 const { Option } = AntSelect;
 
@@ -177,7 +178,7 @@ export const MultipleSelect = forwardRef(
                   <Text
                     weight={isActive ? 'bold' : 'normal'}
                     color={colors.primary_dark_1}
-                    lang={lang || i18nInstance.language}
+                    lang={lang}
                     className="max-w-full overflow-hidden text-ellipsis"
                   >
                     {extractedLabel}

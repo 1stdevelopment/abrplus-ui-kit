@@ -3,7 +3,7 @@ import { LabeledValue } from 'antd/lib/select';
 import React, { ReactElement, forwardRef, useCallback, useEffect, useMemo, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, i18nInstance, useInteractions } from '@configs';
+import { colors, i18nInstance } from '@configs';
 
 import { InputErrorMessage } from '../../';
 import { Flex, InfiniteLoader, Loading, Text } from '../../../antOverrides';
@@ -15,6 +15,7 @@ import { SelectPlaceholder } from '../components/placeholder';
 import { SelectSuffix } from '../components/suffix';
 import { CustomizedAntSelectConfig, generateSelectClassNames } from '../style';
 import { DefaultSelectOption, SelectOption, SelectProps } from '../types';
+import { useInteractions } from '@hooks';
 
 const { Option } = AntSelect;
 

@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 
-import glyphMap from '@abrplus/config/assets/fonts/icomoon/selection.json';
+import glyphMap from '@assets/fonts/icomoon/selection.json';
 
 type IcomoonProps = {
   size?: number;

@@ -8,9 +8,18 @@ dependencies:
   '@ant-design/icons':
     specifier: 5.2.6
     version: 5.2.6(react-dom@18.3.1)(react@18.3.1)
+  '@use-gesture/react':
+    specifier: ^10.3.0
+    version: 10.3.1(react@18.3.1)
   antd:
     specifier: 5.19.1
     version: 5.19.1(moment@2.30.1)(react-dom@18.3.1)(react@18.3.1)
+  i18next:
+    specifier: ^23.7.7
+    version: 23.16.8
+  i18next-browser-languagedetector:
+    specifier: ^7.2.0
+    version: 7.2.2
   jalaali-react-date-picker:
     specifier: https://github.com/1stdevelopment/jalaali-react-date-picker
     version: github.com/1stdevelopment/jalaali-react-date-picker/d61c5083d5a93ca7caba22b621227fe44562502b(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.27.1)(@testing-library/dom@10.4.1)(@types/moment-jalaali@0.7.9)(@types/react-dom@18.3.7)(@types/react@18.3.27)(esbuild@0.18.20)(eslint@8.56.0)(moment-jalaali@0.10.4)(react-dom@18.3.1)(react@18.3.1)(ts-node@10.9.2)(tsx@4.21.0)
@@ -29,6 +38,12 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.3.1(react@18.3.1)
+  react-i18next:
+    specifier: ^13.5.0
+    version: 13.5.0(i18next@23.16.8)(react-dom@18.3.1)(react@18.3.1)
+  react-route-type:
+    specifier: github:mohammadgharouni/react-route-type
+    version: github.com/mohammadgharouni/react-route-type/2c06e9443c2bd01eb4d49b2fab79ec15c5630490(react-router-dom@6.30.2)(typescript@5.9.3)
   tailwind-merge:
     specifier: ^1.14.0
     version: 1.14.0
@@ -6046,7 +6061,6 @@ packages:
   /@remix-run/router@1.23.1:
     resolution: {integrity: sha512-vDbaOzF7yT2Qs4vO6XV1MHcJv+3dgR1sT+l3B8xxOVhUC336prMvqrvsLL/9Dnw2xr6Qhz4J0dmS0llNAbnUmQ==}
     engines: {node: '>=14.0.0'}
-    dev: true
 
   /@rolldown/pluginutils@1.0.0-beta.27:
     resolution: {integrity: sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==}
@@ -8854,6 +8868,19 @@ packages:
 
   /@ungap/structured-clone@1.3.0:
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+
+  /@use-gesture/core@10.3.1:
+    resolution: {integrity: sha512-WcINiDt8WjqBdUXye25anHiNxPc0VOrlT8F6LLkU6cycrOGUDyY/yyFmsg3k8i5OLvv25llc0QC45GhR/C8llw==}
+    dev: false
+
+  /@use-gesture/react@10.3.1(react@18.3.1):
+    resolution: {integrity: sha512-Yy19y6O2GJq8f7CHf7L0nxL8bf4PZCPaVOCgJrusOeFHY1LvHgYXnmnXg6N5iwAnbgbZCDjo60SiM6IPJi9C5g==}
+    peerDependencies:
+      react: '>= 16.8.0'
+    dependencies:
+      '@use-gesture/core': 10.3.1
+      react: 18.3.1
+    dev: false
 
   /@vitejs/plugin-basic-ssl@1.0.1(vite@7.3.0):
     resolution: {integrity: sha512-pcub+YbFtFhaGRTo1832FQHQSHvMrlb43974e2eS8EKleR3p1cDdkJFPci1UhwkEf1J9Bz+wKBSzqpKp7nNj2A==}
@@ -13957,6 +13984,12 @@ packages:
       terser: 5.44.1
     dev: false
 
+  /html-parse-stringify@3.0.1:
+    resolution: {integrity: sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==}
+    dependencies:
+      void-elements: 3.1.0
+    dev: false
+
   /html-tags@3.3.1:
     resolution: {integrity: sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==}
     engines: {node: '>=8'}
@@ -14137,6 +14170,18 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
     dev: true
+
+  /i18next-browser-languagedetector@7.2.2:
+    resolution: {integrity: sha512-6b7r75uIJDWCcCflmbof+sJ94k9UQO4X0YR62oUfqGI/GjCLVzlCwu8TFdRZIqVLzWbzNcmkmhfqKEr4TLz4HQ==}
+    dependencies:
+      '@babel/runtime': 7.28.4
+    dev: false
+
+  /i18next@23.16.8:
+    resolution: {integrity: sha512-06r/TitrM88Mg5FdUXAKL96dJMzgqLE5dv3ryBAra4KCwD9mJ4ndOTS95ZuymIGoE+2hzfdaMak2X11/es7ZWg==}
+    dependencies:
+      '@babel/runtime': 7.28.4
+    dev: false
 
   /iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
@@ -19627,7 +19672,6 @@ packages:
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.1.0
-    dev: true
 
   /qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
@@ -20386,6 +20430,26 @@ packages:
       resize-observer-polyfill: 1.5.1
     dev: true
 
+  /react-i18next@13.5.0(i18next@23.16.8)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-CFJ5NDGJ2MUyBohEHxljOq/39NQ972rh1ajnadG9BjTk+UXbHLq4z5DKEbEQBDoIhUmmbuS/fIMJKo6VOax1HA==}
+    peerDependencies:
+      i18next: '>= 23.2.3'
+      react: '>= 16.8.0'
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.22.15
+      html-parse-stringify: 3.0.1
+      i18next: 23.16.8
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    dev: false
+
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -20485,7 +20549,6 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-router: 6.30.2(react@18.3.1)
-    dev: true
 
   /react-router@6.30.2(react@18.3.1):
     resolution: {integrity: sha512-H2Bm38Zu1bm8KUE5NVWRMzuIyAV8p/JrOaBJAwVmp37AXG72+CZJlEBw6pdn9i5TBgLMhNDgijS4ZlblpHyWTA==}
@@ -20495,7 +20558,6 @@ packages:
     dependencies:
       '@remix-run/router': 1.23.1
       react: 18.3.1
-    dev: true
 
   /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.27.1)(esbuild@0.18.20)(eslint@8.56.0)(react@18.3.1)(ts-node@10.9.2)(tsx@4.21.0)(typescript@4.9.5):
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
@@ -23233,6 +23295,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
+  /void-elements@3.1.0:
+    resolution: {integrity: sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
   /vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
     dev: true
@@ -24083,4 +24150,20 @@ packages:
       - webpack-hot-middleware
       - webpack-plugin-serve
       - yaml
+    dev: false
+
+  github.com/mohammadgharouni/react-route-type/2c06e9443c2bd01eb4d49b2fab79ec15c5630490(react-router-dom@6.30.2)(typescript@5.9.3):
+    resolution: {tarball: https://codeload.github.com/mohammadgharouni/react-route-type/tar.gz/2c06e9443c2bd01eb4d49b2fab79ec15c5630490}
+    id: github.com/mohammadgharouni/react-route-type/2c06e9443c2bd01eb4d49b2fab79ec15c5630490
+    name: react-route-type
+    version: 4.3.5
+    peerDependencies:
+      react-router-dom: '>=6'
+      typescript: '>=5'
+    dependencies:
+      qs: 6.11.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-router-dom: 6.30.2(react-dom@18.3.1)(react@18.3.1)
+      typescript: 5.9.3
     dev: false

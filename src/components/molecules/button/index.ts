@@ -1,5 +1,5 @@
-import { batch } from '@configs';
 
+import { batch } from '@utilities';
 import { ActionButton } from './action';
 import { IconButton } from './icon';
 import { NegativeButton } from './negative';

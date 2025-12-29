@@ -1,7 +1,7 @@
 import { RcFile } from 'antd/lib/upload';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, useInteractions } from '@configs';
+import { colors } from '@configs';
 
 import { Avatar, Flex, Loading } from '../../antOverrides';
 import { Icon, IconsNames, Upload } from '../../atoms';
@@ -17,16 +17,14 @@ interface AvatarUploadProps {
 }
 
 export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: AvatarUploadProps) => {
-  const { isHovered, eventHandlers } = useInteractions();
 
   return (
     <Upload accept=".jpg, .jpeg, .img" showUploadList={false} customRequest={customRequest}>
       <div
-        className="relative cursor-pointer overflow-hidden"
+        className="relative cursor-pointer overflow-hidden group"
         style={{
           borderRadius: shape === 'circle' ? '50%' : 4,
         }}
-        {...eventHandlers()}
       >
         <div
           style={{
@@ -40,7 +38,8 @@ export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: Ava
           <Icon
             name="Add_photo"
             color={colors.white_ff}
-            style={{ opacity: isHovered ? 1 : 0, transition: 'all 0.2s' }}
+            className='opacity-0 group-hover:opacity-100'
+            style={{  transition: 'all 0.2s' }}
           />
         </div>
         {isLoading ? (
@@ -78,6 +77,7 @@ export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: Ava
               }}
             />
             <div
+            className='opacity-0 group-hover:opacity-100'
               style={{
                 position: 'absolute',
                 top: 0,
@@ -85,7 +85,6 @@ export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: Ava
                 width: '100%',
                 height: '100%',
                 backgroundColor: 'rgba(0, 0, 0, 0.2)',
-                opacity: isHovered ? 1 : 0,
                 transition: 'opacity 0.2s ease-in-out',
               }}
             />

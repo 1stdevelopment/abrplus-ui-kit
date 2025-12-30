@@ -1,7 +1,6 @@
 import { composeStories } from '@storybook/react';
 import { render } from '@testing-library/react';
 import * as stories from '../index.stories'; // Adjust the path as necessary
-
 // Compose the stories for testing
 const { Default, CustomClass } = composeStories(stories);
 

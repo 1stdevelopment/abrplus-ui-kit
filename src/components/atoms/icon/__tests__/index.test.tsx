@@ -34,7 +34,7 @@ describe('Atoms > Icon', () => {
   // Test Case: Handles click events
   it('handles click events', () => {
     // Arrange: Set up a mock function for the onClick event
-    const onClickMock = jest.fn();
+    const onClickMock = vi.fn();
     const { getByRole } = render(<Clickable onClick={onClickMock} />);
 
     // Act: Find the icon element and simulate a click event

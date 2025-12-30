@@ -1,13 +1,13 @@
 import { Breadcrumb as AntBreadcrumb, BreadcrumbProps } from 'antd';
 import { Link } from 'react-router-dom';
 
-import { colors, getColorKey } from '@configs';
+import { colors } from '@configs';
 
 import { Text } from '../../antOverrides/text';
 import { Icon } from '../../atoms/icon';
 
 export interface AntBreadCrumbProps extends BreadcrumbProps {
-  themeColor?: string
+  themeColor?: string; //TODOSH
 }
 
 export const Breadcrumb = (props: AntBreadCrumbProps) => {

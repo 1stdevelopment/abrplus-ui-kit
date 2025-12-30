@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: YekanBakhFaRegular;
+  src: url('../../assets/fonts/yekanbakh/YekanBakh-Fa-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: YekanBakhFaMedium;
+  src: url('../../assets/fonts/yekanbakh/YekanBakh-Fa-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: YekanBakhFaLight;
+  src: url('../../assets/fonts/yekanbakh/YekanBakh-Fa-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: YekanBakhFaBold;
+  src: url('../../assets/fonts/yekanbakh/YekanBakh-Fa-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url('../../assets/fonts/roboto/Roboto-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: RobotoLight;
+  src: url('../../assets/fonts/roboto/Roboto-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: url('../../assets/fonts/roboto/Roboto-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url('../../assets/fonts/roboto/Roboto-Bold.woff') format('woff');
+  font-display: swap;
+}

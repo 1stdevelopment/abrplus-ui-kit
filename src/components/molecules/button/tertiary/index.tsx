@@ -3,8 +3,7 @@ import { twMerge } from 'tailwind-merge';
 import { colors } from '@configs';
 
 import { Text } from '../../..';
-import { Render } from '../../../../utilities';
-import { Icon } from '../../../atoms';
+import { Icon, Render } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
 const TertiaryButton = ({

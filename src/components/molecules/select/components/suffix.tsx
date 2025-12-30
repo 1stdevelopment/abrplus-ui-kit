@@ -1,6 +1,6 @@
 import { InputFieldError, colors } from '@configs';
-import { Flex, Icon } from '@abrplus/ui';
 
+import { Flex, Icon } from 'src/main';
 import { SelectProps } from '..';
 
 export interface SelectSuffixProps extends Pick<SelectProps<any>, 'disabled' | 'loading'> {

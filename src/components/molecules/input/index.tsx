@@ -1,7 +1,6 @@
 import { InputRef } from 'antd';
 
-import { batch } from '@configs';
-
+import { batch } from '@utilities';
 import { InputTextArea } from './TextArea';
 import { InputDefault } from './default';
 import { EmojiPicker } from './emojiPicker';

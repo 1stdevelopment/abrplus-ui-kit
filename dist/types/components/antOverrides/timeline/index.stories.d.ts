@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/react';
+import { TimelineProps } from '.';
+declare const meta: Meta<TimelineProps>;
+export default meta;
+type Story = StoryObj<TimelineProps>;
+export declare const Default: Story;
+export declare const AlternateTimeline: Story;
+export declare const RightAlignedTimeline: Story;
+export declare const PendingTimeline: Story;
+export declare const ReverseTimeline: Story;
+export declare const CustomPendingDotTimeline: Story;

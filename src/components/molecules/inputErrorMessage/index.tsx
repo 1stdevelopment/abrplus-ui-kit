@@ -1,8 +1,8 @@
-import { AnimatePresence, Variants, motion } from 'framer-motion';
 import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
+import { Render } from 'src/main';
 import { Text } from '../../antOverrides/text';
 
 export interface ErrorProps {
@@ -14,59 +14,14 @@ export interface ErrorProps {
   className?: string;
 }
 
-export const InputErrorMessage = ({
-  name,
-  children,
-  message,
-  textColor,
-  className,
-}: ErrorProps) => {
+export const InputErrorMessage = ({ children, message, textColor, className }: ErrorProps) => {
   return (
     <div className={twMerge('inputErrorMessage h-6 justify-center', className)}>
-      <AnimatePresence key={`error-${name}`}>
-        {message ? (
-          <motion.div variants={variants} initial={'initial'} animate={'open'} exit={'disappear'}>
-            <Text weight="normal" size={12} color={textColor ? textColor : colors.negative}>
-              {message}
-            </Text>
-          </motion.div>
-        ) : (
-          children
-        )}
-      </AnimatePresence>
+      <Render when={message} fallback={children}>
+        <Text weight="normal" size={12} color={textColor ? textColor : colors.negative}>
+          {message}
+        </Text>
+      </Render>
     </div>
   );
-};
-
-const variants: Variants = {
-  initial: {
-    height: '100%',
-    opacity: 0,
-    scaleY: 0.9,
-    transformOrigin: 'top center',
-    msTransformOrigin: 'top center',
-    MozTransformOrigin: 'top center',
-    display: 'flex',
-    alignItems: 'center',
-    margin: 0,
-    padding: 0,
-  },
-  open: {
-    opacity: 1,
-    scaleY: 1,
-    transition: {
-      type: 'keyframes',
-      duration: 0.2,
-      ease: 'easeInOut',
-    },
-  },
-  disappear: {
-    opacity: 0,
-    scaleY: 0.9,
-    transition: {
-      type: 'keyframes',
-      duration: 0.2,
-      ease: 'easeInOut',
-    },
-  },
 };

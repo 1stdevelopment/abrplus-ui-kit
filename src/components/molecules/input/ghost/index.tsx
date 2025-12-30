@@ -18,11 +18,10 @@ import { colors } from '@configs';
 
 import { Flex, Icon, Text } from '../../..';
 
-export interface InputGhostProps
-  extends Omit<
-    DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
-    'prefix' | 'onChange'
-  > {
+export interface InputGhostProps extends Omit<
+  DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
+  'prefix' | 'onChange'
+> {
   label?: string | ReactNode;
   wrapperClassName?: string;
   inputSize?: 'medium' | 'small';

@@ -3,11 +3,10 @@ import { twMerge } from 'tailwind-merge';
 import { colors } from '@configs';
 
 import { Flex, Loading, Text, TextProps } from '../../..';
-import { Render } from '../../../../utilities';
-import { Icon } from '../../../atoms';
+import { Icon, Render } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
-interface TexButtonProps extends ButtonProps {
+interface TextButtonProps extends ButtonProps {
   underline?: boolean;
   textProps?: TextProps;
   startIconSize?: number;
@@ -31,7 +30,7 @@ const TextButton = ({
   startIconSize,
   endIconSize,
   ...rest
-}: TexButtonProps) => {
+}: TextButtonProps) => {
   const getColor = () => {
     if (disabled || isLoading) {
       return colors.primary_light_2;

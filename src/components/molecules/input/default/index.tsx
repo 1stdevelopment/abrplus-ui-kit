@@ -7,10 +7,10 @@ import { twMerge } from 'tailwind-merge';
 
 import { InputFieldError, colors } from '@configs';
 
-import { Render } from '../../../../utilities/render';
 import { Flex } from '../../../antOverrides/flex';
 import { Text } from '../../../antOverrides/text';
 import { Icon } from '../../../atoms/icon';
+import { Render } from '../../../atoms/render';
 import { Tooltip } from '../../../atoms/tooltip';
 import { InputErrorMessage } from '../../inputErrorMessage';
 

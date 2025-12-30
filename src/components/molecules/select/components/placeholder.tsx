@@ -1,5 +1,5 @@
 import { colors } from '@configs';
-import { Text } from '@abrplus/ui';
+import { Text } from '../../../antOverrides/text';
 
 import { SelectProps } from '..';
 

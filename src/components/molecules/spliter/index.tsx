@@ -1,5 +1,5 @@
-import { BorderedTitle, Flex, Icon } from '@abrplus/ui';
 import React, { useState } from 'react';
+import { BorderedTitle, Flex, Icon } from 'src/main';
 
 export interface PropsTypes {
   title?: string;

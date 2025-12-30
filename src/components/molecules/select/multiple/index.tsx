@@ -11,8 +11,9 @@ import React, {
 import { useTranslation } from 'react-i18next';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, i18nInstance, useInteractions } from '@configs';
+import { colors } from '@configs';
 
+import { useInteractions } from '@hooks';
 import { InputErrorMessage, Tag } from '../..';
 import { Flex, InfiniteLoader, Loading, Text } from '../../../antOverrides';
 import { Checkbox } from '../../../atoms';
@@ -177,7 +178,7 @@ export const MultipleSelect = forwardRef(
                   <Text
                     weight={isActive ? 'bold' : 'normal'}
                     color={colors.primary_dark_1}
-                    lang={lang || i18nInstance.language}
+                    lang={lang}
                     className="max-w-full overflow-hidden text-ellipsis"
                   >
                     {extractedLabel}

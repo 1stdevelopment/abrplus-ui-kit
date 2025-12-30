@@ -1,4 +1,4 @@
-import { batch } from '@configs';
+import { batch } from '@utilities';
 
 import { StatusBox } from './status';
 import { TitleBox } from './title';

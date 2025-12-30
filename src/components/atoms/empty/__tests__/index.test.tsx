@@ -1,7 +1,6 @@
 import { composeStories } from '@storybook/react';
 import { render } from '@testing-library/react';
 import * as stories from '../index.stories'; // import all stories from the story file
-
 // Compose the stories to use in the tests
 const { Default, VerticalFlex, HorizontalFlex } = composeStories(stories);
 

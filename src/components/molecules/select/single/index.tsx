@@ -3,8 +3,9 @@ import { LabeledValue } from 'antd/lib/select';
 import React, { ReactElement, forwardRef, useCallback, useEffect, useMemo, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, i18nInstance, useInteractions } from '@configs';
+import { colors, i18nInstance } from '@configs';
 
+import { useInteractions } from '@hooks';
 import { InputErrorMessage } from '../../';
 import { Flex, InfiniteLoader, Loading, Text } from '../../../antOverrides';
 import { Icon } from '../../../atoms';

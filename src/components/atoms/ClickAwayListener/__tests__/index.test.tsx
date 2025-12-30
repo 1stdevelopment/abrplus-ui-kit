@@ -3,7 +3,6 @@ import { fireEvent, render } from '@testing-library/react';
 
 import { ClickAwayListener, ClickAwayListenerProps } from '..';
 import * as Story from '../index.stories';
-
 // Compose the stories from Storybook
 const { Default } = composeStories(Story);
 
@@ -23,7 +22,7 @@ describe('Atoms > ClickAwayListener', () => {
   // Helper function to render ClickAwayListener with default props and any overrides
   const renderWithProps = (props: Partial<ClickAwayListenerProps> = {}) => {
     // Create a Jest mock for the onClickAway callback
-    const onClickAway = jest.fn();
+    const onClickAway = vi.fn();
     // Render the component and return the utility methods plus our mock
     const utils = render(
       <ClickAwayListener onClickAway={onClickAway} {...props}>

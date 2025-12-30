@@ -11,7 +11,7 @@ describe(' Atoms > Radio', () => {
   });
 
   it('handles change events', () => {
-    const handleChange = jest.fn();
+    const handleChange = vi.fn();
     render(<Radio onChange={handleChange}>Option 1</Radio>);
 
     const radio = screen.getByRole('radio');
@@ -53,7 +53,7 @@ describe(' Atoms > Radio', () => {
   });
 
   it('changes radio button in group when clicked', () => {
-    const handleChange = jest.fn();
+    const handleChange = vi.fn();
     render(
       <Radio.Group onChange={handleChange}>
         <Radio value={1}>Option 1</Radio>

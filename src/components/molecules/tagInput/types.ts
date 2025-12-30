@@ -8,19 +8,18 @@ export interface TagResponseVM {
   tag?: string;
 }
 
-export interface TagInputProps<T extends Record<string, any> | unknown>
-  extends Omit<
-    AntSelectProps<T>,
-    | 'onChange'
-    | 'options'
-    | 'labelInValue'
-    | 'optionLabelProp'
-    | 'disabled'
-    | 'size'
-    | 'allowClear'
-    | 'value'
-    | 'mode'
-  > {
+export interface TagInputProps<T extends Record<string, any> | unknown> extends Omit<
+  AntSelectProps<T>,
+  | 'onChange'
+  | 'options'
+  | 'labelInValue'
+  | 'optionLabelProp'
+  | 'disabled'
+  | 'size'
+  | 'allowClear'
+  | 'value'
+  | 'mode'
+> {
   /**
    * if `error` property provided, regardless of its value, the error gap is applied to component.
    */

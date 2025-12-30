@@ -1,6 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { Button } from '.';
 import { iconsContent } from '../../atoms/icon/constants/iconsContent';
+import { ActionButtonProps } from './action';
 import { IconButtonProps } from './icon';
 import { ButtonProps } from './shared';
 
@@ -191,7 +192,7 @@ export const SecondaryQuiet: Story = {
 };
 
 // Stories for ActionButton
-export const ActionStory: Story = {
+export const ActionStory: StoryObj<ActionButtonProps> = {
   name: 'Action',
   render: Button.Action,
   args: {
@@ -204,6 +205,28 @@ export const ActionStory: Story = {
     height: 34,
     lang: 'fa',
     className: '',
+    platform: 'sales',
+  },
+  argTypes: {
+    platform: {
+      control: 'select',
+      options: [
+        'form',
+        'call',
+        'home',
+        'task',
+        'sales',
+        'marketing',
+        'club',
+        'sandbox',
+        'bi',
+        'team',
+        'storybook',
+        'desk',
+        'rayan',
+      ],
+      description: 'The platform of component. Adjusts the platform and styling of the component.',
+    },
   },
   parameters: {
     docs: {

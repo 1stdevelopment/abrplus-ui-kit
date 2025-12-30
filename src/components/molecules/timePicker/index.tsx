@@ -1,3 +1,5 @@
+import { InputFieldError, colors } from '@configs';
+import { getErrorMessage } from '@utilities';
 import {
   ConfigProvider,
   TimePicker as Picker,
@@ -5,8 +7,6 @@ import {
   ThemeConfig,
 } from 'antd';
 import { twMerge } from 'tailwind-merge';
-
-import { InputFieldError, colors, getErrorMessage } from '@configs';
 
 import { Icon } from '../../atoms';
 import { InputErrorMessage } from '../inputErrorMessage';
@@ -32,7 +32,7 @@ export const InputTimePicker = ({ className, error, ...rest }: InputTimePickerPr
           size="large"
           suffixIcon={<Icon name="time" color={colors.primary} />}
           className={twMerge(
-            'text-primary-dark-1 hover:border-primary-light-2 w-full text-[14px] font-medium !shadow-none outline-none',
+            'w-full text-[14px] font-medium text-primary-dark-1 !shadow-none outline-none hover:border-primary-light-2',
             error?.message && 'border-negative',
             className,
           )}

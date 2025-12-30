@@ -22,17 +22,17 @@ export interface SelectProps<
   T extends Record<string, any> | unknown,
   P extends 'single' | 'multiple' = 'single',
 > extends Omit<
-    AntSelectProps<T>,
-    | 'onChange'
-    | 'options'
-    | 'labelInValue'
-    | 'optionLabelProp'
-    | 'disabled'
-    | 'size'
-    | 'allowClear'
-    | 'value'
-    | 'mode'
-  > {
+  AntSelectProps<T>,
+  | 'onChange'
+  | 'options'
+  | 'labelInValue'
+  | 'optionLabelProp'
+  | 'disabled'
+  | 'size'
+  | 'allowClear'
+  | 'value'
+  | 'mode'
+> {
   /**
    * if `error` property provided, regardless of its value, the error gap is applied to component.
    */
@@ -83,8 +83,10 @@ export interface SelectProps<
 }
 
 /* -------------------------------------------------------------------------- */
-export interface PlusTreeSelectProps<TMultiple extends boolean>
-  extends Omit<TreeSelectProps, 'onTreeExpand' | 'size'> {
+export interface PlusTreeSelectProps<TMultiple extends boolean> extends Omit<
+  TreeSelectProps,
+  'onTreeExpand' | 'size'
+> {
   initialValue?: ITreeOption[];
   value?: ITreeOption | ITreeOption[] | null;
   label?: string;

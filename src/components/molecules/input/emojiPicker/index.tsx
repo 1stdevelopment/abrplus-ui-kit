@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from 'react';
-import { Input } from '..';
 import { Dropdown, Flex } from 'src/components/antOverrides';
 import { Icon } from 'src/components/atoms';
+import { Input } from '..';
 
 /**
  * Props for the EmojiPickerInput component

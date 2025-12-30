@@ -1,8 +1,8 @@
 import { InputFieldError, colors } from '@configs';
 
-import { SelectProps } from '..';
 import { Flex } from 'src/components/antOverrides';
 import { Icon } from 'src/components/atoms';
+import { SelectProps } from '..';
 
 export interface SelectSuffixProps extends Pick<SelectProps<any>, 'disabled' | 'loading'> {
   isHovered?: boolean;

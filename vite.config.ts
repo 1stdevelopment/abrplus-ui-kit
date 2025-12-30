@@ -27,8 +27,7 @@ export default defineConfig({
         antOverrides: path.resolve(__dirname, 'src/components/antOverrides/index.ts'),
       },
       formats: ['es', 'cjs'],
-      fileName: (format, entryName) =>
-        `${entryName}.${format}.js`,
+      fileName: (format, entryName) => `${entryName}.${format}.js`,
     },
 
     sourcemap: false,
@@ -50,7 +49,7 @@ export default defineConfig({
     isolate: true, // isolate modules per test file
     watch: false, // disable watch in CI for speed
     css: false, // skip CSS transforms unless needed
-
+    threads: true,
     coverage: {
       provider: 'v8', // fastest coverage engine
       reporter: ['text', 'html'],

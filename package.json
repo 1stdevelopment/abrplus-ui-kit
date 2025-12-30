@@ -28,8 +28,6 @@
     }
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write --cache .  --plugin=prettier-plugin-organize-imports",
     "preview": "vite preview",
@@ -41,7 +39,8 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "gen:icon": "tsx scripts/icon.ts",
-    "gen:colors": "tsx scripts/colors-sync.ts"
+    "gen:colors": "tsx scripts/colors-sync.ts",    
+    "build": "pnpm format && pnpm lint && pnpm test && vite build"
   },
   "dependencies": {
     "@ant-design/icons": "5.2.6",

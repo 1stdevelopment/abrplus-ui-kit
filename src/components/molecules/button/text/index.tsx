@@ -6,7 +6,7 @@ import { Flex, Loading, Text, TextProps } from '../../..';
 import { Icon, Render } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
-interface TextButtonProps extends ButtonProps {
+export interface TextButtonProps extends ButtonProps {
   underline?: boolean;
   textProps?: TextProps;
   startIconSize?: number;

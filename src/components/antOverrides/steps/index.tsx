@@ -1,10 +1,16 @@
-import { Steps as AntSteps, ConfigProvider, StepsProps, ThemeConfig } from 'antd';
+import type { StepsProps } from 'antd';
+import { Steps as AntSteps, ConfigProvider } from 'antd';
+import type { FC } from 'react';
 
-const stepTheme: ThemeConfig = {
+const stepTheme = {
   components: {},
 };
 
-const Steps = ({ ...props }: StepsProps) => {
+type StepsComponent = FC<StepsProps> & {
+  Step: typeof AntSteps.Step;
+};
+
+const Steps: StepsComponent = (props) => {
   return (
     <ConfigProvider theme={stepTheme}>
       <AntSteps {...props} />
@@ -12,7 +18,7 @@ const Steps = ({ ...props }: StepsProps) => {
   );
 };
 
-export { Steps };
-
 Steps.Step = AntSteps.Step;
+
+export { Steps };
 export type { StepsProps };

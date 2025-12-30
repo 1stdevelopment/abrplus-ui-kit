@@ -6,6 +6,7 @@ import dts from 'vite-plugin-dts';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
 
+const externals = ['react', 'react-dom', 'antd', '@ant-design/icons'];
 export default defineConfig({
   plugins: [
     react(),
@@ -15,6 +16,7 @@ export default defineConfig({
       entryRoot: 'src',
       outDir: 'dist/types',
       insertTypesEntry: true,
+      exclude: ['**/*.stories.*'],
     }),
   ],
 
@@ -36,7 +38,13 @@ export default defineConfig({
       output: {
         assetFileNames: 'index.[ext]',
       },
-      external: ['react', 'react-dom', 'antd', '@ant-design/icons'],
+      external: (id) => {
+        // 1️⃣ exclude story files
+        if (id.includes('.stories.')) return true;
+
+        // 2️⃣ exclude deps (and subpaths)
+        return externals.some((pkg) => id === pkg || id.startsWith(`${pkg}/`));
+      },
     },
   },
 

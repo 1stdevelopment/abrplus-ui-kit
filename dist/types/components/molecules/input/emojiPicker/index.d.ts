@@ -1,7 +1,7 @@
 /**
  * Props for the EmojiPickerInput component
  */
-interface EmojiPickerInputProps {
+export interface EmojiPickerInputProps {
     /** Current value of the input */
     value: string;
     /** Callback fired when input value changes */
@@ -19,4 +19,3 @@ interface EmojiPickerInputProps {
  * are inserted at the current cursor position.
  */
 export declare const EmojiPicker: ({ value, onChange, label, emojis, }: EmojiPickerInputProps) => import("react/jsx-runtime").JSX.Element;
-export {};

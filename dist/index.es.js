@@ -1,4 +1,4 @@
-import { c as f } from "./colors-qnr5G3YJ.js";
+import { c as f } from "./colors-Bi8DBIbo.js";
 const a = {
   content: { files: ["./src/**/*.{js,ts,jsx,tsx,html}"] },
   theme: {

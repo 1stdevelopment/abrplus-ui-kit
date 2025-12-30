@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { Flex, Text } from 'src/main';
 import { PropsTypes, Spliter } from '.';
+import { Flex, Text } from '../../antOverrides';
 
 // Meta configuration for Storybook
 export default {

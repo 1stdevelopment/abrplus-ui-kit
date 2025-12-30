@@ -6,7 +6,7 @@ import { Input } from '..';
 /**
  * Props for the EmojiPickerInput component
  */
-interface EmojiPickerInputProps {
+export interface EmojiPickerInputProps {
   /** Current value of the input */
   value: string;
   /** Callback fired when input value changes */

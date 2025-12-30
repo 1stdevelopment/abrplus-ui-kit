@@ -1,6 +1,6 @@
 import { TextProps } from '../../..';
 import { ButtonProps } from '../shared';
-interface TextButtonProps extends ButtonProps {
+export interface TextButtonProps extends ButtonProps {
     underline?: boolean;
     textProps?: TextProps;
     startIconSize?: number;

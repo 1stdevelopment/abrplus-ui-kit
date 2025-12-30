@@ -1,11 +1,7 @@
 // colors are auto-generated
 
 const config = {
-  content: {
-    files: [
-      "./src/**/*.{js,ts,jsx,tsx,html}",
-    ],
-  },
+  content: { files: ["./src/**/*.{js,ts,jsx,tsx,html}"] },
   theme: {
     fontFamily: {
       "yekan-normal": "YekanBakhFaRegular",
@@ -96,6 +92,11 @@ const config = {
       "task-action-light-1": "#617ADD",
       "task-action-light-2": "#6D8AE3",
       "task-action-light-3": "#81A2EE",
+      "rayan-action": "#5066D4",
+      "rayan-action-dark-1": "#3C4C9F",
+      "rayan-action-light-1": "#617ADD",
+      "rayan-action-light-2": "#6D8AE3",
+      "rayan-action-light-3": "#81A2EE",
     },
   },
 };

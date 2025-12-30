@@ -9,9 +9,8 @@ import { ReactNode, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { twMerge } from 'tailwind-merge';
 
-import { ITreeOption } from '@configs';
+import { colors, ITreeOption } from '@configs';
 
-import { colors } from '../../../../../logic/src/theme';
 import { Render } from '../../../utilities/render';
 import { Flex } from '../../antOverrides/flex';
 import { InfiniteLoader } from '../../antOverrides/infiniteLoader';
@@ -200,9 +199,9 @@ export const Tree = <T extends TreeDataType>({
           />
         </Flex>
       )}
-      <Render when={isExpanded && hasSearch}>
+      <Render when={isExpanded && hasSearch && onSearch}>
         <Flex className=" bg-white-ff border-primary-light-3/60 border p-2">
-          <TreeSearchBar onSearch={onSearch} />
+          <TreeSearchBar onSearch={onSearch!} />
         </Flex>
       </Render>
 

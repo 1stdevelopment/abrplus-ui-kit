@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 
 import { colors } from '@configs';
-import { Flex, Icon, SelectProps, Text } from '@abrplus/ui';
+import { SelectProps } from '../types';
+import { Flex, Icon, Text } from 'src/main';
 
 export interface SelectNotFoundProps
   extends Pick<SelectProps<any>, 'error' | 'noContentFoundMessage'> {}

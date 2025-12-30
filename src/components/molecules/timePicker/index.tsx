@@ -6,10 +6,11 @@ import {
 } from 'antd';
 import { twMerge } from 'tailwind-merge';
 
-import { InputFieldError, colors, getErrorMessage } from '@configs';
+import { InputFieldError, colors,  } from '@configs';
 
 import { Icon } from '../../atoms';
 import { InputErrorMessage } from '../inputErrorMessage';
+import { getErrorMessage } from '@utilities';
 
 export interface InputTimePickerProps extends PickerProps {
   error?: InputFieldError;

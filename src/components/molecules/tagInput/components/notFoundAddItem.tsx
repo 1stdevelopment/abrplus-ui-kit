@@ -1,4 +1,4 @@
-import { Flex, Text } from '@abrplus/ui';
+import { Flex, Text } from 'src/main';
 import { useTranslation } from 'react-i18next';
 
 const NotFoundAddItem = ({ onAddNewItem }: { onAddNewItem: () => void }) => {

@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { Flex, Text } from '@abrplus/ui';
 
 import { PropsTypes, Spliter } from '.';
+import { Flex, Text } from 'src/main';
 
 // Meta configuration for Storybook
 export default {

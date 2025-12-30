@@ -4,3 +4,4 @@ export * from './mmss';
 export * from './render';
 export * from './testUtils';
 export * from './batch';
+export * from './getErrorMessage';

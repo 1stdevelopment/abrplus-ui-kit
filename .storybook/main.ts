@@ -27,7 +27,7 @@ const config = {
   docs: {
     autodocs: 'tag',
   },
-  async viteFinal(config) {
+  async viteFinal(config:any) {
     config.plugins.push(tsconfigPaths());
 
     config.resolve.alias = {

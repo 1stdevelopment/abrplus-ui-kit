@@ -94,6 +94,13 @@ const colors = {
     action_light_2: '#6D8AE3',
     action_light_3: '#81A2EE',
   },
+  rayan: {
+    action: '#5066D4',
+    action_dark_1: '#3C4C9F',
+    action_light_1: '#617ADD',
+    action_light_2: '#6D8AE3',
+    action_light_3: '#81A2EE',
+  },
 } as const;
 
 type ColorScheme = typeof colors;

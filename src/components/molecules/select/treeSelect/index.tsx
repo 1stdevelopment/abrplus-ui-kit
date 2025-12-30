@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { twMerge } from 'tailwind-merge';
 
-import { ITreeOption, colors, useInteractions } from '@configs';
+import { ITreeOption, colors, } from '@configs';
 
 import { Flex, Loading, Text } from '../../../antOverrides';
 import { Tag } from '../../tag';
@@ -14,6 +14,7 @@ import { SelectNotFound } from '../components/notFound';
 import { SelectSuffix } from '../components/suffix';
 import { generateSelectClassNames } from '../style';
 import { GetValueType, PlusTreeSelectProps } from '../types';
+import { useInteractions } from '@hooks';
 
 /* -------------------------------------------------------------------------- */
 

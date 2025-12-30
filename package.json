@@ -14,7 +14,8 @@
     "build-storybook": "storybook build",
     "test:all": "jest test",
     "test:unit": "jest --runInBand --testPathPattern",
-    "icon": "tsx scripts/icon.ts"
+    "gen:icon": "tsx scripts/icon.ts",
+    "gen:colors": "tsx scripts/colors-sync.ts"
   },
   "dependencies": {
     "@ant-design/icons": "5.2.6",

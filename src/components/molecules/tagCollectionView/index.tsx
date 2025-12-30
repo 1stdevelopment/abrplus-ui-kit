@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import { colors } from '@configs';
 
-import { Icon, Input, Text } from '@abrplus/ui';
+import { Icon, Input, Text } from 'src/main';
 
 export interface TagCollectionProps {
   tags?: { value: string; onRemove?: () => void }[];

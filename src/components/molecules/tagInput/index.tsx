@@ -1,5 +1,3 @@
-import '@abrplus/config/assets/css/styles.css';
-
 import { Select as AntSelect, ConfigProvider } from 'antd';
 import React, { ReactElement, forwardRef, useCallback, useMemo, useState } from 'react';
 import { twMerge } from 'tailwind-merge';

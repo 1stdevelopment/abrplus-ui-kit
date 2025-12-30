@@ -11,7 +11,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors, ITreeOption } from '@configs';
 
-import { Render } from '../../../utilities/render';
+import { Render } from '../../atoms/render';
 import { Flex } from '../../antOverrides/flex';
 import { InfiniteLoader } from '../../antOverrides/infiniteLoader';
 import { Text } from '../../antOverrides/text';

@@ -1,10 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { Button } from '.';
 import { iconsContent } from '../../atoms/icon/constants/iconsContent';
+import { ActionButtonProps } from './action';
 import { IconButtonProps } from './icon';
 import { ButtonProps } from './shared';
-import { ActionButtonProps } from './action';
-import { Platform } from '@configs';
 
 /**
  * Default export for Storybook

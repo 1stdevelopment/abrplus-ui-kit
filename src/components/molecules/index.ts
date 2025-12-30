@@ -19,3 +19,4 @@ export * from './timePicker';
 export * from './titleBox';
 export * from './tree';
 export * from './verticalTabs';
+export * from './sortableList';

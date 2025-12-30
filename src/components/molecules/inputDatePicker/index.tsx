@@ -8,8 +8,8 @@ import { useTranslation } from 'react-i18next';
 
 import { InputFieldError, colors,  } from '@configs';
 
-import { Flex, Icon, InputErrorMessage, Text, Tooltip } from '../..';
-import { getErrorMessage, Render } from '../../../utilities';
+import { Flex, Icon, InputErrorMessage, Render, Text, Tooltip } from '../..';
+import { getErrorMessage } from '../../../utilities';
 import { datePickerColors } from '@constants';
 
 export interface InputDatePickerProps extends Omit<Props, 'wrapperClassName' | 'error'> {

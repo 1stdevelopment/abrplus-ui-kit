@@ -1,8 +1,6 @@
 import { composeStories } from '@storybook/react';
 import { fireEvent, render } from '@testing-library/react';
-
 import * as Story from '../index.stories';
-
 const { Default, WithIconPosition, PersianText, LinkText, TruncatedText } = composeStories(Story);
 
 describe('AntOverrides > Text', () => {
@@ -52,7 +50,7 @@ describe('AntOverrides > Text', () => {
   // Test Case: Applies link text and handles click events
   it('applies link text from story and handles click events', () => {
     // Arrange: Set up a mock function for the click event
-    const onClickMock = jest.fn();
+    const onClickMock = vi.fn();
     const { container } = render(<LinkText onClick={onClickMock} />);
 
     // Act: Find the paragraph element and simulate a click event

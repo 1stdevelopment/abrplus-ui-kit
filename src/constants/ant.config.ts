@@ -1,9 +1,9 @@
+import { AppDirection, colors } from '@configs';
 import { ThemeConfig } from 'antd';
 import EN from 'antd/locale/en_US';
 import FA from 'antd/locale/fa_IR';
 import { useTranslation } from 'react-i18next';
 
-import { AppDirection, colors } from '@abrplus/logic';
 
 export const useAntConfig = () => {
   const { i18n } = useTranslation();

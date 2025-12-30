@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
-import { Render } from '../../../utilities/render';
+import { Render } from '../../atoms/render';
 import { Icon, IconsNames } from '../../atoms/icon';
 import { Flex } from '../flex';
 import { Tooltip } from '../tooltip';

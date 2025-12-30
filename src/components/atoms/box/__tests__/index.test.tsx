@@ -1,8 +1,6 @@
 import { composeStories } from '@storybook/react';
 import { fireEvent, render } from '@testing-library/react';
-
 import * as Story from '../index.stories';
-
 // Adjust the path as necessary
 
 // Compose stories for testing
@@ -24,7 +22,7 @@ describe('Atom > Box', () => {
   // Test case: Handles onClick event correctly
   it('handles onClick event', () => {
     // Mock the onClick handler
-    const handleClick = jest.fn();
+    const handleClick = vi.fn();
 
     // Arrange: Render the ClickableBox story with a mocked onClick handler
     const { getByText } = render(<ClickableBox onClick={handleClick} />);

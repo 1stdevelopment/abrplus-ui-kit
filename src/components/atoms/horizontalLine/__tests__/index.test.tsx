@@ -1,6 +1,5 @@
 import { composeStories } from '@storybook/react';
 import { render } from '@testing-library/react';
-
 import { colors } from '@configs';
 
 import * as Story from '../index.stories';

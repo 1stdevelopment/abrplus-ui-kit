@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { InputFieldError, colors } from '@configs';
 
 import { Flex, Icon, InputErrorMessage, Text, Tooltip } from '../..';
-import { Render } from '../../../utilities';
 import { datePickerColors } from 'src/constants';
+import { Render } from '../render';
 
 export interface RangePickerProps extends Omit<Props, 'wrapperClassName' | 'error'> {
   wrapperClassName?: string;

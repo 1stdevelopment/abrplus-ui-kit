@@ -31,7 +31,7 @@ describe('Atoms > Popover', () => {
   });
 
   it('renders popover with close button and triggers onClose', async () => {
-    const onCloseMock = jest.fn();
+    const onCloseMock = vi.fn();
 
     render(
       <Popover
@@ -51,7 +51,7 @@ describe('Atoms > Popover', () => {
   });
 
   it('expect onClose function called', async () => {
-    const onCloseMock = jest.fn();
+    const onCloseMock = vi.fn();
 
     render(
       <Popover

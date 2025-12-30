@@ -1,10 +1,10 @@
 import { t } from 'i18next';
-import { RefAttributes, useEffect, useState } from 'react';
+import { RefAttributes, useState } from 'react';
 
 
+import { useDebounce } from '@hooks';
 import { InputRef, InputSearchProps } from '../../../molecules/input';
 import { InputSearch } from '../../../molecules/input/search';
-import { useDebounce } from '@hooks';
 
 type TreeSearchBarProps = InputSearchProps &
   RefAttributes<InputRef> & {

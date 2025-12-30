@@ -5,7 +5,7 @@ import { twMerge } from 'tailwind-merge';
 import { colors } from '@configs';
 
 import { Icon, Text } from '../..';
-import { Render } from '../../../utilities';
+import { Render } from 'src/components/atoms/render';
 
 interface AccordionItem {
   children: React.ReactNode;

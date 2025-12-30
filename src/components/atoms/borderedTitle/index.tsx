@@ -2,7 +2,7 @@ import React from 'react';
 
 import { colors } from '@configs';
 
-import { Render } from '../../../utilities/render';
+import { Render } from '../render';
 import { Flex } from '../../antOverrides/flex';
 import { Text } from '../../antOverrides/text';
 export interface BorderedTitleProps {

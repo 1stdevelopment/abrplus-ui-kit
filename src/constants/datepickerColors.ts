@@ -1,6 +1,6 @@
+import { colors } from '@configs';
 import { ColorSchema } from 'jalaali-react-date-picker/lib/core';
 
-import { colors } from '@abrplus/logic';
 
 export const datePickerColors: ColorSchema = {
   primary: colors.primary,

@@ -11,16 +11,18 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors, ITreeOption } from '@configs';
 
-import { Render } from '../../atoms/render';
 import { Flex } from '../../antOverrides/flex';
 import { InfiniteLoader } from '../../antOverrides/infiniteLoader';
 import { Text } from '../../antOverrides/text';
 import { Icon, IconsNames } from '../../atoms/icon';
+import { Render } from '../../atoms/render';
 import { IconButton } from '../button/icon';
 import { TreeSearchBar } from './searchBar';
 
-export interface TreeProps<T extends TreeDataType>
-  extends Omit<AntTreeProps, 'switcherIcon' | 'icon' | 'treeData'> {
+export interface TreeProps<T extends TreeDataType> extends Omit<
+  AntTreeProps,
+  'switcherIcon' | 'icon' | 'treeData'
+> {
   switcherIconName?: IconsNames;
   nodeClassName?: string;
   titleHeader: string;

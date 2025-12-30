@@ -205,14 +205,27 @@ export const ActionStory: StoryObj<ActionButtonProps> = {
     height: 34,
     lang: 'fa',
     className: '',
-    platform:'sales'
+    platform: 'sales',
   },
-  argTypes:{
-  platform: {
+  argTypes: {
+    platform: {
       control: 'select',
-      options: ["form" , "call" , "home" , "task" , "sales" , "marketing" , "club" , "sandbox" , "bi" , "team" , "storybook" , "desk" , "rayan"],
-      description:
-        'The platform of component. Adjusts the platform and styling of the component.',
+      options: [
+        'form',
+        'call',
+        'home',
+        'task',
+        'sales',
+        'marketing',
+        'club',
+        'sandbox',
+        'bi',
+        'team',
+        'storybook',
+        'desk',
+        'rayan',
+      ],
+      description: 'The platform of component. Adjusts the platform and styling of the component.',
     },
   },
   parameters: {

@@ -17,7 +17,6 @@ interface AvatarUploadProps {
 }
 
 export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: AvatarUploadProps) => {
-
   return (
     <Upload accept=".jpg, .jpeg, .img" showUploadList={false} customRequest={customRequest}>
       <div
@@ -38,8 +37,8 @@ export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: Ava
           <Icon
             name="Add_photo"
             color={colors.white_ff}
-            className='opacity-0 group-hover:opacity-100'
-            style={{  transition: 'all 0.2s' }}
+            className="opacity-0 group-hover:opacity-100"
+            style={{ transition: 'all 0.2s' }}
           />
         </div>
         {isLoading ? (
@@ -77,7 +76,7 @@ export const AvatarUpload = ({ customRequest, src, shape, size, isLoading }: Ava
               }}
             />
             <div
-            className='opacity-0 group-hover:opacity-100'
+              className="opacity-0 group-hover:opacity-100"
               style={{
                 position: 'absolute',
                 top: 0,

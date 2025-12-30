@@ -6,11 +6,11 @@ import moment, { Moment } from 'moment-jalaali';
 import { useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { InputFieldError, colors,  } from '@configs';
+import { InputFieldError, colors } from '@configs';
 
+import { datePickerColors } from '@constants';
 import { Flex, Icon, InputErrorMessage, Render, Text, Tooltip } from '../..';
 import { getErrorMessage } from '../../../utilities';
-import { datePickerColors } from '@constants';
 
 export interface InputDatePickerProps extends Omit<Props, 'wrapperClassName' | 'error'> {
   wrapperClassName?: string;

@@ -4,7 +4,6 @@ import EN from 'antd/locale/en_US';
 import FA from 'antd/locale/fa_IR';
 import { useTranslation } from 'react-i18next';
 
-
 export const useAntConfig = () => {
   const { i18n } = useTranslation();
 

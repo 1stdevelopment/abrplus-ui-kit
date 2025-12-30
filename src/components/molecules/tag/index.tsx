@@ -4,8 +4,8 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
-import { Flex, Icon, Image, Text } from '../..';
 import { useInteractions } from '@hooks';
+import { Flex, Icon, Image, Text } from '../..';
 
 export interface TagProps {
   closable?: boolean;

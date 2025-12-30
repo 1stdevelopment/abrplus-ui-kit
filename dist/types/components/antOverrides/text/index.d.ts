@@ -1,0 +1,31 @@
+import { CSSProperties } from 'react';
+import { IconsNames } from '../../atoms/icon';
+export type TextSize = 'tiny' | 'small' | 'normal' | 'medium' | 'large';
+export type TextWeight = 'light' | 'normal' | 'medium' | 'bold';
+export interface TextProps {
+    size?: TextSize | number;
+    lang?: 'fa' | 'en';
+    as?: 'text' | 'link';
+    underlineAsLink?: boolean;
+    iconName?: IconsNames;
+    iconColor?: string;
+    iconSize?: number;
+    iconPosition?: 'start' | 'end';
+    className?: string;
+    style?: CSSProperties;
+    lineClamp?: number;
+    weight?: TextWeight;
+    color?: string;
+    children?: string | number | Array<string | number> | null | React.ReactNode;
+    colon?: boolean;
+    numberOfLines?: number;
+    showTooltipOnTruncate?: boolean;
+    transform?: 'lowercase' | 'uppercase';
+    onClick?: (event: React.MouseEvent<HTMLParagraphElement, MouseEvent>) => void;
+    onDoubleClick?: (event: React.MouseEvent<HTMLParagraphElement, MouseEvent>) => void;
+    onWrapperClick?: (event: React.MouseEvent<HTMLParagraphElement, MouseEvent>) => void;
+    onIconClick?(event: React.MouseEvent<HTMLDivElement, MouseEvent>): void;
+    dashedUnderline?: boolean;
+}
+declare const Text: ({ lang, as, size, weight, iconPosition, color, iconName, iconColor, iconSize, children, lineClamp, className, style, onWrapperClick, onClick, onIconClick, onDoubleClick, colon, numberOfLines, showTooltipOnTruncate, underlineAsLink, transform, dashedUnderline, }: TextProps) => import("react/jsx-runtime").JSX.Element;
+export { Text };

@@ -10,7 +10,7 @@ function getAbsolutePath(value: string) {
 
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     getAbsolutePath('@storybook/addon-links'),
     getAbsolutePath('@storybook/addon-essentials'),
@@ -37,7 +37,7 @@ const config = {
     // This Config is for ENV Parser
     config.define = {
       ...config.define,
-    }
+    };
 
     return config;
   },

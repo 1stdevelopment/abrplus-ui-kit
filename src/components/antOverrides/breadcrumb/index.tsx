@@ -7,7 +7,7 @@ import { Text } from '../../antOverrides/text';
 import { Icon } from '../../atoms/icon';
 
 export interface AntBreadCrumbProps extends BreadcrumbProps {
-  themeColor?: string//TODOSH
+  themeColor?: string; //TODOSH
 }
 
 export const Breadcrumb = (props: AntBreadCrumbProps) => {

@@ -8,11 +8,10 @@ type PaddingButton = (hasIcon: boolean) => {
   };
 };
 
-export interface ButtonProps
-  extends Omit<
-    React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>,
-    'children' | 'lang'
-  > {
+export interface ButtonProps extends Omit<
+  React.DetailedHTMLProps<React.ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>,
+  'children' | 'lang'
+> {
   height?: number | string;
   mode?: ButtonMode;
   iconName?: IconsNames;

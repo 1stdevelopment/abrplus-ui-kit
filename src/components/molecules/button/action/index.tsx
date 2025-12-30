@@ -2,15 +2,13 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors, Platform } from '@configs';
 
+import { Render } from 'src/components/atoms/render';
 import { Flex, Loading, Text } from '../../..';
 import { Icon } from '../../../atoms';
-import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
-import { Render } from 'src/components/atoms/render';
-
-
+import { buttonDefaultClasses, ButtonProps, fontSizePicker, paddingPicker } from '../shared';
 
 export interface ActionButtonProps extends ButtonProps {
-  platform: Platform
+  platform: Platform;
 }
 const ActionButton = ({
   style,
@@ -28,7 +26,12 @@ const ActionButton = ({
 }: ActionButtonProps) => {
   const getColor = () => {
     if ((disabled || isLoading) && platform) {
-      if (platform === 'home' || platform === 'sandbox' || platform === 'bi' || platform === 'storybook')
+      if (
+        platform === 'home' ||
+        platform === 'sandbox' ||
+        platform === 'bi' ||
+        platform === 'storybook'
+      )
         return colors['sales']['action_light_2'];
       return colors[platform]['action_light_2'];
     }

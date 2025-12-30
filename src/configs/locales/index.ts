@@ -2,11 +2,11 @@ import i18n, { i18n as OriginalI18n } from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
-import { Fa } from './locale';
 import { AppDirection } from '../types';
 import en from './en';
 import fa from './fa';
 import { I18nextTFunction } from './i18nextTFunction';
+import { Fa } from './locale';
 
 type TranslationKey = keyof typeof fa;
 interface I18nInstance extends Omit<OriginalI18n, 't' | 'language'> {

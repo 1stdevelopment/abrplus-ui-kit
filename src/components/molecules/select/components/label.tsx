@@ -2,8 +2,10 @@ import { colors } from '@configs';
 
 import { Flex, Icon, Render, SelectProps, Text } from '../../..';
 
-export interface SelectLabelProps
-  extends Pick<SelectProps<any>, 'label' | 'size' | 'disabled' | 'required' | 'labelExtraNode'> {
+export interface SelectLabelProps extends Pick<
+  SelectProps<any>,
+  'label' | 'size' | 'disabled' | 'required' | 'labelExtraNode'
+> {
   offset?: number;
 }
 

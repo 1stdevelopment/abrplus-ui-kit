@@ -2,10 +2,10 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
+import { Render } from 'src/components/atoms/render';
 import { Flex, Loading, Text } from '../../..';
 import { Icon } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
-import { Render } from 'src/components/atoms/render';
 
 const NegativeButton = ({
   style,

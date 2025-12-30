@@ -2,9 +2,9 @@ import React from 'react';
 
 import { colors } from '@configs';
 
-import { Render } from '../render';
 import { Flex } from '../../antOverrides/flex';
 import { Text } from '../../antOverrides/text';
+import { Render } from '../render';
 export interface BorderedTitleProps {
   title: string | React.ReactNode;
   align?: 'start' | 'center' | 'end';

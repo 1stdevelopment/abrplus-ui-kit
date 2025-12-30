@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Icon } from 'src/main';
 
-
 const SelectClearIcon = () => {
   const { i18n } = useTranslation();
   return (

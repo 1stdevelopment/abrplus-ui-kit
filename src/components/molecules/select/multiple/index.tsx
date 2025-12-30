@@ -13,6 +13,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
+import { useInteractions } from '@hooks';
 import { InputErrorMessage, Tag } from '../..';
 import { Flex, InfiniteLoader, Loading, Text } from '../../../antOverrides';
 import { Checkbox } from '../../../atoms';
@@ -23,7 +24,6 @@ import { SelectPlaceholder } from '../components/placeholder';
 import { SelectSuffix } from '../components/suffix';
 import { CustomizedAntSelectConfig, generateSelectClassNames } from '../style';
 import { DefaultSelectOption, SelectProps, SelectRawValue } from '../types';
-import { useInteractions } from '@hooks';
 
 const { Option } = AntSelect;
 

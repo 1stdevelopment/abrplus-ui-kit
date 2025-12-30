@@ -1,7 +1,6 @@
 import { t } from 'i18next';
 import { RefAttributes, useState } from 'react';
 
-
 import { useDebounce } from '@hooks';
 import { InputRef, InputSearchProps } from '../../../molecules/input';
 import { InputSearch } from '../../../molecules/input/search';
@@ -19,10 +18,9 @@ export const TreeSearchBar = ({ onSearch, ...props }: TreeSearchBarProps) => {
     <InputSearch
       value={searchTerm}
       onChange={(e) => {
-        setSearchTerm(e.target.value)
-        debouncedSearch(e.target.value)
-      }
-      }
+        setSearchTerm(e.target.value);
+        debouncedSearch(e.target.value);
+      }}
       placeholder={t('common.literal.search') ?? 'Search'}
       {...props}
     />

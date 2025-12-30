@@ -2,8 +2,8 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
-import { Text } from '../../antOverrides/text';
 import { Render } from 'src/main';
+import { Text } from '../../antOverrides/text';
 
 export interface ErrorProps {
   name?: string;
@@ -14,12 +14,7 @@ export interface ErrorProps {
   className?: string;
 }
 
-export const InputErrorMessage = ({
-  children,
-  message,
-  textColor,
-  className,
-}: ErrorProps) => {
+export const InputErrorMessage = ({ children, message, textColor, className }: ErrorProps) => {
   return (
     <div className={twMerge('inputErrorMessage h-6 justify-center', className)}>
       <Render when={message} fallback={children}>

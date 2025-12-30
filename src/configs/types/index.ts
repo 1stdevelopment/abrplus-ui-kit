@@ -1,17 +1,17 @@
-  export type Platform=
-      | 'home'
-      | 'sales'
-      | 'call'
-      | 'marketing'
-      | 'club'
-      | 'sandbox'
-      | 'bi'
-      | 'team'
-      | 'storybook'
-      | 'desk'
-      | 'form'
-      | 'task'
-      | 'rayan'
+export type Platform =
+  | 'home'
+  | 'sales'
+  | 'call'
+  | 'marketing'
+  | 'club'
+  | 'sandbox'
+  | 'bi'
+  | 'team'
+  | 'storybook'
+  | 'desk'
+  | 'form'
+  | 'task'
+  | 'rayan';
 
 export type InputFieldError = {
   message?: string;
@@ -39,4 +39,16 @@ export interface AxiosResponse<T = any> {
   config: unknown;
   request?: unknown;
 }
-export class InternalRequestError extends Error { constructor( public message: string, public status?: number, public response?: AxiosResponse, ) { super(message); } isApiException = true; static isRequestError(error: any): error is InternalRequestError { return error.isApiException; } }
+export class InternalRequestError extends Error {
+  constructor(
+    public message: string,
+    public status?: number,
+    public response?: AxiosResponse,
+  ) {
+    super(message);
+  }
+  isApiException = true;
+  static isRequestError(error: any): error is InternalRequestError {
+    return error.isApiException;
+  }
+}

@@ -2,5 +2,4 @@ dist/
 pnpm-lock.yaml
 pnpm-workspace.yaml
 package.json
-packages/ui/**/*/main.ts
 assets/

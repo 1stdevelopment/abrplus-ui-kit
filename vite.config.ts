@@ -1,10 +1,10 @@
 /// <reference types="vitest" />
-import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
-import tsconfigPaths from 'vite-tsconfig-paths';
-import dts from 'vite-plugin-dts';
 import path from 'path';
-import cleanPlugin from 'vite-plugin-clean'
+import cleanPlugin from 'vite-plugin-clean';
+import dts from 'vite-plugin-dts';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   plugins: [
@@ -29,7 +29,7 @@ export default defineConfig({
     minify: 'esbuild',
     rollupOptions: {
       output: {
-        assetFileNames: "index.[ext]",
+        assetFileNames: 'index.[ext]',
       },
       external: ['react', 'react-dom', 'antd', '@ant-design/icons'],
     },
@@ -41,12 +41,12 @@ export default defineConfig({
     setupFiles: `${__dirname}/vitest-setup.ts`, // your Vitest setup file
     include: ['src/components/**/*.test.{ts,tsx}'], // only test src/components
     exclude: ['node_modules', 'dist', 'scripts', '.storybook'], // ignore heavy folders
-    isolate: true,             // isolate modules per test file
-    watch: false,              // disable watch in CI for speed
-    css: false,                // skip CSS transforms unless needed
+    isolate: true, // isolate modules per test file
+    watch: false, // disable watch in CI for speed
+    css: false, // skip CSS transforms unless needed
 
     coverage: {
-      provider: 'v8',          // fastest coverage engine
+      provider: 'v8', // fastest coverage engine
       reporter: ['text', 'html'],
       include: ['src/components/**/*.{ts,tsx}'],
       exclude: ['**/*.stories.*', '**/index.ts'], // optional

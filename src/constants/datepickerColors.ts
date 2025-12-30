@@ -1,7 +1,6 @@
 import { colors } from '@configs';
 import { ColorSchema } from 'jalaali-react-date-picker/lib/core';
 
-
 export const datePickerColors: ColorSchema = {
   primary: colors.primary,
   primaryFade: colors.light_7,

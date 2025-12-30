@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/react';
+import { SwitchProps } from 'antd';
+declare const meta: Meta<SwitchProps>;
+export default meta;
+type Story = StoryObj<SwitchProps>;
+export declare const Default: Story;
+export declare const SmallSwitch: Story;
+export declare const DefaultCheck: Story;
+export declare const SwitchWithChildren: Story;
+export declare const DisabledSwitch: Story;
+export declare const LoadingSwitch: Story;

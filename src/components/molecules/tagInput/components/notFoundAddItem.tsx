@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Flex, Text } from 'src/main';
+import { Flex, Text } from 'src/components/antOverrides';
 
 const NotFoundAddItem = ({ onAddNewItem }: { onAddNewItem: () => void }) => {
   const { t } = useTranslation();

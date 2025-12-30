@@ -20,9 +20,15 @@ export default defineConfig({
 
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/main.ts'),
-      fileName: (format) => `index.${format}.js`,
+      entry: {
+        index: path.resolve(__dirname, 'src/main.ts'),
+        atoms: path.resolve(__dirname, 'src/components/atoms/index.ts'),
+        molecules: path.resolve(__dirname, 'src/components/molecules/index.ts'),
+        antOverrides: path.resolve(__dirname, 'src/components/antOverrides/index.ts'),
+      },
       formats: ['es', 'cjs'],
+      fileName: (format, entryName) =>
+        `${entryName}.${format}.js`,
     },
 
     sourcemap: false,

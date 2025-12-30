@@ -1,5 +1,5 @@
-import { TimePickerProps as PickerProps } from 'antd';
 import { InputFieldError } from '../../../configs';
+import { TimePickerProps as PickerProps } from 'antd';
 export interface InputTimePickerProps extends PickerProps {
     error?: InputFieldError;
 }

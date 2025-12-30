@@ -3,13 +3,28 @@
   "version": "0.1.1",
   "type": "module",
   "module": "dist/index.es.js",
-  "types": "dist/types/main.d.ts",
+  "types": "dist/types/index.d.ts",
   "style": "dist/index.css",
   "exports": {
     ".": {
-      "types": "./dist/types/main.d.ts",
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/index.es.js",
       "require": "./dist/index.cjs.js"
+    },
+    "./atoms": {
+      "types": "./dist/types/atoms.d.ts",
+      "import": "./dist/atoms.es.js",
+      "require": "./dist/atoms.cjs.js"
+    },
+    "./molecules": {
+      "types": "./dist/types/molecules.d.ts",
+      "import": "./dist/molecules.es.js",
+      "require": "./dist/molecules.cjs.js"
+    },
+    "./ant-overrides": {
+      "types": "./dist/types/antOverrides.d.ts",
+      "import": "./dist/antOverrides.es.js",
+      "require": "./dist/antOverrides.cjs.js"
     }
   },
   "scripts": {

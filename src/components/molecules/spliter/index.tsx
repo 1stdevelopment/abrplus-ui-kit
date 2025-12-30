@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BorderedTitle, Flex, Icon } from 'src/main';
+import { Flex } from 'src/components/antOverrides';
+import { BorderedTitle, Icon } from 'src/components/atoms';
 
 export interface PropsTypes {
   title?: string;

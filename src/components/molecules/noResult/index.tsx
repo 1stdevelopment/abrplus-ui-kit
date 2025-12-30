@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
 
 import { colors } from '@configs';
-import { Flex, Icon, IconsNames, SelectProps, Text } from 'src/main';
+import { SelectProps } from '../select';
+import { Icon, IconsNames } from 'src/components/atoms';
+import { Flex, Text } from 'src/components/antOverrides';
 
 export interface NotResultTextProps extends Pick<
   SelectProps<any>,

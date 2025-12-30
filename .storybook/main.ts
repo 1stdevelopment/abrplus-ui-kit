@@ -32,7 +32,6 @@ const config = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@configs/*': resolve(__dirname, '../../logic/src/main.ts'),
     };
     // This Config is for ENV Parser
     config.define = {

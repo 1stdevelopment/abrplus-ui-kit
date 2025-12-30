@@ -2,8 +2,8 @@ import { twMerge } from 'tailwind-merge';
 
 import { colors } from '@configs';
 
-import { Render } from 'src/main';
 import { Text } from '../../antOverrides/text';
+import { Render } from 'src/components/atoms';
 
 export interface ErrorProps {
   name?: string;

@@ -1,1 +1,103 @@
-import{jsx as e}from"react/jsx-runtime";import{Alert as t,ConfigProvider as a,Menu as o,Pagination as r,Progress as s,Segmented as i,Skeleton as n,Steps as m,Switch as l,Timeline as c}from"antd";import{A as d,D as p,a as h,I as g}from"./index-8zkiqm9W.js";import{B as I,F as f,L as u,T as N}from"./index-DUOPhvLF.js";import{twMerge as x}from"tailwind-merge";import{c as S}from"./colors-MpMxujAZ.js";import{forwardRef as y}from"react";const T=a=>/* @__PURE__ */e(t,{...a}),b=({...t})=>/* @__PURE__ */e(a,{children:/* @__PURE__ */e(o,{...t})});b.Item=o.Item,b.ItemGroup=o.ItemGroup;const j={components:{Pagination:{}}},v=({className:t,...o})=>/* @__PURE__ */e(a,{theme:j,children:/* @__PURE__ */e(r,{...o,className:x("bg-light-7",t)})}),w=({className:t,...a})=>/* @__PURE__ */e(s,{strokeColor:S.secondary,...a,className:x("bg-light-7",t)}),A=({style:t,...o})=>/* @__PURE__ */e(a,{children:/* @__PURE__ */e(i,{...o,style:{padding:2,...t}})}),B=t=>/* @__PURE__ */e(n,{...t});B.Avatar=n.Avatar,B.Button=n.Button,B.Image=n.Image,B.Input=n.Input,B.Node=n.Node;const P={components:{}},k=t=>/* @__PURE__ */e(a,{theme:P,children:/* @__PURE__ */e(m,{...t})});k.Step=m.Step;const M={components:{Switch:{handleBg:S.light_1,colorPrimaryHover:S.primary,colorTextTertiary:S.light_1,trackMinWidthSM:26}}},_=y(({className:t,...o},r)=>/* @__PURE__ */e(a,{theme:M,children:/* @__PURE__ */e(l,{ref:r,...o,className:x("bg-light-7",t)})})),C={components:{Timeline:{tailColor:S.light_7,tailWidth:4}}},G=({...t})=>/* @__PURE__ */e(a,{theme:C,children:/* @__PURE__ */e(c,{...t})});export{T as Alert,d as Avatar,I as Breadcrumb,p as Dropdown,f as Flex,h as Image,g as InfiniteLoader,u as Loading,b as Menu,v as Pagination,w as Progress,A as SegmentedSwitch,B as Skeleton,k as Steps,_ as Switch,N as Text,G as Timeline};
+import { jsx } from "react/jsx-runtime";
+import { Alert as Alert$1, ConfigProvider, Menu as Menu$1, Pagination as Pagination$1, Progress as Progress$1, Segmented, Skeleton as Skeleton$1, Steps as Steps$1, Switch as Switch$1, Timeline as Timeline$1 } from "antd";
+import { A, D, a, I } from "./index-WhgJE7pP.js";
+import { B, F, L, T } from "./index-DWZAreuI.js";
+import { twMerge } from "tailwind-merge";
+import { c as colors } from "./colors-BmRCmHtR.js";
+import { forwardRef } from "react";
+const Alert = (props) => {
+  return /* @__PURE__ */ jsx(Alert$1, { ...props });
+};
+const Menu = ({ ...props }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { children: /* @__PURE__ */ jsx(Menu$1, { ...props }) });
+};
+Menu.Item = Menu$1.Item;
+Menu.ItemGroup = Menu$1.ItemGroup;
+const PaginationThemeConfig = {
+  components: {
+    Pagination: {}
+  }
+};
+const Pagination = ({ className, ...props }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: PaginationThemeConfig, children: /* @__PURE__ */ jsx(Pagination$1, { ...props, className: twMerge("bg-light-7", className) }) });
+};
+const Progress = ({ className, ...props }) => {
+  return /* @__PURE__ */ jsx(
+    Progress$1,
+    {
+      strokeColor: colors.secondary,
+      ...props,
+      className: twMerge("bg-light-7", className)
+    }
+  );
+};
+const SegmentedSwitch = ({ style, ...rest }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { children: /* @__PURE__ */ jsx(
+    Segmented,
+    {
+      ...rest,
+      style: {
+        padding: 2,
+        ...style
+      }
+    }
+  ) });
+};
+const Skeleton = (props) => {
+  return /* @__PURE__ */ jsx(Skeleton$1, { ...props });
+};
+Skeleton.Avatar = Skeleton$1.Avatar;
+Skeleton.Button = Skeleton$1.Button;
+Skeleton.Image = Skeleton$1.Image;
+Skeleton.Input = Skeleton$1.Input;
+Skeleton.Node = Skeleton$1.Node;
+const stepTheme = {
+  components: {}
+};
+const Steps = (props) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: stepTheme, children: /* @__PURE__ */ jsx(Steps$1, { ...props }) });
+};
+Steps.Step = Steps$1.Step;
+const SwitchThemeConfig = {
+  components: {
+    Switch: {
+      handleBg: colors.light_1,
+      colorPrimaryHover: colors.primary,
+      colorTextTertiary: colors.light_1,
+      trackMinWidthSM: 26
+    }
+  }
+};
+const Switch = forwardRef(({ className, ...props }, ref) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: SwitchThemeConfig, children: /* @__PURE__ */ jsx(Switch$1, { ref, ...props, className: twMerge("bg-light-7", className) }) });
+});
+const timeThemeConfig = {
+  components: {
+    Timeline: {
+      tailColor: colors.light_7,
+      tailWidth: 4
+    }
+  }
+};
+const Timeline = ({ ...props }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: timeThemeConfig, children: /* @__PURE__ */ jsx(Timeline$1, { ...props }) });
+};
+export {
+  Alert,
+  A as Avatar,
+  B as Breadcrumb,
+  D as Dropdown,
+  F as Flex,
+  a as Image,
+  I as InfiniteLoader,
+  L as Loading,
+  Menu,
+  Pagination,
+  Progress,
+  SegmentedSwitch,
+  Skeleton,
+  Steps,
+  Switch,
+  T as Text,
+  Timeline
+};

@@ -1,18 +1,620 @@
-import{jsx as e,jsxs as r}from"react/jsx-runtime";import{Badge as t,Collapse as n,Popover as l,Radio as a,ConfigProvider as o,Tabs as i}from"antd";import{m as s,T as c,a as d,d as f,I as h,B as u}from"./index-ChK690Xa.js";import{b as m,c as p,C as g,e as w,U as y,V as b}from"./index-ChK690Xa.js";import{twMerge as x}from"tailwind-merge";import{useRef as v,useEffect as N,useMemo as C,useCallback as z,useState as j,Children as E,forwardRef as k}from"react";import{useTranslation as S}from"react-i18next";import{F as Y,R as M,I as T,T as _,L as B}from"./index-DUOPhvLF.js";import{c as D}from"./colors-MpMxujAZ.js";const I=({children:r,...n})=>/* @__PURE__ */e(t,{...n,children:r}),L=({children:r,onClick:t,className:n,...l})=>/* @__PURE__ */e("div",{onClick:t,className:x("hover:bg-light-2 flex cursor-pointer items-center justify-center rounded-full p-2 transition-colors",n),...l,children:r}),P=({children:e,onClickAway:t,document:n=window.document,active:l=!0,className:a,hasDefaultStyle:o=!0})=>{const i=v(null);return N(()=>{if(!l)return;const e=e=>{i.current&&!i.current.contains(e.target)&&t()};return n.addEventListener("mousedown",e),()=>{n.removeEventListener("mousedown",e)}},[t,l,n]),/* @__PURE__ */r("div",{ref:i,...o?{className:x("flex h-full w-full flex-1",a)}:{className:a},children:[" ",e]})},A=({...r})=>/* @__PURE__ */e(n,{...r});A.Panel=n.Panel;const H=({helperText:t,required:n,label:l,error:a,wrapperClassName:o,onChange:i,onChangeISO:u,value:m,valueISO:p,locale:g,hideErrorMessage:w=!1,...y})=>{const{i18n:b}=S(),x=C(()=>p?s(p):m,[p,m]),v=z((e,r)=>{i?.(e,r),u?.(e?.toISOString())},[]);/* @__PURE__ */
-return r(Y,{vertical:!0,className:`w-full ${!w&&"inputErrorMessageContainer"}`,children:[
-/* @__PURE__ */r("label",{htmlFor:"language-textarea",className:"flex flex-row items-center gap-1",children:[
-/* @__PURE__ */e(M,{when:t,children:/* @__PURE__ */e(c,{variant:"default",title:t,arrow:{pointAtCenter:!0},children:/* @__PURE__ */e(T,{name:"Help_header",color:D.primary_light_3,size:15})})}),"string"==typeof l?/* @__PURE__ */e(_,{color:D.primary,children:l}):l,
-/* @__PURE__ */e(M,{when:n,children:/* @__PURE__ */e(T,{name:"Asterisk",size:6,color:D.negative,className:"mb-2"})})]}),
-/* @__PURE__ */e(d.DatePicker,{format:"fa"===b.language?"jYYYY/jMM/jDD":"YYYY/MM/DD",locale:g||"fa"===b.language?"fa":"en",customColors:f,onChange:v,value:x,...y}),!w&&a?.message&&/* @__PURE__ */e(h,{message:a?.message})]})},O=({flex:r,direction:t="horizontal"})=>/* @__PURE__ */e("div",{className:x("flex","horizontal"===t?"flex-row":"flex-col"),style:{flex:r}}),R=({size:r})=>/* @__PURE__ */e(Y,{className:"h-full min-h-[100px] w-full",align:"center",justify:"center",children:/* @__PURE__ */e(B,{isLoading:!0,size:r})}),F=({className:t,wrapperClassName:n,style:l,color:a,text:o})=>/* @__PURE__ */r(Y,{"data-testid":"horizontal-line",className:n,align:"center",gap:10,children:[o?/* @__PURE__ */e(_,{className:"whitespace-nowrap",weight:"normal",size:"medium",color:D.primary,children:o}):null,
-/* @__PURE__ */e("hr",{role:"separator",className:x("border-t-light-7 m-0 w-full border-x-0 border-b-0 border-t",t),style:{...l,borderTopColor:a}})]}),K=({children:t,onChange:n,wrapperStyle:l,wrapperClassName:a,spaceBetweenTabs:o,activeStyleMode:i="background",defaultTabKey:s,extraAfterItem:c,extraBeforeItem:d,extraBeforeChildren:f,extraAfterChildren:h,tabFontSize:u=18,tabsClassName:m,tabClassName:p,tabsWrapperStyle:g,innerContentClassName:w,extraChildrenInheritBorder:y,hasBorder:b=!0})=>{const[v,C]=j(void 0);return N(()=>{const e=E.map(t,({props:e})=>e)[0];C(s||e.tabKey)},[]),/* @__PURE__ */r(Y,{style:l,vertical:!0,className:x("w-full flex-1",a),children:[
-/* @__PURE__ */r(Y,{align:"center",className:x("underlined"===i&&b&&"border-light-7 border-b border-solid"),children:[d&&/* @__PURE__ */e(Y,{justify:"center",className:x("h-full px-2",y&&"border-light-6 border-b border-solid"),children:"function"==typeof d?d(v):d}),
-/* @__PURE__ */e(Y,{align:"center",className:x("w-full min-w-max flex-1 flex-row overflow-y-auto overflow-x-hidden",m),gap:void 0!==o?o:24,style:g,children:E.map(t,({props:{tabKey:r,title:t,className:l,style:a,isVisible:o=!0}})=>o?/* @__PURE__ */e(Y,{align:"center",justify:"center",style:"function"==typeof a?a(v||r):a,className:x("relative h-full min-h-[35px] w-fit min-w-[24px] cursor-pointer rounded",p,"string"==typeof t?"px-4 pb-2 pt-4":"px-0 pb-2 pt-4",r===v&&("background"===i?"after:bg-primary-light-1 z-auto overflow-hidden px-4 after:absolute after:left-0 after:top-0 after:h-full after:w-full":"underlined"===i?" after:border-action z-auto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:border-b-[2px] after:border-solid":void 0),"function"==typeof l?l(v||r):l),onClick:()=>{C(r),n?.(r)},children:"string"==typeof t?/* @__PURE__ */e(_,{size:u,weight:"medium",className:x("z-10","background"===i&&r===v&&"text-white-ff","underlined"===i&&r===v&&"text-action"),children:t}):t?.(D.negative)},r):null)}),c&&/* @__PURE__ */e(Y,{justify:"center",align:"center",className:x("h-full px-2",y&&"border-light-6 border-b border-solid"),children:"function"==typeof c?c(v):c})]}),
-/* @__PURE__ */r(Y,{className:x("max-w-full flex-1",w),children:[f&&/* @__PURE__ */e(Y,{children:"function"==typeof f?f(v):f}),E.map(t,({props:{tabKey:r,children:t}})=>r===v?/* @__PURE__ */e(Y,{className:"max-w-full flex-1",children:t},r):null),h&&/* @__PURE__ */e(Y,{children:"function"==typeof h?h(v):h})]})]})};K.Tab=e=>null;const V=({overlayInnerStyle:t,overlayClassName:n,overlayInnerClassName:a,headerTitle:o,content:i,closeable:s=!0,onClose:c,footer:d,...f})=>/* @__PURE__ */e(l,{showArrow:!1,arrow:!1,overlayClassName:x("[&_.ant-popover-inner]:p-0",n),overlayInnerStyle:{boxShadow:"2px 3px 7px 0 rgba(67, 88, 121, 0.15)"},...f,content:/* @__PURE__ */r("div",{children:[o&&/* @__PURE__ */r(Y,{className:"border-light-7 bg-light-1 w-full items-center justify-between rounded-t border-b px-3 py-1",children:["string"==typeof o?/* @__PURE__ */e(_,{size:12,weight:"medium",color:D.primary,children:o}):o,s&&/* @__PURE__ */e(T,{name:"Close",className:"cursor-pointer",onClick:c,color:D.primary,size:12})]}),
-/* @__PURE__ */e("div",{className:x("p-3",a),style:t,children:"function"==typeof i?i():i}),
-/* @__PURE__ */e(Y,{className:"border-light-7 bg-light-1 w-full items-center justify-between rounded-t border-t px-3 py-1",children:d})]})});V.Link=({children:r,size:t,color:n,weight:l,className:a,...o})=>/* @__PURE__ */e(Y,{className:x("border-secondary items-center border-b border-dashed",a),...o,children:/* @__PURE__ */e(_,{className:"cursor-pointer select-none",color:n||D.secondary,size:t||16,weight:l||"medium",children:r})});const W=r=>/* @__PURE__ */e(a,{...r});function q(){const{innerWidth:e,innerHeight:r}="undefined"==typeof window?{innerWidth:1024,innerHeight:768}:window;return{width:e,height:r}}W.Group=a.Group;const G=({helperText:t,required:n,label:l,error:a,wrapperClassName:o,value:i,hideErrorMessage:s=!1,...u})=>{const{i18n:m}=S(),p=(i?.filter(Boolean)?.length||0)>0&&!!i;/* @__PURE__ */
-return r(Y,{vertical:!0,className:`w-full ${!s&&"inputErrorMessageContainer"}`,children:[
-/* @__PURE__ */r("label",{htmlFor:"language-textarea",className:"flex flex-row items-center gap-1",children:[
-/* @__PURE__ */e(M,{when:t,children:/* @__PURE__ */e(c,{variant:"default",title:t,arrow:{pointAtCenter:!0},children:/* @__PURE__ */e(T,{name:"Help_header",color:D.primary_light_3,size:15})})}),"string"==typeof l?/* @__PURE__ */e(_,{color:D.primary,children:l}):l,
-/* @__PURE__ */e(M,{when:n,children:/* @__PURE__ */e(T,{name:"Asterisk",size:6,color:D.negative,className:"mb-2"})})]}),
-/* @__PURE__ */e(d.RangePicker,{format:"fa"===m.language?"jYYYY/jMM/jDD":"YYYY/MM/DD",locale:"fa"===m.language?"fa":"en",customColors:f,value:p?i:null,...u}),!s&&a?.message&&/* @__PURE__ */e(h,{message:a?.message})]})},$=({direction:r="vertical",className:t})=>/* @__PURE__ */e("div",{role:"separator",className:x("bg-light-7","vertical"===r?"mx-2 h-full w-[1px]":"my-2 h-[1px] w-full",t)}),U={components:{Tabs:{inkBarColor:D.secondary,itemColor:D.primary,itemSelectedColor:D.secondary,titleFontSize:18,horizontalItemPadding:"0px",horizontalMargin:"0",itemHoverColor:D.primary_light_1,itemActiveColor:D.primary_light_2}}},J=r=>/* @__PURE__ */e(o,{theme:U,children:/* @__PURE__ */e(i,{...r})});J.TabPane=i.TabPane;const Q=!("undefined"==typeof window||!window.document||!window.document.createElement),X="__reactLayoutHandler";let Z=!1,ee=null;function re(){return Q&&void 0!==window.ResizeObserver?null==ee&&(ee=new window.ResizeObserver(function(e){e.forEach(e=>{const r=e.target,t=r[X];"function"==typeof t&&function(e,r){le(e,null,r)}(r,(r,n,l,a,o,i)=>{const s={nativeEvent:{layout:{x:r,y:n,width:l,height:a,left:o,top:i}},timeStamp:Date.now()};Object.defineProperty(s.nativeEvent,"target",{enumerable:!0,get:()=>e.target}),t(s)})})})):Z||"production"!==process.env.NODE_ENV&&"test"!==process.env.NODE_ENV&&(Z=!0),ee}function te(e,r){const{width:t,height:n}=function(){const[e,r]=j(q()),t=[],n=()=>{const{width:n,height:l}=q();(n!==e.width&&t.includes("width")||l!==e.height&&t.includes("height"))&&r({width:n,height:l})};return N(()=>(window.addEventListener("resize",n),()=>window.removeEventListener("resize",n)),[]),new Proxy(e,{get:(e,r)=>(t.push(r),e[r])})}(),l=re();N(()=>{const t=e.current;null!=t&&(t[X]=r)},[e,r]),N(()=>{const r=e.current;return null!=r&&null!=l&&("function"==typeof r[X]?l.observe(r):l.unobserve(r)),()=>{null!=r&&null!=l&&l.unobserve(r)}},[e,l,t,n])}const ne=e=>{if(null!=e){if(1===e.nodeType&&"function"==typeof e.getBoundingClientRect)return e.getBoundingClientRect()}},le=(e,r,t)=>{const n=e&&e.parentNode;e&&n&&setTimeout(()=>{const r=ne(n),{height:l,left:a,top:o,width:i}=ae(e),s=a-r.left,c=o-r.top;t(s,c,i,l,a,o)},0)},ae=e=>{const{x:r,y:t,top:n,left:l}=ne(e);return{x:r,y:t,width:e.offsetWidth,height:e.offsetHeight,top:n,left:l}};const oe=k(({children:t,isLoading:n,onRetry:l,error:a,loadingMinHeight:o,loadingSize:i,onLayout:s,...c},d)=>{const f=v(null);te(f,s);const h=function(...e){return r=>{e.forEach(e=>{!function(e,r){"function"==typeof e?e(r):"object"==typeof e&&e&&"current"in e&&(e.current=r)}(e,r)})}}(d,f),{t:m}=S();return n?/* @__PURE__ */e(Y,{ref:h,align:"center",justify:"center",className:"h-full w-full",style:{minHeight:o},children:/* @__PURE__ */e(B,{isLoading:!0,size:i})}):a?/* @__PURE__ */r(Y,{ref:h,align:"center",justify:"center",style:{minHeight:o},gap:8,vertical:!0,className:"h-full w-full",children:[
-/* @__PURE__ */e(_,{size:16,color:D.negative,children:a}),l&&/* @__PURE__ */e(u.Primary,{onClick:l,children:m("common.message.tryAgain")})]}):/* @__PURE__ */e(Y,{ref:h,...c,children:t})});export{I as Badge,m as BorderedTitle,p as Breadcrumbs,g as Card,w as Checkbox,P as ClickAwayListener,L as Clickable,A as Collapse,H as DatePicker,O as Empty,R as Fallback,F as HorizontalLine,T as Icon,K as NavigationTabs,V as Popover,W as Radio,G as RangePicker,M as Render,$ as Separator,J as Tab,c as Tooltip,y as Upload,b as VerticalLine,oe as View};
+import { jsx, jsxs } from "react/jsx-runtime";
+import { Badge as Badge$1, Collapse as Collapse$1, Popover as Popover$1, Radio as Radio$1, ConfigProvider, Tabs } from "antd";
+import { m as moment, T as Tooltip, a as mainExports, d as datePickerColors, I as InputErrorMessage, B as Button } from "./index-BKg7z8iP.js";
+import { b, c, C, e, U, V } from "./index-BKg7z8iP.js";
+import { twMerge } from "tailwind-merge";
+import { useRef, useEffect, useMemo, useCallback, useState, Children, forwardRef } from "react";
+import { useTranslation } from "react-i18next";
+import { F as Flex, R as Render, I as Icon, T as Text, L as Loading } from "./index-DWZAreuI.js";
+import { c as colors } from "./colors-BmRCmHtR.js";
+const Badge = ({ children, ...rest }) => {
+  return /* @__PURE__ */ jsx(Badge$1, { ...rest, children });
+};
+const Clickable = ({ children, onClick, className, ...rest }) => {
+  return /* @__PURE__ */ jsx(
+    "div",
+    {
+      onClick,
+      className: twMerge(
+        "hover:bg-light-2 flex cursor-pointer items-center justify-center rounded-full p-2 transition-colors",
+        className
+      ),
+      ...rest,
+      children
+    }
+  );
+};
+const ClickAwayListener = ({
+  children,
+  onClickAway,
+  document = window.document,
+  active = true,
+  className,
+  hasDefaultStyle = true
+}) => {
+  const containerRef = useRef(null);
+  useEffect(() => {
+    if (!active) return;
+    const handleClickOutside = (event) => {
+      if (containerRef.current && !containerRef.current.contains(event.target)) {
+        onClickAway();
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [onClickAway, active, document]);
+  return /* @__PURE__ */ jsxs(
+    "div",
+    {
+      ref: containerRef,
+      ...hasDefaultStyle ? { className: twMerge("flex h-full w-full flex-1", className) } : { className },
+      children: [
+        " ",
+        children
+      ]
+    }
+  );
+};
+const Collapse = ({ ...props }) => {
+  return /* @__PURE__ */ jsx(Collapse$1, { ...props });
+};
+Collapse.Panel = Collapse$1.Panel;
+const DatePicker = ({
+  helperText,
+  required,
+  label,
+  error,
+  wrapperClassName,
+  onChange: onChangeProp,
+  onChangeISO,
+  value: valueProp,
+  valueISO,
+  locale,
+  hideErrorMessage = false,
+  ...props
+}) => {
+  const { i18n } = useTranslation();
+  const value = useMemo(() => {
+    if (valueISO) {
+      return moment(valueISO);
+    }
+    return valueProp;
+  }, [valueISO, valueProp]);
+  const onChange = useCallback(
+    (date, dateString) => {
+      onChangeProp?.(date, dateString);
+      onChangeISO?.(date?.toISOString());
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    []
+  );
+  return /* @__PURE__ */ jsxs(Flex, { vertical: true, className: `w-full ${!hideErrorMessage && "inputErrorMessageContainer"}`, children: [
+    /* @__PURE__ */ jsxs("label", { htmlFor: "language-textarea", className: "flex flex-row items-center gap-1", children: [
+      /* @__PURE__ */ jsx(Render, { when: helperText, children: /* @__PURE__ */ jsx(Tooltip, { variant: "default", title: helperText, arrow: { pointAtCenter: true }, children: /* @__PURE__ */ jsx(Icon, { name: "Help_header", color: colors.primary_light_3, size: 15 }) }) }),
+      typeof label === "string" ? /* @__PURE__ */ jsx(Text, { color: colors.primary, children: label }) : label,
+      /* @__PURE__ */ jsx(Render, { when: required, children: /* @__PURE__ */ jsx(Icon, { name: "Asterisk", size: 6, color: colors.negative, className: "mb-2" }) })
+    ] }),
+    /* @__PURE__ */ jsx(
+      mainExports.DatePicker,
+      {
+        format: i18n.language === "fa" ? "jYYYY/jMM/jDD" : "YYYY/MM/DD",
+        locale: locale || i18n.language === "fa" ? "fa" : "en",
+        customColors: datePickerColors,
+        onChange,
+        value,
+        ...props
+      }
+    ),
+    !hideErrorMessage && error?.message && /* @__PURE__ */ jsx(InputErrorMessage, { message: error?.message })
+  ] });
+};
+const Empty = ({ flex, direction = "horizontal" }) => {
+  return /* @__PURE__ */ jsx(
+    "div",
+    {
+      className: twMerge("flex", direction === "horizontal" ? "flex-row" : "flex-col"),
+      style: { flex }
+    }
+  );
+};
+const Fallback = ({ size }) => {
+  return /* @__PURE__ */ jsx(Flex, { className: "h-full min-h-[100px] w-full", align: "center", justify: "center", children: /* @__PURE__ */ jsx(Loading, { isLoading: true, size }) });
+};
+const HorizontalLine = ({
+  className,
+  wrapperClassName,
+  style,
+  color,
+  text
+}) => {
+  return /* @__PURE__ */ jsxs(Flex, { "data-testid": "horizontal-line", className: wrapperClassName, align: "center", gap: 10, children: [
+    text ? /* @__PURE__ */ jsx(
+      Text,
+      {
+        className: "whitespace-nowrap",
+        weight: "normal",
+        size: "medium",
+        color: colors.primary,
+        children: text
+      }
+    ) : null,
+    /* @__PURE__ */ jsx(
+      "hr",
+      {
+        role: "separator",
+        className: twMerge("border-t-light-7 m-0 w-full border-x-0 border-b-0 border-t", className),
+        style: { ...style, borderTopColor: color }
+      }
+    )
+  ] });
+};
+const NavigationTabs = ({
+  children,
+  onChange,
+  wrapperStyle,
+  wrapperClassName,
+  spaceBetweenTabs,
+  activeStyleMode = "background",
+  defaultTabKey,
+  extraAfterItem,
+  extraBeforeItem,
+  extraBeforeChildren,
+  extraAfterChildren,
+  tabFontSize = 18,
+  tabsClassName,
+  tabClassName,
+  tabsWrapperStyle,
+  innerContentClassName,
+  extraChildrenInheritBorder,
+  hasBorder = true
+}) => {
+  const [currentTabKey, setCurrentTabKey] = useState(void 0);
+  useEffect(() => {
+    const defaultActiveTab = Children.map(children, ({ props }) => props)[0];
+    if (!defaultTabKey) {
+      setCurrentTabKey(defaultActiveTab.tabKey);
+      return;
+    }
+    setCurrentTabKey(defaultTabKey);
+  }, []);
+  return /* @__PURE__ */ jsxs(Flex, { style: wrapperStyle, vertical: true, className: twMerge("w-full flex-1", wrapperClassName), children: [
+    /* @__PURE__ */ jsxs(
+      Flex,
+      {
+        align: "center",
+        className: twMerge(
+          activeStyleMode === "underlined" && hasBorder && "border-light-7 border-b border-solid"
+        ),
+        children: [
+          extraBeforeItem && /* @__PURE__ */ jsx(
+            Flex,
+            {
+              justify: "center",
+              className: twMerge(
+                "h-full px-2",
+                extraChildrenInheritBorder && "border-light-6 border-b border-solid"
+              ),
+              children: typeof extraBeforeItem === "function" ? extraBeforeItem(currentTabKey) : extraBeforeItem
+            }
+          ),
+          /* @__PURE__ */ jsx(
+            Flex,
+            {
+              align: "center",
+              className: twMerge(
+                "w-full min-w-max flex-1 flex-row overflow-y-auto overflow-x-hidden",
+                tabsClassName
+              ),
+              gap: spaceBetweenTabs !== void 0 ? spaceBetweenTabs : 24,
+              style: tabsWrapperStyle,
+              children: Children.map(
+                children,
+                ({ props: { tabKey, title, className, style, isVisible = true } }) => isVisible ? /* @__PURE__ */ jsx(
+                  Flex,
+                  {
+                    align: "center",
+                    justify: "center",
+                    style: typeof style === "function" ? style(currentTabKey || tabKey) : style,
+                    className: twMerge(
+                      "relative h-full min-h-[35px] w-fit min-w-[24px] cursor-pointer rounded",
+                      tabClassName,
+                      typeof title === "string" ? "px-4 pb-2 pt-4" : "px-0 pb-2 pt-4",
+                      tabKey === currentTabKey && (activeStyleMode === "background" ? "after:bg-primary-light-1 z-auto overflow-hidden px-4 after:absolute after:left-0 after:top-0 after:h-full after:w-full" : activeStyleMode === "underlined" ? " after:border-action z-auto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:border-b-[2px] after:border-solid" : void 0),
+                      typeof className === "function" ? className(currentTabKey || tabKey) : className
+                    ),
+                    onClick: () => {
+                      setCurrentTabKey(tabKey);
+                      onChange?.(tabKey);
+                    },
+                    children: typeof title === "string" ? /* @__PURE__ */ jsx(
+                      Text,
+                      {
+                        size: tabFontSize,
+                        weight: "medium",
+                        className: twMerge(
+                          "z-10",
+                          activeStyleMode === "background" && tabKey === currentTabKey && "text-white-ff",
+                          activeStyleMode === "underlined" && tabKey === currentTabKey && "text-action"
+                        ),
+                        children: title
+                      }
+                    ) : title?.(tabKey === currentTabKey ? colors.negative : colors.negative)
+                  },
+                  tabKey
+                ) : null
+              )
+            }
+          ),
+          extraAfterItem && /* @__PURE__ */ jsx(
+            Flex,
+            {
+              justify: "center",
+              align: "center",
+              className: twMerge(
+                "h-full px-2",
+                extraChildrenInheritBorder && "border-light-6 border-b border-solid"
+              ),
+              children: typeof extraAfterItem === "function" ? extraAfterItem(currentTabKey) : extraAfterItem
+            }
+          )
+        ]
+      }
+    ),
+    /* @__PURE__ */ jsxs(Flex, { className: twMerge("max-w-full flex-1", innerContentClassName), children: [
+      extraBeforeChildren && /* @__PURE__ */ jsx(Flex, { children: typeof extraBeforeChildren === "function" ? extraBeforeChildren(currentTabKey) : extraBeforeChildren }),
+      Children.map(children, ({ props: { tabKey, children: children2 } }) => {
+        if (tabKey === currentTabKey) {
+          return /* @__PURE__ */ jsx(Flex, { className: "max-w-full flex-1", children: children2 }, tabKey);
+        }
+        return null;
+      }),
+      extraAfterChildren && /* @__PURE__ */ jsx(Flex, { children: typeof extraAfterChildren === "function" ? extraAfterChildren(currentTabKey) : extraAfterChildren })
+    ] })
+  ] });
+};
+NavigationTabs.Tab = (_props) => null;
+const PopoverLink = ({ children, size, color, weight, className, ...rest }) => {
+  return /* @__PURE__ */ jsx(
+    Flex,
+    {
+      className: twMerge("border-secondary items-center border-b border-dashed", className),
+      ...rest,
+      children: /* @__PURE__ */ jsx(
+        Text,
+        {
+          className: "cursor-pointer select-none",
+          color: color || colors.secondary,
+          size: size || 16,
+          weight: weight || "medium",
+          children
+        }
+      )
+    }
+  );
+};
+const Popover = ({
+  overlayInnerStyle,
+  overlayClassName,
+  overlayInnerClassName,
+  headerTitle,
+  content,
+  closeable = true,
+  onClose,
+  footer,
+  ...rest
+}) => {
+  return /* @__PURE__ */ jsx(
+    Popover$1,
+    {
+      showArrow: false,
+      arrow: false,
+      overlayClassName: twMerge("[&_.ant-popover-inner]:p-0", overlayClassName),
+      overlayInnerStyle: {
+        boxShadow: `2px 3px 7px 0 rgba(67, 88, 121, 0.15)`
+      },
+      ...rest,
+      content: /* @__PURE__ */ jsxs("div", { children: [
+        headerTitle && /* @__PURE__ */ jsxs(Flex, { className: "border-light-7 bg-light-1 w-full items-center justify-between rounded-t border-b px-3 py-1", children: [
+          typeof headerTitle === "string" ? /* @__PURE__ */ jsx(Text, { size: 12, weight: "medium", color: colors.primary, children: headerTitle }) : headerTitle,
+          closeable && /* @__PURE__ */ jsx(
+            Icon,
+            {
+              name: "Close",
+              className: "cursor-pointer",
+              onClick: onClose,
+              color: colors.primary,
+              size: 12
+            }
+          )
+        ] }),
+        /* @__PURE__ */ jsx("div", { className: twMerge("p-3", overlayInnerClassName), style: overlayInnerStyle, children: typeof content === "function" ? content() : content }),
+        /* @__PURE__ */ jsx(Flex, { className: "border-light-7 bg-light-1 w-full items-center justify-between rounded-t border-t px-3 py-1", children: footer })
+      ] })
+    }
+  );
+};
+Popover.Link = PopoverLink;
+const Radio = (props) => /* @__PURE__ */ jsx(Radio$1, { ...props });
+Radio.Group = Radio$1.Group;
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = typeof window === "undefined" ? {
+    innerWidth: 1024,
+    innerHeight: 768
+  } : window;
+  return {
+    width,
+    height
+  };
+}
+function useWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  const targetProps = [];
+  const handleResize = () => {
+    const { width, height } = getWindowDimensions();
+    if (width !== windowDimensions.width && targetProps.includes("width") || height !== windowDimensions.height && targetProps.includes("height")) {
+      setWindowDimensions({ width, height });
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return new Proxy(windowDimensions, {
+    get(target, prop) {
+      targetProps.push(prop);
+      return target[prop];
+    }
+  });
+}
+const RangePicker = ({
+  helperText,
+  required,
+  label,
+  error,
+  wrapperClassName,
+  value,
+  hideErrorMessage = false,
+  ...props
+}) => {
+  const { i18n } = useTranslation();
+  const isValueValid = (value?.filter(Boolean)?.length || 0) > 0 && !!value;
+  return /* @__PURE__ */ jsxs(Flex, { vertical: true, className: `w-full ${!hideErrorMessage && "inputErrorMessageContainer"}`, children: [
+    /* @__PURE__ */ jsxs("label", { htmlFor: "language-textarea", className: "flex flex-row items-center gap-1", children: [
+      /* @__PURE__ */ jsx(Render, { when: helperText, children: /* @__PURE__ */ jsx(Tooltip, { variant: "default", title: helperText, arrow: { pointAtCenter: true }, children: /* @__PURE__ */ jsx(Icon, { name: "Help_header", color: colors.primary_light_3, size: 15 }) }) }),
+      typeof label === "string" ? /* @__PURE__ */ jsx(Text, { color: colors.primary, children: label }) : label,
+      /* @__PURE__ */ jsx(Render, { when: required, children: /* @__PURE__ */ jsx(Icon, { name: "Asterisk", size: 6, color: colors.negative, className: "mb-2" }) })
+    ] }),
+    /* @__PURE__ */ jsx(
+      mainExports.RangePicker,
+      {
+        format: i18n.language === "fa" ? "jYYYY/jMM/jDD" : "YYYY/MM/DD",
+        locale: i18n.language === "fa" ? "fa" : "en",
+        customColors: datePickerColors,
+        value: isValueValid ? value : null,
+        ...props
+      }
+    ),
+    !hideErrorMessage && error?.message && /* @__PURE__ */ jsx(InputErrorMessage, { message: error?.message })
+  ] });
+};
+const Separator = ({ direction = "vertical", className }) => {
+  return /* @__PURE__ */ jsx(
+    "div",
+    {
+      role: "separator",
+      className: twMerge(
+        "bg-light-7",
+        direction === "vertical" ? "mx-2 h-full w-[1px]" : "my-2 h-[1px] w-full",
+        className
+      )
+    }
+  );
+};
+const TabConfig = {
+  components: {
+    Tabs: {
+      inkBarColor: colors.secondary,
+      itemColor: colors.primary,
+      itemSelectedColor: colors.secondary,
+      titleFontSize: 18,
+      horizontalItemPadding: "0px",
+      horizontalMargin: "0",
+      itemHoverColor: colors.primary_light_1,
+      itemActiveColor: colors.primary_light_2
+    }
+  }
+};
+const Tab = (props) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: TabConfig, children: /* @__PURE__ */ jsx(Tabs, { ...props }) });
+};
+Tab.TabPane = Tabs.TabPane;
+function fillRef(ref, node) {
+  if (typeof ref === "function") {
+    ref(node);
+  } else if (typeof ref === "object" && ref && "current" in ref) {
+    ref.current = node;
+  }
+}
+function composeRef(...refs) {
+  return (node) => {
+    refs.forEach((ref) => {
+      fillRef(ref, node);
+    });
+  };
+}
+const canUseDOM = !!(typeof window !== "undefined" && window.document && window.document.createElement);
+const DOM_LAYOUT_HANDLER_NAME = "__reactLayoutHandler";
+let didWarn = false;
+let resizeObserver = null;
+function getResizeObserver() {
+  if (canUseDOM && typeof window.ResizeObserver !== "undefined") {
+    if (resizeObserver == null) {
+      resizeObserver = new window.ResizeObserver(function(entries) {
+        entries.forEach((entry) => {
+          const node = entry.target;
+          const onLayout = node[DOM_LAYOUT_HANDLER_NAME];
+          if (typeof onLayout === "function") {
+            measure(
+              node,
+              //@ts-ignore
+              (x, y, width, height, left, top) => {
+                const event = {
+                  // $FlowFixMe
+                  nativeEvent: {
+                    layout: { x, y, width, height, left, top }
+                  },
+                  timeStamp: Date.now()
+                };
+                Object.defineProperty(event.nativeEvent, "target", {
+                  enumerable: true,
+                  get: () => entry.target
+                });
+                onLayout(event);
+              }
+            );
+          }
+        });
+      });
+    }
+  } else if (!didWarn) {
+    if (process.env.NODE_ENV !== "production" && process.env.NODE_ENV !== "test") {
+      didWarn = true;
+    }
+  }
+  return resizeObserver;
+}
+function useElementLayout(ref, onLayout) {
+  const { width, height } = useWindowDimensions();
+  const observer = getResizeObserver();
+  useEffect(() => {
+    const node = ref.current;
+    if (node != null) {
+      node[DOM_LAYOUT_HANDLER_NAME] = onLayout;
+    }
+  }, [ref, onLayout]);
+  useEffect(() => {
+    const node = ref.current;
+    if (node != null && observer != null) {
+      if (typeof node[DOM_LAYOUT_HANDLER_NAME] === "function") {
+        observer.observe(node);
+      } else {
+        observer.unobserve(node);
+      }
+    }
+    return () => {
+      if (node != null && observer != null) {
+        observer.unobserve(node);
+      }
+    };
+  }, [ref, observer, width, height]);
+}
+const getBoundingClientRect = (node) => {
+  if (node != null) {
+    const isElement = node.nodeType === 1;
+    if (isElement && typeof node.getBoundingClientRect === "function") {
+      return node.getBoundingClientRect();
+    }
+  }
+};
+const measureLayout = (node, relativeToNativeNode, callback) => {
+  const relativeNode = node && node.parentNode;
+  if (node && relativeNode) {
+    setTimeout(() => {
+      const relativeRect = getBoundingClientRect(relativeNode);
+      const { height, left, top, width } = getRect(node);
+      const x = left - relativeRect.left;
+      const y = top - relativeRect.top;
+      callback(x, y, width, height, left, top);
+    }, 0);
+  }
+};
+const getRect = (node) => {
+  const { x, y, top, left } = getBoundingClientRect(node);
+  const width = node.offsetWidth;
+  const height = node.offsetHeight;
+  return { x, y, width, height, top, left };
+};
+function measure(node, callback) {
+  measureLayout(node, null, callback);
+}
+const View = forwardRef(
+  ({
+    children,
+    isLoading,
+    onRetry,
+    error,
+    loadingMinHeight,
+    loadingSize,
+    onLayout,
+    ...rest
+  }, ref) => {
+    const contentLayoutRef = useRef(null);
+    useElementLayout(contentLayoutRef, onLayout);
+    const finalRef = composeRef(ref, contentLayoutRef);
+    const { t } = useTranslation();
+    if (isLoading) {
+      return /* @__PURE__ */ jsx(
+        Flex,
+        {
+          ref: finalRef,
+          align: "center",
+          justify: "center",
+          className: "h-full w-full",
+          style: {
+            minHeight: loadingMinHeight
+          },
+          children: /* @__PURE__ */ jsx(Loading, { isLoading: true, size: loadingSize })
+        }
+      );
+    }
+    if (error) {
+      return /* @__PURE__ */ jsxs(
+        Flex,
+        {
+          ref: finalRef,
+          align: "center",
+          justify: "center",
+          style: {
+            minHeight: loadingMinHeight
+          },
+          gap: 8,
+          vertical: true,
+          className: "h-full w-full",
+          children: [
+            /* @__PURE__ */ jsx(Text, { size: 16, color: colors.negative, children: error }),
+            onRetry && /* @__PURE__ */ jsx(Button.Primary, { onClick: onRetry, children: t("common.message.tryAgain") })
+          ]
+        }
+      );
+    }
+    return /* @__PURE__ */ jsx(Flex, { ref: finalRef, ...rest, children });
+  }
+);
+export {
+  Badge,
+  b as BorderedTitle,
+  c as Breadcrumbs,
+  C as Card,
+  e as Checkbox,
+  ClickAwayListener,
+  Clickable,
+  Collapse,
+  DatePicker,
+  Empty,
+  Fallback,
+  HorizontalLine,
+  Icon,
+  NavigationTabs,
+  Popover,
+  Radio,
+  RangePicker,
+  Render,
+  Separator,
+  Tab,
+  Tooltip,
+  U as Upload,
+  V as VerticalLine,
+  View
+};

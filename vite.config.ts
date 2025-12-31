@@ -9,6 +9,7 @@ import { defineConfig } from 'vitest/config';
 const externals = [
   'react',
   'react-dom',
+  'react-router-dom',
   'antd',
   '@ant-design/icons',
   'i18next',
@@ -43,7 +44,7 @@ export default defineConfig({
     },
     cssCodeSplit: true, 
     sourcemap: false,
-    minify: 'terser',
+    minify: false,
     rollupOptions: {
       output: {
         assetFileNames: 'index.[ext]',

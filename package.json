@@ -56,10 +56,14 @@
     "react-i18next": "^13",
     "tailwind-merge": "^1.14",
     "react-route-type": "*",
-    "starkstring": "*"
+    "starkstring": "*",
+    "react-router-dom": "^6"
   },
   "peerDependenciesMeta": {
     "antd": {
+      "optional": true
+    },
+    "react-router-dom": {
       "optional": true
     },
     "@ant-design/icons": {
@@ -159,6 +163,7 @@
     "prettier": "^3.0.3",
     "prettier-plugin-organize-imports": "^3.2.4",
     "prettier-plugin-tailwindcss": "0.5.6",
+    "@trivago/prettier-plugin-sort-imports": "4.2.0",
     "qs": "6.11.2",
     "react-grid-layout": "^1.4.4",
     "react-is": "18.2.0",

@@ -1,1 +1,57 @@
-import{jsx as a}from"react/jsx-runtime";import{Alert as s,ConfigProvider as e,Pagination as o,Progress as r,Segmented as t}from"antd";import{A as i,B as n,D as m,F as l,d as c,a as d,L as g,M as p,S as f,f as h,g as x,T as N,h as b}from"./index-DZE5Hcha.js";import{twMerge as j}from"tailwind-merge";import{c as u}from"./colors-B-0zLkPs.js";const w=e=>/* @__PURE__ */a(s,{...e}),y={components:{Pagination:{}}},P=({className:s,...r})=>/* @__PURE__ */a(e,{theme:y,children:/* @__PURE__ */a(o,{...r,className:j("bg-light-7",s)})}),S=({className:s,...e})=>/* @__PURE__ */a(r,{strokeColor:u.secondary,...e,className:j("bg-light-7",s)}),k=({style:s,...o})=>/* @__PURE__ */a(e,{children:/* @__PURE__ */a(t,{...o,style:{padding:2,...s}})});export{w as Alert,i as Avatar,n as Breadcrumb,m as Dropdown,l as Flex,c as Image,d as InfiniteLoader,g as Loading,p as Menu,P as Pagination,S as Progress,k as SegmentedSwitch,f as Skeleton,h as Steps,x as Switch,N as Text,b as Timeline};
+import { jsx } from "react/jsx-runtime";
+import { Alert as Alert$1, ConfigProvider, Pagination as Pagination$1, Progress as Progress$1, Segmented } from "antd";
+import { A, B, D, F, d, a, L, M, S, f, g, T, h } from "./index-TDH6Fv86.js";
+import { twMerge } from "tailwind-merge";
+import { c as colors } from "./colors-gpRgsXSS.js";
+const Alert = (props) => {
+  return /* @__PURE__ */ jsx(Alert$1, { ...props });
+};
+const PaginationThemeConfig = {
+  components: {
+    Pagination: {}
+  }
+};
+const Pagination = ({ className, ...props }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: PaginationThemeConfig, children: /* @__PURE__ */ jsx(Pagination$1, { ...props, className: twMerge("bg-light-7", className) }) });
+};
+const Progress = ({ className, ...props }) => {
+  return /* @__PURE__ */ jsx(
+    Progress$1,
+    {
+      strokeColor: colors.secondary,
+      ...props,
+      className: twMerge("bg-light-7", className)
+    }
+  );
+};
+const SegmentedSwitch = ({ style, ...rest }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { children: /* @__PURE__ */ jsx(
+    Segmented,
+    {
+      ...rest,
+      style: {
+        padding: 2,
+        ...style
+      }
+    }
+  ) });
+};
+export {
+  Alert,
+  A as Avatar,
+  B as Breadcrumb,
+  D as Dropdown,
+  F as Flex,
+  d as Image,
+  a as InfiniteLoader,
+  L as Loading,
+  M as Menu,
+  Pagination,
+  Progress,
+  SegmentedSwitch,
+  S as Skeleton,
+  f as Steps,
+  g as Switch,
+  T as Text,
+  h as Timeline
+};

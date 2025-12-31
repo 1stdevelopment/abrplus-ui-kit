@@ -11,6 +11,8 @@ const externals = [
   'react-dom',
   'antd',
   '@ant-design/icons',
+  'i18next',
+  'react-i18next',
   'tailwind-merge',
   'react-route-type',
   'starkstring',
@@ -41,7 +43,7 @@ export default defineConfig({
     },
     cssCodeSplit: true, 
     sourcemap: false,
-    minify: 'terser',
+    minify: false,
     rollupOptions: {
       output: {
         assetFileNames: 'index.[ext]',

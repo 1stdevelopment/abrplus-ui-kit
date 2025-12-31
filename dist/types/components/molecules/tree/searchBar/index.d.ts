@@ -1,5 +1,5 @@
 import { RefAttributes } from 'react';
-import { InputRef, InputSearchProps } from '../../../molecules/input';
+import { InputRef, InputSearchProps } from '../../input';
 type TreeSearchBarProps = InputSearchProps & RefAttributes<InputRef> & {
     onSearch: (value: string) => void;
 };

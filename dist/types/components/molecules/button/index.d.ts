@@ -1,6 +1,6 @@
 import { ActionButtonProps } from './action';
 import { IconButtonProps } from './icon';
-import { ButtonProps } from './shared';
+import { ButtonMode, ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from './shared';
 import { TextButtonProps } from './text';
 declare const Button: {
     readonly Text: ({ style, height, mode, children, iconName, disabled, className, iconPosition, isLoading, lang, underline, textProps, startIconSize, endIconSize, ...rest }: TextButtonProps) => import("react/jsx-runtime").JSX.Element;
@@ -14,5 +14,5 @@ declare const Button: {
     }) => import("react/jsx-runtime").JSX.Element;
     readonly Action: ({ style, height, mode, children, iconName, disabled, className, iconPosition, isLoading, lang, platform, ...rest }: ActionButtonProps) => import("react/jsx-runtime").JSX.Element;
 };
-export { Button };
-export type { ActionButtonProps, ButtonProps, IconButtonProps, TextButtonProps };
+export { Button, buttonDefaultClasses, fontSizePicker, paddingPicker };
+export type { ActionButtonProps, ButtonMode, ButtonProps, IconButtonProps, TextButtonProps };

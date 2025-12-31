@@ -8,5 +8,6 @@ declare const Select: {
         ref?: React.ForwardedRef<HTMLUListElement>;
     }) => import('react').ReactElement | null;
 };
+export * from './components';
 export { Select };
 export type { DefaultSelectOption, PlusTreeSelectProps, SelectInfinite, SelectProps, SelectRawValue, };

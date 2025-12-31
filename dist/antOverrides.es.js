@@ -1,8 +1,8 @@
 import { jsx as r } from "react/jsx-runtime";
 import { Alert as t, ConfigProvider as o, Pagination as n, Progress as i, Segmented as g } from "antd";
-import { t as s } from "./index-Bcn0CdnN.js";
-import { A as w, B as T, D as b, F as C, d as L, a as M, L as $, M as k, S as v, f as y, g as B, T as D, h as F } from "./index-Bcn0CdnN.js";
-import { c as m } from "./colors-Bi8DBIbo.js";
+import { t as s } from "./index-Cb6Wdvhb.js";
+import { A as w, B as T, D as b, F as C, d as L, a as M, L as $, M as k, S as v, f as y, g as B, T as D, h as F } from "./index-Cb6Wdvhb.js";
+import { c as m } from "./colors-KbMJKYZb.js";
 const h = (e) => /* @__PURE__ */ r(t, { ...e }), c = {
   components: {
     Pagination: {}

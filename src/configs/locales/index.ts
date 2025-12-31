@@ -16,7 +16,12 @@ interface I18nInstance extends Omit<OriginalI18n, 't' | 'language'> {
 
 const i18nInstance = i18n as I18nInstance;
 
-export const defaultLanguage = localStorage.getItem('language') ?? 'fa';
+function getDefaultLanguage(): string {
+  if (typeof window === 'undefined') return 'fa'; // fallback for Node/SSR
+  return localStorage.getItem('language') ?? 'fa';
+}
+
+export const defaultLanguage = getDefaultLanguage();
 
 i18nInstance.use(initReactI18next).use(LanguageDetector);
 

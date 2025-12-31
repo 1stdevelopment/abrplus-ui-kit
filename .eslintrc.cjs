@@ -21,6 +21,5 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     'react-refresh/only-export-components': 'off',
     '@typescript-eslint/no-var-requires': 'off',
-    'react-refresh/only-export-components': ['error', { allowConstantExport: true }],
   },
 };

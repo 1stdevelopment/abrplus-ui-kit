@@ -364,3 +364,5 @@ export const TagInput = forwardRef(
 ) as <T extends Record<string, any> = DefaultSelectOption>(
   props: TagInputProps<T> & { ref?: React.ForwardedRef<HTMLUListElement> },
 ) => ReactElement | null;
+
+export type { SelectOption, TagInputProps } from './types';

@@ -1482,7 +1482,7 @@ b.reloadResources;
 b.use;
 b.changeLanguage;
 b.getFixedT;
-const Nt = b.t;
+const Et = b.t;
 b.exists;
 b.setDefaultNamespace;
 b.hasLoadedNamespace;
@@ -1820,14 +1820,14 @@ function Ct() {
     ...i
   };
 }
-function Et() {
+function kt() {
   return X;
 }
 let Ne;
 function wt(i) {
   Ne = i;
 }
-function kt() {
+function Tt() {
   return Ne;
 }
 const xt = {
@@ -3896,7 +3896,11 @@ To register this email, you must confirm it.`,
       onlyEnglishNumberAndUnderlineAllowed: "فقط حروف انگلیسی , عدد و _ مجاز است"
     }
   }
-}, ee = b, j = localStorage.getItem("language") ?? "fa";
+}, ee = b;
+function Pt() {
+  return typeof window > "u" ? "fa" : localStorage.getItem("language") ?? "fa";
+}
+const j = Pt();
 ee.use(xt).use(Pe);
 function be(i) {
   return ["fa", "en"].includes(i) ? i : j;
@@ -3933,7 +3937,7 @@ ee.init({
 }).then(() => {
   typeof document < "u" && (ve(be(j)), ee.on("languageChanged", ve));
 });
-const Tt = {
+const Lt = {
   white_ff: "#ffffff",
   white_ff_10: "#ffffff10",
   white_ff_15: "#ffffff15",
@@ -4038,9 +4042,9 @@ const Tt = {
   }
 };
 export {
-  Et as a,
-  Tt as c,
-  kt as g,
+  kt as a,
+  Lt as c,
+  Tt as g,
   ee as i,
-  Nt as t
+  Et as t
 };

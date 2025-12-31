@@ -5,7 +5,13 @@ import { NegativeButton } from './negative';
 import { PrimaryButton } from './primary';
 import { SecondaryButton } from './secondary';
 import { SecondaryQuietButton } from './secondaryQuiet';
-import { ButtonProps } from './shared';
+import {
+  ButtonMode,
+  ButtonProps,
+  buttonDefaultClasses,
+  fontSizePicker,
+  paddingPicker,
+} from './shared';
 import { TertiaryButton } from './tertiary';
 import { TextButton, TextButtonProps } from './text';
 
@@ -20,5 +26,6 @@ const Button = batch({
   Text: TextButton,
 });
 
-export { Button };
-export type { ActionButtonProps, ButtonProps, IconButtonProps, TextButtonProps };
+// eslint-disable-next-line react-refresh/only-export-components
+export { Button, buttonDefaultClasses, fontSizePicker, paddingPicker };
+export type { ActionButtonProps, ButtonMode, ButtonProps, IconButtonProps, TextButtonProps };

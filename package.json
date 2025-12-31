@@ -24,7 +24,8 @@
       "types": "./dist/types/antOverrides.d.ts",
       "import": "./dist/antOverrides.es.js",
       "require": "./dist/antOverrides.cjs.js"
-    }
+    },
+    "./style.css": "./dist/index.css"
   },
   "style": "dist/index.css",
   "scripts": {
@@ -39,28 +40,20 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "gen:icon": "tsx scripts/icon.ts",
-    "gen:colors": "tsx scripts/colors-sync.ts",    
+    "gen:colors": "tsx scripts/colors-sync.ts",
     "build": "pnpm format && pnpm lint && pnpm test && vite build"
   },
   "dependencies": {
-    "@ant-design/icons": "5.2.6",
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/modifiers": "^9.0.0",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
     "@use-gesture/react": "^10.3.0",
-    "antd": "5.19.1",
-    "i18next": "^23.7.7",
     "i18next-browser-languagedetector": "^7.2.0",
     "jalaali-react-date-picker": "https://github.com/1stdevelopment/jalaali-react-date-picker",
     "moment": "^2.29.4",
     "moment-jalaali": "^0.10.0",
-    "react": "^18.2.0",
-    "react-copy-to-clipboard": "5.1.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^13.5.0",
-    "react-route-type": "github:mohammadgharouni/react-route-type",
-    "tailwind-merge": "^1.14.0",
-    "@dnd-kit/core": "^6.3.1",
-    "@dnd-kit/modifiers": "^9.0.0",
-    "@dnd-kit/sortable": "^10.0.0",
-    "@dnd-kit/utilities": "^3.2.2"
+    "react-copy-to-clipboard": "5.1.0"
   },
   "devDependencies": {
     "@inquirer/input": "^2.3.0",
@@ -105,6 +98,10 @@
     "autoprefixer": "^10.4.16",
     "axios-auth-refresh": "^3.3.6",
     "chalk": "5.3.0",
+    "antd": "5.19.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@ant-design/icons": "5.2.6",
     "classnames": "2.3.2",
     "commander": "11.1.0",
     "cross-env": "7.0.3",
@@ -130,7 +127,7 @@
     "react-is": "18.2.0",
     "react-router-dom": "^6.16.0",
     "rimraf": "^5.0.1",
-    "starkstring": "^0.4.4",
+    "rollup-plugin-visualizer": "^6.0.5",
     "storybook": "7.6.10",
     "storybook-react-context": "^0.7.0",
     "tailwindcss": "^3.4.0",
@@ -145,5 +142,16 @@
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^4.0.16",
     "xlsx": "0.18.5"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "antd": "^5",
+    "@ant-design/icons": "^5",
+    "i18next": "^23",
+    "react-i18next": "^13",
+    "tailwind-merge": "^1.14",
+    "react-route-type": "*",
+    "starkstring": "*"
   }
 }

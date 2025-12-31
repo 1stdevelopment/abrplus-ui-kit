@@ -3,7 +3,7 @@ import { Flex as b0, Tooltip as u0, Breadcrumb as I0, Avatar as J1, ConfigProvid
 import * as M from "react";
 import { forwardRef as Q1, Fragment as k1, Children as y0, useState as H1, useRef as w0, useEffect as X1 } from "react";
 import "react-dom";
-import { c as C } from "./colors-Bi8DBIbo.js";
+import { c as C } from "./colors-KbMJKYZb.js";
 const C1 = Q1((l, r) => /* @__PURE__ */ n(b0, { ref: r, ...l }));
 function k0() {
   for (var l = 0, r, c, i = ""; l < arguments.length; )

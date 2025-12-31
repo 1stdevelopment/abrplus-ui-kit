@@ -12,6 +12,7 @@ import {
 
 const Select = batch({ Single: SingleSelect, Multiple: MultipleSelect, Tree: PlusTreeSelect });
 
+export * from './components';
 export { Select };
 export type {
   DefaultSelectOption,

@@ -6,7 +6,4 @@ import { TitleBox, TitleBoxProps } from './title';
 const Box = batch({ Title: TitleBox, Status: StatusBox });
 
 export { Box };
-export type {
-    StatusBoxProps,
-    TitleBoxProps
-}
+export type { StatusBoxProps, TitleBoxProps };

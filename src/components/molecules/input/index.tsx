@@ -19,11 +19,11 @@ const Input = batch({
 
 export { Input };
 export type {
+  EmojiPickerInputProps,
+  InputDefaultProps,
+  InputGhostProps,
+  InputNumberProps,
   InputRef,
   InputSearchProps,
   InputTextAreaProps,
-  InputDefaultProps,
-  EmojiPickerInputProps,
-  InputGhostProps,
-  InputNumberProps
 };

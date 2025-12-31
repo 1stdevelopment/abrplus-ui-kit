@@ -16,7 +16,7 @@ export default defineConfig({
       entryRoot: 'src',
       outDir: 'dist/types',
       insertTypesEntry: true,
-      exclude: ['**/*.stories.*'],
+      exclude: ['**/*.stories.*', '**/*.test.*', '**/__tests__/**'],
     }),
   ],
 
@@ -40,7 +40,7 @@ export default defineConfig({
       },
       external: (id) => {
         // 1️⃣ exclude story files
-        if (id.includes('.stories.')) return true;
+        if (id.includes('.stories.') || id.includes('.test.')) return true;
 
         // 2️⃣ exclude deps (and subpaths)
         return externals.some((pkg) => id === pkg || id.startsWith(`${pkg}/`));
@@ -53,7 +53,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: `${__dirname}/vitest-setup.ts`, // your Vitest setup file
     include: ['src/components/**/*.test.{ts,tsx}'], // only test src/components
-    exclude: ['node_modules', 'dist', 'scripts', '.storybook'], // ignore heavy folders
+    exclude: ['node_modules', 'dist', 'scripts', '.storybook'],
     isolate: true, // isolate modules per test file
     watch: false, // disable watch in CI for speed
     css: false, // skip CSS transforms unless needed
@@ -61,8 +61,8 @@ export default defineConfig({
     coverage: {
       provider: 'v8', // fastest coverage engine
       reporter: ['text', 'html'],
-      include: ['src/components/**/*.{ts,tsx}'],
-      exclude: ['**/*.stories.*', '**/index.ts'], // optional
+      include: ['src/components/**/*.test.{ts,tsx}'],
+      exclude: ['node_modules', 'dist', 'scripts', '.storybook'],
     },
     logHeapUsage: false,
   },

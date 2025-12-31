@@ -1,12 +1,13 @@
 import { batch } from '@utilities';
-import { ActionButton } from './action';
-import { IconButton } from './icon';
+import { ActionButton, ActionButtonProps } from './action';
+import { IconButton, IconButtonProps } from './icon';
 import { NegativeButton } from './negative';
 import { PrimaryButton } from './primary';
-import { SecondaryButton } from './secondary';
-import { SecondaryQuietButton } from './secondaryQuiet';
-import { TertiaryButton } from './tertiary';
-import { TextButton } from './text';
+import { SecondaryButton, } from './secondary';
+import { SecondaryQuietButton, } from './secondaryQuiet';
+import { TertiaryButton, } from './tertiary';
+import { TextButton, TextButtonProps } from './text';
+import { ButtonProps } from './shared';
 
 const Button = batch({
   Primary: PrimaryButton,
@@ -19,4 +20,12 @@ const Button = batch({
   Text: TextButton,
 });
 
-export { Button };
+export {
+  Button
+};
+export type {
+  ButtonProps,
+  TextButtonProps,
+  ActionButtonProps,
+  IconButtonProps
+}

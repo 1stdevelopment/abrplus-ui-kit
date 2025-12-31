@@ -1,11 +1,11 @@
 import { InputRef } from 'antd';
 
 import { batch } from '@utilities';
-import { InputTextArea } from './TextArea';
-import { InputDefault } from './default';
-import { EmojiPicker } from './emojiPicker';
-import { InputGhost } from './ghost';
-import { InputNumber } from './number';
+import { InputTextArea, InputTextAreaProps } from './TextArea';
+import { InputDefault, InputDefaultProps } from './default';
+import { EmojiPicker, EmojiPickerInputProps } from './emojiPicker';
+import { InputGhost, InputGhostProps } from './ghost';
+import { InputNumber, InputNumberProps } from './number';
 import { InputSearch, InputSearchProps } from './search';
 
 const Input = batch({
@@ -18,4 +18,12 @@ const Input = batch({
 });
 
 export { Input };
-export type { InputRef, InputSearchProps };
+export type {
+  InputRef,
+  InputSearchProps,
+  InputTextAreaProps,
+  InputDefaultProps,
+  EmojiPickerInputProps,
+  InputGhostProps,
+  InputNumberProps
+};

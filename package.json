@@ -1,10 +1,9 @@
 {
   "name": "abrplus-ui-kit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "module": "dist/index.es.js",
   "types": "dist/types/index.d.ts",
-  "style": "dist/index.css",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
@@ -27,6 +26,7 @@
       "require": "./dist/antOverrides.cjs.js"
     }
   },
+  "style": "dist/index.css",
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write --cache .  --plugin=prettier-plugin-organize-imports",

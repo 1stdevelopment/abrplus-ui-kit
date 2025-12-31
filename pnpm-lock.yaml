@@ -44,6 +44,9 @@ dependencies:
   react-route-type:
     specifier: '*'
     version: 4.3.5(react-router-dom@6.30.2)(typescript@5.9.3)
+  starkstring:
+    specifier: '*'
+    version: 0.4.4
   tailwind-merge:
     specifier: ^1.14
     version: 1.14.0
@@ -265,9 +268,6 @@ devDependencies:
   rollup-plugin-visualizer:
     specifier: ^6.0.5
     version: 6.0.5(rollup@2.79.2)
-  starkstring:
-    specifier: ^0.4.4
-    version: 0.4.4
   storybook:
     specifier: 7.6.10
     version: 7.6.10
@@ -17379,7 +17379,7 @@ packages:
 
   /starkstring@0.4.4:
     resolution: {integrity: sha512-eQT59M8ICFGWUZXNRFpY++RDROJi73LeTLbS0lMm7IZeB3d5/qwuuV0exFvM/fWKjp3rnDOfm7VasHoyBg6FdQ==}
-    dev: true
+    dev: false
 
   /static-eval@2.0.2:
     resolution: {integrity: sha512-N/D219Hcr2bPjLxPiV+TQE++Tsmrady7TqAJugLy7Xk1EumfDWS/f5dtBbkRCGE7wKKXuYockQoj8Rm2/pVKyg==}

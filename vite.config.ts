@@ -6,7 +6,15 @@ import dts from 'vite-plugin-dts';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
 
-const externals = ['react', 'react-dom', 'antd', '@ant-design/icons'];
+const externals = [
+  'react',
+  'react-dom',
+  'antd',
+  '@ant-design/icons',
+  'tailwind-merge',
+  'react-route-type',
+  'starkstring',
+];
 export default defineConfig({
   plugins: [
     react(),
@@ -31,9 +39,9 @@ export default defineConfig({
       formats: ['es', 'cjs'],
       fileName: (format, entryName) => `${entryName}.${format}.js`,
     },
-
+    cssCodeSplit: true, 
     sourcemap: false,
-    minify: 'esbuild',
+    minify: 'terser',
     rollupOptions: {
       output: {
         assetFileNames: 'index.[ext]',

@@ -43,7 +43,7 @@ export default defineConfig({
     },
     cssCodeSplit: true, 
     sourcemap: false,
-    minify: false,
+    minify: 'terser',
     rollupOptions: {
       output: {
         assetFileNames: 'index.[ext]',

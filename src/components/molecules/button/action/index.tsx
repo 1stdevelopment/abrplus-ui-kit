@@ -1,11 +1,10 @@
+import { Platform, colors } from '@configs';
+import { Render } from 'src/components/atoms/behavioralAtoms/render';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, Platform } from '@configs';
-
-import { Render } from 'src/components/atoms/render';
 import { Flex, Loading, Text } from '../../..';
 import { Icon } from '../../../atoms';
-import { buttonDefaultClasses, ButtonProps, fontSizePicker, paddingPicker } from '../shared';
+import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
 export interface ActionButtonProps extends ButtonProps {
   platform: Platform;
@@ -64,13 +63,13 @@ const ActionButton = ({
         ...style,
       }}
       className={twMerge(
-        'disabled:bg-light-6 bg-repo ',
+        'bg-repo disabled:bg-light-6 ',
         getColorClass(),
         paddingPicker(!!iconName)[iconPosition][mode || 'block'],
         fontSizePicker[mode || 'block'],
         buttonDefaultClasses,
         mode === 'block' && 'w-full',
-        (disabled || isLoading) && 'border-light-6 cursor-not-allowed',
+        (disabled || isLoading) && 'cursor-not-allowed border-light-6',
         className,
       )}
       disabled={disabled || isLoading}

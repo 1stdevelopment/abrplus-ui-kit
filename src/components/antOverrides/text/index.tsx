@@ -1,10 +1,9 @@
+import { colors } from '@configs';
 import { CSSProperties, useEffect, useRef, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { colors } from '@configs';
-
+import { Render } from '../../atoms';
 import { Icon, IconsNames } from '../../atoms/icon';
-import { Render } from '../../atoms/render';
 import { Flex } from '../flex';
 import { Tooltip } from '../tooltip';
 
@@ -114,7 +113,7 @@ const Text = ({
       dir={lang === 'fa' ? 'rtl' : 'ltr'}
       lang={_lang}
       className={twMerge(
-        'selection:text-white-ff selection:bg-primary-dark-1 w-fit ',
+        'w-fit selection:bg-primary-dark-1 selection:text-white-ff ',
         as === 'link' && 'cursor-pointer',
         as === 'link' && underlineAsLink && 'cursor-pointer underline-offset-4 hover:underline',
         transform === 'lowercase' && 'lowercase',
@@ -151,7 +150,7 @@ const Text = ({
         gap={8}
         align="center"
         className={twMerge(
-          dashedUnderline && 'border-secondary mb-2 h-5 cursor-pointer border-b border-dashed',
+          dashedUnderline && 'mb-2 h-5 cursor-pointer border-b border-dashed border-secondary',
         )}
         onClick={onWrapperClick}
       >

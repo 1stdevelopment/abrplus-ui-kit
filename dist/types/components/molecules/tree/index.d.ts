@@ -1,7 +1,7 @@
+import { ITreeOption } from '../../../configs';
 import { FetchNextPageOptions, InfiniteData, InfiniteQueryObserverResult } from '@tanstack/react-query';
 import { TreeProps as AntTreeProps } from 'antd/lib';
 import { ReactNode } from 'react';
-import { ITreeOption } from '../../../configs';
 import { IconsNames } from '../../atoms/icon';
 export interface TreeProps<T extends TreeDataType> extends Omit<AntTreeProps, 'switcherIcon' | 'icon' | 'treeData'> {
     switcherIconName?: IconsNames;

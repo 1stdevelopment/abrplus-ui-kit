@@ -2,7 +2,7 @@ import { jsx as n, jsxs as v } from "react/jsx-runtime";
 import { Avatar as d, ConfigProvider as w, Dropdown as N, Image as I } from "antd";
 import { twMerge as m } from "tailwind-merge";
 import { useState as L, useEffect as S } from "react";
-import { F as g, L as b } from "./index-BTGezll4.js";
+import { F as g, L as b } from "./index-CuJ3T9JN.js";
 const y = ({ className: e, ...o }) => /* @__PURE__ */ n(d, { ...o, className: m("bg-light-7 border-primary-light-3", e) }), B = ({ className: e, max: o, ...t }) => /* @__PURE__ */ n(d.Group, { max: o, ...t, className: m(e) });
 y.Group = B;
 const D = {

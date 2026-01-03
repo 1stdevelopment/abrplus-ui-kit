@@ -1,10 +1,10 @@
-import React from 'react';
-
 import { colors } from '@configs';
+import React from 'react';
 
 import { Flex } from '../../antOverrides/flex';
 import { Text } from '../../antOverrides/text';
-import { Render } from '../render';
+import { Render } from '../behavioralAtoms/render';
+
 export interface BorderedTitleProps {
   title: string | React.ReactNode;
   align?: 'start' | 'center' | 'end';
@@ -21,7 +21,7 @@ const BorderedTitle = ({
   return (
     <Flex className="w-full" align="center" gap={8}>
       <Render when={align !== 'start'}>
-        <hr className="border-light-7 flex  h-[1px] flex-1 border" />
+        <hr className="flex h-[1px]  flex-1 border border-light-7" />
       </Render>
       <Render when={typeof title === 'string'} fallback={title}>
         <Text size={textSize} color={textColor} weight="medium">
@@ -29,7 +29,7 @@ const BorderedTitle = ({
         </Text>
       </Render>
       <Render when={align !== 'end'}>
-        <hr className="border-light-7 flex h-[1px] flex-1 border" />
+        <hr className="flex h-[1px] flex-1 border border-light-7" />
       </Render>
     </Flex>
   );

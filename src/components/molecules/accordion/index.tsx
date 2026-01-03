@@ -1,10 +1,9 @@
+import { colors } from '@configs';
 import { Collapse } from 'antd';
 import { Children, ReactElement, RefObject, useMemo } from 'react';
+import { Render } from 'src/components/atoms/behavioralAtoms/render';
 import { twMerge } from 'tailwind-merge';
 
-import { colors } from '@configs';
-
-import { Render } from 'src/components/atoms/render';
 import { Icon, Text } from '../..';
 
 interface AccordionItem {
@@ -92,7 +91,7 @@ const Accordion = ({
               <Render when={index !== props.length - 1}>
                 <div
                   className={twMerge(
-                    'border-primary-light-2 absolute left-[calc(50%-0.5px)] top-[25px] z-0 h-full w-[1px] border-l-[1px] border-dashed',
+                    'absolute left-[calc(50%-0.5px)] top-[25px] z-0 h-full w-[1px] border-l-[1px] border-dashed border-primary-light-2',
                     currentIndex > index && 'border-positive-light-2',
                   )}
                 />
@@ -120,7 +119,7 @@ const Accordion = ({
             )}
             style={{ boxShadow: '0 1px 6px 0 rgba(72, 88, 118, 0.16)' }}
             className={twMerge(
-              `bg-white-ff w-full overflow-hidden border-b-0 [&_.ant-collapse-header]:cursor-default`,
+              `w-full overflow-hidden border-b-0 bg-white-ff [&_.ant-collapse-header]:cursor-default`,
               !indexedStyle
                 ? '[&_.ant-collapse-header]:!bg-action/10'
                 : transparent

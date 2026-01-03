@@ -1,8 +1,7 @@
+import { colors } from '@configs';
+import { Render } from 'src/components/atoms/behavioralAtoms/render';
 import { twMerge } from 'tailwind-merge';
 
-import { colors } from '@configs';
-
-import { Render } from 'src/components/atoms/render';
 import { Flex, Loading, Text } from '../../..';
 import { Icon } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
@@ -32,8 +31,8 @@ const SecondaryButton = ({
       lang={lang}
       style={{ height, ...style }}
       className={twMerge(
-        'hover:bg-primary-light-1 active:bg-primary-dark-1 disabled:bg-light-6 [&_p]:text-primary [&_p]:hover:text-white-ff [&_svg]:hover:!fill-white-ff bg-transparent',
-        'border-primary hover:border-primary-light-1 active:border-primary-dark-1 disabled:bg-light-6 border-[2px] border-solid',
+        'bg-transparent hover:bg-primary-light-1 active:bg-primary-dark-1 disabled:bg-light-6 [&_p]:text-primary [&_p]:hover:text-white-ff [&_svg]:hover:!fill-white-ff',
+        'border-[2px] border-solid border-primary hover:border-primary-light-1 active:border-primary-dark-1 disabled:bg-light-6',
         paddingPicker(!!iconName)[iconPosition][mode || 'block'],
         fontSizePicker[mode || 'block'],
         buttonDefaultClasses,

@@ -1,6 +1,6 @@
+import { InputFieldError } from '../../../../configs';
 import { InputProps, InputRef } from 'antd';
 import { SizeType } from 'antd/es/config-provider/SizeContext';
-import { InputFieldError } from '../../../../configs';
 export interface InputDefaultProps extends Omit<InputProps, 'dir'> {
     helperText?: string;
     label?: React.ReactNode;

@@ -1,5 +1,5 @@
-import { RangePickerProps as Props } from 'jalaali-react-date-picker';
 import { InputFieldError } from '../../../configs';
+import { RangePickerProps as Props } from 'jalaali-react-date-picker';
 export interface RangePickerProps extends Omit<Props, 'wrapperClassName' | 'error'> {
     wrapperClassName?: string;
     /**

@@ -1,5 +1,6 @@
-import { c } from "./colors-BmRCmHtR.js";
-const config = {
+import { i } from "./index-DD7ZOJPU.js";
+import { c } from "./colors-JhMxZzJC.js";
+const f = {
   content: { files: ["./src/**/*.{js,ts,jsx,tsx,html}"] },
   theme: {
     fontFamily: {
@@ -99,7 +100,21 @@ const config = {
     }
   }
 };
+class a {
+  static instance = null;
+  configs;
+  constructor(t) {
+    this.configs = t, this.init();
+  }
+  static config(t = {}) {
+    return a.instance || (a.instance = new a(t)), a.instance;
+  }
+  init() {
+    i(this.configs.locales?.lang, this.configs.locales?.resources);
+  }
+}
 export {
+  a as AbrplusUIKit,
   c as colors,
-  config as tailwindConfig
+  f as tailwindConfig
 };

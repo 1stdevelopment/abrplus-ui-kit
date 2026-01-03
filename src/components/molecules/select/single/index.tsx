@@ -1,11 +1,10 @@
+import { Language, colors, i18n } from '@configs';
+import { useInteractions } from '@hooks';
 import { Select as AntSelect, ConfigProvider } from 'antd';
 import { LabeledValue } from 'antd/lib/select';
 import React, { ReactElement, forwardRef, useCallback, useEffect, useMemo, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, i18nInstance } from '@configs';
-
-import { useInteractions } from '@hooks';
 import { InputErrorMessage } from '../../';
 import { Flex, InfiniteLoader, Loading, Text } from '../../../antOverrides';
 import { Icon } from '../../../atoms';
@@ -145,13 +144,13 @@ export const SingleSelect = forwardRef(
               <Flex
                 className={twMerge(
                   'h-10 w-full flex-1 items-center justify-between border-r-2 border-r-transparent px-4',
-                  'hover:border-r-primary hover:border-r-2',
+                  'hover:border-r-2 hover:border-r-primary',
                 )}
               >
                 <Text
                   weight={isActive ? 'bold' : 'normal'}
                   color={colors.primary_dark_1}
-                  lang={lang || i18nInstance.language}
+                  lang={lang || (i18n.language as Language)}
                   className="max-w-full overflow-hidden text-ellipsis"
                 >
                   {labelExtractor(item)}
@@ -273,7 +272,7 @@ export const SingleSelect = forwardRef(
                         gap={8}
                         flex={1}
                         align="center"
-                        className="border-light-7 border-t px-4 py-2"
+                        className="border-t border-light-7 px-4 py-2"
                       >
                         {footer}
                       </Flex>
@@ -313,7 +312,7 @@ export const SingleSelect = forwardRef(
                         gap={8}
                         flex={1}
                         align="center"
-                        className="border-light-7 border-t px-4 py-2"
+                        className="border-t border-light-7 px-4 py-2"
                       >
                         {footer}
                       </Flex>
@@ -348,7 +347,10 @@ export const SingleSelect = forwardRef(
                       renderSelectedItem ? (
                         renderSelectedItem(item)
                       ) : (
-                        <Text color={colors.primary_dark_1} lang={lang || i18nInstance.language}>
+                        <Text
+                          color={colors.primary_dark_1}
+                          lang={lang || (i18n.language as Language)}
+                        >
                           {labelExtractor(item)}
                         </Text>
                       )

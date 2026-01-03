@@ -1,5 +1,4 @@
-"use strict";
-const colors = {
+const _ = {
   white_ff: "#ffffff",
   white_ff_10: "#ffffff10",
   white_ff_15: "#ffffff15",
@@ -103,4 +102,6 @@ const colors = {
     action_light_3: "#81A2EE"
   }
 };
-exports.colors = colors;
+export {
+  _ as c
+};

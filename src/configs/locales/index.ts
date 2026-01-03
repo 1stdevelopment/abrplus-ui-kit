@@ -43,4 +43,4 @@ const getLanguageName = () => {
   return languageNames[(i18n.language as keyof typeof languageNames) || 'fa'];
 };
 
-export { i18n, initializeI18n, getLanguageName };
+export { getLanguageName, i18n, initializeI18n };

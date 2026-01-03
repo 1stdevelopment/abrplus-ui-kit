@@ -1,4 +1,4 @@
-import { ErrorLike, i18nInstance, InternalRequestError } from '@configs';
+import { ErrorLike, InternalRequestError, i18n } from '@configs';
 
 export function getErrorMessage(error?: unknown | false | null): string {
   if (!error) {
@@ -7,7 +7,7 @@ export function getErrorMessage(error?: unknown | false | null): string {
 
   // ✅ InternalRequestError (using your static guard)
   if (InternalRequestError.isRequestError(error)) {
-    return error.message || i18nInstance.t('common.error.errorOccurred');
+    return error.message || i18n.t('common.error.errorOccurred');
   }
 
   // ✅ string error
@@ -25,5 +25,5 @@ export function getErrorMessage(error?: unknown | false | null): string {
     return (error as ErrorLike).message!;
   }
 
-  return i18nInstance.t('common.error.errorOccurred');
+  return i18n.t('common.error.errorOccurred');
 }

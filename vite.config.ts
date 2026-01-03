@@ -42,9 +42,8 @@ export default defineConfig({
       formats: ['es', 'cjs'],
       fileName: (format, entryName) => `${entryName}.${format}.js`,
     },
-    cssCodeSplit: true, 
+    cssCodeSplit: true,
     sourcemap: false,
-    minify: false,
     rollupOptions: {
       output: {
         assetFileNames: 'index.[ext]',

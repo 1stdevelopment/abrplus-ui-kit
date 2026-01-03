@@ -1,4 +1,5 @@
 import { batch } from '@utilities';
+
 import { ActionButton, ActionButtonProps } from './action';
 import { IconButton, IconButtonProps } from './icon';
 import { NegativeButton } from './negative';
@@ -26,6 +27,5 @@ const Button = batch({
   Text: TextButton,
 });
 
-// eslint-disable-next-line react-refresh/only-export-components
 export { Button, buttonDefaultClasses, fontSizePicker, paddingPicker };
 export type { ActionButtonProps, ButtonMode, ButtonProps, IconButtonProps, TextButtonProps };

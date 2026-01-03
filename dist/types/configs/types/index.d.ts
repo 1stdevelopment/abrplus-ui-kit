@@ -30,3 +30,4 @@ export declare class InternalRequestError extends Error {
     isApiException: boolean;
     static isRequestError(error: any): error is InternalRequestError;
 }
+export type ClientError = Error | InternalRequestError | null;

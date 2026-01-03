@@ -1,4 +1,4 @@
-import '@configs/theme/global.css';
+import '@configs/css/global.css';
 
 import tailwindConfig from './configs/tailwindcss/index';
 

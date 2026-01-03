@@ -52,3 +52,5 @@ export class InternalRequestError extends Error {
     return error.isApiException;
   }
 }
+
+export type ClientError = Error | InternalRequestError | null;

@@ -1,91 +1,46 @@
-import i18n, { i18n as OriginalI18n } from 'i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+//ignore-localize
+import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import { AppDirection } from '../types';
 import en from './en';
 import fa from './fa';
-import { I18nextTFunction } from './i18nextTFunction';
-import { Fa } from './locale';
 
-type TranslationKey = keyof typeof fa;
-interface I18nInstance extends Omit<OriginalI18n, 't' | 'language'> {
-  language: 'fa' | 'en';
-  t: I18nextTFunction<Fa>;
-}
+const languageNames = {
+  fa: 'فارسی',
+  en: 'English',
+};
 
-const i18nInstance = i18n as I18nInstance;
+export type Language = keyof typeof languageNames;
+export type Resources = Record<Language, Record<string, string>>;
 
-function getDefaultLanguage(): string {
-  if (typeof window === 'undefined') return 'fa'; // fallback for Node/SSR
-  return localStorage.getItem('language') ?? 'fa';
-}
+i18n.use(initReactI18next);
 
-export const defaultLanguage = getDefaultLanguage();
-
-i18nInstance.use(initReactI18next).use(LanguageDetector);
-
-function getValidLanguage(lang: string) {
-  if (['fa', 'en'].includes(lang)) {
+function getValidLanguage(lang: Language) {
+  if (lang === 'fa' || lang === 'en') {
     return lang;
   }
 
-  return defaultLanguage;
+  return 'fa';
 }
 
-function onLanguageChange(lang: string) {
-  try {
-    const htmlCollection = document.getElementsByTagName('html');
-    const bodyCollection = document.getElementsByTagName('body');
-
-    const htmlTags = Array.from(htmlCollection);
-    const bodyTags = Array.from(bodyCollection);
-
-    htmlTags.forEach((htmlTag) => {
-      htmlTag.lang = lang;
-    });
-
-    bodyTags.forEach((bodyTag) => {
-      const direction: AppDirection = lang === 'fa' ? 'rtl' : 'ltr';
-
-      const bodyClasses = Array.from(bodyTag.classList.values());
-
-      const bodyDirClasses = bodyClasses.filter((bodyClass) => bodyClass.startsWith('direction'));
-
-      bodyTag.classList.remove(...bodyDirClasses);
-      bodyTag.classList.add(`direction-${direction}`);
-    });
-  } catch (error) {
-    //
-  }
-}
-
-i18nInstance
-  .init({
+const initializeI18n = (lang: Language = 'fa', resources?: Resources) => {
+  i18n.init({
     resources: {
       fa: {
-        translation: fa,
+        translation: { ...fa, ...resources?.fa },
       },
       en: {
-        translation: en,
+        translation: { ...en, ...resources?.en },
       },
     },
-    lng: getValidLanguage(defaultLanguage),
-    fallbackLng: defaultLanguage,
-    detection: {
-      caches: ['localStorage', 'cookie'],
-      order: ['localStorage', 'cookie', 'htmlTag', 'navigator'],
-      lookupLocalStorage: 'language',
-      lookupCookie: 'language',
-    },
-  })
-  .then(() => {
-    if (typeof document !== 'undefined') {
-      onLanguageChange(getValidLanguage(defaultLanguage));
-
-      i18nInstance.on('languageChanged', onLanguageChange);
-    }
+    lng: getValidLanguage(lang as Language),
+    fallbackLng: 'fa',
+    debug: false,
   });
+};
 
-export { i18nInstance };
-export type { TranslationKey };
+const getLanguageName = () => {
+  return languageNames[(i18n.language as keyof typeof languageNames) || 'fa'];
+};
+
+export { i18n, initializeI18n, getLanguageName };

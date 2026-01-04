@@ -1,4 +1,4 @@
-// colors are auto-generated
+// Auto-Generated for Tailwind V3 */
 
 const config = {
   content: {

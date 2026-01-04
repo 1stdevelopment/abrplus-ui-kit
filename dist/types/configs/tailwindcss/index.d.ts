@@ -87,11 +87,6 @@ declare const config: {
             'form-action-light-1': string;
             'form-action-light-2': string;
             'form-action-light-3': string;
-            'task-action': string;
-            'task-action-dark-1': string;
-            'task-action-light-1': string;
-            'task-action-light-2': string;
-            'task-action-light-3': string;
             'rayan-action': string;
             'rayan-action-dark-1': string;
             'rayan-action-light-1': string;

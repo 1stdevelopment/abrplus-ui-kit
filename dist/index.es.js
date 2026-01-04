@@ -1,6 +1,6 @@
 import { i } from "./index-DD7ZOJPU.js";
 import { c } from "./colors-JhMxZzJC.js";
-const f = {
+const o = {
   content: { files: ["./src/**/*.{js,ts,jsx,tsx,html}"] },
   theme: {
     fontFamily: {
@@ -87,11 +87,6 @@ const f = {
       "form-action-light-1": "#00CCB7",
       "form-action-light-2": "#03D5C4",
       "form-action-light-3": "#05E4DB",
-      "task-action": "#5066D4",
-      "task-action-dark-1": "#3C4C9F",
-      "task-action-light-1": "#617ADD",
-      "task-action-light-2": "#6D8AE3",
-      "task-action-light-3": "#81A2EE",
       "rayan-action": "#5066D4",
       "rayan-action-dark-1": "#3C4C9F",
       "rayan-action-light-1": "#617ADD",
@@ -116,5 +111,5 @@ class a {
 export {
   a as AbrplusUIKit,
   c as colors,
-  f as tailwindConfig
+  o as tailwindConfig
 };

@@ -4670,7 +4670,7 @@ const Oe = {
       ),
       sales: Ne("bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1"),
       team: Ne("bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1"),
-      rayan: Ne("bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1")
+      rayan: Ne("bg-rayan-action hover:bg-rayan-action-light-1 active:bg-rayan-action-dark-1")
     };
     return u?.[a] || u.sales;
   };

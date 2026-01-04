@@ -49,7 +49,7 @@ const ActionButton = ({
       ),
       sales: twMerge('bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1'),
       team: twMerge('bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1'),
-      rayan: twMerge('bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1'),
+      rayan: twMerge('bg-rayan-action hover:bg-rayan-action-light-1 active:bg-rayan-action-dark-1'),
     };
 
     return data?.[platform] || data['sales'];

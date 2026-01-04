@@ -1,12 +1,14 @@
+import { Platform, colors } from '@configs';
+import { Render } from 'src/components/atoms/behavioralAtoms/render';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, getColorKey } from '@configs';
-
 import { Flex, Loading, Text } from '../../..';
-import { Render } from '../../../../utilities';
 import { Icon } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
+export interface ActionButtonProps extends ButtonProps {
+  platform: Platform;
+}
 const ActionButton = ({
   style,
   height,
@@ -18,19 +20,27 @@ const ActionButton = ({
   iconPosition = 'start',
   isLoading,
   lang = 'fa',
+  platform = 'sales',
   ...rest
-}: ButtonProps) => {
+}: ActionButtonProps) => {
   const getColor = () => {
-    if (disabled || isLoading) {
-      return colors[getColorKey()]['action_light_2'];
+    if ((disabled || isLoading) && platform) {
+      if (
+        platform === 'home' ||
+        platform === 'sandbox' ||
+        platform === 'bi' ||
+        platform === 'storybook'
+      )
+        return colors['sales']['action_light_2'];
+      return colors[platform]['action_light_2'];
     }
     return colors.white_ff;
   };
 
   const getColorClass = () => {
-    if (!__APP__) return;
+    if (!platform) return;
 
-    const data: Partial<Record<typeof __APP__, string>> = {
+    const data: Partial<Record<Platform, string>> = {
       bi: twMerge('bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1'),
       call: twMerge('bg-call-action hover:bg-call-action-light-1 active:bg-call-action-dark-1'),
       club: twMerge('bg-club-action hover:bg-club-action-light-1 active:bg-club-action-dark-1'),
@@ -39,9 +49,10 @@ const ActionButton = ({
       ),
       sales: twMerge('bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1'),
       team: twMerge('bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1'),
+      rayan: twMerge('bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1'),
     };
 
-    return data?.[__APP__] || data['sales'];
+    return data?.[platform] || data['sales'];
   };
 
   return (
@@ -52,13 +63,13 @@ const ActionButton = ({
         ...style,
       }}
       className={twMerge(
-        'disabled:bg-light-6 bg-repo ',
+        'bg-repo disabled:bg-light-6 ',
         getColorClass(),
         paddingPicker(!!iconName)[iconPosition][mode || 'block'],
         fontSizePicker[mode || 'block'],
         buttonDefaultClasses,
         mode === 'block' && 'w-full',
-        (disabled || isLoading) && 'border-light-6 cursor-not-allowed',
+        (disabled || isLoading) && 'cursor-not-allowed border-light-6',
         className,
       )}
       disabled={disabled || isLoading}

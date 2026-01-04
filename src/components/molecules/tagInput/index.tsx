@@ -1,10 +1,8 @@
-import '@abrplus/config/assets/css/styles.css';
-
 import { Select as AntSelect, ConfigProvider } from 'antd';
 import React, { ReactElement, forwardRef, useCallback, useMemo, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { useInteractions } from '@configs';
+import { useInteractions } from '@hooks';
 
 import { InputErrorMessage, Tag } from '../..';
 import { Flex, InfiniteLoader, Loading, Text } from '../../antOverrides';
@@ -366,3 +364,5 @@ export const TagInput = forwardRef(
 ) as <T extends Record<string, any> = DefaultSelectOption>(
   props: TagInputProps<T> & { ref?: React.ForwardedRef<HTMLUListElement> },
 ) => ReactElement | null;
+
+export type { SelectOption, TagInputProps } from './types';

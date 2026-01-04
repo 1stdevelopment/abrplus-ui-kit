@@ -1,9 +1,8 @@
+import { colors } from '@configs';
+import { Render } from 'src/components/atoms/behavioralAtoms/render';
 import { twMerge } from 'tailwind-merge';
 
-import { colors } from '@configs';
-
 import { Flex, Loading, Text } from '../../..';
-import { Render } from '../../../../utilities';
 import { Icon } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
@@ -38,7 +37,7 @@ const PrimaryButton = ({
         fontSizePicker[mode || 'block'],
         buttonDefaultClasses,
         mode === 'block' && 'w-full',
-        (disabled || isLoading) && 'border-light-6 cursor-not-allowed',
+        (disabled || isLoading) && 'cursor-not-allowed border-light-6',
         className,
       )}
       disabled={disabled || isLoading}

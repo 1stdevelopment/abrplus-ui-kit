@@ -1,10 +1,14 @@
 import { useTranslation } from 'react-i18next';
 
 import { colors } from '@configs';
-import { Flex, Icon, SelectProps, Text } from '@abrplus/ui';
+import { Flex, Text } from 'src/components/antOverrides';
+import { Icon } from 'src/components/atoms';
+import { SelectProps } from '../types';
 
-export interface SelectNotFoundProps
-  extends Pick<SelectProps<any>, 'error' | 'noContentFoundMessage'> {}
+export interface SelectNotFoundProps extends Pick<
+  SelectProps<any>,
+  'error' | 'noContentFoundMessage'
+> {}
 
 const SelectNotFound = ({ error, noContentFoundMessage }: SelectNotFoundProps) => {
   const { t } = useTranslation();

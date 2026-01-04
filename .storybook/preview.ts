@@ -1,5 +1,5 @@
 /** @type { import('@storybook/react').Preview } */
-import '@abrplus/config/assets/css/styles.css';
+import '../src/configs/theme/global.css';
 import './storybook.css';
 
 const preview = {

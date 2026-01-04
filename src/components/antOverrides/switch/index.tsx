@@ -4,7 +4,6 @@ import { ThemeConfig } from 'antd/lib';
 import { forwardRef } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-
 const SwitchThemeConfig: ThemeConfig = {
   components: {
     Switch: {

@@ -1,16 +1,16 @@
-import { dirname, join ,resolve} from 'path';
+import { dirname, join } from 'path';
 import tsconfigPaths from 'vite-tsconfig-paths';
 /**
  * This function is used to resolve the absolute path of a package.
  * It is needed in projects that use Yarn PnP or are set up within a monorepo.
  */
-function getAbsolutePath(value) {
+function getAbsolutePath(value: string) {
   return dirname(require.resolve(join(value, 'package.json')));
 }
 
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     getAbsolutePath('@storybook/addon-links'),
     getAbsolutePath('@storybook/addon-essentials'),
@@ -19,7 +19,7 @@ const config = {
     getAbsolutePath('@storybook/addon-actions'),
     getAbsolutePath('@storybook/addon-essentials'),
     getAbsolutePath('@storybook-addon-faker/addon'),
-  ], 
+  ],
   framework: {
     name: getAbsolutePath('@storybook/react-vite'),
     options: {},
@@ -27,20 +27,16 @@ const config = {
   docs: {
     autodocs: 'tag',
   },
-  async viteFinal(config) {
+  async viteFinal(config: any) {
     config.plugins.push(tsconfigPaths());
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@configs/*': resolve(__dirname, '../../logic/src/main.ts'),
     };
-// This Config is for ENV Parser
-  config.define = {
-    ...config.define,
-    APP_URL: "''",
-    IDENTITY_ORIGIN: "''",
-    ELECTRON_URL: "''"
-  }
+    // This Config is for ENV Parser
+    config.define = {
+      ...config.define,
+    };
 
     return config;
   },

@@ -1,0 +1,2 @@
+declare const PAGINATION_SIZE = "PAGINATION_SIZE";
+export { PAGINATION_SIZE };

@@ -1,5 +1,6 @@
-import { BorderedTitle, Flex, Icon } from '@abrplus/ui';
 import React, { useState } from 'react';
+import { Flex } from 'src/components/antOverrides';
+import { BorderedTitle, Icon } from 'src/components/atoms';
 
 export interface PropsTypes {
   title?: string;

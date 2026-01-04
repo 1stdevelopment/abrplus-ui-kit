@@ -1,6 +1,6 @@
 import { RefObject, useEffect } from 'react';
 
-import { useWindowDimensions } from '@configs';
+import { useWindowDimensions } from '@hooks';
 
 function fillRef<T>(ref: React.Ref<T> | undefined, node: T) {
   if (typeof ref === 'function') {

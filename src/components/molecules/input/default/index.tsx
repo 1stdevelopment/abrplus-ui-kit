@@ -1,3 +1,4 @@
+import { InputFieldError, colors } from '@configs';
 import { Input as AntInput, InputProps, InputRef } from 'antd';
 import { SizeType } from 'antd/es/config-provider/SizeContext';
 import { ChangeEvent, ForwardedRef, forwardRef, useCallback, useMemo } from 'react';
@@ -5,11 +6,9 @@ import { useTranslation } from 'react-i18next';
 import starkString from 'starkstring';
 import { twMerge } from 'tailwind-merge';
 
-import { InputFieldError, colors } from '@configs';
-
-import { Render } from '../../../../utilities/render';
 import { Flex } from '../../../antOverrides/flex';
 import { Text } from '../../../antOverrides/text';
+import { Render } from '../../../atoms/behavioralAtoms/render';
 import { Icon } from '../../../atoms/icon';
 import { Tooltip } from '../../../atoms/tooltip';
 import { InputErrorMessage } from '../../inputErrorMessage';
@@ -107,7 +106,7 @@ const InputDefault$ = (props: InputDefaultProps, ref: ForwardedRef<InputRef>) =>
 
       <AntInput
         ref={ref}
-        className="text-primary-dark-1 hover:border-primary-light-2 w-full text-[14px] font-medium outline-none"
+        className="w-full text-[14px] font-medium text-primary-dark-1 outline-none hover:border-primary-light-2"
         classNames={{
           input: twMerge(
             (lang || i18n.language) === 'fa'

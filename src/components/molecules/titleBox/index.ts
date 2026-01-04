@@ -1,8 +1,9 @@
-import { batch } from '@configs';
+import { batch } from '@utilities';
 
-import { StatusBox } from './status';
-import { TitleBox } from './title';
+import { StatusBox, StatusBoxProps } from './status';
+import { TitleBox, TitleBoxProps } from './title';
 
 const Box = batch({ Title: TitleBox, Status: StatusBox });
 
 export { Box };
+export type { StatusBoxProps, TitleBoxProps };

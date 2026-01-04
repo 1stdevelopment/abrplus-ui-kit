@@ -7,8 +7,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { InputFieldError, colors } from '@configs';
 
-import { Flex, Icon, InputErrorMessage, Text } from '../../..';
-import { Render } from '../../../../utilities';
+import { Flex, Icon, InputErrorMessage, Render, Text } from '../../..';
 
 export interface InputNumberProps extends Omit<InputProps, 'onChange' | 'value' | 'height'> {
   helperText?: string;

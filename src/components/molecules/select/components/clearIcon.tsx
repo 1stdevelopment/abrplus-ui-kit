@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
-
-import { Icon } from '@abrplus/ui';
+import { Icon } from 'src/components/atoms';
 
 const SelectClearIcon = () => {
   const { i18n } = useTranslation();

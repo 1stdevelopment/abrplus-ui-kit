@@ -1,3 +1,4 @@
+import { ITreeOption, colors } from '@configs';
 import {
   FetchNextPageOptions,
   InfiniteData,
@@ -9,19 +10,18 @@ import { ReactNode, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { twMerge } from 'tailwind-merge';
 
-import { ITreeOption } from '@configs';
-
-import { colors } from '../../../../../logic/src/theme';
-import { Render } from '../../../utilities/render';
 import { Flex } from '../../antOverrides/flex';
 import { InfiniteLoader } from '../../antOverrides/infiniteLoader';
 import { Text } from '../../antOverrides/text';
+import { Render } from '../../atoms/behavioralAtoms/render';
 import { Icon, IconsNames } from '../../atoms/icon';
 import { IconButton } from '../button/icon';
 import { TreeSearchBar } from './searchBar';
 
-export interface TreeProps<T extends TreeDataType>
-  extends Omit<AntTreeProps, 'switcherIcon' | 'icon' | 'treeData'> {
+export interface TreeProps<T extends TreeDataType> extends Omit<
+  AntTreeProps,
+  'switcherIcon' | 'icon' | 'treeData'
+> {
   switcherIconName?: IconsNames;
   nodeClassName?: string;
   titleHeader: string;
@@ -161,7 +161,7 @@ export const Tree = <T extends TreeDataType>({
     <Flex
       vertical
       className={twMerge(
-        'bg-light-1 h-full w-[350px] max-w-[30px] transition-all',
+        'h-full w-[350px] max-w-[30px] bg-light-1 transition-all',
         '[&_.ant-tree_.ant-tree-node-content-wrapper:hover]:bg-primary-light-2/20',
         '[&_.ant-tree_.ant-tree-node-content-wrapper.ant-tree-node-selected]:bg-transparent',
       )}
@@ -175,7 +175,7 @@ export const Tree = <T extends TreeDataType>({
         <Flex
           gap={4}
           className={twMerge(
-            'border-light-7 relative pb-2.5 pl-0 pr-3 pt-3',
+            'relative border-light-7 pb-2.5 pl-0 pr-3 pt-3',
             isExpanded && 'border',
           )}
         >
@@ -196,18 +196,18 @@ export const Tree = <T extends TreeDataType>({
             iconName={!isExpanded ? 'Chevron_Right' : 'Chevron_Left'}
             onClick={handleDrawerToggle}
             data-testid="drawer-toggle"
-            className="bg-white-ff border-light-7 absolute left-[-10px] z-40 w-5 cursor-pointer items-center justify-center rounded-sm border p-2"
+            className="absolute left-[-10px] z-40 w-5 cursor-pointer items-center justify-center rounded-sm border border-light-7 bg-white-ff p-2"
           />
         </Flex>
       )}
-      <Render when={isExpanded && hasSearch}>
-        <Flex className=" bg-white-ff border-primary-light-3/60 border p-2">
-          <TreeSearchBar onSearch={onSearch} />
+      <Render when={isExpanded && hasSearch && onSearch}>
+        <Flex className=" border border-primary-light-3/60 bg-white-ff p-2">
+          <TreeSearchBar onSearch={onSearch!} />
         </Flex>
       </Render>
 
       {isExpanded && (
-        <div className="bg-white-ff tiny-custom-scrollbar flex h-full flex-col overflow-y-auto">
+        <div className="tiny-custom-scrollbar flex h-full flex-col overflow-y-auto bg-white-ff">
           {isLoading ? (
             <Spin size="large" />
           ) : treeData.length === 0 ? (
@@ -217,7 +217,7 @@ export const Tree = <T extends TreeDataType>({
           ) : infiniteProps ? (
             <div
               id="tree-scroll-container"
-              className=" bg-white-ff tiny-custom-scrollbar relative overflow-y-auto"
+              className=" tiny-custom-scrollbar relative overflow-y-auto bg-white-ff"
             >
               <InfiniteLoader
                 hasMore={infiniteProps?.hasMore}

@@ -4,7 +4,7 @@ import { Checkbox } from '..';
 describe('Checkbox and Checkbox Group Components', () => {
   // Test for individual Checkbox component
   it('renders and interacts with individual checkbox correctly', () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     const { container } = render(<Checkbox onChange={onChange}>Test Checkbox</Checkbox>);
 
     // Find the checkbox input element within the rendered container
@@ -53,7 +53,7 @@ describe('Checkbox and Checkbox Group Components', () => {
 
   // Test for Checkbox Group component
   it('renders and interacts with checkbox group correctly', () => {
-    const mockChangeHandler = jest.fn();
+    const mockChangeHandler = vi.fn();
     const { container } = render(
       <Checkbox.Group
         options={[

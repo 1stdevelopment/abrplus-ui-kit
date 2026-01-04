@@ -2,8 +2,9 @@ import { ReactNode, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { colors } from '@configs';
-
-import { Icon, Input, Text } from '@abrplus/ui';
+import { Text } from 'src/components/antOverrides';
+import { Icon } from 'src/components/atoms';
+import { Input } from '../input';
 
 export interface TagCollectionProps {
   tags?: { value: string; onRemove?: () => void }[];

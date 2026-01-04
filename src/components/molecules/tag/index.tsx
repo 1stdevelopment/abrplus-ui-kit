@@ -2,8 +2,9 @@ import { Tooltip } from 'antd';
 import React, { CSSProperties } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { colors, useInteractions } from '@configs';
+import { colors } from '@configs';
 
+import { useInteractions } from '@hooks';
 import { Flex, Icon, Image, Text } from '../..';
 
 export interface TagProps {

@@ -1,1 +1,6 @@
-export * from "./components";
+import '@configs/css/global.css';
+
+import tailwindConfig from './configs/tailwindcss/index';
+
+export { AbrplusUIKit, colors, type AbrplusUIKitType, type ColorScheme } from './configs';
+export { tailwindConfig };

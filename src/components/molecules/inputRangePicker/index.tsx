@@ -8,9 +8,8 @@ import { twMerge } from 'tailwind-merge';
 
 import { InputFieldError, colors } from '@configs';
 
-import { Flex, Icon, InputErrorMessage, Text, Tooltip } from '../..';
-import { datePickerColors } from '../../../core/constants';
-import { Render } from '../../../utilities';
+import { datePickerColors } from '@constants';
+import { Flex, Icon, InputErrorMessage, Render, Text, Tooltip } from '../..';
 
 export interface InputRangePickerProps extends Omit<Props, 'wrapperClassName' | 'error'> {
   wrapperClassName?: string;

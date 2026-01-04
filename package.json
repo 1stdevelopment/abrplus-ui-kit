@@ -31,7 +31,7 @@
       "require": "./dist/antOverrides.cjs.js"
     },
     "./style.css": "./dist/index.css",
-    "./theme.css": "./dist/index.css"
+    "./theme.css": "./dist/theme.css"
   },
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

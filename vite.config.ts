@@ -38,6 +38,7 @@ export default defineConfig({
         atoms: path.resolve(__dirname, 'src/components/atoms/index.ts'),
         molecules: path.resolve(__dirname, 'src/components/molecules/index.ts'),
         antOverrides: path.resolve(__dirname, 'src/components/antOverrides/index.ts'),
+        theme: path.resolve(__dirname, 'src/configs/tailwindcss/index.css'),
       },
       formats: ['es', 'cjs'],
       fileName: (format, entryName) => `${entryName}.${format}.js`,
@@ -46,7 +47,15 @@ export default defineConfig({
     sourcemap: false,
     rollupOptions: {
       output: {
-        assetFileNames: 'index.[ext]',
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name?.endsWith('.css') && assetInfo.name.includes('theme')) {
+            return 'theme.css';
+          }
+          if (assetInfo.name?.endsWith('.css')) {
+            return 'index.css';
+          }
+          return '[name].[ext]';
+        },
       },
       external: (id) => {
         // 1️⃣ exclude story files

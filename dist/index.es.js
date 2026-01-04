@@ -1,7 +1,10 @@
+/* empty css         */
 import { i } from "./index-DD7ZOJPU.js";
-import { c } from "./colors-JhMxZzJC.js";
-const o = {
-  content: { files: ["./src/**/*.{js,ts,jsx,tsx,html}"] },
+import { c as l } from "./colors-JhMxZzJC.js";
+const n = {
+  content: {
+    files: ["./src/**/*.{js,ts,jsx,tsx,html}"]
+  },
   theme: {
     fontFamily: {
       "yekan-normal": "YekanBakhFaRegular",
@@ -87,6 +90,11 @@ const o = {
       "form-action-light-1": "#00CCB7",
       "form-action-light-2": "#03D5C4",
       "form-action-light-3": "#05E4DB",
+      "task-action": "#5066D4",
+      "task-action-dark-1": "#3C4C9F",
+      "task-action-light-1": "#617ADD",
+      "task-action-light-2": "#6D8AE3",
+      "task-action-light-3": "#81A2EE",
       "rayan-action": "#5066D4",
       "rayan-action-dark-1": "#3C4C9F",
       "rayan-action-light-1": "#617ADD",
@@ -95,21 +103,21 @@ const o = {
     }
   }
 };
-class a {
+class t {
   static instance = null;
   configs;
-  constructor(t) {
-    this.configs = t, this.init();
+  constructor(a) {
+    this.configs = a, this.init();
   }
-  static config(t = {}) {
-    return a.instance || (a.instance = new a(t)), a.instance;
+  static config(a = {}) {
+    return t.instance || (t.instance = new t(a)), t.instance;
   }
   init() {
     i(this.configs.locales?.lang, this.configs.locales?.resources);
   }
 }
 export {
-  a as AbrplusUIKit,
-  c as colors,
-  o as tailwindConfig
+  t as AbrplusUIKit,
+  l as colors,
+  n as tailwindConfig
 };

@@ -30,7 +30,8 @@
       "import": "./dist/antOverrides.es.js",
       "require": "./dist/antOverrides.cjs.js"
     },
-    "./style.css": "./dist/index.css"
+    "./style.css": "./dist/index.css",
+    "./theme.css": "./dist/index.css"
   },
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -44,7 +45,7 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "gen:icon": "tsx scripts/icon.ts",
-    "gen:colors": "tsx scripts/colors-sync.ts",
+    "gen:tw": "tsx scripts/tailwind-config.ts",
     "build": "pnpm format && pnpm lint && pnpm test && vite build"
   },
   "peerDependencies": {

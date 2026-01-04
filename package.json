@@ -51,12 +51,9 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "antd": "^5",
-    "@ant-design/icons": "^5",
     "i18next": "^23",
     "react-i18next": "^13",
     "tailwind-merge": "^1.14",
-    "react-route-type": "*",
     "starkstring": "*",
     "react-router-dom": "^6"
   },
@@ -79,9 +76,6 @@
     "tailwind-merge": {
       "optional": true
     },
-    "react-route-type": {
-      "optional": true
-    },
     "starkstring": {
       "optional": true
     }
@@ -96,7 +90,8 @@
     "jalaali-react-date-picker": "https://github.com/1stdevelopment/jalaali-react-date-picker",
     "moment": "^2.29.4",
     "moment-jalaali": "^0.10.0",
-    "react-copy-to-clipboard": "5.1.0"
+    "react-copy-to-clipboard": "5.1.0",
+    "antd": "5.19.1"
   },
   "devDependencies": {
     "react": "^18.2.0",

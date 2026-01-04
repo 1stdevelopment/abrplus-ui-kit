@@ -1,0 +1,6 @@
+1- action-header color per app as platform
+2- language and resources
+3- icon button
+4- icon update automation
+5- replace moment with INTL
+6- starkstring remove (toCurrency)

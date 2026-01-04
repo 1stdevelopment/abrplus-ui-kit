@@ -10,12 +10,9 @@ const externals = [
   'react',
   'react-dom',
   'react-router-dom',
-  'antd',
-  '@ant-design/icons',
   'i18next',
   'react-i18next',
   'tailwind-merge',
-  'react-route-type',
   'starkstring',
 ];
 export default defineConfig({

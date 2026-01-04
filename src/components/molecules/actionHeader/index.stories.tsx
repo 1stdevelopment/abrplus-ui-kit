@@ -1,6 +1,7 @@
 // ActionHeader.stories.tsx
+import { Route } from '@configs';
 import { Meta, StoryObj } from '@storybook/react';
-import { Route } from 'react-route-type';
+
 import { ActionHeader, ActionHeaderProps } from '.';
 import { withReactRouter } from '../../../utilities/testUtils';
 import { Flex, Text } from '../../antOverrides';

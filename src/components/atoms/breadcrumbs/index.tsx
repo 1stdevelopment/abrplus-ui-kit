@@ -1,7 +1,6 @@
-import { Route } from 'react-route-type';
+import { Route, colors } from '@configs';
 import { Link } from 'react-router-dom';
 
-import { colors } from '@configs';
 import { Breadcrumb as AntBreadcrumb } from '../../antOverrides/breadcrumb';
 import { Text } from '../../antOverrides/text';
 import { Icon } from '../icon';

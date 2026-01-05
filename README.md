@@ -37,13 +37,11 @@ Ensure your project includes compatible peer dependencies:
 - `react >= 18`
 - `react-dom >= 18`
 - `antd ^5` (optional)
-- `@ant-design/icons ^5` (optional)
 - `i18next ^23` (optional)
 - `react-i18next ^13` (optional)
 - `react-router-dom ^6` (optional)
 - `tailwind-merge ^1.14` (optional)
 - `starkstring` (optional)
-- `react-route-type` (optional)
 
 ---
 

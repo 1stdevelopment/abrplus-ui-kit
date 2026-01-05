@@ -8,6 +8,7 @@ import { defineConfig } from 'vitest/config';
 
 const externals = [
   'react',
+  'antd',
   'react-dom',
   'react-router-dom',
   'i18next',

@@ -4,3 +4,4 @@
 4- icon update automation
 5- replace moment with INTL
 6- starkstring remove (toCurrency)
+7- transfer all consumer's antd import to library (organisms: Table, ...)

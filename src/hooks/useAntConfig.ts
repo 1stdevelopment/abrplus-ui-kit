@@ -1,19 +1,15 @@
-import { AppDirection, colors } from '@configs';
-import { ThemeConfig } from 'antd';
+import { AppDirection, Language, colors } from '@configs';
 import EN from 'antd/locale/en_US';
 import FA from 'antd/locale/fa_IR';
-import { useTranslation } from 'react-i18next';
 
-export const useAntConfig = () => {
-  const { i18n } = useTranslation();
-
-  const isFA = i18n.language === 'fa';
+export const useAntConfig = (language: Language) => {
+  const isFA = language === 'fa';
 
   const direction: AppDirection | undefined = isFA ? 'rtl' : 'ltr';
 
   const locale = isFA ? FA : EN;
 
-  const theme: ThemeConfig = {
+  const theme = {
     token: {
       fontFamily: isFA ? 'YekanBakhFaRegular' : 'RobotoRegular',
       colorPrimary: colors.primary,

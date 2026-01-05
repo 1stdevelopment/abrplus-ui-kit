@@ -1,3 +1,3 @@
 import { default as tailwindConfig } from './configs/tailwindcss/index';
-export { AbrplusUIKit, colors, type AbrplusUIKitType, type ColorScheme } from './configs';
+export { colors, type ColorScheme, AbrplusUIKitProvider, type AbrplusUIKitProviderProps, } from './configs';
 export { tailwindConfig };

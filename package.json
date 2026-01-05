@@ -1,6 +1,6 @@
 {
   "name": "abrplus-ui-kit",
-  "version": "0.1.3",
+  "version": "0.2.1",
   "type": "module",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
@@ -58,13 +58,7 @@
     "react-router-dom": "^6"
   },
   "peerDependenciesMeta": {
-    "antd": {
-      "optional": true
-    },
     "react-router-dom": {
-      "optional": true
-    },
-    "@ant-design/icons": {
       "optional": true
     },
     "i18next": {
@@ -96,7 +90,6 @@
   "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "antd": "5.19.1",
     "@ant-design/icons": "5.2.6",
     "@types/react": "^18.2.39",
     "@types/react-dom": "^18.2.17",

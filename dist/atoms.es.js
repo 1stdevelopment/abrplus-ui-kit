@@ -1,14 +1,35 @@
 import { jsx as m, jsxs as W } from "react/jsx-runtime";
 import * as d from "react";
-import { useMemo as _e, useRef as ae, useState as Ne, useEffect as oe, useCallback as st, Children as we, forwardRef as ct } from "react";
-import { g as me, K as ne, m as Ee, a as Me, r as U, u as g, C as J, i as He, c as L, b as ke, d as dt, e as We, f as ut, F as bt, h as ze, j as Pe, D as gt, W as mt, T as pt, k as ft, l as Ge, p as ht, I as vt, _ as $t, n as Ct, t as yt, o as Te, q as St, s as Ve, R as wt, v as xt, w as j, x as ge, y as le, z as Q, L as Ae, P as _t, A as Ot } from "./index-BP9D5tMR.js";
-import { C as Nt, T as Et, a as Fe, m as zt, b as qe, c as Xe, d as Ye, I as Ze, B as Pt } from "./index-BwnFy1Bt.js";
-import { e as dn, f as un, g as bn, h as gn, U as mn, V as pn } from "./index-BwnFy1Bt.js";
+import { useState as Ne, useEffect as oe, useMemo as _e, useRef as ae, useCallback as st, Children as we, forwardRef as ct } from "react";
+import { g as me, K as ne, m as Ee, a as Me, i as He, c as L, b as ke, F as dt, u as ze, W as ut, T as bt, d as gt, e as We, p as mt, I as pt, f as ft, t as ht, h as Te, R as vt, j as $t, k as j, l as ge, n as le, o as J, L as Ge, P as Ct } from "./index-5EnmYqom.js";
+import { r as U, u as g, a as Q, b as yt, d as Ve, e as St, f as Pe, D as wt, _ as xt, t as _t, h as Fe, c as T, C as Ot } from "./index-Bp79PD41.js";
+import { C as Nt, T as Et, a as Ae, m as zt, b as qe, c as Xe, d as Ye, I as Ze, B as Pt } from "./index-DOW51pwP.js";
+import { e as dn, f as un, g as bn, h as gn, U as mn, V as pn } from "./index-DOW51pwP.js";
 import { twMerge as D } from "tailwind-merge";
 import { useTranslation as Re } from "react-i18next";
-import { c as T } from "./colors-JhMxZzJC.js";
 import Rt from "react-dom";
-const It = new ne("antStatusProcessing", {
+function De() {
+  const { innerWidth: e, innerHeight: t } = typeof window > "u" ? {
+    innerWidth: 1024,
+    innerHeight: 768
+  } : window;
+  return {
+    width: e,
+    height: t
+  };
+}
+function It() {
+  const [e, t] = Ne(De()), r = [], o = () => {
+    const { width: n, height: i } = De();
+    (n !== e.width && r.includes("width") || i !== e.height && r.includes("height")) && t({ width: n, height: i });
+  };
+  return oe(() => (window.addEventListener("resize", o), () => window.removeEventListener("resize", o)), []), new Proxy(e, {
+    get(n, i) {
+      return r.push(i), n[i];
+    }
+  });
+}
+const jt = new ne("antStatusProcessing", {
   "0%": {
     transform: "scale(0.8)",
     opacity: 0.5
@@ -17,7 +38,7 @@ const It = new ne("antStatusProcessing", {
     transform: "scale(2.4)",
     opacity: 0
   }
-}), jt = new ne("antZoomBadgeIn", {
+}), Tt = new ne("antZoomBadgeIn", {
   "0%": {
     transform: "scale(0) translate(50%, -50%)",
     opacity: 0
@@ -25,7 +46,7 @@ const It = new ne("antStatusProcessing", {
   "100%": {
     transform: "scale(1) translate(50%, -50%)"
   }
-}), Tt = new ne("antZoomBadgeOut", {
+}), Dt = new ne("antZoomBadgeOut", {
   "0%": {
     transform: "scale(1) translate(50%, -50%)"
   },
@@ -33,7 +54,7 @@ const It = new ne("antStatusProcessing", {
     transform: "scale(0) translate(50%, -50%)",
     opacity: 0
   }
-}), Dt = new ne("antNoWrapperZoomBadgeIn", {
+}), Bt = new ne("antNoWrapperZoomBadgeIn", {
   "0%": {
     transform: "scale(0)",
     opacity: 0
@@ -41,7 +62,7 @@ const It = new ne("antStatusProcessing", {
   "100%": {
     transform: "scale(1)"
   }
-}), Bt = new ne("antNoWrapperZoomBadgeOut", {
+}), Lt = new ne("antNoWrapperZoomBadgeOut", {
   "0%": {
     transform: "scale(1)"
   },
@@ -49,7 +70,7 @@ const It = new ne("antStatusProcessing", {
     transform: "scale(0)",
     opacity: 0
   }
-}), Lt = new ne("antBadgeLoadingCircle", {
+}), Mt = new ne("antBadgeLoadingCircle", {
   "0%": {
     transformOrigin: "50%"
   },
@@ -57,7 +78,7 @@ const It = new ne("antStatusProcessing", {
     transform: "translate(50%, -50%) rotate(360deg)",
     transformOrigin: "50%"
   }
-}), Mt = (e) => {
+}), Ht = (e) => {
   const {
     componentCls: t,
     iconCls: r,
@@ -153,7 +174,7 @@ const It = new ne("antStatusProcessing", {
         transform: "translate(50%, -50%)",
         transformOrigin: "100% 0%",
         [`&${r}-spin`]: {
-          animationName: Lt,
+          animationName: Mt,
           animationDuration: "1s",
           animationIterationCount: "infinite",
           animationTimingFunction: "linear"
@@ -190,7 +211,7 @@ const It = new ne("antStatusProcessing", {
             borderStyle: "solid",
             borderColor: "inherit",
             borderRadius: "50%",
-            animationName: It,
+            animationName: jt,
             animationDuration: e.badgeProcessingDuration,
             animationIterationCount: "infinite",
             animationTimingFunction: "ease-in-out",
@@ -214,25 +235,25 @@ const It = new ne("antStatusProcessing", {
       }
     }), v), {
       [`${t}-zoom-appear, ${t}-zoom-enter`]: {
-        animationName: jt,
+        animationName: Tt,
         animationDuration: e.motionDurationSlow,
         animationTimingFunction: e.motionEaseOutBack,
         animationFillMode: "both"
       },
       [`${t}-zoom-leave`]: {
-        animationName: Tt,
+        animationName: Dt,
         animationDuration: e.motionDurationSlow,
         animationTimingFunction: e.motionEaseOutBack,
         animationFillMode: "both"
       },
       [`&${t}-not-a-wrapper`]: {
         [`${t}-zoom-appear, ${t}-zoom-enter`]: {
-          animationName: Dt,
+          animationName: Bt,
           animationDuration: e.motionDurationSlow,
           animationTimingFunction: e.motionEaseOutBack
         },
         [`${t}-zoom-leave`]: {
-          animationName: Bt,
+          animationName: Lt,
           animationDuration: e.motionDurationSlow,
           animationTimingFunction: e.motionEaseOutBack
         },
@@ -315,10 +336,10 @@ const It = new ne("antStatusProcessing", {
     textFontWeight: "normal",
     statusSize: o / 2
   };
-}, Ht = me("Badge", (e) => {
+}, kt = me("Badge", (e) => {
   const t = Ue(e);
-  return Mt(t);
-}, Je), kt = (e) => {
+  return Ht(t);
+}, Je), Wt = (e) => {
   const {
     antCls: t,
     badgeFontHeight: r,
@@ -388,9 +409,9 @@ const It = new ne("antStatusProcessing", {
       }
     })
   };
-}, Wt = me(["Badge", "Ribbon"], (e) => {
+}, Gt = me(["Badge", "Ribbon"], (e) => {
   const t = Ue(e);
-  return kt(t);
+  return Wt(t);
 }, Je), Qe = (e) => {
   const {
     className: t,
@@ -404,7 +425,7 @@ const It = new ne("antStatusProcessing", {
   } = e, {
     getPrefixCls: c,
     direction: u
-  } = d.useContext(J), b = c("ribbon", r), f = `${b}-wrapper`, [S, x, $] = Wt(b, f), v = He(n, !1), w = L(b, `${b}-placement-${l}`, {
+  } = d.useContext(Q), b = c("ribbon", r), f = `${b}-wrapper`, [S, x, $] = Gt(b, f), v = He(n, !1), w = L(b, `${b}-placement-${l}`, {
     [`${b}-rtl`]: u === "rtl",
     [`${b}-color-${n}`]: v
   }, t), p = {}, _ = {};
@@ -421,7 +442,7 @@ const It = new ne("antStatusProcessing", {
   }))));
 };
 process.env.NODE_ENV !== "production" && (Qe.displayName = "Ribbon");
-function De(e) {
+function Be(e) {
   let {
     prefixCls: t,
     value: r,
@@ -439,13 +460,13 @@ function De(e) {
     })
   }, r);
 }
-function Gt(e, t, r) {
+function Vt(e, t, r) {
   let o = e, n = 0;
   for (; (o + 10) % 10 !== t; )
     o += r, n += r;
   return n;
 }
-function Vt(e) {
+function Ft(e) {
   const {
     prefixCls: t,
     count: r,
@@ -463,7 +484,7 @@ function Vt(e) {
   }, [n]);
   let b, f;
   if (a === n || Number.isNaN(n) || Number.isNaN(a))
-    b = [/* @__PURE__ */ d.createElement(De, Object.assign({}, e, {
+    b = [/* @__PURE__ */ d.createElement(Be, Object.assign({}, e, {
       key: n,
       current: !0
     }))], f = {
@@ -477,7 +498,7 @@ function Vt(e) {
     const $ = x.findIndex((w) => w % 10 === a);
     b = x.map((w, p) => {
       const _ = w % 10;
-      return /* @__PURE__ */ d.createElement(De, Object.assign({}, e, {
+      return /* @__PURE__ */ d.createElement(Be, Object.assign({}, e, {
         key: w,
         value: _,
         offset: p - $,
@@ -486,7 +507,7 @@ function Vt(e) {
     });
     const v = s < i ? 1 : -1;
     f = {
-      transform: `translateY(${-Gt(a, n, v)}00%)`
+      transform: `translateY(${-Vt(a, n, v)}00%)`
     };
   }
   return /* @__PURE__ */ d.createElement("span", {
@@ -502,7 +523,7 @@ var At = function(e, t) {
     t.indexOf(o[n]) < 0 && Object.prototype.propertyIsEnumerable.call(e, o[n]) && (r[o[n]] = e[o[n]]);
   return r;
 };
-const Ft = /* @__PURE__ */ d.forwardRef((e, t) => {
+const qt = /* @__PURE__ */ d.forwardRef((e, t) => {
   const {
     prefixCls: r,
     count: o,
@@ -515,7 +536,7 @@ const Ft = /* @__PURE__ */ d.forwardRef((e, t) => {
     children: u
   } = e, b = At(e, ["prefixCls", "count", "className", "motionClassName", "style", "title", "show", "component", "children"]), {
     getPrefixCls: f
-  } = d.useContext(J), S = f("scroll-number", r), x = Object.assign(Object.assign({}, b), {
+  } = d.useContext(Q), S = f("scroll-number", r), x = Object.assign(Object.assign({}, b), {
     "data-show": s,
     style: a,
     className: L(S, n, i),
@@ -524,7 +545,7 @@ const Ft = /* @__PURE__ */ d.forwardRef((e, t) => {
   let $ = o;
   if (o && Number(o) % 1 === 0) {
     const v = String(o).split("");
-    $ = /* @__PURE__ */ d.createElement("bdi", null, v.map((w, p) => /* @__PURE__ */ d.createElement(Vt, {
+    $ = /* @__PURE__ */ d.createElement("bdi", null, v.map((w, p) => /* @__PURE__ */ d.createElement(Ft, {
       prefixCls: S,
       count: Number(o),
       value: w,
@@ -540,14 +561,14 @@ const Ft = /* @__PURE__ */ d.forwardRef((e, t) => {
     ref: t
   }), $);
 });
-var qt = function(e, t) {
+var Xt = function(e, t) {
   var r = {};
   for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && t.indexOf(o) < 0 && (r[o] = e[o]);
   if (e != null && typeof Object.getOwnPropertySymbols == "function") for (var n = 0, o = Object.getOwnPropertySymbols(e); n < o.length; n++)
     t.indexOf(o[n]) < 0 && Object.prototype.propertyIsEnumerable.call(e, o[n]) && (r[o[n]] = e[o[n]]);
   return r;
 };
-const Xt = /* @__PURE__ */ d.forwardRef((e, t) => {
+const Yt = /* @__PURE__ */ d.forwardRef((e, t) => {
   var r, o, n, i, a;
   const {
     prefixCls: l,
@@ -568,16 +589,16 @@ const Xt = /* @__PURE__ */ d.forwardRef((e, t) => {
     classNames: y,
     styles: P,
     showZero: M = !1
-  } = e, B = qt(e, ["prefixCls", "scrollNumberPrefixCls", "children", "status", "text", "color", "count", "overflowCount", "dot", "size", "title", "offset", "style", "className", "rootClassName", "classNames", "styles", "showZero"]), {
+  } = e, B = Xt(e, ["prefixCls", "scrollNumberPrefixCls", "children", "status", "text", "color", "count", "overflowCount", "dot", "size", "title", "offset", "style", "className", "rootClassName", "classNames", "styles", "showZero"]), {
     getPrefixCls: H,
     direction: R,
     badge: h
-  } = d.useContext(J), E = H("badge", l), [N, I, G] = Ht(E), C = S > x ? `${x}+` : S, Y = C === "0" || C === 0, fe = S === null || Y && !M, k = (u != null || f != null) && fe, A = $ && !Y, X = A ? "" : C, F = _e(() => (X == null || X === "" || Y && !M) && !A, [X, Y, M, A]), re = ae(S);
-  F || (re.current = S);
+  } = d.useContext(Q), E = H("badge", l), [N, I, G] = kt(E), C = S > x ? `${x}+` : S, Y = C === "0" || C === 0, fe = S === null || Y && !M, k = (u != null || f != null) && fe, F = $ && !Y, X = F ? "" : C, A = _e(() => (X == null || X === "" || Y && !M) && !F, [X, Y, M, F]), re = ae(S);
+  A || (re.current = S);
   const q = re.current, de = ae(X);
-  F || (de.current = X);
-  const K = de.current, ue = ae(A);
-  F || (ue.current = A);
+  A || (de.current = X);
+  const K = de.current, ue = ae(F);
+  A || (ue.current = F);
   const ee = _e(() => {
     if (!p)
       return Object.assign(Object.assign({}, h?.style), _);
@@ -585,7 +606,7 @@ const Xt = /* @__PURE__ */ d.forwardRef((e, t) => {
       marginTop: p[1]
     };
     return R === "rtl" ? V.left = parseInt(p[0], 10) : V.right = -parseInt(p[0], 10), Object.assign(Object.assign(Object.assign({}, V), h?.style), _);
-  }, [R, p, _, h?.style]), he = w ?? (typeof q == "string" || typeof q == "number" ? q : void 0), ve = F || !b ? null : /* @__PURE__ */ d.createElement("span", {
+  }, [R, p, _, h?.style]), he = w ?? (typeof q == "string" || typeof q == "number" ? q : void 0), ve = A || !b ? null : /* @__PURE__ */ d.createElement("span", {
     className: `${E}-status-text`
   }, b), Z = !q || typeof q != "object" ? void 0 : ke(q, (V) => ({
     style: Object.assign(Object.assign({}, ee), V.style)
@@ -620,8 +641,8 @@ const Xt = /* @__PURE__ */ d.forwardRef((e, t) => {
   }, B, {
     className: je,
     style: Object.assign(Object.assign({}, (a = h?.styles) === null || a === void 0 ? void 0 : a.root), P?.root)
-  }), c, /* @__PURE__ */ d.createElement(dt, {
-    visible: !F,
+  }), c, /* @__PURE__ */ d.createElement(yt, {
+    visible: !A,
     motionName: `${E}-zoom`,
     motionAppear: !1,
     motionDeadline: 1e3
@@ -639,9 +660,9 @@ const Xt = /* @__PURE__ */ d.forwardRef((e, t) => {
       [`${E}-color-${f}`]: te
     });
     let be = Object.assign(Object.assign(Object.assign({}, P?.indicator), (ye = h?.styles) === null || ye === void 0 ? void 0 : ye.indicator), ee);
-    return f && !te && (be = be || {}, be.background = f), /* @__PURE__ */ d.createElement(Ft, {
+    return f && !te && (be = be || {}, be.background = f), /* @__PURE__ */ d.createElement(qt, {
       prefixCls: at,
-      show: !F,
+      show: !A,
       motionClassName: it,
       className: lt,
       count: K,
@@ -650,10 +671,10 @@ const Xt = /* @__PURE__ */ d.forwardRef((e, t) => {
       key: "scrollNumber"
     }, Z);
   }), ve));
-}), Ie = Xt;
+}), Ie = Yt;
 Ie.Ribbon = Qe;
 process.env.NODE_ENV !== "production" && (Ie.displayName = "Badge");
-const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__PURE__ */ d.createContext(null), Zt = et.Provider, Ut = (e) => {
+const Ke = /* @__PURE__ */ d.createContext(null), Zt = Ke.Provider, et = /* @__PURE__ */ d.createContext(null), Ut = et.Provider, Jt = (e) => {
   const {
     componentCls: t,
     antCls: r
@@ -674,7 +695,7 @@ const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__P
       }
     })
   };
-}, Jt = (e) => {
+}, Qt = (e) => {
   const {
     componentCls: t,
     wrapperMarginInlineEnd: r,
@@ -743,7 +764,7 @@ const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__P
         &:hover ${_}`]: {
         borderColor: o
       },
-      [`${t}-input:focus-visible + ${_}`]: Object.assign({}, We(e)),
+      [`${t}-input:focus-visible + ${_}`]: Object.assign({}, Ve(e)),
       [`${t}:hover::after, ${t}-wrapper:hover &::after`]: {
         visibility: "visible"
       },
@@ -835,7 +856,7 @@ const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__P
       }
     })
   };
-}, Qt = (e) => {
+}, Kt = (e) => {
   const {
     buttonColor: t,
     controlHeight: r,
@@ -959,7 +980,7 @@ const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__P
         position: "relative",
         color: B
       },
-      "&:has(:focus-visible)": Object.assign({}, We(e)),
+      "&:has(:focus-visible)": Object.assign({}, Ve(e)),
       [`${o}-inner, input[type='checkbox'], input[type='radio']`]: {
         width: 0,
         height: 0,
@@ -1026,7 +1047,7 @@ const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__P
       }
     }
   };
-}, Kt = (e) => {
+}, eo = (e) => {
   const {
     wireframe: t,
     padding: r,
@@ -1072,31 +1093,31 @@ const Ke = /* @__PURE__ */ d.createContext(null), Yt = Ke.Provider, et = /* @__P
     radioFocusShadow: o,
     radioButtonFocusShadow: o
   });
-  return [Ut(i), Jt(i), Qt(i)];
-}, Kt, {
+  return [Jt(i), Qt(i), Kt(i)];
+}, eo, {
   unitless: {
     radioSize: !0,
     dotSize: !0
   }
 });
-var eo = function(e, t) {
+var to = function(e, t) {
   var r = {};
   for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && t.indexOf(o) < 0 && (r[o] = e[o]);
   if (e != null && typeof Object.getOwnPropertySymbols == "function") for (var n = 0, o = Object.getOwnPropertySymbols(e); n < o.length; n++)
     t.indexOf(o[n]) < 0 && Object.prototype.propertyIsEnumerable.call(e, o[n]) && (r[o[n]] = e[o[n]]);
   return r;
 };
-const to = (e, t) => {
+const oo = (e, t) => {
   var r, o;
   const n = d.useContext(Ke), i = d.useContext(et), {
     getPrefixCls: a,
     direction: l,
     radio: s
-  } = d.useContext(J), c = d.useRef(null), u = ut(t, c), {
+  } = d.useContext(Q), c = d.useRef(null), u = St(t, c), {
     isFormItemInput: b
-  } = d.useContext(bt);
+  } = d.useContext(dt);
   if (process.env.NODE_ENV !== "production") {
-    const N = ze("Radio");
+    const N = Pe("Radio");
     process.env.NODE_ENV !== "production" && N(!("optionType" in e), "usage", "`optionType` is only support in Radio.Group.");
   }
   const f = (N) => {
@@ -1109,7 +1130,7 @@ const to = (e, t) => {
     children: v,
     style: w,
     title: p
-  } = e, _ = eo(e, ["prefixCls", "className", "rootClassName", "children", "style", "title"]), O = a("radio", S), z = (n?.optionType || i) === "button", y = z ? `${O}-button` : O, P = Pe(O), [M, B, H] = tt(O, P), R = Object.assign({}, _), h = d.useContext(gt);
+  } = e, _ = to(e, ["prefixCls", "className", "rootClassName", "children", "style", "title"]), O = a("radio", S), z = (n?.optionType || i) === "button", y = z ? `${O}-button` : O, P = ze(O), [M, B, H] = tt(O, P), R = Object.assign({}, _), h = d.useContext(wt);
   n && (R.name = n.name, R.onChange = f, R.checked = e.value === n.value, R.disabled = (r = R.disabled) !== null && r !== void 0 ? r : n.disabled), R.disabled = (o = R.disabled) !== null && o !== void 0 ? o : h;
   const E = L(`${y}-wrapper`, {
     [`${y}-wrapper-checked`]: R.checked,
@@ -1117,7 +1138,7 @@ const to = (e, t) => {
     [`${y}-wrapper-rtl`]: l === "rtl",
     [`${y}-wrapper-in-form-item`]: b
   }, s?.className, x, $, B, H, P);
-  return M(/* @__PURE__ */ d.createElement(mt, {
+  return M(/* @__PURE__ */ d.createElement(ut, {
     component: "Radio",
     disabled: R.disabled
   }, /* @__PURE__ */ d.createElement("label", {
@@ -1128,19 +1149,19 @@ const to = (e, t) => {
     title: p
   }, /* @__PURE__ */ d.createElement(Nt, Object.assign({}, R, {
     className: L(R.className, {
-      [pt]: !z
+      [bt]: !z
     }),
     type: "radio",
     prefixCls: y,
     ref: u
   })), v !== void 0 ? /* @__PURE__ */ d.createElement("span", null, v) : null)));
-}, se = /* @__PURE__ */ d.forwardRef(to);
+}, se = /* @__PURE__ */ d.forwardRef(oo);
 process.env.NODE_ENV !== "production" && (se.displayName = "Radio");
-const oo = /* @__PURE__ */ d.forwardRef((e, t) => {
+const no = /* @__PURE__ */ d.forwardRef((e, t) => {
   const {
     getPrefixCls: r,
     direction: o
-  } = d.useContext(J), [n, i] = ft(e.defaultValue, {
+  } = d.useContext(Q), [n, i] = gt(e.defaultValue, {
     value: e.value
   }), a = (N) => {
     const I = n, G = N.target.value;
@@ -1164,7 +1185,7 @@ const oo = /* @__PURE__ */ d.forwardRef((e, t) => {
     onMouseLeave: p,
     onFocus: _,
     onBlur: O
-  } = e, z = r("radio", l), y = `${z}-group`, P = Pe(z), [M, B, H] = tt(z, P);
+  } = e, z = r("radio", l), y = `${z}-group`, P = ze(z), [M, B, H] = tt(z, P);
   let R = S;
   u && u.length > 0 && (R = u.map((N) => typeof N == "string" || typeof N == "number" ? /* @__PURE__ */ d.createElement(se, {
     key: N.toString(),
@@ -1183,11 +1204,11 @@ const oo = /* @__PURE__ */ d.forwardRef((e, t) => {
     id: N.id,
     required: N.required
   }, N.label)));
-  const h = Ge(x), E = L(y, `${y}-${b}`, {
+  const h = We(x), E = L(y, `${y}-${b}`, {
     [`${y}-${h}`]: h,
     [`${y}-rtl`]: o === "rtl"
   }, s, c, B, H, P);
-  return M(/* @__PURE__ */ d.createElement("div", Object.assign({}, ht(e, {
+  return M(/* @__PURE__ */ d.createElement("div", Object.assign({}, mt(e, {
     aria: !0,
     data: !0
   }), {
@@ -1199,7 +1220,7 @@ const oo = /* @__PURE__ */ d.forwardRef((e, t) => {
     onBlur: O,
     id: v,
     ref: t
-  }), /* @__PURE__ */ d.createElement(Yt, {
+  }), /* @__PURE__ */ d.createElement(Zt, {
     value: {
       onChange: a,
       value: n,
@@ -1208,21 +1229,21 @@ const oo = /* @__PURE__ */ d.forwardRef((e, t) => {
       optionType: e.optionType
     }
   }, R)));
-}), no = /* @__PURE__ */ d.memo(oo);
-var ro = function(e, t) {
+}), ro = /* @__PURE__ */ d.memo(no);
+var io = function(e, t) {
   var r = {};
   for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && t.indexOf(o) < 0 && (r[o] = e[o]);
   if (e != null && typeof Object.getOwnPropertySymbols == "function") for (var n = 0, o = Object.getOwnPropertySymbols(e); n < o.length; n++)
     t.indexOf(o[n]) < 0 && Object.prototype.propertyIsEnumerable.call(e, o[n]) && (r[o[n]] = e[o[n]]);
   return r;
 };
-const io = (e, t) => {
+const ao = (e, t) => {
   const {
     getPrefixCls: r
-  } = d.useContext(J), {
+  } = d.useContext(Q), {
     prefixCls: o
-  } = e, n = ro(e, ["prefixCls"]), i = r("radio", o);
-  return /* @__PURE__ */ d.createElement(Zt, {
+  } = e, n = io(e, ["prefixCls"]), i = r("radio", o);
+  return /* @__PURE__ */ d.createElement(Ut, {
     value: "button"
   }, /* @__PURE__ */ d.createElement(se, Object.assign({
     prefixCls: i
@@ -1230,23 +1251,23 @@ const io = (e, t) => {
     type: "radio",
     ref: t
   })));
-}, ao = /* @__PURE__ */ d.forwardRef(io), ce = se;
-ce.Button = ao;
-ce.Group = no;
+}, lo = /* @__PURE__ */ d.forwardRef(ao), ce = se;
+ce.Button = lo;
+ce.Group = ro;
 ce.__ANT_RADIO = !0;
-var lo = { icon: { tag: "svg", attrs: { viewBox: "64 64 896 896", focusable: "false" }, children: [{ tag: "path", attrs: { d: "M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z" } }, { tag: "path", attrs: { d: "M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z" } }] }, name: "plus", theme: "outlined" }, so = function(t, r) {
-  return /* @__PURE__ */ d.createElement(vt, $t({}, t, {
+var so = { icon: { tag: "svg", attrs: { viewBox: "64 64 896 896", focusable: "false" }, children: [{ tag: "path", attrs: { d: "M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z" } }, { tag: "path", attrs: { d: "M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z" } }] }, name: "plus", theme: "outlined" }, co = function(t, r) {
+  return /* @__PURE__ */ d.createElement(pt, xt({}, t, {
     ref: r,
-    icon: lo
+    icon: so
   }));
-}, ot = /* @__PURE__ */ d.forwardRef(so);
+}, ot = /* @__PURE__ */ d.forwardRef(co);
 process.env.NODE_ENV !== "production" && (ot.displayName = "PlusOutlined");
-const co = {
+const uo = {
   motionAppear: !1,
   motionEnter: !0,
   motionLeave: !0
 };
-function uo(e) {
+function bo(e) {
   let t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {
     inkBar: !0,
     tabPane: !1
@@ -1259,31 +1280,31 @@ function uo(e) {
     tabPane: !0
   } : r = Object.assign({
     inkBar: !0
-  }, typeof t == "object" ? t : {}), r.tabPane && (r.tabPaneMotion = Object.assign(Object.assign({}, co), {
-    motionName: Ct(e, "switch")
+  }, typeof t == "object" ? t : {}), r.tabPane && (r.tabPaneMotion = Object.assign(Object.assign({}, uo), {
+    motionName: ft(e, "switch")
   })), r;
 }
-var bo = function(e, t) {
+var go = function(e, t) {
   var r = {};
   for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && t.indexOf(o) < 0 && (r[o] = e[o]);
   if (e != null && typeof Object.getOwnPropertySymbols == "function") for (var n = 0, o = Object.getOwnPropertySymbols(e); n < o.length; n++)
     t.indexOf(o[n]) < 0 && Object.prototype.propertyIsEnumerable.call(e, o[n]) && (r[o[n]] = e[o[n]]);
   return r;
 };
-function go(e) {
+function mo(e) {
   return e.filter((t) => t);
 }
-function mo(e, t) {
-  if (process.env.NODE_ENV !== "production" && ze("Tabs").deprecated(!t, "Tabs.TabPane", "items"), e)
+function po(e, t) {
+  if (process.env.NODE_ENV !== "production" && Pe("Tabs").deprecated(!t, "Tabs.TabPane", "items"), e)
     return e;
-  const r = yt(t).map((o) => {
+  const r = ht(t).map((o) => {
     if (/* @__PURE__ */ d.isValidElement(o)) {
       const {
         key: n,
         props: i
       } = o, a = i || {}, {
         tab: l
-      } = a, s = bo(a, ["tab"]);
+      } = a, s = go(a, ["tab"]);
       return Object.assign(Object.assign({
         key: String(n)
       }, s), {
@@ -1292,9 +1313,9 @@ function mo(e, t) {
     }
     return null;
   });
-  return go(r);
+  return mo(r);
 }
-const po = (e) => {
+const fo = (e) => {
   const {
     componentCls: t,
     motionDurationSlow: r
@@ -1331,7 +1352,7 @@ const po = (e) => {
     // Follow code may reuse in other components
     [Te(e, "slide-up"), Te(e, "slide-down")]
   ];
-}, fo = (e) => {
+}, ho = (e) => {
   const {
     componentCls: t,
     tabsCardPadding: r,
@@ -1431,7 +1452,7 @@ const po = (e) => {
       }
     }
   };
-}, ho = (e) => {
+}, vo = (e) => {
   const {
     componentCls: t,
     itemHoverColor: r,
@@ -1466,7 +1487,7 @@ const po = (e) => {
         borderRadius: e.borderRadiusLG,
         outline: "none",
         boxShadow: e.boxShadowSecondary,
-        "&-item": Object.assign(Object.assign({}, St), {
+        "&-item": Object.assign(Object.assign({}, _t), {
           display: "flex",
           alignItems: "center",
           minWidth: e.tabsDropdownWidth,
@@ -1511,7 +1532,7 @@ const po = (e) => {
       }
     })
   };
-}, vo = (e) => {
+}, $o = (e) => {
   const {
     componentCls: t,
     margin: r,
@@ -1714,7 +1735,7 @@ const po = (e) => {
       }
     }
   };
-}, $o = (e) => {
+}, Co = (e) => {
   const {
     componentCls: t,
     cardPaddingSM: r,
@@ -1784,7 +1805,7 @@ const po = (e) => {
       }
     }
   };
-}, Co = (e) => {
+}, yo = (e) => {
   const {
     componentCls: t,
     itemActiveColor: r,
@@ -1813,7 +1834,7 @@ const po = (e) => {
         "&:focus:not(:focus-visible), &:active": {
           color: r
         }
-      }, Ve(e)),
+      }, Fe(e)),
       "&-btn": {
         outline: "none",
         transition: `all ${e.motionDurationSlow}`,
@@ -1875,7 +1896,7 @@ const po = (e) => {
       }
     }
   };
-}, yo = (e) => {
+}, So = (e) => {
   const {
     componentCls: t,
     tabsHorizontalItemMarginRTL: r,
@@ -1967,7 +1988,7 @@ const po = (e) => {
       }
     }
   };
-}, So = (e) => {
+}, wo = (e) => {
   const {
     componentCls: t,
     tabsCardPadding: r,
@@ -2063,7 +2084,7 @@ const po = (e) => {
           "&:active, &:focus:not(:focus-visible)": {
             color: a
           }
-        }, Ve(e))
+        }, Fe(e))
       },
       [`${t}-extra-content`]: {
         flex: "none"
@@ -2074,7 +2095,7 @@ const po = (e) => {
         background: e.inkBarColor,
         pointerEvents: "none"
       }
-    }), Co(e)), {
+    }), yo(e)), {
       // =========================== TabPanes ===========================
       [`${t}-content`]: {
         position: "relative",
@@ -2102,7 +2123,7 @@ const po = (e) => {
       }
     }
   };
-}, wo = (e) => {
+}, xo = (e) => {
   const t = e.controlHeightLG;
   return {
     zIndexPopup: e.zIndexPopupBase + 50,
@@ -2133,7 +2154,7 @@ const po = (e) => {
     itemActiveColor: e.colorPrimaryActive,
     cardGutter: e.marginXXS / 2
   };
-}, xo = me("Tabs", (e) => {
+}, _o = me("Tabs", (e) => {
   const t = Ee(e, {
     // `cardPadding` is empty by default, so we could calculate with dynamic `cardHeight`
     tabsCardPadding: e.cardPadding,
@@ -2144,10 +2165,10 @@ const po = (e) => {
     tabsHorizontalItemMargin: `0 0 0 ${g(e.horizontalItemGutter)}`,
     tabsHorizontalItemMarginRTL: `0 0 0 ${g(e.horizontalItemGutter)}`
   });
-  return [$o(t), yo(t), vo(t), ho(t), fo(t), So(t), po(t)];
-}, wo), nt = () => null;
+  return [Co(t), So(t), $o(t), vo(t), ho(t), wo(t), fo(t)];
+}, xo), nt = () => null;
 process.env.NODE_ENV !== "production" && (nt.displayName = "DeprecatedTabPane");
-var _o = function(e, t) {
+var Oo = function(e, t) {
   var r = {};
   for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && t.indexOf(o) < 0 && (r[o] = e[o]);
   if (e != null && typeof Object.getOwnPropertySymbols == "function") for (var n = 0, o = Object.getOwnPropertySymbols(e); n < o.length; n++)
@@ -2175,14 +2196,14 @@ const pe = (e) => {
     style: R,
     indicatorSize: h,
     indicator: E
-  } = e, N = _o(e, ["type", "className", "rootClassName", "size", "onEdit", "hideAdd", "centered", "addIcon", "removeIcon", "moreIcon", "more", "popupClassName", "children", "items", "animated", "style", "indicatorSize", "indicator"]), {
+  } = e, N = Oo(e, ["type", "className", "rootClassName", "size", "onEdit", "hideAdd", "centered", "addIcon", "removeIcon", "moreIcon", "more", "popupClassName", "children", "items", "animated", "style", "indicatorSize", "indicator"]), {
     prefixCls: I
   } = N, {
     direction: G,
     tabs: C,
     getPrefixCls: Y,
     getPopupContainer: fe
-  } = d.useContext(J), k = Y("tabs", I), A = Pe(k), [X, F, re] = xo(k, A);
+  } = d.useContext(Q), k = Y("tabs", I), F = ze(k), [X, A, re] = _o(k, F);
   let q;
   f === "editable-card" && (q = {
     onEdit: (Z, te) => {
@@ -2192,16 +2213,16 @@ const pe = (e) => {
       } = te;
       v?.(Z === "add" ? ie : $e, Z);
     },
-    removeIcon: (t = O ?? C?.removeIcon) !== null && t !== void 0 ? t : /* @__PURE__ */ d.createElement(wt, null),
+    removeIcon: (t = O ?? C?.removeIcon) !== null && t !== void 0 ? t : /* @__PURE__ */ d.createElement(vt, null),
     addIcon: (_ ?? C?.addIcon) || /* @__PURE__ */ d.createElement(ot, null),
     showAdd: w !== !0
   });
   const de = Y();
   if (process.env.NODE_ENV !== "production") {
-    const Z = ze("Tabs");
+    const Z = Pe("Tabs");
     process.env.NODE_ENV !== "production" && Z(!("onPrevClick" in e) && !("onNextClick" in e), "breaking", "`onPrevClick` and `onNextClick` has been removed. Please use `onTabScroll` instead."), process.env.NODE_ENV !== "production" && Z(!(h || C?.indicatorSize), "deprecated", "`indicatorSize` has been deprecated. Please use `indicator={{ size: ... }}` instead.");
   }
-  const K = Ge($), ue = mo(B, M), ee = uo(k, H), he = Object.assign(Object.assign({}, C?.style), R), ve = {
+  const K = We($), ue = po(B, M), ee = bo(k, H), he = Object.assign(Object.assign({}, C?.style), R), ve = {
     align: (r = E?.align) !== null && r !== void 0 ? r : (o = C?.indicator) === null || o === void 0 ? void 0 : o.align,
     size: (l = (i = (n = E?.size) !== null && n !== void 0 ? n : h) !== null && i !== void 0 ? i : (a = C?.indicator) === null || a === void 0 ? void 0 : a.size) !== null && l !== void 0 ? l : C?.indicatorSize
   };
@@ -2215,12 +2236,12 @@ const pe = (e) => {
       [`${k}-card`]: ["card", "editable-card"].includes(f),
       [`${k}-editable-card`]: f === "editable-card",
       [`${k}-centered`]: p
-    }, C?.className, S, x, F, re, A),
-    popupClassName: L(P, F, re, A),
+    }, C?.className, S, x, A, re, F),
+    popupClassName: L(P, A, re, F),
     style: he,
     editable: q,
     more: Object.assign({
-      icon: (b = (u = (c = (s = C?.more) === null || s === void 0 ? void 0 : s.icon) !== null && c !== void 0 ? c : C?.moreIcon) !== null && u !== void 0 ? u : z) !== null && b !== void 0 ? b : /* @__PURE__ */ d.createElement(xt, null),
+      icon: (b = (u = (c = (s = C?.more) === null || s === void 0 ? void 0 : s.icon) !== null && c !== void 0 ? c : C?.moreIcon) !== null && u !== void 0 ? u : z) !== null && b !== void 0 ? b : /* @__PURE__ */ d.createElement($t, null),
       transitionName: `${de}-slide-up`
     }, y),
     prefixCls: k,
@@ -2281,8 +2302,8 @@ const Uo = ({ children: e, ...t }) => /* @__PURE__ */ m(Ie, { ...t, children: e 
       ]
     }
   );
-}, Oo = ({ ...e }) => /* @__PURE__ */ m(Fe, { ...e });
-Oo.Panel = Fe.Panel;
+}, No = ({ ...e }) => /* @__PURE__ */ m(Ae, { ...e });
+No.Panel = Ae.Panel;
 const en = ({
   helperText: e,
   required: t,
@@ -2307,7 +2328,7 @@ const en = ({
   return /* @__PURE__ */ W(j, { vertical: !0, className: `w-full ${!u && "inputErrorMessageContainer"}`, children: [
     /* @__PURE__ */ W("label", { htmlFor: "language-textarea", className: "flex flex-row items-center gap-1", children: [
       /* @__PURE__ */ m(ge, { when: e, children: /* @__PURE__ */ m(qe, { variant: "default", title: e, arrow: { pointAtCenter: !0 }, children: /* @__PURE__ */ m(le, { name: "Help_header", color: T.primary_light_3, size: 15 }) }) }),
-      typeof r == "string" ? /* @__PURE__ */ m(Q, { color: T.primary, children: r }) : r,
+      typeof r == "string" ? /* @__PURE__ */ m(J, { color: T.primary, children: r }) : r,
       /* @__PURE__ */ m(ge, { when: t, children: /* @__PURE__ */ m(le, { name: "Asterisk", size: 6, color: T.negative, className: "mb-2" }) })
     ] }),
     /* @__PURE__ */ m(
@@ -2329,7 +2350,7 @@ const en = ({
     className: D("flex", t === "horizontal" ? "flex-row" : "flex-col"),
     style: { flex: e }
   }
-), on = ({ size: e }) => /* @__PURE__ */ m(j, { className: "h-full min-h-[100px] w-full", align: "center", justify: "center", children: /* @__PURE__ */ m(Ae, { isLoading: !0, size: e }) }), nn = ({
+), on = ({ size: e }) => /* @__PURE__ */ m(j, { className: "h-full min-h-[100px] w-full", align: "center", justify: "center", children: /* @__PURE__ */ m(Ge, { isLoading: !0, size: e }) }), nn = ({
   className: e,
   wrapperClassName: t,
   style: r,
@@ -2337,7 +2358,7 @@ const en = ({
   text: n
 }) => /* @__PURE__ */ W(j, { "data-testid": "horizontal-line", className: t, align: "center", gap: 10, children: [
   n ? /* @__PURE__ */ m(
-    Q,
+    J,
     {
       className: "whitespace-nowrap",
       weight: "normal",
@@ -2354,7 +2375,7 @@ const en = ({
       style: { ...r, borderTopColor: o }
     }
   )
-] }), No = ({
+] }), Eo = ({
   children: e,
   onChange: t,
   wrapperStyle: r,
@@ -2431,7 +2452,7 @@ const en = ({
                       _(O), t?.(O);
                     },
                     children: typeof z == "string" ? /* @__PURE__ */ m(
-                      Q,
+                      J,
                       {
                         size: b,
                         weight: "medium",
@@ -2471,14 +2492,14 @@ const en = ({
     ] })
   ] });
 };
-No.Tab = (e) => null;
-const Eo = ({ children: e, size: t, color: r, weight: o, className: n, ...i }) => /* @__PURE__ */ m(
+Eo.Tab = (e) => null;
+const zo = ({ children: e, size: t, color: r, weight: o, className: n, ...i }) => /* @__PURE__ */ m(
   j,
   {
     className: D("border-secondary items-center border-b border-dashed", n),
     ...i,
     children: /* @__PURE__ */ m(
-      Q,
+      J,
       {
         className: "cursor-pointer select-none",
         color: r || T.secondary,
@@ -2488,7 +2509,7 @@ const Eo = ({ children: e, size: t, color: r, weight: o, className: n, ...i }) =
       }
     )
   }
-), zo = ({
+), Po = ({
   overlayInnerStyle: e,
   overlayClassName: t,
   overlayInnerClassName: r,
@@ -2499,7 +2520,7 @@ const Eo = ({ children: e, size: t, color: r, weight: o, className: n, ...i }) =
   footer: l,
   ...s
 }) => /* @__PURE__ */ m(
-  _t,
+  Ct,
   {
     showArrow: !1,
     arrow: !1,
@@ -2510,7 +2531,7 @@ const Eo = ({ children: e, size: t, color: r, weight: o, className: n, ...i }) =
     ...s,
     content: /* @__PURE__ */ W("div", { children: [
       o && /* @__PURE__ */ W(j, { className: "border-light-7 bg-light-1 w-full items-center justify-between rounded-t border-b px-3 py-1", children: [
-        typeof o == "string" ? /* @__PURE__ */ m(Q, { size: 12, weight: "medium", color: T.primary, children: o }) : o,
+        typeof o == "string" ? /* @__PURE__ */ m(J, { size: 12, weight: "medium", color: T.primary, children: o }) : o,
         i && /* @__PURE__ */ m(
           le,
           {
@@ -2527,30 +2548,9 @@ const Eo = ({ children: e, size: t, color: r, weight: o, className: n, ...i }) =
     ] })
   }
 );
-zo.Link = Eo;
-const Po = (e) => /* @__PURE__ */ m(ce, { ...e });
-Po.Group = ce.Group;
-function Be() {
-  const { innerWidth: e, innerHeight: t } = typeof window > "u" ? {
-    innerWidth: 1024,
-    innerHeight: 768
-  } : window;
-  return {
-    width: e,
-    height: t
-  };
-}
-function Ro() {
-  const [e, t] = Ne(Be()), r = [], o = () => {
-    const { width: n, height: i } = Be();
-    (n !== e.width && r.includes("width") || i !== e.height && r.includes("height")) && t({ width: n, height: i });
-  };
-  return oe(() => (window.addEventListener("resize", o), () => window.removeEventListener("resize", o)), []), new Proxy(e, {
-    get(n, i) {
-      return r.push(i), n[i];
-    }
-  });
-}
+Po.Link = zo;
+const Ro = (e) => /* @__PURE__ */ m(ce, { ...e });
+Ro.Group = ce.Group;
 const rn = ({
   helperText: e,
   required: t,
@@ -2565,7 +2565,7 @@ const rn = ({
   return /* @__PURE__ */ W(j, { vertical: !0, className: `w-full ${!a && "inputErrorMessageContainer"}`, children: [
     /* @__PURE__ */ W("label", { htmlFor: "language-textarea", className: "flex flex-row items-center gap-1", children: [
       /* @__PURE__ */ m(ge, { when: e, children: /* @__PURE__ */ m(qe, { variant: "default", title: e, arrow: { pointAtCenter: !0 }, children: /* @__PURE__ */ m(le, { name: "Help_header", color: T.primary_light_3, size: 15 }) }) }),
-      typeof r == "string" ? /* @__PURE__ */ m(Q, { color: T.primary, children: r }) : r,
+      typeof r == "string" ? /* @__PURE__ */ m(J, { color: T.primary, children: r }) : r,
       /* @__PURE__ */ m(ge, { when: t, children: /* @__PURE__ */ m(le, { name: "Asterisk", size: 6, color: T.negative, className: "mb-2" }) })
     ] }),
     /* @__PURE__ */ m(
@@ -2642,7 +2642,7 @@ function Lo() {
   })) : Le || process.env.NODE_ENV !== "production" && process.env.NODE_ENV !== "test" && (Le = !0), xe;
 }
 function Mo(e, t) {
-  const { width: r, height: o } = Ro(), n = Lo();
+  const { width: r, height: o } = It(), n = Lo();
   oe(() => {
     const i = e.current;
     i != null && (i[Oe] = t);
@@ -2693,7 +2693,7 @@ const ln = ct(
         style: {
           minHeight: n
         },
-        children: /* @__PURE__ */ m(Ae, { isLoading: !0, size: i })
+        children: /* @__PURE__ */ m(Ge, { isLoading: !0, size: i })
       }
     ) : o ? /* @__PURE__ */ W(
       j,
@@ -2708,7 +2708,7 @@ const ln = ct(
         vertical: !0,
         className: "h-full w-full",
         children: [
-          /* @__PURE__ */ m(Q, { size: 16, color: T.negative, children: o }),
+          /* @__PURE__ */ m(J, { size: 16, color: T.negative, children: o }),
           r && /* @__PURE__ */ m(Pt.Primary, { onClick: r, children: b("common.message.tryAgain") })
         ]
       }
@@ -2723,16 +2723,16 @@ export {
   gn as Checkbox,
   Ko as ClickAwayListener,
   Qo as Clickable,
-  Oo as Collapse,
+  No as Collapse,
   en as DatePicker,
   tn as Empty,
   on as Fallback,
   nn as HorizontalLine,
   le as Icon,
-  No as NavigationTabs,
-  zo as Popover,
+  Eo as NavigationTabs,
+  Po as Popover,
   Jo as PortalContainer,
-  Po as Radio,
+  Ro as Radio,
   rn as RangePicker,
   ge as Render,
   an as Separator,

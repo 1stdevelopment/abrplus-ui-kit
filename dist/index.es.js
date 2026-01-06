@@ -1,11 +1,7 @@
 /* empty css         */
+import { A as f } from "./AbrplusUIKit-D-1mE_X7.js";
 import { c as n } from "./colors-JhMxZzJC.js";
-import { i as l } from "./index-DD7ZOJPU.js";
-import { jsx as g } from "react/jsx-runtime";
-import s from "antd/locale/en_US";
-import h from "antd/locale/fa_IR";
-import { ConfigProvider as d } from "antd";
-const C = {
+const t = {
   content: {
     files: ["./src/**/*.{js,ts,jsx,tsx,html}"]
   },
@@ -107,63 +103,8 @@ const C = {
     }
   }
 };
-class r {
-  static instance = null;
-  configs;
-  constructor(t) {
-    this.configs = t, this.init();
-  }
-  static config(t = {}) {
-    return r.instance || (r.instance = new r(t)), r.instance;
-  }
-  init() {
-    l(this.configs.locales?.lang, this.configs.locales?.resources);
-  }
-}
-const m = (e) => {
-  const t = e === "fa", o = t ? "rtl" : "ltr", i = t ? h : s;
-  return { theme: {
-    token: {
-      fontFamily: t ? "YekanBakhFaRegular" : "RobotoRegular",
-      colorPrimary: n.primary,
-      colorSuccess: n.positive,
-      colorError: n.negative,
-      borderRadius: 4
-    },
-    components: {
-      Input: {
-        colorBorder: n.primary_light_3,
-        hoverBorderColor: n.primary_dark_1,
-        colorBgContainerDisabled: n.light_6
-      }
-    }
-  }, direction: o, locale: i };
-};
-function c(e, t) {
-  const o = { ...e };
-  if (e && typeof e == "object" && t && typeof t == "object") {
-    for (const i in t)
-      if (Object.prototype.hasOwnProperty.call(t, i)) {
-        const a = t[i], f = o[i];
-        a && typeof a == "object" && !Array.isArray(a) && f && typeof f == "object" && !Array.isArray(f) ? o[i] = c(f, a) : a !== void 0 && (o[i] = a);
-      }
-  }
-  return o;
-}
-const D = ({
-  children: e,
-  locales: t,
-  antdConfigs: o = {}
-}) => {
-  r.config({
-    locales: t
-  });
-  const i = m(t?.lang ?? "fa"), a = c(i, o);
-  return /* @__PURE__ */ g(d, { ...a, children: e });
-};
 export {
-  r as AbrplusUIKit,
-  D as AbrplusUIKitProvider,
+  f as AbrplusUIKit,
   n as colors,
-  C as tailwindConfig
+  t as tailwindConfig
 };

@@ -1,6 +1,6 @@
 {
   "name": "abrplus-ui-kit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
@@ -91,7 +91,6 @@
     "@use-gesture/react": "^10.3.0",
     "i18next-browser-languagedetector": "^7.2.0",
     "jalaali-react-date-picker": "https://github.com/1stdevelopment/jalaali-react-date-picker",
-    "moment": "^2.29.4",
     "moment-jalaali": "^0.10.0",
     "react-copy-to-clipboard": "5.1.0"
   },

@@ -1,1 +1,0 @@
-"use strict";const s=require("./index-DBIRGOma.cjs");class i{static instance=null;configs;constructor(n){this.configs=n,this.init()}static config(n={}){return i.instance||(i.instance=new i(n)),i.instance}init(){s.initializeI18n(this.configs.locales?.lang,this.configs.locales?.resources)}}exports.AbrplusUIKit=i;

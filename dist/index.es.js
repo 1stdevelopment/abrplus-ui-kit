@@ -1,7 +1,7 @@
 /* empty css         */
-import { A as f } from "./AbrplusUIKit-D-1mE_X7.js";
-import { c as n } from "./colors-JhMxZzJC.js";
-const t = {
+import { A } from "./AbrplusUIKit-BlztDcB2.js";
+import { c } from "./colors-BmRCmHtR.js";
+const config = {
   content: {
     files: ["./src/**/*.{js,ts,jsx,tsx,html}"]
   },
@@ -104,7 +104,7 @@ const t = {
   }
 };
 export {
-  f as AbrplusUIKit,
-  n as colors,
-  t as tailwindConfig
+  A as AbrplusUIKit,
+  c as colors,
+  config as tailwindConfig
 };

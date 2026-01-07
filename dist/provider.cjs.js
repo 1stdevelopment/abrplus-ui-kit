@@ -1,1 +1,60 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const l=require("react/jsx-runtime"),a=require("antd/locale/en_US"),u=require("antd/locale/fa_IR"),n=require("./colors-nv6iAVGd.cjs"),f=require("antd"),p=require("./AbrplusUIKit-LvxG-WLr.cjs"),y=i=>{const o=i==="fa",t=o?"rtl":"ltr",r=o?u:a;return{theme:{token:{fontFamily:o?"YekanBakhFaRegular":"RobotoRegular",colorPrimary:n.colors.primary,colorSuccess:n.colors.positive,colorError:n.colors.negative,borderRadius:4},components:{Input:{colorBorder:n.colors.primary_light_3,hoverBorderColor:n.colors.primary_dark_1,colorBgContainerDisabled:n.colors.light_6}}},direction:t,locale:r}};function c(i,o){const t={...i};if(i&&typeof i=="object"&&o&&typeof o=="object"){for(const r in o)if(Object.prototype.hasOwnProperty.call(o,r)){const e=o[r],s=t[r];e&&typeof e=="object"&&!Array.isArray(e)&&s&&typeof s=="object"&&!Array.isArray(s)?t[r]=c(s,e):e!==void 0&&(t[r]=e)}}return t}const d=({children:i,locales:o,antdConfigs:t={}})=>{p.AbrplusUIKit.config({locales:o});const r=y(o?.lang??"fa"),e=c(r,t);return l.jsx(f.ConfigProvider,{...e,children:i})};exports.AbrplusUIKitProvider=d;
+"use strict";
+Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
+const jsxRuntime = require("react/jsx-runtime");
+const AbrplusUIKit = require("./AbrplusUIKit-4yWTl2FC.cjs");
+const EN = require("antd/locale/en_US");
+const FA = require("antd/locale/fa_IR");
+const colors = require("./colors-BIS4kHo_.cjs");
+const antd = require("antd");
+const useAntConfig = (language) => {
+  const isFA = language === "fa";
+  const direction = isFA ? "rtl" : "ltr";
+  const locale = isFA ? FA : EN;
+  const theme = {
+    token: {
+      fontFamily: isFA ? "YekanBakhFaRegular" : "RobotoRegular",
+      colorPrimary: colors.colors.primary,
+      colorSuccess: colors.colors.positive,
+      colorError: colors.colors.negative,
+      borderRadius: 4
+    },
+    components: {
+      Input: {
+        colorBorder: colors.colors.primary_light_3,
+        hoverBorderColor: colors.colors.primary_dark_1,
+        colorBgContainerDisabled: colors.colors.light_6
+      }
+    }
+  };
+  return { theme, direction, locale };
+};
+function deepMerge(target, source) {
+  const output = { ...target };
+  if (target && typeof target === "object" && source && typeof source === "object") {
+    for (const key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        const sourceValue = source[key];
+        const targetValue = output[key];
+        if (sourceValue && typeof sourceValue === "object" && !Array.isArray(sourceValue) && targetValue && typeof targetValue === "object" && !Array.isArray(targetValue)) {
+          output[key] = deepMerge(targetValue, sourceValue);
+        } else if (sourceValue !== void 0) {
+          output[key] = sourceValue;
+        }
+      }
+    }
+  }
+  return output;
+}
+const AbrplusUIKitProvider = ({
+  children,
+  locales,
+  antdConfigs = {}
+}) => {
+  AbrplusUIKit.AbrplusUIKit.config({
+    locales
+  });
+  const defaultAntDConfigs = useAntConfig(locales?.lang ?? "fa");
+  const mergedConfigs = deepMerge(defaultAntDConfigs, antdConfigs);
+  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { ...mergedConfigs, children });
+};
+exports.AbrplusUIKitProvider = AbrplusUIKitProvider;

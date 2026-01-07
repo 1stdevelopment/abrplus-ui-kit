@@ -1,6 +1,7 @@
-import a from "i18next";
-import { initReactI18next as o } from "react-i18next";
-const n = {
+"use strict";
+const i18n = require("i18next");
+const reactI18next = require("react-i18next");
+const en = {
   common: {
     literal: {
       abrplus: "Abrplus",
@@ -898,10 +899,8 @@ const n = {
       noValueHasBeenAddedYet: "No value has been added yet",
       enterValue: "Enter a value",
       networkConnectionError: "Please check your internet connection and try again",
-      removeTagMessage: `With this Operation, the Tag will be Removed from All Categories
-`,
-      removeTagConfirmation: `Would you like to remove the {{tagName}} tag?
-`,
+      removeTagMessage: "With this Operation, the Tag will be Removed from All Categories\n",
+      removeTagConfirmation: "Would you like to remove the {{tagName}} tag?\n",
       deleteCategoryConfirmation: "Are you sure about deleting this dashboard?",
       validProtocolHint: "Please enter without http or https",
       additionalInformationDeletedRedirectedEditPage: "If confirmed, the additional information will be deleted and you will be redirected to the edit page",
@@ -960,8 +959,7 @@ const n = {
       enterNewOtpCode: "Please Enter New Number SMS Confirmation Code",
       enterOldOtpCode: "Please Enter Old Number SMS Confirmation Code",
       enterEmailCode: "Please Enter Email Confirmation Code",
-      emailConfirmationMessage: `\r
-To register this email, you must confirm it.`,
+      emailConfirmationMessage: "\r\nTo register this email, you must confirm it.",
       enterOtpCode: "Please Enter Confirmation Code",
       supportCodeWarning: "Save this support code in a safe place.",
       supportCodeWarning2: "This code allows you to recover your authentication code if your phone is lost. Otherwise it will take 7 days to reset the authentication code.",
@@ -1031,7 +1029,8 @@ To register this email, you must confirm it.`,
       onlyEnglishNumberAndUnderlineAllowed: "You should only type English Letter, Number and _"
     }
   }
-}, r = {
+};
+const fa = {
   common: {
     literal: {
       abrplus: "ابرپلاس",
@@ -1975,8 +1974,7 @@ To register this email, you must confirm it.`,
       processing: "در حال پردازش...",
       noResultFound: "نتیجه ای یافت نشد",
       loadDataError: "خطا در دریافت اطلاعات",
-      copyQrCodeLink: ` اگر قادر به اسکن نیستید کد زیر را کپی و وارد کنید\r
-`,
+      copyQrCodeLink: " اگر قادر به اسکن نیستید کد زیر را کپی و وارد کنید\r\n",
       authenticationTabMessage1: "QRCode زیر را با استفاده از برنامه احراز هویت مانند Google Authenticator اسکن کنید.",
       authenticationTabMessage2: "پس از اسکن QRCode، کد دو عاملی 6 رقمی را وارد کنید.",
       the2faWasCopied: "کد دو عاملی کپی شد",
@@ -2062,25 +2060,26 @@ To register this email, you must confirm it.`,
     }
   }
 };
-a.use(o);
-function i(e) {
-  return e === "fa" || e === "en" ? e : "fa";
+i18n.use(reactI18next.initReactI18next);
+function getValidLanguage(lang) {
+  if (lang === "fa" || lang === "en") {
+    return lang;
+  }
+  return "fa";
 }
-const d = (e = "fa", t) => {
-  a.init({
+const initializeI18n = (lang = "fa", resources) => {
+  i18n.init({
     resources: {
       fa: {
-        translation: { ...r, ...t?.fa }
+        translation: { ...fa, ...resources?.fa }
       },
       en: {
-        translation: { ...n, ...t?.en }
+        translation: { ...en, ...resources?.en }
       }
     },
-    lng: i(e),
+    lng: getValidLanguage(lang),
     fallbackLng: "fa",
-    debug: !1
+    debug: false
   });
 };
-export {
-  d as i
-};
+exports.initializeI18n = initializeI18n;

@@ -1,50 +1,60 @@
-import { jsx as s } from "react/jsx-runtime";
-import f from "antd/locale/en_US";
-import l from "antd/locale/fa_IR";
-import { c as n } from "./colors-JhMxZzJC.js";
-import { ConfigProvider as p } from "antd";
-import { A as m } from "./AbrplusUIKit-D-1mE_X7.js";
-const y = (i) => {
-  const o = i === "fa", e = o ? "rtl" : "ltr", r = o ? l : f;
-  return { theme: {
+import { jsx } from "react/jsx-runtime";
+import { A as AbrplusUIKit } from "./AbrplusUIKit-BlztDcB2.js";
+import EN from "antd/locale/en_US";
+import FA from "antd/locale/fa_IR";
+import { c as colors } from "./colors-BmRCmHtR.js";
+import { ConfigProvider } from "antd";
+const useAntConfig = (language) => {
+  const isFA = language === "fa";
+  const direction = isFA ? "rtl" : "ltr";
+  const locale = isFA ? FA : EN;
+  const theme = {
     token: {
-      fontFamily: o ? "YekanBakhFaRegular" : "RobotoRegular",
-      colorPrimary: n.primary,
-      colorSuccess: n.positive,
-      colorError: n.negative,
+      fontFamily: isFA ? "YekanBakhFaRegular" : "RobotoRegular",
+      colorPrimary: colors.primary,
+      colorSuccess: colors.positive,
+      colorError: colors.negative,
       borderRadius: 4
     },
     components: {
       Input: {
-        colorBorder: n.primary_light_3,
-        hoverBorderColor: n.primary_dark_1,
-        colorBgContainerDisabled: n.light_6
+        colorBorder: colors.primary_light_3,
+        hoverBorderColor: colors.primary_dark_1,
+        colorBgContainerDisabled: colors.light_6
       }
     }
-  }, direction: e, locale: r };
+  };
+  return { theme, direction, locale };
 };
-function c(i, o) {
-  const e = { ...i };
-  if (i && typeof i == "object" && o && typeof o == "object") {
-    for (const r in o)
-      if (Object.prototype.hasOwnProperty.call(o, r)) {
-        const t = o[r], a = e[r];
-        t && typeof t == "object" && !Array.isArray(t) && a && typeof a == "object" && !Array.isArray(a) ? e[r] = c(a, t) : t !== void 0 && (e[r] = t);
+function deepMerge(target, source) {
+  const output = { ...target };
+  if (target && typeof target === "object" && source && typeof source === "object") {
+    for (const key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        const sourceValue = source[key];
+        const targetValue = output[key];
+        if (sourceValue && typeof sourceValue === "object" && !Array.isArray(sourceValue) && targetValue && typeof targetValue === "object" && !Array.isArray(targetValue)) {
+          output[key] = deepMerge(targetValue, sourceValue);
+        } else if (sourceValue !== void 0) {
+          output[key] = sourceValue;
+        }
       }
+    }
   }
-  return e;
+  return output;
 }
-const j = ({
-  children: i,
-  locales: o,
-  antdConfigs: e = {}
+const AbrplusUIKitProvider = ({
+  children,
+  locales,
+  antdConfigs = {}
 }) => {
-  m.config({
-    locales: o
+  AbrplusUIKit.config({
+    locales
   });
-  const r = y(o?.lang ?? "fa"), t = c(r, e);
-  return /* @__PURE__ */ s(p, { ...t, children: i });
+  const defaultAntDConfigs = useAntConfig(locales?.lang ?? "fa");
+  const mergedConfigs = deepMerge(defaultAntDConfigs, antdConfigs);
+  return /* @__PURE__ */ jsx(ConfigProvider, { ...mergedConfigs, children });
 };
 export {
-  j as AbrplusUIKitProvider
+  AbrplusUIKitProvider
 };

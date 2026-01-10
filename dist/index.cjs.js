@@ -5,7 +5,7 @@ const AbrplusUIKit = require("./AbrplusUIKit-4yWTl2FC.cjs");
 const colors = require("./colors-BIS4kHo_.cjs");
 const config = {
   content: {
-    files: ["./src/**/*.{js,ts,jsx,tsx,html}"]
+    files: ["./src/**/*.{js,ts,jsx,tsx,html}", ".storybook/storybook.css"]
   },
   theme: {
     fontFamily: {

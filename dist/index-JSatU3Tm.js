@@ -1,14 +1,13 @@
-"use strict";
-const jsxRuntime = require("react/jsx-runtime");
-const antd = require("antd");
-const tailwindMerge = require("tailwind-merge");
-const React = require("react");
-const index = require("./index--2LKYgoc.cjs");
+import { jsx, jsxs } from "react/jsx-runtime";
+import { Avatar as Avatar$1, ConfigProvider, Dropdown as Dropdown$1, Image as Image$1 } from "antd";
+import { twMerge } from "tailwind-merge";
+import { useState, useEffect } from "react";
+import { F as Flex, L as Loading } from "./index-CYMyiSBD.js";
 const Avatar = ({ className, ...props }) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.Avatar, { ...props, className: tailwindMerge.twMerge("bg-light-7 border-primary-light-3", className) });
+  return /* @__PURE__ */ jsx(Avatar$1, { ...props, className: twMerge("bg-light-7 border-primary-light-3", className) });
 };
 const Group = ({ className, max, ...props }) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.Avatar.Group, { max, ...props, className: tailwindMerge.twMerge(className) });
+  return /* @__PURE__ */ jsx(Avatar$1.Group, { max, ...props, className: twMerge(className) });
 };
 Avatar.Group = Group;
 const SwitchThemeConfig = {
@@ -17,7 +16,7 @@ const SwitchThemeConfig = {
   }
 };
 const Dropdown = ({ className, ...props }) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { theme: SwitchThemeConfig, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Dropdown, { ...props, className: tailwindMerge.twMerge("bg-light-7", className) }) });
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: SwitchThemeConfig, children: /* @__PURE__ */ jsx(Dropdown$1, { ...props, className: twMerge("bg-light-7", className) }) });
 };
 const Image = ({
   preview = false,
@@ -28,16 +27,16 @@ const Image = ({
   wrapperClassName,
   ...rest
 }) => {
-  const [showFallBack, setShowFallBack] = React.useState(false);
-  return /* @__PURE__ */ jsxRuntime.jsx(
-    index.Flex,
+  const [showFallBack, setShowFallBack] = useState(false);
+  return /* @__PURE__ */ jsx(
+    Flex,
     {
       style: { width, height },
       align: "center",
       justify: "center",
       className: wrapperClassName,
-      children: showFallBack && fallback ? fallback : /* @__PURE__ */ jsxRuntime.jsx(
-        antd.Image,
+      children: showFallBack && fallback ? fallback : /* @__PURE__ */ jsx(
+        Image$1,
         {
           preview,
           onError: (e) => {
@@ -70,7 +69,7 @@ const InfiniteLoader = ({
   scrollableNodeId,
   onNextPage
 }) => {
-  React.useEffect(() => {
+  useEffect(() => {
     const scrollableNode = getScrollableNode(scrollableNodeId);
     if (scrollableNode) {
       const onScroll = () => {
@@ -86,12 +85,14 @@ const InfiniteLoader = ({
       return () => scrollableNode.removeEventListener("scroll", debouncedOnScroll);
     }
   }, [hasMore, scrollableNodeId]);
-  return /* @__PURE__ */ jsxRuntime.jsxs("div", { className: tailwindMerge.twMerge(className, "w-full"), onClick: (e) => e.stopPropagation(), children: [
+  return /* @__PURE__ */ jsxs("div", { className: twMerge(className, "w-full"), onClick: (e) => e.stopPropagation(), children: [
     children,
-    hasMore && /* @__PURE__ */ jsxRuntime.jsx(index.Flex, { className: "min-h-12", align: "center", justify: "center", children: /* @__PURE__ */ jsxRuntime.jsx(index.Loading, { isLoading: true, color: indicatorColor, size: indicatorSize }) })
+    hasMore && /* @__PURE__ */ jsx(Flex, { className: "min-h-12", align: "center", justify: "center", children: /* @__PURE__ */ jsx(Loading, { isLoading: true, color: indicatorColor, size: indicatorSize }) })
   ] });
 };
-exports.Avatar = Avatar;
-exports.Dropdown = Dropdown;
-exports.Image = Image;
-exports.InfiniteLoader = InfiniteLoader;
+export {
+  Avatar as A,
+  Dropdown as D,
+  InfiniteLoader as I,
+  Image as a
+};

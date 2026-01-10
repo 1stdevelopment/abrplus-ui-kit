@@ -1,7 +1,7 @@
 import { jsx } from "react/jsx-runtime";
 import { Alert as Alert$1, ConfigProvider, Menu as Menu$1, Pagination as Pagination$1, Progress as Progress$1, Segmented, Skeleton as Skeleton$1, Steps as Steps$1, Switch as Switch$1, Timeline as Timeline$1 } from "antd";
-import { A, D, a, I } from "./index-sm0fShQm.js";
-import { B, F, L, T } from "./index-D5TWlWLA.js";
+import { A, D, a, I } from "./index-JSatU3Tm.js";
+import { B, F, L, T } from "./index-CYMyiSBD.js";
 import { twMerge } from "tailwind-merge";
 import { c as colors } from "./colors-BmRCmHtR.js";
 import { forwardRef } from "react";
@@ -52,10 +52,28 @@ Skeleton.Image = Skeleton$1.Image;
 Skeleton.Input = Skeleton$1.Input;
 Skeleton.Node = Skeleton$1.Node;
 const stepTheme = {
-  components: {}
+  components: {
+    Steps: {
+      iconFontSize: 18,
+      iconTop: 1
+    }
+  }
 };
-const Steps = (props) => {
-  return /* @__PURE__ */ jsx(ConfigProvider, { theme: stepTheme, children: /* @__PURE__ */ jsx(Steps$1, { ...props }) });
+const Steps = ({ colorPrimary, rootClassName, ...props }) => {
+  const mergedTheme = {
+    ...stepTheme,
+    token: {
+      ...stepTheme.token || {},
+      ...colorPrimary ? { colorPrimary } : {}
+    }
+  };
+  return /* @__PURE__ */ jsx(ConfigProvider, { theme: mergedTheme, children: /* @__PURE__ */ jsx(
+    Steps$1,
+    {
+      rootClassName: twMerge("[&_.ant-steps-item-finish_.ant-steps-icon]:top-1", rootClassName),
+      ...props
+    }
+  ) });
 };
 Steps.Step = Steps$1.Step;
 const SwitchThemeConfig = {

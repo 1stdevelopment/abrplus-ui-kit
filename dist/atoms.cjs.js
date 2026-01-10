@@ -2,11 +2,11 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
-const index$1 = require("./index-BVe7oAUa.cjs");
+const index$1 = require("./index-BJvlKrDL.cjs");
 const tailwindMerge = require("tailwind-merge");
 const React = require("react");
 const reactI18next = require("react-i18next");
-const index = require("./index--2LKYgoc.cjs");
+const index = require("./index-D10ZFpVh.cjs");
 const colors = require("./colors-BIS4kHo_.cjs");
 const require$$2 = require("react-dom");
 function getWindowDimensions() {

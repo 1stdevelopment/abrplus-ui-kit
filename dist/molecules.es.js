@@ -1,12 +1,12 @@
 import { jsx, jsxs, Fragment as Fragment$1 } from "react/jsx-runtime";
-import { Collapse, Input as Input$1, Tooltip as Tooltip$1, Divider, ConfigProvider, Select as Select$1, TreeSelect, TimePicker, Tree as Tree$1, Spin } from "antd";
-import React, { useRef, useState, useMemo, Children, forwardRef, useEffect, Fragment, useCallback, useLayoutEffect, memo, useReducer, createContext, useContext, isValidElement } from "react";
-import { R as Render, I as Icon, T as Text, F as Flex, L as Loading } from "./index-D5TWlWLA.js";
+import { Collapse, Input as Input$1, Tooltip as Tooltip$1, Divider, Flex as Flex$1, Tag as Tag$1, ConfigProvider, Select as Select$1, TreeSelect, TimePicker, Tree as Tree$1, Spin } from "antd";
+import React, { useRef, useState, useMemo, Children, forwardRef, useEffect, Fragment, useCallback, memo, useLayoutEffect, useReducer, createContext, useContext, isValidElement } from "react";
+import { R as Render, I as Icon, T as Text, F as Flex, L as Loading } from "./index-CYMyiSBD.js";
 import { twMerge } from "tailwind-merge";
 import { c as colors } from "./colors-BmRCmHtR.js";
-import { c as Breadcrumbs, U as Upload, T as Tooltip, I as InputErrorMessage, f as batch, m as moment, a as mainExports, d as datePickerColors, V as VerticalLine, e as Checkbox, b as BorderedTitle, g as IconButton, h as getAugmentedNamespace, i as commonjsGlobal, j as getDefaultExportFromCjs, C as Card } from "./index-m_5RELzL.js";
-import { B, k, l, p } from "./index-m_5RELzL.js";
-import { A as Avatar, D as Dropdown, I as InfiniteLoader, a as Image } from "./index-sm0fShQm.js";
+import { c as Breadcrumbs, U as Upload, T as Tooltip, I as InputErrorMessage, f as batch, m as moment, a as mainExports, d as datePickerColors, V as VerticalLine, e as Checkbox, b as BorderedTitle, g as IconButton, h as getAugmentedNamespace, i as commonjsGlobal, j as getDefaultExportFromCjs, C as Card } from "./index-wviejkkc.js";
+import { B, k, l, p } from "./index-wviejkkc.js";
+import { A as Avatar, D as Dropdown, I as InfiniteLoader, a as Image } from "./index-JSatU3Tm.js";
 import { useTranslation } from "react-i18next";
 import starkString from "starkstring";
 import "./index-amcHqQ0c.js";
@@ -3315,13 +3315,114 @@ const InputSearch = forwardRef(
     );
   }
 );
+const InputTag = memo(
+  ({
+    value = [],
+    onChange,
+    placeholder,
+    disabled,
+    label,
+    required,
+    hideErrorMessage,
+    error,
+    wrapperClassName
+  }) => {
+    const inputRef = React.useRef(null);
+    const addTag = useCallback(() => {
+      const newTag = inputRef.current?.value.trim();
+      if (!newTag || value.includes(newTag)) return;
+      onChange?.([...value, newTag]);
+      inputRef.current && (inputRef.current.value = "");
+    }, [value, onChange]);
+    const removeTag = useCallback(
+      (removedTag) => {
+        onChange?.(value.filter((tag) => tag !== removedTag));
+      },
+      [value, onChange]
+    );
+    const onKeyDown = useCallback(
+      (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          addTag();
+        }
+      },
+      [addTag]
+    );
+    const onChangeInput = useCallback((e) => {
+      inputRef.current && (inputRef.current.value = e.target.value);
+    }, []);
+    return /* @__PURE__ */ jsxs(
+      Flex$1,
+      {
+        vertical: true,
+        className: twMerge(
+          "w-full",
+          !hideErrorMessage && "inputErrorMessageContainer",
+          wrapperClassName,
+          "[&_.ant-input-clear-icon]:!flex"
+        ),
+        children: [
+          label && /* @__PURE__ */ jsxs("div", { className: "flex h-[24px] items-center gap-1", children: [
+            typeof label === "string" ? /* @__PURE__ */ jsx(Fragment$1, { children: /* @__PURE__ */ jsx(
+              Text,
+              {
+                size: 14,
+                color: colors.primary,
+                weight: "normal",
+                children: label
+              }
+            ) }) : label,
+            /* @__PURE__ */ jsx(Render, { when: required, children: /* @__PURE__ */ jsx(Icon, { name: "Asterisk", size: 6, color: colors.negative, className: "mb-2" }) })
+          ] }),
+          /* @__PURE__ */ jsxs(
+            Flex$1,
+            {
+              wrap: true,
+              className: twMerge(
+                "min-h-10 w-full gap-1 rounded border border-solid border-primary-light-3 bg-white-ff p-2 text-[14px] font-medium hover:border-primary-light-2",
+                error && "border-negative"
+              ),
+              children: [
+                /* @__PURE__ */ jsx(Fragment$1, { children: value.map((tag) => /* @__PURE__ */ jsx(
+                  Tag$1,
+                  {
+                    closable: !disabled,
+                    onClose: () => removeTag(tag),
+                    style: { marginInlineEnd: 4 },
+                    children: tag
+                  },
+                  tag
+                )) }),
+                /* @__PURE__ */ jsx(
+                  "input",
+                  {
+                    ref: inputRef,
+                    onChange: onChangeInput,
+                    placeholder: value.length === 0 ? placeholder : void 0,
+                    className: twMerge(
+                      "placeholder:text-primary_light_3 flex-1 border-none font-yekan-normal text-primary-dark-1 outline-none"
+                    ),
+                    onKeyDown
+                  }
+                )
+              ]
+            }
+          ),
+          !hideErrorMessage && error?.message && /* @__PURE__ */ jsx(InputErrorMessage, { message: error?.message })
+        ]
+      }
+    );
+  }
+);
 const Input = batch({
   Default: InputDefault,
   Ghost: InputGhost,
   Number: InputNumber,
   Search: InputSearch,
   TextArea: InputTextArea,
-  EmojiPicker
+  EmojiPicker,
+  Tag: InputTag
 });
 const InputDatePicker = ({
   helperText,
@@ -4438,8 +4539,8 @@ const Tag = ({
           justify: "center",
           tabIndex: 0,
           className: twMerge(
-            " bg-light-1 h-[26px] max-h-[26px] rounded border  px-2 py-1 focus-visible:outline-none",
-            disabled && "bg-light-6 cursor-not-allowed ",
+            " h-[26px] max-h-[26px] rounded border bg-light-1  px-2 py-1 focus-visible:outline-none",
+            disabled && "cursor-not-allowed bg-light-6 ",
             className
           ),
           style: {
@@ -11378,7 +11479,7 @@ const VerticalTabs = ({ children, query = true, defaultActiveTab }) => {
       {
         className: twMerge(
           "cursor-pointer rounded-bl rounded-tl border-r-[3px] border-transparent px-[22px]  py-2",
-          tab === activeTab && "bg-white-ff border-secondary  shadow-[0_1px_2px_0_rgba(67,88,121,0.26)]"
+          tab === activeTab && "border-secondary bg-white-ff  shadow-[0_1px_2px_0_rgba(67,88,121,0.26)]"
         ),
         onClick: () => {
           setActiveTab(tab);

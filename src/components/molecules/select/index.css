@@ -1,4 +1,5 @@
-.ant-select-show-arrow.ant-select-show-search .ant-select-selection-overflow-item:nth-last-child(2):after {
+.ant-select-show-arrow.ant-select-show-search
+  .ant-select-selection-overflow-item:nth-last-child(2):after {
   content: '|';
   font-size: 23px;
   margin-left: 5px;

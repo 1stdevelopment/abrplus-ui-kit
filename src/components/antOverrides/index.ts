@@ -15,3 +15,4 @@ export * from './steps';
 export * from './switch';
 export * from './text';
 export * from './timeline';
+export * from './slider';

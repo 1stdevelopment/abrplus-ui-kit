@@ -14,10 +14,3 @@
 .docs-story {
   direction: rtl;
 }
-
-.ant-input-outlined:focus
-.ant-input-outlined:focus-within
-.ant-input-outlined:active {
-  border-color: var(--primary-dark-1) !important;
-  box-shadow: none  !important;
-}

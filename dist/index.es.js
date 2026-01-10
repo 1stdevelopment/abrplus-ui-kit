@@ -3,7 +3,7 @@ import { A } from "./AbrplusUIKit-BlztDcB2.js";
 import { c } from "./colors-BmRCmHtR.js";
 const config = {
   content: {
-    files: ["./src/**/*.{js,ts,jsx,tsx,html}"]
+    files: ["./src/**/*.{js,ts,jsx,tsx,html}", ".storybook/storybook.css"]
   },
   theme: {
     fontFamily: {

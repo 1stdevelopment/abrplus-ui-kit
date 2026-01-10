@@ -1,17 +1,14 @@
 .inputErrorMessageContainer {
-  @apply pb-6 relative
+  @apply pb-6 relative;
 }
-
 
 .inputErrorMessageContainer :is(.inputErrorMessage, .helperText) {
-  @apply absolute bottom-0
+  @apply absolute bottom-0;
 }
-
 
 .ant-input-affix-wrapper:is(:focus, :focus-within, :hover) {
   @apply !shadow-none;
 }
-
 
 .ant-input-outlined:hover,
 .ant-input-outlined:focus,

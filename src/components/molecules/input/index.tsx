@@ -29,6 +29,6 @@ export type {
   InputNumberProps,
   InputRef,
   InputSearchProps,
-  InputTextAreaProps,
   InputTagProps,
+  InputTextAreaProps,
 };

@@ -3,11 +3,11 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
 const React = require("react");
-const index$1 = require("./index--2LKYgoc.cjs");
+const index$1 = require("./index-D10ZFpVh.cjs");
 const tailwindMerge = require("tailwind-merge");
 const colors = require("./colors-BIS4kHo_.cjs");
-const index = require("./index-BVe7oAUa.cjs");
-const index$2 = require("./index-CJHqcXEY.cjs");
+const index = require("./index-BJvlKrDL.cjs");
+const index$2 = require("./index-CJu4Ntp3.cjs");
 const reactI18next = require("react-i18next");
 const starkString = require("starkstring");
 require("./index-D1yLR6A8.cjs");
@@ -3316,13 +3316,114 @@ const InputSearch = React.forwardRef(
     );
   }
 );
+const InputTag = React.memo(
+  ({
+    value = [],
+    onChange,
+    placeholder,
+    disabled,
+    label,
+    required,
+    hideErrorMessage,
+    error,
+    wrapperClassName
+  }) => {
+    const inputRef = React.useRef(null);
+    const addTag = React.useCallback(() => {
+      const newTag = inputRef.current?.value.trim();
+      if (!newTag || value.includes(newTag)) return;
+      onChange?.([...value, newTag]);
+      inputRef.current && (inputRef.current.value = "");
+    }, [value, onChange]);
+    const removeTag = React.useCallback(
+      (removedTag) => {
+        onChange?.(value.filter((tag) => tag !== removedTag));
+      },
+      [value, onChange]
+    );
+    const onKeyDown = React.useCallback(
+      (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          addTag();
+        }
+      },
+      [addTag]
+    );
+    const onChangeInput = React.useCallback((e) => {
+      inputRef.current && (inputRef.current.value = e.target.value);
+    }, []);
+    return /* @__PURE__ */ jsxRuntime.jsxs(
+      antd.Flex,
+      {
+        vertical: true,
+        className: tailwindMerge.twMerge(
+          "w-full",
+          !hideErrorMessage && "inputErrorMessageContainer",
+          wrapperClassName,
+          "[&_.ant-input-clear-icon]:!flex"
+        ),
+        children: [
+          label && /* @__PURE__ */ jsxRuntime.jsxs("div", { className: "flex h-[24px] items-center gap-1", children: [
+            typeof label === "string" ? /* @__PURE__ */ jsxRuntime.jsx(jsxRuntime.Fragment, { children: /* @__PURE__ */ jsxRuntime.jsx(
+              index$1.Text,
+              {
+                size: 14,
+                color: colors.colors.primary,
+                weight: "normal",
+                children: label
+              }
+            ) }) : label,
+            /* @__PURE__ */ jsxRuntime.jsx(index$1.Render, { when: required, children: /* @__PURE__ */ jsxRuntime.jsx(index$1.Icon, { name: "Asterisk", size: 6, color: colors.colors.negative, className: "mb-2" }) })
+          ] }),
+          /* @__PURE__ */ jsxRuntime.jsxs(
+            antd.Flex,
+            {
+              wrap: true,
+              className: tailwindMerge.twMerge(
+                "min-h-10 w-full gap-1 rounded border border-solid border-primary-light-3 bg-white-ff p-2 text-[14px] font-medium hover:border-primary-light-2",
+                error && "border-negative"
+              ),
+              children: [
+                /* @__PURE__ */ jsxRuntime.jsx(jsxRuntime.Fragment, { children: value.map((tag) => /* @__PURE__ */ jsxRuntime.jsx(
+                  antd.Tag,
+                  {
+                    closable: !disabled,
+                    onClose: () => removeTag(tag),
+                    style: { marginInlineEnd: 4 },
+                    children: tag
+                  },
+                  tag
+                )) }),
+                /* @__PURE__ */ jsxRuntime.jsx(
+                  "input",
+                  {
+                    ref: inputRef,
+                    onChange: onChangeInput,
+                    placeholder: value.length === 0 ? placeholder : void 0,
+                    className: tailwindMerge.twMerge(
+                      "placeholder:text-primary_light_3 flex-1 border-none font-yekan-normal text-primary-dark-1 outline-none"
+                    ),
+                    onKeyDown
+                  }
+                )
+              ]
+            }
+          ),
+          !hideErrorMessage && error?.message && /* @__PURE__ */ jsxRuntime.jsx(index.InputErrorMessage, { message: error?.message })
+        ]
+      }
+    );
+  }
+);
 const Input = index.batch({
   Default: InputDefault,
   Ghost: InputGhost,
   Number: InputNumber,
   Search: InputSearch,
   TextArea: InputTextArea,
-  EmojiPicker
+  EmojiPicker,
+  Tag: InputTag
 });
 const InputDatePicker = ({
   helperText,
@@ -4439,8 +4540,8 @@ const Tag = ({
           justify: "center",
           tabIndex: 0,
           className: tailwindMerge.twMerge(
-            " bg-light-1 h-[26px] max-h-[26px] rounded border  px-2 py-1 focus-visible:outline-none",
-            disabled && "bg-light-6 cursor-not-allowed ",
+            " h-[26px] max-h-[26px] rounded border bg-light-1  px-2 py-1 focus-visible:outline-none",
+            disabled && "cursor-not-allowed bg-light-6 ",
             className
           ),
           style: {
@@ -11379,7 +11480,7 @@ const VerticalTabs = ({ children, query = true, defaultActiveTab }) => {
       {
         className: tailwindMerge.twMerge(
           "cursor-pointer rounded-bl rounded-tl border-r-[3px] border-transparent px-[22px]  py-2",
-          tab === activeTab && "bg-white-ff border-secondary  shadow-[0_1px_2px_0_rgba(67,88,121,0.26)]"
+          tab === activeTab && "border-secondary bg-white-ff  shadow-[0_1px_2px_0_rgba(67,88,121,0.26)]"
         ),
         onClick: () => {
           setActiveTab(tab);

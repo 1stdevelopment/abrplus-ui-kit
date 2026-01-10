@@ -1,0 +1,21 @@
+.ant-collapse-item > .ant-collapse-header {
+
+    align-items: center !important;
+
+    overflow: hidden !important
+}
+
+.ant-collapse-item > .ant-collapse-header:hover {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(248 249 251 / var(--tw-bg-opacity, 1))
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+
+    padding: 0px !important
+}
+.ant-tabs-tab-active > .ant-tabs-tab-btn {
+  font-family: YekanBakhFaMedium;
+}

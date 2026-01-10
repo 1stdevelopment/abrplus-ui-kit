@@ -2,8 +2,8 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
-const index = require("./index-CJHqcXEY.cjs");
-const index$1 = require("./index--2LKYgoc.cjs");
+const index = require("./index-CJu4Ntp3.cjs");
+const index$1 = require("./index-D10ZFpVh.cjs");
 const tailwindMerge = require("tailwind-merge");
 const colors = require("./colors-BIS4kHo_.cjs");
 const React = require("react");
@@ -54,10 +54,28 @@ Skeleton.Image = antd.Skeleton.Image;
 Skeleton.Input = antd.Skeleton.Input;
 Skeleton.Node = antd.Skeleton.Node;
 const stepTheme = {
-  components: {}
+  components: {
+    Steps: {
+      iconFontSize: 18,
+      iconTop: 1
+    }
+  }
 };
-const Steps = (props) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { theme: stepTheme, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Steps, { ...props }) });
+const Steps = ({ colorPrimary, rootClassName, ...props }) => {
+  const mergedTheme = {
+    ...stepTheme,
+    token: {
+      ...stepTheme.token || {},
+      ...colorPrimary ? { colorPrimary } : {}
+    }
+  };
+  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { theme: mergedTheme, children: /* @__PURE__ */ jsxRuntime.jsx(
+    antd.Steps,
+    {
+      rootClassName: tailwindMerge.twMerge("[&_.ant-steps-item-finish_.ant-steps-icon]:top-1", rootClassName),
+      ...props
+    }
+  ) });
 };
 Steps.Step = antd.Steps.Step;
 const SwitchThemeConfig = {

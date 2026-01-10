@@ -1,8 +1,7 @@
-
-.ant-collapse-item>.ant-collapse-header {
+.ant-collapse-item > .ant-collapse-header {
   @apply hover:bg-light-1 !items-center !overflow-hidden;
 }
 
-.ant-collapse-content>.ant-collapse-content-box {
+.ant-collapse-content > .ant-collapse-content-box {
   @apply !p-0;
 }

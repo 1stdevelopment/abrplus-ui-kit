@@ -1,7 +1,8 @@
-import { Breadcrumb as AntBreadcrumb, BreadcrumbProps } from 'antd';
-import { Link } from 'react-router-dom';
+import './index.css';
 
 import { colors } from '@configs';
+import { Breadcrumb as AntBreadcrumb, BreadcrumbProps } from 'antd';
+import { Link } from 'react-router-dom';
 
 import { Text } from '../../antOverrides/text';
 import { Icon } from '../../atoms/icon';

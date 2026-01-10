@@ -1,3 +1,4 @@
+import { colors } from '@configs';
 import qs from 'qs';
 import {
   Children,
@@ -11,8 +12,6 @@ import {
 } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { twMerge } from 'tailwind-merge';
-
-import { colors } from '@configs';
 
 import { Card, Flex, Text } from '../..';
 
@@ -93,7 +92,7 @@ const VerticalTabs = ({ children, query = true, defaultActiveTab }: VerticalTabs
             className={twMerge(
               'cursor-pointer rounded-bl rounded-tl border-r-[3px] border-transparent px-[22px]  py-2',
               tab === activeTab &&
-                'bg-white-ff border-secondary  shadow-[0_1px_2px_0_rgba(67,88,121,0.26)]',
+                'border-secondary bg-white-ff  shadow-[0_1px_2px_0_rgba(67,88,121,0.26)]',
             )}
             onClick={() => {
               setActiveTab(tab);

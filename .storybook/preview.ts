@@ -2,6 +2,10 @@
 import '../src/configs/css/global.css';
 import './storybook.css';
 
+import { AbrplusUIKit } from '../src/configs';
+
+AbrplusUIKit.config();
+
 const preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },

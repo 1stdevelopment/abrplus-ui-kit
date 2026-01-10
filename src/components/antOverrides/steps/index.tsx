@@ -1,24 +1,39 @@
-import type { StepsProps } from 'antd';
-import { Steps as AntSteps, ConfigProvider } from 'antd';
-import type { FC } from 'react';
+import { StepsProps as AntStepProps, Steps as AntSteps, ConfigProvider, ThemeConfig } from 'antd';
+import { twMerge } from 'tailwind-merge';
 
-const stepTheme = {
-  components: {},
+interface StepsProps extends AntStepProps {
+  colorPrimary?: string;
+}
+
+const stepTheme: ThemeConfig = {
+  components: {
+    Steps: {
+      iconFontSize: 18,
+      iconTop: 1,
+    },
+  },
 };
 
-type StepsComponent = FC<StepsProps> & {
-  Step: typeof AntSteps.Step;
-};
+const Steps = ({ colorPrimary, rootClassName, ...props }: StepsProps) => {
+  const mergedTheme: ThemeConfig = {
+    ...stepTheme,
+    token: {
+      ...(stepTheme.token || {}),
+      ...(colorPrimary ? { colorPrimary } : {}),
+    },
+  };
 
-const Steps: StepsComponent = (props) => {
   return (
-    <ConfigProvider theme={stepTheme}>
-      <AntSteps {...props} />
+    <ConfigProvider theme={mergedTheme}>
+      <AntSteps
+        rootClassName={twMerge('[&_.ant-steps-item-finish_.ant-steps-icon]:top-1', rootClassName)}
+        {...props}
+      />
     </ConfigProvider>
   );
 };
 
-Steps.Step = AntSteps.Step;
-
 export { Steps };
+
+Steps.Step = AntSteps.Step;
 export type { StepsProps };

@@ -1,10 +1,9 @@
+import { colors } from '@configs';
+import { useInteractions } from '@hooks';
 import { Tooltip } from 'antd';
 import React, { CSSProperties } from 'react';
 import { twMerge } from 'tailwind-merge';
 
-import { colors } from '@configs';
-
-import { useInteractions } from '@hooks';
 import { Flex, Icon, Image, Text } from '../..';
 
 export interface TagProps {
@@ -85,8 +84,8 @@ const Tag = ({
         justify="center"
         tabIndex={0}
         className={twMerge(
-          ' bg-light-1 h-[26px] max-h-[26px] rounded border  px-2 py-1 focus-visible:outline-none',
-          disabled && 'bg-light-6 cursor-not-allowed ',
+          ' h-[26px] max-h-[26px] rounded border bg-light-1  px-2 py-1 focus-visible:outline-none',
+          disabled && 'cursor-not-allowed bg-light-6 ',
           className,
         )}
         style={{

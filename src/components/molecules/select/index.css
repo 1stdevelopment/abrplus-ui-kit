@@ -1,0 +1,14 @@
+.ant-select-show-arrow.ant-select-show-search .ant-select-selection-overflow-item:nth-last-child(2):after {
+  content: '|';
+  font-size: 23px;
+  margin-left: 5px;
+  color: #b8c7d8;
+}
+.rc-virtual-list {
+  border: 1px solid #d9e1ea;
+  box-shadow: none;
+}
+.ant-select-dropdown {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}

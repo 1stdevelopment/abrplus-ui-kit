@@ -102,6 +102,9 @@ const timeThemeConfig = {
 const Timeline = ({ ...props }) => {
   return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { theme: timeThemeConfig, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Timeline, { ...props }) });
 };
+const Slider = ({ size = 2, ...rest }) => {
+  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { direction: "ltr", theme: { components: { Slider: { railSize: size } } }, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Slider, { ...rest }) });
+};
 exports.Avatar = index.Avatar;
 exports.Dropdown = index.Dropdown;
 exports.Image = index.Image;
@@ -116,6 +119,7 @@ exports.Pagination = Pagination;
 exports.Progress = Progress;
 exports.SegmentedSwitch = SegmentedSwitch;
 exports.Skeleton = Skeleton;
+exports.Slider = Slider;
 exports.Steps = Steps;
 exports.Switch = Switch;
 exports.Timeline = Timeline;

@@ -1,5 +1,5 @@
 import { jsx } from "react/jsx-runtime";
-import { Alert as Alert$1, ConfigProvider, Menu as Menu$1, Pagination as Pagination$1, Progress as Progress$1, Segmented, Skeleton as Skeleton$1, Steps as Steps$1, Switch as Switch$1, Timeline as Timeline$1 } from "antd";
+import { Alert as Alert$1, ConfigProvider, Menu as Menu$1, Pagination as Pagination$1, Progress as Progress$1, Segmented, Skeleton as Skeleton$1, Steps as Steps$1, Switch as Switch$1, Timeline as Timeline$1, Slider as Slider$1 } from "antd";
 import { A, D, a, I } from "./index-JSatU3Tm.js";
 import { B, F, L, T } from "./index-CYMyiSBD.js";
 import { twMerge } from "tailwind-merge";
@@ -100,6 +100,9 @@ const timeThemeConfig = {
 const Timeline = ({ ...props }) => {
   return /* @__PURE__ */ jsx(ConfigProvider, { theme: timeThemeConfig, children: /* @__PURE__ */ jsx(Timeline$1, { ...props }) });
 };
+const Slider = ({ size = 2, ...rest }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { direction: "ltr", theme: { components: { Slider: { railSize: size } } }, children: /* @__PURE__ */ jsx(Slider$1, { ...rest }) });
+};
 export {
   Alert,
   A as Avatar,
@@ -114,6 +117,7 @@ export {
   Progress,
   SegmentedSwitch,
   Skeleton,
+  Slider,
   Steps,
   Switch,
   T as Text,

@@ -1,4 +1,4 @@
-import { Platform, colors } from '@configs';
+import { AbrplusUIKit, APP_NAME, colors } from '@configs';
 import { Render } from 'src/components/atoms/behavioralAtoms/render';
 import { twMerge } from 'tailwind-merge';
 
@@ -7,7 +7,7 @@ import { Icon } from '../../../atoms';
 import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
 
 export interface ActionButtonProps extends ButtonProps {
-  platform: Platform;
+
 }
 const ActionButton = ({
   style,
@@ -20,27 +20,27 @@ const ActionButton = ({
   iconPosition = 'start',
   isLoading,
   lang = 'fa',
-  platform = 'sales',
   ...rest
 }: ActionButtonProps) => {
+  const appName = AbrplusUIKit.config().getAppName()
   const getColor = () => {
-    if ((disabled || isLoading) && platform) {
+    if ((disabled || isLoading) && appName) {
       if (
-        platform === 'home' ||
-        platform === 'sandbox' ||
-        platform === 'bi' ||
-        platform === 'storybook'
+        appName === 'home' ||
+        appName === 'sandbox' ||
+        appName === 'bi' ||
+        appName === 'storybook'
       )
         return colors['sales']['action_light_2'];
-      return colors[platform]['action_light_2'];
+      return colors[appName]['action_light_2'];
     }
     return colors.white_ff;
   };
 
   const getColorClass = () => {
-    if (!platform) return;
+    if (!appName) return;
 
-    const data: Partial<Record<Platform, string>> = {
+    const data: Partial<Record<APP_NAME, string>> = {
       bi: twMerge('bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1'),
       call: twMerge('bg-call-action hover:bg-call-action-light-1 active:bg-call-action-dark-1'),
       club: twMerge('bg-club-action hover:bg-club-action-light-1 active:bg-club-action-dark-1'),
@@ -52,7 +52,7 @@ const ActionButton = ({
       rayan: twMerge('bg-rayan-action hover:bg-rayan-action-light-1 active:bg-rayan-action-dark-1'),
     };
 
-    return data?.[platform] || data['sales'];
+    return data?.[appName] || data['sales'];
   };
 
   return (

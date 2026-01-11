@@ -1,7 +1,5 @@
 @import 'jalaali-react-date-picker/lib/styles/index.css';
 
-@tailwind utilities;
-
 @font-face {
   font-family: YekanBakhFaRegular;
   src: url('../../assets/fonts/yekanbakh/YekanBakh-Fa-Regular.woff') format('woff');

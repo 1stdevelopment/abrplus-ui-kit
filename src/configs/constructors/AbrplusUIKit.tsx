@@ -6,16 +6,18 @@ export interface AbrplusUIKitType {
     lang?: Language;
     resources?: Resources;
   };
-  appName?: APP_NAME
+  appName?: APP_NAME;
 }
 
 export class AbrplusUIKit {
   private static instance: AbrplusUIKit | null = null;
 
-  private configs: AbrplusUIKitType;
+  private configs: AbrplusUIKitType = {
+    appName: 'sales',
+  };
 
   private constructor(configs: AbrplusUIKitType) {
-    this.configs = configs;
+    this.configs = { ...this.configs, ...configs };
     this.init();
   }
 
@@ -32,6 +34,6 @@ export class AbrplusUIKit {
   }
 
   public getAppName() {
-    return this.configs.appName as APP_NAME
+    return this.configs.appName as APP_NAME;
   }
 }

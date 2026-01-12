@@ -1,19 +1,19 @@
 import './index.css';
 
-import { AbrplusUIKit, APP_NAME, AppColorSchema, colors, ColorScheme } from '@configs';
+import { AbrplusUIKit, AppColorSchema, ColorScheme, colors } from '@configs';
 import { Breadcrumb as AntBreadcrumb, BreadcrumbProps } from 'antd';
 import { Link } from 'react-router-dom';
 
 import { Text } from '../../antOverrides/text';
 import { Icon } from '../../atoms/icon';
 
-export interface AntBreadCrumbProps extends BreadcrumbProps {
-}
+export interface AntBreadCrumbProps extends BreadcrumbProps {}
 
 export const Breadcrumb = (props: AntBreadCrumbProps) => {
-  const appName = AbrplusUIKit.config().getAppName()
-  const color = colors[appName as keyof ColorScheme] as AppColorSchema
-const actionColor=color.action
+  const appName = AbrplusUIKit.config().getAppName();
+  const color = colors[appName as keyof ColorScheme] as AppColorSchema;
+  const actionColor = color?.action;
+
   return (
     <AntBreadcrumb
       {...props}

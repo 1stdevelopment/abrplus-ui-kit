@@ -9,17 +9,17 @@ export interface AbrplusUIKitProviderProps extends ConfigProviderProps {
   children: ReactNode;
   locales: AbrplusUIKitType['locales'];
   antdConfigs?: Partial<ConfigProviderProps>;
-  appName?: APP_NAME
+  appName?: APP_NAME;
 }
 export const AbrplusUIKitProvider = ({
   children,
   locales,
-  appName = 'sales',
+  appName,
   antdConfigs = {},
 }: AbrplusUIKitProviderProps) => {
   AbrplusUIKit.config({
     locales,
-    appName 
+    appName,
   });
   const defaultAntDConfigs = useAntConfig(locales?.lang ?? 'fa') as ConfigProviderProps;
   const mergedConfigs = deepMerge(defaultAntDConfigs, antdConfigs);

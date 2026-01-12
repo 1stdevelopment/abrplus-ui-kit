@@ -3,9 +3,8 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const EN = require("antd/locale/en_US");
 const FA = require("antd/locale/fa_IR");
-const colors = require("./colors-BIS4kHo_.cjs");
+const colors = require("./colors-TPZkyKI4.cjs");
 const antd = require("antd");
-const AbrplusUIKit = require("./AbrplusUIKit-4yWTl2FC.cjs");
 const useAntConfig = (language) => {
   const isFA = language === "fa";
   const direction = isFA ? "rtl" : "ltr";
@@ -48,10 +47,12 @@ function deepMerge(target, source) {
 const AbrplusUIKitProvider = ({
   children,
   locales,
+  appName,
   antdConfigs = {}
 }) => {
-  AbrplusUIKit.AbrplusUIKit.config({
-    locales
+  colors.AbrplusUIKit.config({
+    locales,
+    appName
   });
   const defaultAntDConfigs = useAntConfig(locales?.lang ?? "fa");
   const mergedConfigs = deepMerge(defaultAntDConfigs, antdConfigs);

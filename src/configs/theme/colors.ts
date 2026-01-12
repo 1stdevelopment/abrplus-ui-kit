@@ -104,15 +104,14 @@ const colors = {
 } as const;
 
 type ColorScheme = typeof colors;
-type AppColorSchema= {
-    action: string;
-    action_dark_1: string;
-    action_light_1: string;
-    action_light_2: string;
-    action_light_3: string;
-}
-
+type AppColorSchema = {
+  action: string;
+  action_dark_1: string;
+  action_light_1: string;
+  action_light_2: string;
+  action_light_3: string;
+};
 
 export { colors };
 
-export type { ColorScheme ,AppColorSchema };
+export type { AppColorSchema, ColorScheme };

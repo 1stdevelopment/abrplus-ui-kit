@@ -1,7 +1,7 @@
 "use strict";
 const jsxRuntime = require("react/jsx-runtime");
-const index = require("./index-D10ZFpVh.cjs");
-const colors = require("./colors-BIS4kHo_.cjs");
+const index = require("./index-DTJSIVTd.cjs");
+const colors = require("./colors-TPZkyKI4.cjs");
 const reactRouterDom = require("react-router-dom");
 const tailwindMerge = require("tailwind-merge");
 const antd = require("antd");
@@ -6814,19 +6814,19 @@ const ActionButton = ({
   iconPosition = "start",
   isLoading,
   lang = "fa",
-  platform = "sales",
   ...rest
 }) => {
+  const appName = colors.AbrplusUIKit.config().getAppName();
   const getColor = () => {
-    if ((disabled || isLoading) && platform) {
-      if (platform === "home" || platform === "sandbox" || platform === "bi" || platform === "storybook")
+    if ((disabled || isLoading) && appName) {
+      if (appName === "home" || appName === "sandbox" || appName === "bi" || appName === "storybook")
         return colors.colors["sales"]["action_light_2"];
-      return colors.colors[platform]["action_light_2"];
+      return colors.colors[appName]["action_light_2"];
     }
     return colors.colors.white_ff;
   };
   const getColorClass = () => {
-    if (!platform) return;
+    if (!appName) return;
     const data = {
       bi: tailwindMerge.twMerge("bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1"),
       call: tailwindMerge.twMerge("bg-call-action hover:bg-call-action-light-1 active:bg-call-action-dark-1"),
@@ -6838,7 +6838,7 @@ const ActionButton = ({
       team: tailwindMerge.twMerge("bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1"),
       rayan: tailwindMerge.twMerge("bg-rayan-action hover:bg-rayan-action-light-1 active:bg-rayan-action-dark-1")
     };
-    return data?.[platform] || data["sales"];
+    return data?.[appName] || data["sales"];
   };
   return /* @__PURE__ */ jsxRuntime.jsxs(
     "button",

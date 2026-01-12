@@ -4,11 +4,9 @@ import { twMerge } from 'tailwind-merge';
 
 import { Flex, Loading, Text } from '../../..';
 import { Icon } from '../../../atoms';
-import { ButtonProps, buttonDefaultClasses, fontSizePicker, paddingPicker } from '../shared';
+import { buttonDefaultClasses, ButtonProps, fontSizePicker, paddingPicker } from '../shared';
 
-export interface ActionButtonProps extends ButtonProps {
-
-}
+export interface ActionButtonProps extends ButtonProps {}
 const ActionButton = ({
   style,
   height,
@@ -22,7 +20,7 @@ const ActionButton = ({
   lang = 'fa',
   ...rest
 }: ActionButtonProps) => {
-  const appName = AbrplusUIKit.config().getAppName()
+  const appName = AbrplusUIKit.config().getAppName();
   const getColor = () => {
     if ((disabled || isLoading) && appName) {
       if (

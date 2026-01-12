@@ -1,6 +1,6 @@
 import { jsxs, jsx } from "react/jsx-runtime";
-import { F as Flex, R as Render, T as Text, B as Breadcrumb, I as Icon, a as Tooltip$1, L as Loading } from "./index-CYMyiSBD.js";
-import { c as colors } from "./colors-BmRCmHtR.js";
+import { F as Flex, R as Render, T as Text, B as Breadcrumb, I as Icon, a as Tooltip$1, L as Loading } from "./index-CHUSbepM.js";
+import { c as colors, A as AbrplusUIKit } from "./colors-CztsZ6e_.js";
 import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import { Checkbox as Checkbox$1, Upload as Upload$1 } from "antd";
@@ -6813,19 +6813,19 @@ const ActionButton = ({
   iconPosition = "start",
   isLoading,
   lang = "fa",
-  platform = "sales",
   ...rest
 }) => {
+  const appName = AbrplusUIKit.config().getAppName();
   const getColor = () => {
-    if ((disabled || isLoading) && platform) {
-      if (platform === "home" || platform === "sandbox" || platform === "bi" || platform === "storybook")
+    if ((disabled || isLoading) && appName) {
+      if (appName === "home" || appName === "sandbox" || appName === "bi" || appName === "storybook")
         return colors["sales"]["action_light_2"];
-      return colors[platform]["action_light_2"];
+      return colors[appName]["action_light_2"];
     }
     return colors.white_ff;
   };
   const getColorClass = () => {
-    if (!platform) return;
+    if (!appName) return;
     const data = {
       bi: twMerge("bg-sales-action hover:bg-sales-action-light-1 active:bg-sales-action-dark-1"),
       call: twMerge("bg-call-action hover:bg-call-action-light-1 active:bg-call-action-dark-1"),
@@ -6837,7 +6837,7 @@ const ActionButton = ({
       team: twMerge("bg-team-action hover:bg-team-action-light-1 active:bg-team-action-dark-1"),
       rayan: twMerge("bg-rayan-action hover:bg-rayan-action-light-1 active:bg-rayan-action-dark-1")
     };
-    return data?.[platform] || data["sales"];
+    return data?.[appName] || data["sales"];
   };
   return /* @__PURE__ */ jsxs(
     "button",

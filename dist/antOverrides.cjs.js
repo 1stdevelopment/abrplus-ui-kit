@@ -2,10 +2,10 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
-const index = require("./index-CJu4Ntp3.cjs");
-const index$1 = require("./index-D10ZFpVh.cjs");
+const index = require("./index-BPiG6jQN.cjs");
+const index$1 = require("./index-DTJSIVTd.cjs");
 const tailwindMerge = require("tailwind-merge");
-const colors = require("./colors-BIS4kHo_.cjs");
+const colors = require("./colors-TPZkyKI4.cjs");
 const React = require("react");
 const Alert = (props) => {
   return /* @__PURE__ */ jsxRuntime.jsx(antd.Alert, { ...props });
@@ -53,6 +53,9 @@ Skeleton.Button = antd.Skeleton.Button;
 Skeleton.Image = antd.Skeleton.Image;
 Skeleton.Input = antd.Skeleton.Input;
 Skeleton.Node = antd.Skeleton.Node;
+const Slider = ({ size = 2, ...rest }) => {
+  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { direction: "ltr", theme: { components: { Slider: { railSize: size } } }, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Slider, { ...rest }) });
+};
 const stepTheme = {
   components: {
     Steps: {
@@ -101,9 +104,6 @@ const timeThemeConfig = {
 };
 const Timeline = ({ ...props }) => {
   return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { theme: timeThemeConfig, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Timeline, { ...props }) });
-};
-const Slider = ({ size = 2, ...rest }) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { direction: "ltr", theme: { components: { Slider: { railSize: size } } }, children: /* @__PURE__ */ jsxRuntime.jsx(antd.Slider, { ...rest }) });
 };
 exports.Avatar = index.Avatar;
 exports.Dropdown = index.Dropdown;

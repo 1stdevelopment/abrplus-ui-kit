@@ -1,6 +1,5 @@
 /* empty css         */
-import { A } from "./AbrplusUIKit-BlztDcB2.js";
-import { c } from "./colors-BmRCmHtR.js";
+import { A, c } from "./colors-CztsZ6e_.js";
 const config = {
   content: {
     files: ["./src/**/*.{js,ts,jsx,tsx,html}", ".storybook/storybook.css"]

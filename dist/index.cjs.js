@@ -1,8 +1,7 @@
 "use strict";
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 ;/* empty css           */
-const AbrplusUIKit = require("./AbrplusUIKit-4yWTl2FC.cjs");
-const colors = require("./colors-BIS4kHo_.cjs");
+const colors = require("./colors-TPZkyKI4.cjs");
 const config = {
   content: {
     files: ["./src/**/*.{js,ts,jsx,tsx,html}", ".storybook/storybook.css"]
@@ -105,6 +104,6 @@ const config = {
     }
   }
 };
-exports.AbrplusUIKit = AbrplusUIKit.AbrplusUIKit;
+exports.AbrplusUIKit = colors.AbrplusUIKit;
 exports.colors = colors.colors;
 exports.tailwindConfig = config;

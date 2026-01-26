@@ -1,9 +1,14 @@
 import { StepsProps as AntStepProps, Steps as AntSteps, ConfigProvider, ThemeConfig } from 'antd';
+import { FC } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 interface StepsProps extends AntStepProps {
   colorPrimary?: string;
 }
+
+type StepsComponent = FC<StepsProps> & {
+  Step: typeof AntSteps.Step;
+};
 
 const stepTheme: ThemeConfig = {
   components: {
@@ -14,7 +19,7 @@ const stepTheme: ThemeConfig = {
   },
 };
 
-const Steps = ({ colorPrimary, rootClassName, ...props }: StepsProps) => {
+const Steps: StepsComponent = ({ colorPrimary, rootClassName, ...props }) => {
   const mergedTheme: ThemeConfig = {
     ...stepTheme,
     token: {

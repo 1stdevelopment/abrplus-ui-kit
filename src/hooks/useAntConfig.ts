@@ -23,6 +23,9 @@ export const useAntConfig = (language: Language) => {
         hoverBorderColor: colors.primary_dark_1,
         colorBgContainerDisabled: colors.light_6,
       },
+      Collapse: {
+        headerBg: colors.light_2,
+      },
     },
   };
   return { theme, direction, locale };

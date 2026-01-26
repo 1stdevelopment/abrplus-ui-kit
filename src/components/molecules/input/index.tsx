@@ -1,5 +1,3 @@
-import './index.css';
-
 import { batch } from '@utilities';
 import { InputRef } from 'antd';
 

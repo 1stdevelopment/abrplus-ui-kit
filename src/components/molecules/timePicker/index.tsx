@@ -1,5 +1,3 @@
-import './index.css';
-
 import { InputFieldError, colors } from '@configs';
 import { getErrorMessage } from '@utilities';
 import {

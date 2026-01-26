@@ -1,5 +1,3 @@
-import './index.css';
-
 import { colors } from '@configs';
 import { Breadcrumb as AntBreadcrumb, BreadcrumbProps } from 'antd';
 import { Link } from 'react-router-dom';

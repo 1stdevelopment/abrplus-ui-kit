@@ -1,5 +1,3 @@
-import './index.css';
-
 import { colors } from '@configs';
 import { ConfigProvider, Tabs, TabsProps, ThemeConfig } from 'antd';
 

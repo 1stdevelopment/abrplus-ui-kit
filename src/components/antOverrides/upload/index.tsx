@@ -1,5 +1,3 @@
-import './index.css';
-
 import { Upload as AntUpload, UploadProps as AntUploadProps } from 'antd';
 import { ReactNode } from 'react';
 

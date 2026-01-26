@@ -1,5 +1,3 @@
-import './index.css';
-
 import { FlexProps } from 'antd';
 import { twMerge } from 'tailwind-merge';
 

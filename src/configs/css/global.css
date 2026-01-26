@@ -1,4 +1,12 @@
 @import 'jalaali-react-date-picker/lib/styles/index.css';
+@import '../../components/molecules/input/index.css';
+@import '../../components/molecules/timePicker/index.css';
+@import '../../components/molecules/select/index.css';
+@import '../../components/atoms/tab/index.css';
+@import '../../components/atoms/card/index.css';
+@import '../../components/atoms/collapse/index.css';
+@import '../../components/antOverrides/upload/index.css';
+@import '../../components/antOverrides/breadcrumb/index.css';
 
 @font-face {
   font-family: YekanBakhFaRegular;
@@ -58,7 +66,7 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-[#91a8c3] rounded-full;
+  @apply rounded-full bg-[#91a8c3];
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
@@ -93,7 +101,7 @@
 }
 
 .small-custom-scrollbar-horizontal::-webkit-scrollbar-thumb {
-  @apply bg-[#91a8c3] rounded-full;
+  @apply rounded-full bg-[#91a8c3];
 }
 
 .tiny-custom-scrollbar-horizontal::-webkit-scrollbar {
@@ -105,7 +113,7 @@
 }
 
 .tiny-custom-scrollbar-horizontal::-webkit-scrollbar-thumb {
-  @apply bg-[#91a8c3] rounded-full;
+  @apply rounded-full bg-[#91a8c3];
 }
 
 /* Small Vertical Scrollbar */
@@ -118,7 +126,7 @@
 }
 
 .small-custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-[#91a8c3] rounded-full;
+  @apply rounded-full bg-[#91a8c3];
 }
 
 /* Tiny Scrollbar */
@@ -131,7 +139,7 @@
 }
 
 .tiny-custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-[#91a8c3] rounded-full;
+  @apply rounded-full bg-[#91a8c3];
 }
 
 @supports (-moz-appearance: none) {

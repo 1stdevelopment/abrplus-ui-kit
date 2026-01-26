@@ -1,4 +1,4 @@
-export type Platform = 'home' | 'sales' | 'call' | 'marketing' | 'club' | 'sandbox' | 'bi' | 'team' | 'storybook' | 'desk' | 'form' | 'task' | 'rayan';
+export type APP_NAME = 'home' | 'sales' | 'call' | 'marketing' | 'club' | 'sandbox' | 'bi' | 'team' | 'storybook' | 'desk' | 'form' | 'task' | 'rayan';
 export type InputFieldError = {
     message?: string;
 } | null;

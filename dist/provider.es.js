@@ -1,8 +1,7 @@
 import { jsx } from "react/jsx-runtime";
-import { A as AbrplusUIKit } from "./AbrplusUIKit-BlztDcB2.js";
 import EN from "antd/locale/en_US";
 import FA from "antd/locale/fa_IR";
-import { c as colors } from "./colors-BmRCmHtR.js";
+import { c as colors, A as AbrplusUIKit } from "./colors-CztsZ6e_.js";
 import { ConfigProvider } from "antd";
 const useAntConfig = (language) => {
   const isFA = language === "fa";
@@ -49,10 +48,12 @@ function deepMerge(target, source) {
 const AbrplusUIKitProvider = ({
   children,
   locales,
+  appName,
   antdConfigs = {}
 }) => {
   AbrplusUIKit.config({
-    locales
+    locales,
+    appName
   });
   const defaultAntDConfigs = useAntConfig(locales?.lang ?? "fa");
   const mergedConfigs = deepMerge(defaultAntDConfigs, antdConfigs);

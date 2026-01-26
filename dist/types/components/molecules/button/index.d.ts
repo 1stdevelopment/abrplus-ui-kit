@@ -12,7 +12,7 @@ declare const Button: {
     readonly Negative: ({ style, height, mode, children, iconName, disabled, className, iconPosition, isLoading, lang, variant, ...rest }: ButtonProps & {
         variant?: "contain" | "outline";
     }) => import("react/jsx-runtime").JSX.Element;
-    readonly Action: ({ style, height, mode, children, iconName, disabled, className, iconPosition, isLoading, lang, platform, ...rest }: ActionButtonProps) => import("react/jsx-runtime").JSX.Element;
+    readonly Action: ({ style, height, mode, children, iconName, disabled, className, iconPosition, isLoading, lang, ...rest }: ActionButtonProps) => import("react/jsx-runtime").JSX.Element;
 };
 export { Button, buttonDefaultClasses, fontSizePicker, paddingPicker };
 export type { ActionButtonProps, ButtonMode, ButtonProps, IconButtonProps, TextButtonProps };

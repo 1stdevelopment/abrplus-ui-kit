@@ -1,19 +1,23 @@
-import { colors } from '@configs';
+import './index.css';
+
+import { AbrplusUIKit, AppColorSchema, ColorScheme, colors } from '@configs';
 import { Breadcrumb as AntBreadcrumb, BreadcrumbProps } from 'antd';
 import { Link } from 'react-router-dom';
 
 import { Text } from '../../antOverrides/text';
 import { Icon } from '../../atoms/icon';
 
-export interface AntBreadCrumbProps extends BreadcrumbProps {
-  themeColor?: string; //TODOSH
-}
+export interface AntBreadCrumbProps extends BreadcrumbProps {}
 
 export const Breadcrumb = (props: AntBreadCrumbProps) => {
+  const appName = AbrplusUIKit.config().getAppName();
+  const color = colors[appName as keyof ColorScheme] as AppColorSchema;
+  const actionColor = color?.action;
+
   return (
     <AntBreadcrumb
       {...props}
-      separator={<Icon name="Chevron_Left" size={22} color={props.themeColor} />}
+      separator={<Icon name="Chevron_Left" size={22} color={actionColor} />}
       itemRender={(route, _, items) => {
         if (!route.title) return null;
 
@@ -28,13 +32,13 @@ export const Breadcrumb = (props: AntBreadCrumbProps) => {
         }
         return route.path ? (
           <Link to={route.path!}>
-            <Text size={16} weight="medium" color={props.themeColor}>
+            <Text size={16} weight="medium" color={actionColor}>
               {route.title}
             </Text>
           </Link>
         ) : (
           <div onClick={route.onClick!} className="cursor-pointer">
-            <Text size={16} weight="medium" color={props.themeColor}>
+            <Text size={16} weight="medium" color={actionColor}>
               {route.title}
             </Text>
           </div>

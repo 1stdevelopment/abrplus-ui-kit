@@ -1,4 +1,4 @@
-export type Platform =
+export type APP_NAME =
   | 'home'
   | 'sales'
   | 'call'

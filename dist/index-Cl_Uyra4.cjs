@@ -3,7 +3,7 @@ const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
 const tailwindMerge = require("tailwind-merge");
 const React = require("react");
-const index = require("./index-D10ZFpVh.cjs");
+const index = require("./index-BlmxVM8H.cjs");
 const Avatar = ({ className, ...props }) => {
   return /* @__PURE__ */ jsxRuntime.jsx(antd.Avatar, { ...props, className: tailwindMerge.twMerge("bg-light-7 border-primary-light-3", className) });
 };

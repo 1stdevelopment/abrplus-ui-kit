@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
+const AbrplusUIKit = require("./AbrplusUIKit-4yWTl2FC.cjs");
 const EN = require("antd/locale/en_US");
 const FA = require("antd/locale/fa_IR");
 const colors = require("./colors-BIS4kHo_.cjs");
 const antd = require("antd");
-const AbrplusUIKit = require("./AbrplusUIKit-4yWTl2FC.cjs");
 const useAntConfig = (language) => {
   const isFA = language === "fa";
   const direction = isFA ? "rtl" : "ltr";
@@ -23,6 +23,9 @@ const useAntConfig = (language) => {
         colorBorder: colors.colors.primary_light_3,
         hoverBorderColor: colors.colors.primary_dark_1,
         colorBgContainerDisabled: colors.colors.light_6
+      },
+      Collapse: {
+        headerBg: colors.colors.light_2
       }
     }
   };

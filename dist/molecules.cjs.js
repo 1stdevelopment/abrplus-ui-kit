@@ -3,11 +3,11 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
 const React = require("react");
-const index$1 = require("./index-D10ZFpVh.cjs");
+const index$1 = require("./index-BlmxVM8H.cjs");
 const tailwindMerge = require("tailwind-merge");
 const colors = require("./colors-BIS4kHo_.cjs");
-const index = require("./index-BJvlKrDL.cjs");
-const index$2 = require("./index-CJu4Ntp3.cjs");
+const index = require("./index-j5qg_WoM.cjs");
+const index$2 = require("./index-Cl_Uyra4.cjs");
 const reactI18next = require("react-i18next");
 const starkString = require("starkstring");
 require("./index-D1yLR6A8.cjs");
@@ -9088,7 +9088,7 @@ const Tree = ({
             ]
           }
         ),
-        /* @__PURE__ */ jsxRuntime.jsx(index$1.Render, { when: isExpanded && hasSearch && onSearch, children: /* @__PURE__ */ jsxRuntime.jsx(index$1.Flex, { className: " border border-primary-light-3/60 bg-white-ff p-2", children: /* @__PURE__ */ jsxRuntime.jsx(TreeSearchBar, { onSearch }) }) }),
+        /* @__PURE__ */ jsxRuntime.jsx(index$1.Render, { when: isExpanded && hasSearch && !!onSearch, children: /* @__PURE__ */ jsxRuntime.jsx(index$1.Flex, { className: " border border-primary-light-3/60 bg-white-ff p-2", children: /* @__PURE__ */ jsxRuntime.jsx(TreeSearchBar, { onSearch }) }) }),
         isExpanded && /* @__PURE__ */ jsxRuntime.jsx("div", { className: "tiny-custom-scrollbar flex h-full flex-col overflow-y-auto bg-white-ff", children: isLoading ? /* @__PURE__ */ jsxRuntime.jsx(antd.Spin, { size: "large" }) : treeData.length === 0 ? /* @__PURE__ */ jsxRuntime.jsx(index$1.Text, { size: 14, className: "text-gray-500", children: t("common.error.noItem") }) : infiniteProps ? /* @__PURE__ */ jsxRuntime.jsx(
           "div",
           {

@@ -1,9 +1,9 @@
 import { jsx } from "react/jsx-runtime";
+import { A as AbrplusUIKit } from "./AbrplusUIKit-BlztDcB2.js";
 import EN from "antd/locale/en_US";
 import FA from "antd/locale/fa_IR";
 import { c as colors } from "./colors-BmRCmHtR.js";
 import { ConfigProvider } from "antd";
-import { A as AbrplusUIKit } from "./AbrplusUIKit-BlztDcB2.js";
 const useAntConfig = (language) => {
   const isFA = language === "fa";
   const direction = isFA ? "rtl" : "ltr";
@@ -21,6 +21,9 @@ const useAntConfig = (language) => {
         colorBorder: colors.primary_light_3,
         hoverBorderColor: colors.primary_dark_1,
         colorBgContainerDisabled: colors.light_6
+      },
+      Collapse: {
+        headerBg: colors.light_2
       }
     }
   };

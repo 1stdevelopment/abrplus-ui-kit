@@ -2,7 +2,7 @@ import { jsx, jsxs } from "react/jsx-runtime";
 import { Avatar as Avatar$1, ConfigProvider, Dropdown as Dropdown$1, Image as Image$1 } from "antd";
 import { twMerge } from "tailwind-merge";
 import { useState, useEffect } from "react";
-import { F as Flex, L as Loading } from "./index-CYMyiSBD.js";
+import { F as Flex, L as Loading } from "./index-CP_Q9GDv.js";
 const Avatar = ({ className, ...props }) => {
   return /* @__PURE__ */ jsx(Avatar$1, { ...props, className: twMerge("bg-light-7 border-primary-light-3", className) });
 };

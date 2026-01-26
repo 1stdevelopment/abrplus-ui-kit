@@ -1,12 +1,12 @@
 import { jsx, jsxs, Fragment as Fragment$1 } from "react/jsx-runtime";
-import { Collapse, Input as Input$1, Tooltip as Tooltip$1, Divider, Flex as Flex$1, Tag as Tag$1, ConfigProvider, Select as Select$1, TreeSelect, TimePicker, Tree as Tree$1, Spin } from "antd";
+import { Collapse, Input as Input$1, Tooltip as Tooltip$1, Divider, Flex as Flex$1, Tag as Tag$1, Select as Select$1, ConfigProvider, TreeSelect, TimePicker, Tree as Tree$1, Spin } from "antd";
 import React, { useRef, useState, useMemo, Children, forwardRef, useEffect, Fragment, useCallback, memo, useLayoutEffect, useReducer, createContext, useContext, isValidElement } from "react";
-import { R as Render, I as Icon, T as Text, F as Flex, L as Loading } from "./index-CYMyiSBD.js";
+import { R as Render, I as Icon, T as Text, F as Flex, L as Loading } from "./index-CP_Q9GDv.js";
 import { twMerge } from "tailwind-merge";
 import { c as colors } from "./colors-BmRCmHtR.js";
-import { c as Breadcrumbs, U as Upload, T as Tooltip, I as InputErrorMessage, f as batch, m as moment, a as mainExports, d as datePickerColors, V as VerticalLine, e as Checkbox, b as BorderedTitle, g as IconButton, h as getAugmentedNamespace, i as commonjsGlobal, j as getDefaultExportFromCjs, C as Card } from "./index-wviejkkc.js";
-import { B, k, l, p } from "./index-wviejkkc.js";
-import { A as Avatar, D as Dropdown, I as InfiniteLoader, a as Image } from "./index-JSatU3Tm.js";
+import { c as Breadcrumbs, U as Upload, T as Tooltip, I as InputErrorMessage, f as batch, m as moment, a as mainExports, d as datePickerColors, V as VerticalLine, e as Checkbox, b as BorderedTitle, g as IconButton, h as getAugmentedNamespace, i as commonjsGlobal, j as getDefaultExportFromCjs, C as Card } from "./index-BEOA2sej.js";
+import { B, k, l, p } from "./index-BEOA2sej.js";
+import { A as Avatar, D as Dropdown, I as InfiniteLoader, a as Image } from "./index-DH2mpejz.js";
 import { useTranslation } from "react-i18next";
 import starkString from "starkstring";
 import "./index-amcHqQ0c.js";
@@ -9087,7 +9087,7 @@ const Tree = ({
             ]
           }
         ),
-        /* @__PURE__ */ jsx(Render, { when: isExpanded && hasSearch && onSearch, children: /* @__PURE__ */ jsx(Flex, { className: " border border-primary-light-3/60 bg-white-ff p-2", children: /* @__PURE__ */ jsx(TreeSearchBar, { onSearch }) }) }),
+        /* @__PURE__ */ jsx(Render, { when: isExpanded && hasSearch && !!onSearch, children: /* @__PURE__ */ jsx(Flex, { className: " border border-primary-light-3/60 bg-white-ff p-2", children: /* @__PURE__ */ jsx(TreeSearchBar, { onSearch }) }) }),
         isExpanded && /* @__PURE__ */ jsx("div", { className: "tiny-custom-scrollbar flex h-full flex-col overflow-y-auto bg-white-ff", children: isLoading ? /* @__PURE__ */ jsx(Spin, { size: "large" }) : treeData.length === 0 ? /* @__PURE__ */ jsx(Text, { size: 14, className: "text-gray-500", children: t2("common.error.noItem") }) : infiniteProps ? /* @__PURE__ */ jsx(
           "div",
           {

@@ -1,7 +1,7 @@
 import { jsx } from "react/jsx-runtime";
-import { Alert as Alert$1, ConfigProvider, Menu as Menu$1, Pagination as Pagination$1, Progress as Progress$1, Segmented, Skeleton as Skeleton$1, Steps as Steps$1, Switch as Switch$1, Timeline as Timeline$1, Slider as Slider$1 } from "antd";
-import { A, D, a, I } from "./index-JSatU3Tm.js";
-import { B, F, L, T } from "./index-CYMyiSBD.js";
+import { Alert as Alert$1, ConfigProvider, Menu as Menu$1, Pagination as Pagination$1, Progress as Progress$1, Segmented, Skeleton as Skeleton$1, Slider as Slider$1, Steps as Steps$1, Switch as Switch$1, Timeline as Timeline$1 } from "antd";
+import { A, D, a, I } from "./index-DH2mpejz.js";
+import { B, F, L, T } from "./index-CP_Q9GDv.js";
 import { twMerge } from "tailwind-merge";
 import { c as colors } from "./colors-BmRCmHtR.js";
 import { forwardRef } from "react";
@@ -51,6 +51,9 @@ Skeleton.Button = Skeleton$1.Button;
 Skeleton.Image = Skeleton$1.Image;
 Skeleton.Input = Skeleton$1.Input;
 Skeleton.Node = Skeleton$1.Node;
+const Slider = ({ size = 2, ...rest }) => {
+  return /* @__PURE__ */ jsx(ConfigProvider, { direction: "ltr", theme: { components: { Slider: { railSize: size } } }, children: /* @__PURE__ */ jsx(Slider$1, { ...rest }) });
+};
 const stepTheme = {
   components: {
     Steps: {
@@ -99,9 +102,6 @@ const timeThemeConfig = {
 };
 const Timeline = ({ ...props }) => {
   return /* @__PURE__ */ jsx(ConfigProvider, { theme: timeThemeConfig, children: /* @__PURE__ */ jsx(Timeline$1, { ...props }) });
-};
-const Slider = ({ size = 2, ...rest }) => {
-  return /* @__PURE__ */ jsx(ConfigProvider, { direction: "ltr", theme: { components: { Slider: { railSize: size } } }, children: /* @__PURE__ */ jsx(Slider$1, { ...rest }) });
 };
 export {
   Alert,

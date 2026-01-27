@@ -2,9 +2,10 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
-const index = require("./index-BMHdixXr.cjs");
+const index = require("./index-B9nn9jzS.cjs");
 const tailwindMerge = require("tailwind-merge");
 const React = require("react");
+const require$$0 = require("moment-jalaali");
 const reactI18next = require("react-i18next");
 const index$1 = require("./index-CULqMce_.cjs");
 const colors = require("./colors-TPZkyKI4.cjs");
@@ -130,7 +131,7 @@ const DatePicker = ({
   const { i18n } = reactI18next.useTranslation();
   const value = React.useMemo(() => {
     if (valueISO) {
-      return index.moment(valueISO);
+      return require$$0(valueISO);
     }
     return valueProp;
   }, [valueISO, valueProp]);

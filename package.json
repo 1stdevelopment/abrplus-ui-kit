@@ -1,6 +1,6 @@
 {
   "name": "abrplus-ui-kit",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "type": "module",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
@@ -61,7 +61,8 @@
     "tailwind-merge": "^1.14",
     "starkstring": "*",
     "react-router-dom": "^6",
-    "antd": "5.19.1"
+    "antd": "5.19.1",
+    "moment-jalaali": "^0.10.0"
   },
   "peerDependenciesMeta": {
     "react-router-dom": {
@@ -81,6 +82,9 @@
     },
     "antd": {
       "optional": true
+    },
+    "moment-jalaali": {
+      "optional": true
     }
   },
   "dependencies": {
@@ -90,8 +94,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@use-gesture/react": "^10.3.0",
     "i18next-browser-languagedetector": "^7.2.0",
-    "jalaali-react-date-picker": "https://github.com/1stdevelopment/jalaali-react-date-picker",
-    "moment-jalaali": "^0.10.0",
+    "jalaali-react-date-picker": "1.0.21",
     "react-copy-to-clipboard": "5.1.0"
   },
   "devDependencies": {

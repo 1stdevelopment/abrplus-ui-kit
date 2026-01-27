@@ -15,6 +15,7 @@ const externals = [
   'react-i18next',
   'tailwind-merge',
   'starkstring',
+  'moment-jalaali',
 ];
 export default defineConfig({
   plugins: [

@@ -5,7 +5,7 @@ import { Button } from '../../molecules';
 import { BaseModal } from './base';
 import { ModalButtonProps, ModalProps } from './type';
 
-type ConfirmModalProps = (ModalProps & ModalButtonProps) & {
+export type ConfirmModalProps = (ModalProps & ModalButtonProps) & {
   renderFooter?: React.ReactNode;
 };
 

@@ -5,6 +5,7 @@ import { Button } from '../../molecules';
 import { BaseModal } from './base';
 import { ModalButtonProps, ModalProps } from './type';
 
+export type ErrorModalProps = ModalProps & Omit<ModalButtonProps, 'discardTitle' | 'onDiscard'>;
 const ErrorModal = ({
   children,
   title,
@@ -12,7 +13,7 @@ const ErrorModal = ({
   submitTitle,
   isLoadingSubmit,
   ...rest
-}: ModalProps & Omit<ModalButtonProps, 'discardTitle' | 'onDiscard'>) => {
+}: ErrorModalProps) => {
   return (
     <BaseModal {...rest}>
       <Flex vertical>

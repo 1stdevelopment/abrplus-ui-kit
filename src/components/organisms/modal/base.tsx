@@ -6,7 +6,7 @@ import { Icon } from '../../atoms';
 import { Button } from '../../molecules';
 import { ModalButtonProps, ModalProps } from './type';
 
-type BaseModalProps = (ModalButtonProps & Omit<ModalProps, 'description'>) & {
+export type BaseModalProps = (ModalButtonProps & Omit<ModalProps, 'description'>) & {
   renderFooter?: React.ReactNode;
 };
 

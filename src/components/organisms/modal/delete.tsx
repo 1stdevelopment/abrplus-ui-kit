@@ -5,6 +5,7 @@ import { Button } from '../../molecules';
 import { BaseModal } from './base';
 import { ModalButtonProps, ModalProps } from './type';
 
+export type DeleteModalProps = ModalProps & ModalButtonProps;
 const DeleteModal = ({
   children,
   title,
@@ -14,7 +15,7 @@ const DeleteModal = ({
   discardTitle,
   isLoadingSubmit,
   ...rest
-}: ModalProps & ModalButtonProps) => {
+}: DeleteModalProps) => {
   return (
     <BaseModal {...rest}>
       <Flex vertical>

@@ -5,6 +5,7 @@ import { Button } from '../../molecules';
 import { BaseModal } from './base';
 import { ModalButtonProps, ModalProps } from './type';
 
+export type InfoModalProps = ModalProps & ModalButtonProps;
 const InfoModal = ({
   children,
   title,
@@ -15,7 +16,7 @@ const InfoModal = ({
   isLoadingSubmit,
   error,
   ...rest
-}: ModalProps & ModalButtonProps) => {
+}: InfoModalProps) => {
   return (
     <BaseModal {...rest}>
       <Flex vertical>

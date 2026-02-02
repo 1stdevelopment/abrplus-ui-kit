@@ -1,10 +1,10 @@
 import { batch } from '@utilities';
 
-import { BaseModal } from './base';
-import { ConfirmModal } from './confirm';
-import { DeleteModal } from './delete';
-import { ErrorModal } from './error';
-import { InfoModal } from './info';
+import { BaseModal, BaseModalProps } from './base';
+import { ConfirmModal, ConfirmModalProps } from './confirm';
+import { DeleteModal, DeleteModalProps } from './delete';
+import { ErrorModal, ErrorModalProps } from './error';
+import { InfoModal, InfoModalProps } from './info';
 
 const Modal = batch({
   Base: BaseModal,
@@ -15,3 +15,10 @@ const Modal = batch({
 });
 
 export { Modal };
+export type {
+  BaseModalProps,
+  ConfirmModalProps,
+  DeleteModalProps,
+  ErrorModalProps,
+  InfoModalProps,
+};

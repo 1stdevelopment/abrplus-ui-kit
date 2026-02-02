@@ -5,7 +5,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { Flex } from '../..';
 import { DrawerFooter } from './components/footer';
-import { DrawerHeaderTitle } from './components/headerTitle';
+import { DrawerHeaderTitle, DrawerHeaderTitleProps } from './components/headerTitle';
 
 export type DrawerAction = Partial<{
   onSubmit: () => void;
@@ -117,3 +117,4 @@ const Drawer = ({
   );
 };
 export { Drawer };
+export type { DrawerHeaderTitleProps };

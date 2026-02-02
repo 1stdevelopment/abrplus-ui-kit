@@ -1,8 +1,10 @@
 import { FlexProps, TableColumnProps } from 'antd';
 import * as React from 'react';
 
-export interface ColumnProps<T>
-  extends Omit<TableColumnProps<T>, 'title' | 'children' | 'render' | 'dataIndex'> {
+export interface ColumnProps<T> extends Omit<
+  TableColumnProps<T>,
+  'title' | 'children' | 'render' | 'dataIndex'
+> {
   children?: string | React.ReactNode;
   render?: (props: { row: T; index: number; value: any }) => React.ReactNode;
   dataIndex?: keyof T;

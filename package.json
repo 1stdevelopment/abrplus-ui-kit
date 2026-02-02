@@ -44,48 +44,15 @@
     "preview": "vite preview",
     "compile": "tsc --excludeFiles vite.config.ts",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "storybook:build": "storybook build",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "gen:icon": "tsx scripts/icon.ts",
     "gen:tw": "tsx scripts/tailwind-config.ts",
-    "build": "pnpm format && pnpm lint && pnpm test && vite build"
-  },
-  "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18",
-    "i18next": "^23",
-    "react-i18next": "^13",
-    "tailwind-merge": "^1.14",
-    "starkstring": "*",
-    "react-router-dom": "^6",
-    "antd": "5.19.1",
-    "moment-jalaali": "^0.10.0"
-  },
-  "peerDependenciesMeta": {
-    "react-router-dom": {
-      "optional": true
-    },
-    "i18next": {
-      "optional": true
-    },
-    "react-i18next": {
-      "optional": true
-    },
-    "tailwind-merge": {
-      "optional": true
-    },
-    "starkstring": {
-      "optional": true
-    },
-    "antd": {
-      "optional": true
-    },
-    "moment-jalaali": {
-      "optional": true
-    }
+    "build": "pnpm format && pnpm lint && pnpm test && pnpm compile && vite build",
+    "prepare": "husky"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -179,5 +146,39 @@
     "vite-plugin-dts": "^4.5.4",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^4.0.16"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "i18next": "^23",
+    "react-i18next": "^13",
+    "tailwind-merge": "^1.14",
+    "starkstring": "*",
+    "react-router-dom": "^6",
+    "antd": "5.19.1",
+    "moment-jalaali": "^0.10.0"
+  },
+  "peerDependenciesMeta": {
+    "react-router-dom": {
+      "optional": true
+    },
+    "i18next": {
+      "optional": true
+    },
+    "react-i18next": {
+      "optional": true
+    },
+    "tailwind-merge": {
+      "optional": true
+    },
+    "starkstring": {
+      "optional": true
+    },
+    "antd": {
+      "optional": true
+    },
+    "moment-jalaali": {
+      "optional": true
+    }
   }
 }

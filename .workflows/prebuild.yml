@@ -1,0 +1,42 @@
+name: Lint Compile
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - develop
+
+pool:
+  name: Dev Agents
+
+steps:
+  - checkout: self
+    clean: true
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "18.x"
+      checkLatest: true
+    enabled: false
+    displayName: "Install Node.js"
+
+  - script: |
+      npm i -g pnpm@8.14.0
+    enabled: false
+    displayName: "Install Package Manager"
+
+  - script: |
+      pnpm install
+    displayName: "Install Dependencies"
+
+  - script: |
+      pnpm lint
+    displayName: "Lint"
+
+  - script: |
+      pnpm test
+    displayName: "Test"
+
+  - script: |
+      pnpm compile
+    displayName: "Compile"

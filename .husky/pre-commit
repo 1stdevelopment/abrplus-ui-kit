@@ -1,0 +1,41 @@
+# Set default values for variables if not set
+HUSKY_LINT=${HUSKY_LINT:-false}
+HUSKY_TESTS=${HUSKY_TESTS:-false}
+HUSKY_COMPILE=${HUSKY_COMPILE:-false}
+
+
+# Global skip (if you want to skip all tasks)
+if [ "$SKIP_HUSKY_TASKS" = "true" ]; then
+  echo "Skipping all Husky tasks..."
+  exit 0
+fi
+
+# If none of the tasks are enabled, enable all tasks
+if [ "$HUSKY_LINT" != "true" ] && [ "$HUSKY_TESTS" != "true" ] && [ "$HUSKY_COMPILE" != "true" ]; then
+  HUSKY_LINT="true"
+  HUSKY_TESTS="true"
+  HUSKY_COMPILE="true"
+fi
+
+if [ "$HUSKY_LINT" == "true" ]; then
+  echo "Running lint..."
+  pnpm lint
+else
+  echo "Skipping lint..."
+fi
+
+# Skip tests if HUSKY_TESTS is set to true
+if [ "$HUSKY_TESTS" == "true" ]; then
+  echo "Running tests..."
+  pnpm test
+else
+  echo "Skipping tests..."
+fi
+
+# Skip compile if HUSKY_COMPILE is set to true
+if [ "$HUSKY_COMPILE" == "true" ]; then
+  echo "Running compile..."
+  pnpm compile
+else
+  echo "Skipping compile..."
+fi

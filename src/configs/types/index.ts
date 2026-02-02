@@ -131,7 +131,7 @@ export type PathPart<T extends string> = string | PathParam<T>;
 export type CreateFun<
   Parts extends string,
   QueryParams extends QueryParamDefault,
-> = Parts extends `:${infer A}`
+> = Parts extends `:${any}`
   ? (
       params: Record<PathParam<Parts>, string> & {
         query?: Partial<QueryParameterAssignString<QueryParams>>;

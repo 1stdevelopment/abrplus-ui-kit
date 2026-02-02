@@ -1,6 +1,5 @@
 // InputRangePicker.stories.tsx
 import type { Meta, StoryObj } from '@storybook/react';
-import { Moment } from 'moment';
 import { useState } from 'react';
 
 import { InputRangePicker, InputRangePickerProps } from '.';
@@ -58,7 +57,7 @@ type Story = StoryObj<InputRangePickerProps>;
 export const Default: Story = {
   render: (args) => {
     const RangePickerWithState = () => {
-      const [value, setValue] = useState<[Moment, Moment | null] | null>();
+      const [value, setValue] = useState<any>();
 
       return (
         <Flex className="w-full max-w-xs">
@@ -83,7 +82,7 @@ export const Default: Story = {
 export const WithError: Story = {
   render: (args) => {
     const RangePickerWithError = () => {
-      const [value, setValue] = useState<[Moment, Moment | null] | null>();
+      const [value, setValue] = useState<any>();
 
       return (
         <Flex className="w-full max-w-xs">

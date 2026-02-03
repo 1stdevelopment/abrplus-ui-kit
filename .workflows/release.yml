@@ -1,0 +1,48 @@
+name: AbrPlus-Ui-Kit
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - develop
+
+pool:
+  name: Dev Agents
+
+steps:
+  - checkout: self
+    clean: true
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "20.x"
+      checkLatest: true
+    enabled: true
+    displayName: "Install Node.js"
+
+  - script: |
+      npm i -g pnpm@8.14.0
+    enabled: true
+    displayName: "Install Package Manager"
+
+  - script: |
+      pnpm install
+    enabled: true
+    displayName: "Install Dependencies"
+
+  - script: |
+      pnpm build
+    displayName: "Build Ui-Kit"
+    env:
+      NODE_OPTIONS: --max_old_space_size=4096
+
+  - script: |
+      pnpm version patch --no-git-tag-version
+    displayName: "Bump version"
+
+  - task: Npm@1
+    displayName: "Publish UI Kit to Azure Artifacts"
+    inputs:
+      command: publish
+      publishRegistry: useFeed
+      publishFeed: abrplus-npm

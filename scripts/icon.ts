@@ -1,36 +1,90 @@
-import fs from 'fs';
+import chalk from 'chalk';
+import fs from 'fs/promises';
 import path from 'path';
 
-import config from '../src/assets/fonts/icomoon/selection.json';
+const DRIVE_URL =
+  'https://drive.usercontent.google.com/u/0/uc?id=1IcnNf7YUzIkceDeW-8aI3eCxbEWLOTxv&export=download';
 
-const target = 'src/components/atoms/icon/constants';
+const OUTPUT_DIR = path.resolve(process.cwd(), 'src/components/atoms/icon/constants');
 
-const cwd = process.cwd();
+const ICONS_PACK_FILE = path.join(OUTPUT_DIR, 'iconsPack.ts');
+const ICON_NAMES_FILE = path.join(OUTPUT_DIR, 'iconNames.ts');
 
-const iconsContent = path.resolve(cwd, target, 'iconsContent.ts');
-const iconNames = path.resolve(cwd, target, 'iconNames.ts');
+type IcoMoonSelection = {
+  icons: Array<{
+    icon: {
+      paths: string[];
+      attrs?: Array<Record<string, string>>;
+      width?: number;
+    };
+    properties: {
+      name: string;
+      code: number;
+    };
+  }>;
+  height: number;
+};
 
-const icons: Record<string, string> = {};
-const types: string[] = [];
+async function downloadSelectionJson(): Promise<IcoMoonSelection> {
+  const res = await fetch(DRIVE_URL);
 
-const modifiedIcons = config.icons.map((icon) => ({
-  ...icon,
-  code: icon.properties.code,
-  name: icon.properties.name,
-}));
+  if (!res.ok) {
+    throw new Error(`Failed to download selection.json (${res.status})`);
+  }
 
-modifiedIcons.sort(({ name: a }, { name: b }) => a.localeCompare(b));
+  return res.json();
+}
 
-modifiedIcons.forEach(({ name, code }) => {
-  icons[name] = Number(code).toString(16);
-});
+function generateIconsPack(selection: IcoMoonSelection) {
+  const iconsPack: Record<string, unknown> = {};
+  const iconNames: string[] = [];
 
-modifiedIcons.forEach(({ name }) => {
-  types.push(`${name}`);
-});
+  const sortedIcons = [...selection.icons].sort((a, b) =>
+    a.properties.name.localeCompare(b.properties.name),
+  );
 
-fs.writeFileSync(iconsContent, ` export const iconsContent = ${JSON.stringify(icons)}`);
-fs.writeFileSync(
-  iconNames,
-  `export type IconsNames = ${types.map((name) => `"${name}"`).join('\n|')}`,
-);
+  for (const icon of sortedIcons) {
+    const name = icon.properties.name;
+
+    iconsPack[name] = { ...icon, height: selection.height };
+    iconNames.push(name);
+  }
+
+  return { iconsPack, iconNames };
+}
+
+async function writeFiles(iconsPack: Record<string, unknown>, iconNames: string[]) {
+  await fs.mkdir(OUTPUT_DIR, { recursive: true });
+
+  const iconsPackContent = `export const iconsPack = ${JSON.stringify(iconsPack, null, 2)} as const;
+`;
+
+  const iconNamesContent = `export type IconName =
+${iconNames.map((name) => `  | "${name}"`).join('\n')};
+`;
+
+  await fs.writeFile(ICONS_PACK_FILE, iconsPackContent);
+  await fs.writeFile(ICON_NAMES_FILE, iconNamesContent);
+}
+
+async function run() {
+  try {
+    console.log(chalk.cyan('→ Downloading IcoMoon selection.json'));
+
+    const selection = await downloadSelectionJson();
+
+    console.log(chalk.cyan('→ Generating icon constants'));
+
+    const { iconsPack, iconNames } = generateIconsPack(selection);
+
+    await writeFiles(iconsPack, iconNames);
+
+    console.log(chalk.greenBright(`✔ Generated ${iconNames.length} icons successfully`));
+  } catch (err) {
+    console.error(chalk.red('✖ Icon generation failed'));
+    console.error(err);
+    process.exit(1);
+  }
+}
+
+run();

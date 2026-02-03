@@ -138,3 +138,14 @@ export type CreateFun<
       },
     ) => string
   : (params?: { query?: Partial<QueryParameterAssignString<QueryParams>> }) => string;
+/* -------------------------------------------------------------------------- */
+export enum LogoIconNameType {
+  User = 'User',
+  SecurityGroup = 'SecurityGroup',
+  Department = 'Department',
+  Office = 'Office',
+  Position = 'Position',
+  SecurityCustomer = 'SecurityCustomer',
+  SecurityAgent = 'SecurityAgent',
+  SecurityOperator = 'SecurityOperator',
+}

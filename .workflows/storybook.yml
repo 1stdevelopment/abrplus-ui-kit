@@ -17,17 +17,17 @@ steps:
     inputs:
       versionSpec: "18.x"
       checkLatest: true
-    enabled: false
+    enabled: true
     displayName: "Install Node.js"
 
   - script: |
       npm i -g pnpm@8.14.0
-    enabled: false
+    enabled: true
     displayName: "Install Package Manager"
 
   - script: |
       pnpm install
-    enabled: false
+    enabled: true
     displayName: "Install Dependencies"
 
   - script: |

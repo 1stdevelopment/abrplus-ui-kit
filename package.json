@@ -61,7 +61,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@use-gesture/react": "^10.3.0",
     "i18next-browser-languagedetector": "^7.2.0",
-    "jalaali-react-date-picker": "1.0.21",
+    "jalaali-react-date-picker": "https://github.com/1stdevelopment/jalaali-react-date-picker",
     "react-copy-to-clipboard": "5.1.0"
   },
   "devDependencies": {

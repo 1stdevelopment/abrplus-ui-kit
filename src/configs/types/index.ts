@@ -1,4 +1,4 @@
-export type Platform =
+export type APP_NAME =
   | 'home'
   | 'sales'
   | 'call'
@@ -131,10 +131,21 @@ export type PathPart<T extends string> = string | PathParam<T>;
 export type CreateFun<
   Parts extends string,
   QueryParams extends QueryParamDefault,
-> = Parts extends `:${infer A}`
+> = Parts extends `:${any}`
   ? (
       params: Record<PathParam<Parts>, string> & {
         query?: Partial<QueryParameterAssignString<QueryParams>>;
       },
     ) => string
   : (params?: { query?: Partial<QueryParameterAssignString<QueryParams>> }) => string;
+/* -------------------------------------------------------------------------- */
+export enum LogoIconNameType {
+  User = 'User',
+  SecurityGroup = 'SecurityGroup',
+  Department = 'Department',
+  Office = 'Office',
+  Position = 'Position',
+  SecurityCustomer = 'SecurityCustomer',
+  SecurityAgent = 'SecurityAgent',
+  SecurityOperator = 'SecurityOperator',
+}

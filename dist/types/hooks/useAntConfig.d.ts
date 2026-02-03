@@ -14,6 +14,9 @@ export declare const useAntConfig: (language: Language) => {
                 hoverBorderColor: "#2b4063";
                 colorBgContainerDisabled: "#eaeff5";
             };
+            Collapse: {
+                headerBg: "#f1f3f8";
+            };
         };
     };
     direction: AppDirection;

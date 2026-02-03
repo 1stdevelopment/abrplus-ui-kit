@@ -1,6 +1,10 @@
 /** @type { import('@storybook/react').Preview } */
-import '../src/configs/theme/global.css';
+import '../src/configs/css/global.css';
 import './storybook.css';
+
+import { AbrplusUIKit } from '../src/configs';
+
+AbrplusUIKit.config();
 
 const preview = {
   parameters: {

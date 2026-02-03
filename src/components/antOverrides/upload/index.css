@@ -1,0 +1,10 @@
+.ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item {
+  height: 200px !important;
+}
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select {
+  height: 73px !important;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list-item-thumbnail {
+  @apply h-14 !important;
+}

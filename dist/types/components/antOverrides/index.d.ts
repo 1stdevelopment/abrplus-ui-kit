@@ -11,6 +11,7 @@ export * from './pagination';
 export * from './progress';
 export * from './segmented';
 export * from './skeleton';
+export * from './slider';
 export * from './steps';
 export * from './switch';
 export * from './text';

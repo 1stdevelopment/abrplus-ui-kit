@@ -6,3 +6,4 @@ const Flex = forwardRef((props: FlexProps, ref: Ref<HTMLElement>) => {
 });
 
 export { Flex };
+export type { FlexProps };

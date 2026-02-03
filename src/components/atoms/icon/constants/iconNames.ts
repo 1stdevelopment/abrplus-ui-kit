@@ -71,6 +71,7 @@ export type IconsNames =
   | 'building-bank-outlined'
   | 'building-outlined'
   | 'building-warehouse-outlined'
+  | 'Bulk-Calls-outlined'
   | 'Buy'
   | 'buy-2'
   | 'buy-invoice-duotone'

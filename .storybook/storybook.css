@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #storybook-docs {
   direction: ltr;
   overflow: auto;
@@ -5,4 +9,8 @@
 }
 .sb-show-main.sb-main-padded {
   padding: 0;
+}
+
+.docs-story {
+  direction: rtl;
 }

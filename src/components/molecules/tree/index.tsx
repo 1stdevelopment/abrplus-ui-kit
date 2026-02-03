@@ -200,7 +200,7 @@ export const Tree = <T extends TreeDataType>({
           />
         </Flex>
       )}
-      <Render when={isExpanded && hasSearch && onSearch}>
+      <Render when={isExpanded && hasSearch && !!onSearch}>
         <Flex className=" border border-primary-light-3/60 bg-white-ff p-2">
           <TreeSearchBar onSearch={onSearch!} />
         </Flex>

@@ -1,6 +1,5 @@
-import { ConfigProvider, Tabs, TabsProps, ThemeConfig } from 'antd';
-
 import { colors } from '@configs';
+import { ConfigProvider, Tabs, TabsProps, ThemeConfig } from 'antd';
 
 interface TabProps extends TabsProps {}
 

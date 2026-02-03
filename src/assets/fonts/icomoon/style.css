@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?6aqycd');
-  src:  url('fonts/icomoon.eot?6aqycd#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?6aqycd') format('truetype'),
-    url('fonts/icomoon.woff?6aqycd') format('woff'),
-    url('fonts/icomoon.svg?6aqycd#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?h7rifo');
+  src:  url('fonts/icomoon.eot?h7rifo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?h7rifo') format('truetype'),
+    url('fonts/icomoon.woff?h7rifo') format('woff'),
+    url('fonts/icomoon.svg?h7rifo#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,41 +25,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Evaluation-Forms-duotone .path1:before {
-  content: "\efb0";
-  color: none;
+.icon-Bulk-Calls-outlined:before {
+  content: "\efb7";
+  color: #435879;
 }
-.icon-Evaluation-Forms-duotone .path2:before {
-  content: "\efb1";
-  margin-left: -1em;
-  color: none;
+.icon-Quality-Control-Dashboard-outlined:before {
+  content: "\efb6";
+  color: #2b4063;
 }
-.icon-Evaluation-Forms-duotone .path3:before {
-  content: "\efb2";
-  margin-left: -1em;
-  color: rgb(184, 199, 216);
-}
-.icon-Evaluation-Forms-duotone .path4:before {
-  content: "\efb3";
-  margin-left: -1em;
-  color: none;
-}
-.icon-Evaluation-Forms-duotone .path5:before {
+.icon-Price-List-duotone .path1:before {
   content: "\efb4";
-  margin-left: -1em;
   color: rgb(184, 199, 216);
 }
-.icon-Evaluation-Forms-duotone .path6:before {
+.icon-Price-List-duotone .path2:before {
   content: "\efb5";
   margin-left: -1em;
   color: rgb(43, 64, 99);
 }
-.icon-Payment-Policies-duotone:before {
-  content: "\efb6";
-  color: #b8c7d8;
+.icon-Payment-Policies-duotone .path1:before {
+  content: "\efb2";
+  color: rgb(184, 199, 216);
 }
-.icon-Price-List-duotone:before {
-  content: "\efb7";
+.icon-Payment-Policies-duotone .path2:before {
+  content: "\efb3";
+  margin-left: -1em;
+  color: rgb(43, 64, 99);
+}
+.icon-Evaluation-Forms-duotone .path1:before {
+  content: "\efb0";
+  color: rgb(184, 199, 216);
+}
+.icon-Evaluation-Forms-duotone .path2:before {
+  content: "\efb1";
+  margin-left: -1em;
+  color: rgb(43, 64, 99);
+}
+.icon-Quality-Control-Scenario-duotone .path1:before {
+  content: "\efbb";
+  color: rgb(184, 199, 216);
+}
+.icon-Quality-Control-Scenario-duotone .path2:before {
+  content: "\efc1";
+  margin-left: -1em;
+  color: rgb(184, 199, 216);
+}
+.icon-Quality-Control-Scenario-duotone .path3:before {
+  content: "\efc2";
+  margin-left: -1em;
+  color: rgb(184, 199, 216);
+}
+.icon-Quality-Control-Scenario-duotone .path4:before {
+  content: "\efc3";
+  margin-left: -1em;
+  color: rgb(184, 199, 216);
+}
+.icon-Quality-Control-Scenario-duotone .path5:before {
+  content: "\efc4";
+  margin-left: -1em;
+  color: rgb(43, 64, 99);
 }
 .icon-Product-category-duotone .path1:before {
   content: "\efb8";
@@ -69,12 +92,6 @@
   content: "\efb9";
   margin-left: -1em;
   color: rgb(43, 64, 99);
-}
-.icon-Quality-Control-Dashboard-outlined:before {
-  content: "\efba";
-}
-.icon-Quality-Control-Scenario-duotone:before {
-  content: "\efbb";
 }
 .icon-Sales-Program-duotone .path1:before {
   content: "\efbc";

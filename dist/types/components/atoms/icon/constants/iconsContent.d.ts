@@ -71,6 +71,7 @@ export declare const iconsContent: {
     'building-bank-outlined': string;
     'building-outlined': string;
     'building-warehouse-outlined': string;
+    'Bulk-Calls-outlined': string;
     Buy: string;
     'buy-2': string;
     'buy-invoice-duotone': string;

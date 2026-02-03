@@ -10,6 +10,7 @@ export * from './input';
 export * from './inputDatePicker';
 export * from './inputErrorMessage';
 export * from './inputRangePicker';
+export * from './logo';
 export * from './noResult';
 export * from './notification';
 export * from './select';

@@ -80,9 +80,19 @@ export type PathPart<T extends string> = string | PathParam<T>;
 /**
  * @ignore
  */
-export type CreateFun<Parts extends string, QueryParams extends QueryParamDefault> = Parts extends `:${infer A}` ? (params: Record<PathParam<Parts>, string> & {
+export type CreateFun<Parts extends string, QueryParams extends QueryParamDefault> = Parts extends `:${any}` ? (params: Record<PathParam<Parts>, string> & {
     query?: Partial<QueryParameterAssignString<QueryParams>>;
 }) => string : (params?: {
     query?: Partial<QueryParameterAssignString<QueryParams>>;
 }) => string;
+export declare enum LogoIconNameType {
+    User = "User",
+    SecurityGroup = "SecurityGroup",
+    Department = "Department",
+    Office = "Office",
+    Position = "Position",
+    SecurityCustomer = "SecurityCustomer",
+    SecurityAgent = "SecurityAgent",
+    SecurityOperator = "SecurityOperator"
+}
 export {};

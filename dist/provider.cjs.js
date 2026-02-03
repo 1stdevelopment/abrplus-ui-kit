@@ -4,6 +4,7 @@ const jsxRuntime = require("react/jsx-runtime");
 const EN = require("antd/locale/en_US");
 const FA = require("antd/locale/fa_IR");
 const colors = require("./colors-TPZkyKI4.cjs");
+const deepMerge = require("./deepMerge-Cn27K7-s.cjs");
 const antd = require("antd");
 const useAntConfig = (language) => {
   const isFA = language === "fa";
@@ -30,23 +31,6 @@ const useAntConfig = (language) => {
   };
   return { theme, direction, locale };
 };
-function deepMerge(target, source) {
-  const output = { ...target };
-  if (target && typeof target === "object" && source && typeof source === "object") {
-    for (const key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        const sourceValue = source[key];
-        const targetValue = output[key];
-        if (sourceValue && typeof sourceValue === "object" && !Array.isArray(sourceValue) && targetValue && typeof targetValue === "object" && !Array.isArray(targetValue)) {
-          output[key] = deepMerge(targetValue, sourceValue);
-        } else if (sourceValue !== void 0) {
-          output[key] = sourceValue;
-        }
-      }
-    }
-  }
-  return output;
-}
 const AbrplusUIKitProvider = ({
   children,
   locales,
@@ -58,7 +42,7 @@ const AbrplusUIKitProvider = ({
     appName
   });
   const defaultAntDConfigs = useAntConfig(locales?.lang ?? "fa");
-  const mergedConfigs = deepMerge(defaultAntDConfigs, antdConfigs);
+  const mergedConfigs = deepMerge.deepMerge(defaultAntDConfigs, antdConfigs);
   return /* @__PURE__ */ jsxRuntime.jsx(antd.ConfigProvider, { ...mergedConfigs, children });
 };
 exports.AbrplusUIKitProvider = AbrplusUIKitProvider;

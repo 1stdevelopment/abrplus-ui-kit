@@ -1,15 +1,8 @@
 import { jsx, jsxs } from "react/jsx-runtime";
-import { Avatar as Avatar$1, ConfigProvider, Dropdown as Dropdown$1, Image as Image$1 } from "antd";
+import { ConfigProvider, Dropdown as Dropdown$1, Image as Image$1 } from "antd";
 import { twMerge } from "tailwind-merge";
 import { useState, useEffect } from "react";
-import { F as Flex, L as Loading } from "./index-BH_rrWmm.js";
-const Avatar = ({ className, ...props }) => {
-  return /* @__PURE__ */ jsx(Avatar$1, { ...props, className: twMerge("bg-light-7 border-primary-light-3", className) });
-};
-const Group = ({ className, max, ...props }) => {
-  return /* @__PURE__ */ jsx(Avatar$1.Group, { max, ...props, className: twMerge(className) });
-};
-Avatar.Group = Group;
+import { F as Flex, L as Loading } from "./index-C24zbKLS.js";
 const SwitchThemeConfig = {
   components: {
     Dropdown: {}
@@ -91,7 +84,6 @@ const InfiniteLoader = ({
   ] });
 };
 export {
-  Avatar as A,
   Dropdown as D,
   InfiniteLoader as I,
   Image as a

@@ -3,14 +3,7 @@ const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
 const tailwindMerge = require("tailwind-merge");
 const React = require("react");
-const index = require("./index-CULqMce_.cjs");
-const Avatar = ({ className, ...props }) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.Avatar, { ...props, className: tailwindMerge.twMerge("bg-light-7 border-primary-light-3", className) });
-};
-const Group = ({ className, max, ...props }) => {
-  return /* @__PURE__ */ jsxRuntime.jsx(antd.Avatar.Group, { max, ...props, className: tailwindMerge.twMerge(className) });
-};
-Avatar.Group = Group;
+const index = require("./index-CW9vyiq6.cjs");
 const SwitchThemeConfig = {
   components: {
     Dropdown: {}
@@ -91,7 +84,6 @@ const InfiniteLoader = ({
     hasMore && /* @__PURE__ */ jsxRuntime.jsx(index.Flex, { className: "min-h-12", align: "center", justify: "center", children: /* @__PURE__ */ jsxRuntime.jsx(index.Loading, { isLoading: true, color: indicatorColor, size: indicatorSize }) })
   ] });
 };
-exports.Avatar = Avatar;
 exports.Dropdown = Dropdown;
 exports.Image = Image;
 exports.InfiniteLoader = InfiniteLoader;

@@ -1,6 +1,6 @@
 import { colors } from '@configs';
+import { deepMerge } from '@utilities';
 import { ThemeConfig } from 'antd';
-import { merge } from 'lodash';
 import { twMerge } from 'tailwind-merge';
 
 import { TableProps } from '.';
@@ -8,7 +8,7 @@ import { TableProps } from '.';
 type NonUndefined<T> = T extends undefined ? never : T;
 
 export const CustomizedAntTableConfig = (theme?: Partial<ThemeConfig>): ThemeConfig =>
-  merge(
+  deepMerge(
     {
       components: {
         Table: {
@@ -53,7 +53,7 @@ export const CustomizedAntTableConfig = (theme?: Partial<ThemeConfig>): ThemeCon
         },
       },
     },
-    theme,
+    theme ?? {},
   );
 
 export const tailwindTableClasses = twMerge(

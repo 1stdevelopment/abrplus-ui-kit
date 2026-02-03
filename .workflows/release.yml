@@ -10,38 +10,37 @@ pool:
   name: Dev Agents
 
 variables:
-  # Secret PAT stored in TFS pipeline
-  NPM_TOKEN: $(NPM_TOKEN)
+  PUBLISH_TOKEN: $(PUBLISH_TOKEN) # secret npm token
 
 steps:
+  # 1️⃣ Checkout repo
   - checkout: self
     clean: true
-    persistCredentials: true # Required for git tag push if semantic-release is used
+    persistCredentials: true # needed if semantic-release pushes git tags
 
+  # 2️⃣ Install Node.js
   - task: NodeTool@0
     displayName: "Install Node.js"
     inputs:
       versionSpec: "20.x"
       checkLatest: true
 
-  - script: |
-      npm i -g pnpm@8.14.0
+  # 3️⃣ Install pnpm
+  - script: npm i -g pnpm@8.14.0
     displayName: "Install pnpm"
 
+  # 4️⃣ Install dependencies
   - script: pnpm install --frozen-lockfile
     displayName: "Install dependencies"
-    env:
-      NPM_TOKEN: $(NPM_TOKEN)
 
-  - script: |
-      pnpm build
+  # 5️⃣ Build UI Kit
+  - script: pnpm build
     displayName: "Build UI Kit"
     env:
       NODE_OPTIONS: --max_old_space_size=4096
 
-  # Semantic-release style: automatic version & publish
-  - script: |
-      pnpm semantic-release
-    displayName: "Publish UI Kit to Azure Artifacts Feed"
+  # 6️⃣ Publish UI Kit to npm using semantic-release
+  - script: pnpm semantic-release
+    displayName: "Publish UI Kit to npm"
     env:
-      NPM_TOKEN: $(NPM_TOKEN)
+      NPM_TOKEN: $(PUBLISH_TOKEN) # semantic-release requires NPM_TOKEN

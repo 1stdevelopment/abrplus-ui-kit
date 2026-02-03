@@ -2,9 +2,6 @@
   "name": "abrplus-ui-kit",
   "version": "0.2.9",
   "private": false,
-  "publishConfig": {
-    "registry": "https://tfs.1st.co.com/tfs/AbrPlus/_packaging/ABRPLUS-UI-KIT/npm/registry/"
-  },
   "type": "module",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
@@ -12,6 +9,11 @@
   "style": "./dist/index.css",
   "sideEffects": [
     "*.css"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "exports": {
     ".": {
@@ -61,6 +63,7 @@
     "gen:icon": "tsx scripts/icon.ts",
     "gen:tw": "tsx scripts/tailwind-config.ts",
     "build": "pnpm format && pnpm lint && pnpm test && pnpm compile && vite build",
+    "release": "pnpm gen:icon && pnpm get:tw && vite build",
     "prepare": "husky"
   },
   "dependencies": {

@@ -25,6 +25,11 @@
       "import": "./dist/molecules.es.js",
       "require": "./dist/molecules.cjs.js"
     },
+    "./organisms": {
+      "types": "./dist/types/organisms.d.ts",
+      "import": "./dist/organisms.es.js",
+      "require": "./dist/organisms.cjs.js"
+    },
     "./ant-overrides": {
       "types": "./dist/types/antOverrides.d.ts",
       "import": "./dist/antOverrides.es.js",

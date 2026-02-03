@@ -37,6 +37,7 @@ export default defineConfig({
         atoms: path.resolve(__dirname, 'src/components/atoms/index.ts'),
         molecules: path.resolve(__dirname, 'src/components/molecules/index.ts'),
         antOverrides: path.resolve(__dirname, 'src/components/antOverrides/index.ts'),
+        organisms: path.resolve(__dirname, 'src/components/organisms/index.ts'),
         provider: path.resolve(__dirname, 'src/configs/providers/index.ts'),
         theme: path.resolve(__dirname, 'src/configs/tailwindcss/index.css'),
       },

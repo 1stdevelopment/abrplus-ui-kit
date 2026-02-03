@@ -239,12 +239,12 @@ const Table = <T extends object>({
   );
 };
 
-export type { UsePaginationType } from './pagination/usePagination';
-export { Table };
-
 Table.Cell = TableCell;
 Table.Column = Column;
 Table.Currency = TableCell.Currency;
 Table.Date = TableCell.Date;
 Table.Status = TableCell.StatusCell;
 Table.usePagination = usePagination;
+
+export type { UsePaginationType } from './pagination/usePagination';
+export { Table };

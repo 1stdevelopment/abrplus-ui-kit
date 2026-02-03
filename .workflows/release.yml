@@ -9,40 +9,39 @@ trigger:
 pool:
   name: Dev Agents
 
+variables:
+  # Secret PAT stored in TFS pipeline
+  NPM_TOKEN: $(NPM_TOKEN)
+
 steps:
   - checkout: self
     clean: true
+    persistCredentials: true # Required for git tag push if semantic-release is used
 
   - task: NodeTool@0
+    displayName: "Install Node.js"
     inputs:
       versionSpec: "20.x"
       checkLatest: true
-    enabled: true
-    displayName: "Install Node.js"
 
   - script: |
       npm i -g pnpm@8.14.0
-    enabled: true
-    displayName: "Install Package Manager"
+    displayName: "Install pnpm"
 
-  - script: |
-      pnpm install
-    enabled: true
-    displayName: "Install Dependencies"
+  - script: pnpm install --frozen-lockfile
+    displayName: "Install dependencies"
+    env:
+      NPM_TOKEN: $(NPM_TOKEN)
 
   - script: |
       pnpm build
-    displayName: "Build Ui-Kit"
+    displayName: "Build UI Kit"
     env:
       NODE_OPTIONS: --max_old_space_size=4096
 
+  # Semantic-release style: automatic version & publish
   - script: |
-      pnpm version patch --no-git-tag-version
-    displayName: "Bump version"
-
-  - task: Npm@1
-    displayName: "Publish UI Kit to Azure Artifacts"
-    inputs:
-      command: publish
-      publishRegistry: useFeed
-      publishFeed: abrplus-npm
+      pnpm semantic-release
+    displayName: "Publish UI Kit to Azure Artifacts Feed"
+    env:
+      NPM_TOKEN: $(NPM_TOKEN)

@@ -38,8 +38,7 @@ steps:
 
   # 6️⃣ Release + publish to npm
   - script: |
-      pnpm version patch --no-git-tag-version
-      pnpm publish --access public
+      pnpm version patch --no-git-tag-version && pnpm publish --access public
     displayName: "Bump version & publish to npm"
     env:
       NODE_AUTH_TOKEN: $(PUBLISH_TOKEN)

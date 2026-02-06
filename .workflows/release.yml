@@ -31,7 +31,7 @@ steps:
     displayName: "Install dependencies"
 
   # 5️⃣ Build UI Kit
-  - script: pnpm build
+  - script: pnpm vite build
     displayName: "Build UI Kit"
     env:
       NODE_OPTIONS: --max_old_space_size=4096

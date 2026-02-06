@@ -1,7 +1,5 @@
 # Abrplus UI Kit
 
-**Version:** 0.1.3
-
 A modular React UI component library with Tailwind support, designed for building modern and consistent interfaces. Supports both **Tailwind v3 and v4** setups and provides separate global and theme CSS for maximum flexibility.
 
 ---

@@ -2,7 +2,7 @@ import { jsx, jsxs } from "react/jsx-runtime";
 import { ConfigProvider, Dropdown as Dropdown$1, Image as Image$1 } from "antd";
 import { twMerge } from "tailwind-merge";
 import { useState, useEffect } from "react";
-import { F as Flex, L as Loading } from "./index-C24zbKLS.js";
+import { F as Flex, L as Loading } from "./index-CB4n-5do.js";
 const SwitchThemeConfig = {
   components: {
     Dropdown: {}

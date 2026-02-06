@@ -1,4 +1,4 @@
-export type IconName =
+export type IconsNames =
   | "Accidental"
   | "account"
   | "account_circle_fill"

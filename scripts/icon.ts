@@ -59,7 +59,7 @@ async function writeFiles(iconsPack: Record<string, unknown>, iconNames: string[
   const iconsPackContent = `export const iconsPack = ${JSON.stringify(iconsPack, null, 2)} as const;
 `;
 
-  const iconNamesContent = `export type IconName =
+  const iconNamesContent = `export type IconsNames =
 ${iconNames.map((name) => `  | "${name}"`).join('\n')};
 `;
 

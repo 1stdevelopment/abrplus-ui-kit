@@ -63,7 +63,7 @@
     "gen:icon": "tsx scripts/icon.ts",
     "gen:tw": "tsx scripts/tailwind-config.ts",
     "build": "pnpm format && pnpm lint && pnpm test && pnpm compile && vite build",
-    "release": "pnpm gen:icon && pnpm get:tw && vite build",
+    "build:icon": "pnpm gen:icon && pnpm build",
     "prepare": "husky"
   },
   "dependencies": {

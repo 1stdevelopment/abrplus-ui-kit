@@ -1,0 +1,46 @@
+name: AbrPlus-Ui-Kit
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - develop
+
+pool:
+  name: Dev Agents
+
+variables:
+  PUBLISH_TOKEN: $(PUBLISH_TOKEN) # secret npm token
+
+steps:
+  # 1️⃣ Checkout repo
+  - checkout: self
+    clean: true
+    persistCredentials: true # needed if semantic-release pushes git tags
+
+  # 2️⃣ Install Node.js
+  - task: NodeTool@0
+    displayName: "Install Node.js"
+    inputs:
+      versionSpec: "20.x"
+      checkLatest: true
+
+  # 3️⃣ Install pnpm
+  - script: npm i -g pnpm@8.14.0
+    displayName: "Install pnpm"
+
+  # 4️⃣ Install dependencies
+  - script: pnpm install --frozen-lockfile
+    displayName: "Install dependencies"
+
+  # 5️⃣ Build UI Kit
+  - script: pnpm build:icon
+    displayName: "Build UI Kit(with new Icons)"
+    env:
+      NODE_OPTIONS: --max_old_space_size=4096
+
+  # 6️⃣ Publish UI Kit to npm using semantic-release
+  - script: pnpm semantic-release
+    displayName: "Publish UI Kit to npm"
+    env:
+      NPM_TOKEN: $(PUBLISH_TOKEN) # semantic-release requires NPM_TOKEN

@@ -31,8 +31,6 @@ export function createIcomoonIconSet() {
         {glyph.icon.paths.map((d, index) => {
           const originalFill = (glyph.attrs[index] as { fill?: string })?.fill;
           return (
-            //TODO
-            // @ts-ignore todo fix me later
             <path
               key={index}
               d={d}

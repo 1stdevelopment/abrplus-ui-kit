@@ -9,14 +9,11 @@ trigger:
 pool:
   name: Dev Agents
 
-variables:
-  PUBLISH_TOKEN: $(PUBLISH_TOKEN) # secret npm token
-
 steps:
   # 1️⃣ Checkout repo
   - checkout: self
     clean: true
-    persistCredentials: true # needed if semantic-release pushes git tags
+    persistCredentials: true # required for semantic-release git tags
 
   # 2️⃣ Install Node.js
   - task: NodeTool@0
@@ -39,8 +36,8 @@ steps:
     env:
       NODE_OPTIONS: --max_old_space_size=4096
 
-  # 6️⃣ Publish UI Kit to npm using semantic-release
+  # 6️⃣ Release + publish to npm
   - script: pnpm semantic-release
-    displayName: "Publish UI Kit to npm"
+    displayName: "Release & publish to npm"
     env:
-      NPM_TOKEN: $(PUBLISH_TOKEN) # semantic-release requires NPM_TOKEN
+      NPM_TOKEN: $(PUBLISH_TOKEN)

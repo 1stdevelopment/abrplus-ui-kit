@@ -37,7 +37,9 @@ steps:
       NODE_OPTIONS: --max_old_space_size=4096
 
   # 6️⃣ Release + publish to npm
-  - script: pnpm semantic-release
-    displayName: "Release & publish to npm"
+  - script: |
+      pnpm version patch --no-git-tag-version
+      pnpm publish --access public
+    displayName: "Bump version & publish to npm"
     env:
-      NPM_TOKEN: $(PUBLISH_TOKEN)
+      NODE_AUTH_TOKEN: $(PUBLISH_TOKEN)

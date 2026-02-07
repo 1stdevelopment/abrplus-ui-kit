@@ -2,7 +2,7 @@
 const jsxRuntime = require("react/jsx-runtime");
 const antd = require("antd");
 const reactRouterDom = require("react-router-dom");
-const index = require("./index-CW9vyiq6.cjs");
+const index = require("./index-hO3PhKtS.cjs");
 const colors = require("./colors-TPZkyKI4.cjs");
 const Breadcrumb = (props) => {
   const appName = colors.AbrplusUIKit.config().getAppName();

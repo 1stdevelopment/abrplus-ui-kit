@@ -7,7 +7,7 @@ import { ReactNode } from 'react';
 
 export interface AbrplusUIKitProviderProps extends ConfigProviderProps {
   children: ReactNode;
-  locales: AbrplusUIKitType['locales'];
+  locales?: AbrplusUIKitType['locales'];
   antdConfigs?: Partial<ConfigProviderProps>;
   appName?: APP_NAME;
 }

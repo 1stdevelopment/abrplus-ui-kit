@@ -28,7 +28,13 @@ type IcoMoonSelection = {
 };
 
 async function downloadSelectionJson(): Promise<IcoMoonSelection> {
-  const res = await fetch(DRIVE_URL);
+  const res = await fetch(DRIVE_URL, {
+    headers: {
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+      Accept: 'application/json,text/plain,*/*',
+    },
+  });
 
   if (!res.ok) {
     throw new Error(`Failed to download selection.json (${res.status})`);

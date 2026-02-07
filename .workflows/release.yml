@@ -37,8 +37,15 @@ steps:
     env:
       NODE_OPTIONS: --max_old_space_size=4096
 
+  - powershell: |
+      "//registry.npmjs.org/:_authToken=$env:NPM_TOKEN" |
+      Out-File "$env:USERPROFILE\.npmrc" -Encoding ascii -Force
+    displayName: "Configure npm authentication"
+    env:
+      NPM_TOKEN: $(NPM_TOKEN)
+
   - script: pnpm release
     displayName: "Bump version & Publish UI Kit"
     env:
-      NODE_AUTH_TOKEN: $(NODE_AUTH_TOKEN)
+      NPM_TOKEN: $(NPM_TOKEN)
       GIT_AUTH_TOKEN: $(GIT_PAT)

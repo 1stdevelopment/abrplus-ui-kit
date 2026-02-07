@@ -19,18 +19,10 @@ steps:
       PUBLISH_TOKEN: $(PUBLISH_TOKEN)
       GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
 
-  # 3️⃣ Ensure local develop branch exists
   - script: |
       git fetch origin develop
       git checkout -B develop origin/develop
-      git status
-      git log -3 --oneline
-    displayName: "Prepare Local Branch"
-
-  # 4️⃣ Test git push dry-run using PAT (safe, no actual push)
-  - script: |
-      git config --global credential.helper store
-      echo https://$(GIT_AUTH_TOKEN)@:tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit > git-credentials
+      git remote set-url origin https://$(GIT_AUTH_TOKEN)@tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit
       git push --dry-run origin develop
     displayName: "Test Git Push Dry Run via PAT"
     env:

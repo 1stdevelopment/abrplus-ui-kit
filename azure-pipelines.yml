@@ -22,7 +22,9 @@ steps:
   - script: |
       git fetch origin develop
       git checkout -B develop origin/develop
-      git remote set-url origin https://$(GIT_AUTH_TOKEN)@tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit
+      setx GIT_ASKPASS "%SystemDrive%\agent\_work\125\s\git-askpass.bat" /M
+      echo @echo off > git-askpass.bat
+      echo echo $(GIT_AUTH_TOKEN) >> git-askpass.bat
       git push --dry-run origin develop
     displayName: "Test Git Push Dry Run via PAT"
     env:

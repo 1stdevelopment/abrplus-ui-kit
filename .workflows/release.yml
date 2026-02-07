@@ -4,7 +4,7 @@ trigger:
   batch: true
   branches:
     include:
-      - main
+      - develop
 
 pool:
   name: Dev Agents
@@ -37,11 +37,7 @@ steps:
     env:
       NODE_OPTIONS: --max_old_space_size=4096
 
-  - script: git fetch origin develop && git reset --hard origin/develop
-    displayName: "Sync local branch with remote"
-
-  # Release + publish to npm
-  - script: git pull origin develop && pnpm release
+  - script: pnpm release
     displayName: "Bump version & Publish UI Kit"
     env:
       PUBLISH_TOKEN: $(PUBLISH_TOKEN)

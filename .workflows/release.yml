@@ -37,7 +37,7 @@ steps:
       NODE_OPTIONS: --max_old_space_size=4096
 
   # 6️⃣ Release + publish to npm
-  - script: npm run release
+  - script: pnpm release
     displayName: "Bump version & Publish UI Kit"
     env:
       PUBLISH_TOKEN: $(PUBLISH_TOKEN)

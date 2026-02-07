@@ -2,6 +2,8 @@ import chalk from 'chalk';
 import fs from 'fs/promises';
 import path from 'path';
 
+import { commitChanges } from './commit';
+
 const DRIVE_URL =
   'https://drive.usercontent.google.com/u/0/uc?id=1IcnNf7YUzIkceDeW-8aI3eCxbEWLOTxv&export=download';
 
@@ -78,6 +80,8 @@ async function run() {
     const { iconsPack, iconNames } = generateIconsPack(selection);
 
     await writeFiles(iconsPack, iconNames);
+
+    await commitChanges([ICON_NAMES_FILE, ICONS_PACK_FILE]);
 
     console.log(chalk.greenBright(`✔ Generated ${iconNames.length} icons successfully`));
   } catch (err) {

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { iconsContent } from './constants/iconsContent';
+import { iconsPack } from './constants/iconsPack';
 import { Icon, IconMoonsProps } from './index';
 
 /* -------------------------------------------------------------------------- */
@@ -21,9 +21,9 @@ const meta: Meta<IconMoonsProps> = {
     name: {
       control: 'select',
       defaultValue: 'Accidental',
-      options: Object.keys(iconsContent), // Provides a dropdown of available icons
+      options: Object.keys(iconsPack), // Provides a dropdown of available icons
       description:
-        'Name of the icon to be displayed. Select from available icons defined in the `iconsContent` constant.',
+        'Name of the icon to be displayed. Select from available icons defined in the `iconsPack` constant.',
     },
     size: {
       control: 'select',

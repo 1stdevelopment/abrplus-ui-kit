@@ -1,7 +1,7 @@
 import { jsx } from "react/jsx-runtime";
 import { Breadcrumb as Breadcrumb$1 } from "antd";
 import { Link } from "react-router-dom";
-import { T as Text, I as Icon } from "./index-C24zbKLS.js";
+import { T as Text, I as Icon } from "./index-CB4n-5do.js";
 import { A as AbrplusUIKit, c as colors } from "./colors-CztsZ6e_.js";
 const Breadcrumb = (props) => {
   const appName = AbrplusUIKit.config().getAppName();

@@ -1,0 +1,51 @@
+name: Release Icon
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+
+pool:
+  name: Dev Agents
+
+steps:
+  # Checkout repo
+  - checkout: self
+    clean: true
+    persistCredentials: true # required for semantic-release git tags
+    fetchDepth: 0 # ensures full history for tagging
+
+  # Install Node.js
+  - task: NodeTool@0
+    displayName: "Install Node.js"
+    inputs:
+      versionSpec: "22.x"
+      checkLatest: true
+
+  # Install pnpm
+  - script: npm i -g pnpm@8.14.0
+    displayName: "Install pnpm"
+
+  # Install dependencies
+  - script: pnpm install --frozen-lockfile
+    displayName: "Install dependencies"
+
+  # Build UI Kit
+  - script: pnpm build:icon
+    displayName: "Build UI Kit (With New Icons)"
+    env:
+      NODE_OPTIONS: --max_old_space_size=4096
+
+  - powershell: |
+      "//registry.npmjs.org/:_authToken=$env:NPM_TOKEN" |
+      Out-File "$env:USERPROFILE\.npmrc" -Encoding ascii -Force
+    displayName: "Configure npm authentication"
+    env:
+      NPM_TOKEN: $(NPM_TOKEN)
+
+  - script: pnpm release
+    displayName: "Bump version & Publish UI Kit"
+    env:
+      NPM_TOKEN: $(NPM_TOKEN)
+      GIT_AUTH_TOKEN: $(GIT_PAT)

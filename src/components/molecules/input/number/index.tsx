@@ -1,11 +1,10 @@
+import { InputFieldError, colors } from '@configs';
 import { Input as AntInput, Divider, InputProps, InputRef } from 'antd';
 import { SizeType } from 'antd/es/config-provider/SizeContext';
 import { forwardRef, useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import starkString from 'starkstring';
 import { twMerge } from 'tailwind-merge';
-
-import { InputFieldError, colors } from '@configs';
 
 import { Flex, Icon, InputErrorMessage, Render, Text } from '../../..';
 
@@ -31,6 +30,7 @@ export interface InputNumberProps extends Omit<InputProps, 'onChange' | 'value' 
   max?: number;
   onChange?: (value: number) => void;
   hideErrorMessage?: boolean;
+  hasArrowButton?: boolean;
 }
 const InputNumber = forwardRef<InputRef, InputNumberProps>((props, ref) => {
   const {
@@ -57,6 +57,7 @@ const InputNumber = forwardRef<InputRef, InputNumberProps>((props, ref) => {
     min,
     hideErrorMessage = false,
     disableNegative = false,
+    hasArrowButton = true,
     ...rest
   } = useMemo(() => ({ ...props }), [props]);
 
@@ -153,9 +154,9 @@ const InputNumber = forwardRef<InputRef, InputNumberProps>((props, ref) => {
         ref={ref}
         className={twMerge(
           (lang || i18n.language) === 'fa'
-            ? 'font-yekan-normal direction-rtl '
-            : 'font-roboto-normal direction-ltr',
-          'placeholder:text-primary text-primary-dark-1 w-full select-none py-0  pe-0 ps-2 text-[14px] font-medium outline-none',
+            ? 'direction-rtl font-yekan-normal '
+            : 'direction-ltr font-roboto-normal',
+          'w-full select-none py-0 pe-0 ps-2  text-[14px] font-medium text-primary-dark-1 outline-none placeholder:text-primary',
           className,
         )}
         classNames={{
@@ -168,31 +169,37 @@ const InputNumber = forwardRef<InputRef, InputNumberProps>((props, ref) => {
         onChange={(e) => _onChangeText(e.target.value)}
         status={error?.message ? 'error' : status}
         disabled={disabled}
-        suffix={
-          <div className={twMerge('flex h-full')}>
-            <Flex
-              vertical
-              flex={1}
-              className=" border-primary-light-3 w-full border-s border-solid p-0"
-            >
-              <Flex
-                flex={1}
-                className="bg-light-1 w-10 cursor-pointer items-center  justify-center  rounded	border-solid "
-                onClick={() => handleArrowBtns(-step)}
-              >
-                <Icon name="Chevron_Up" size="small" color={colors.primary_dark_2} />
-              </Flex>
-              <Divider className="bg-primary-light-3 m-0 p-0" />
-              <Flex
-                flex={1}
-                onClick={() => handleArrowBtns(+step)}
-                className="bg-light-1 border-1 w-10 cursor-pointer items-center justify-center  rounded	border-solid"
-              >
-                <Icon name="Chevron_Down" size="small" color={colors.primary_dark_2} />
-              </Flex>
-            </Flex>
-          </div>
-        }
+        {...(hasArrowButton
+          ? {
+              suffix: (
+                <div className={twMerge('flex h-full')}>
+                  <Flex
+                    vertical
+                    flex={1}
+                    className="w-full border-s border-solid border-primary-light-3 p-0"
+                  >
+                    <Flex
+                      flex={1}
+                      className="w-10 cursor-pointer items-center justify-center rounded border-solid bg-light-1"
+                      onClick={() => handleArrowBtns(-step)}
+                    >
+                      <Icon name="Chevron_Up" size="small" color={colors.primary_dark_2} />
+                    </Flex>
+
+                    <Divider className="m-0 bg-primary-light-3 p-0" />
+
+                    <Flex
+                      flex={1}
+                      onClick={() => handleArrowBtns(+step)}
+                      className="border-1 w-10 cursor-pointer items-center justify-center rounded border-solid bg-light-1"
+                    >
+                      <Icon name="Chevron_Down" size="small" color={colors.primary_dark_2} />
+                    </Flex>
+                  </Flex>
+                </div>
+              ),
+            }
+          : {})}
         prefix={prefix}
         step={step}
         {...rest}

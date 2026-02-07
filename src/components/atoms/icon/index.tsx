@@ -1,7 +1,7 @@
 import { CSSProperties, ImgHTMLAttributes } from 'react';
 
-import { createIcomoonIconSet } from '../../../utilities/createIcomoonIconSet';
 import { IconsNames } from './constants/iconNames';
+import { createIcomoonIconSet } from './utils/createIcomoonIconSet';
 
 const IconMoon = createIcomoonIconSet();
 
@@ -23,6 +23,7 @@ export type IconMoonsProps = BaseProps & {
   hasSrc?: false;
   name?: IconsNames;
   color?: string | string[];
+  imgProps?: ImgHTMLAttributes<HTMLImageElement>;
 };
 
 type IconProps = ImageIconProps | IconMoonsProps;
@@ -69,7 +70,7 @@ const Icon = ({ size = 'medium', onClick, style, className, disable, ...rest }: 
       {rest.hasSrc ? (
         <img src={rest.src} width={fontSize} height={fontSize} {...rest.imgProps} />
       ) : (
-        <IconMoon name={rest.name} color={rest.color} size={fontSize} />
+        <IconMoon name={rest.name!} color={rest.color} size={fontSize} {...rest.imgProps} />
       )}
     </div>
   );

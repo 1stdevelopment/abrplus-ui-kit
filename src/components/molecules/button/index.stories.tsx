@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
 import { Button } from '.';
-import { iconsContent } from '../../atoms/icon/constants/iconsContent';
+import { iconsPack } from '../../atoms/icon/constants/iconsPack';
 import { ActionButtonProps } from './action';
 import { IconButtonProps } from './icon';
 import { ButtonProps } from './shared';
@@ -31,7 +31,7 @@ export default {
     iconName: {
       control: 'select',
       defaultValue: 'Accidental',
-      options: Object.keys(iconsContent), // Adjust this based on how your IconsNames is structured
+      options: Object.keys(iconsPack), // Adjust this based on how your IconsNames is structured
       description:
         'The name of the icon to be displayed inside the button, selected from available icon names.',
     },

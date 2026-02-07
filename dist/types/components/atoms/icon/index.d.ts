@@ -16,6 +16,7 @@ export type IconMoonsProps = BaseProps & {
     hasSrc?: false;
     name?: IconsNames;
     color?: string | string[];
+    imgProps?: ImgHTMLAttributes<HTMLImageElement>;
 };
 type IconProps = ImageIconProps | IconMoonsProps;
 /**

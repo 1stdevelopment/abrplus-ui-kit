@@ -7,16 +7,16 @@ steps:
   # 1️⃣ Checkout repo with full history and persisted credentials
   - checkout: self
     clean: true
-    persistCredentials: true   # Required for Git pushes
+    persistCredentials: true # Required for Git pushes
     fetchDepth: 0
 
   # 2️⃣ Print environment variables (secrets will be masked)
   - script: |
-      echo PUBLISH_TOKEN = %PUBLISH_TOKEN%
+      echo NPM_TOKEN = %NPM_TOKEN%
       echo GIT_AUTH_TOKEN = %GIT_AUTH_TOKEN%
     displayName: "Check Environment Variables"
     env:
-      PUBLISH_TOKEN: $(PUBLISH_TOKEN)
+      NPM_TOKEN: $(NPM_TOKEN)
       GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
 
   # 3️⃣ Configure Git to use PAT non-interactively and test push

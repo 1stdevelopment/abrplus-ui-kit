@@ -10,7 +10,7 @@ pool:
   name: Dev Agents
 
 variables:
-  PUBLISH_TOKEN: $(PUBLISH_TOKEN) # secret npm token
+  NPM_TOKEN: $(NPM_TOKEN) # secret npm token
 
 steps:
   # 1️⃣ Checkout repo
@@ -43,4 +43,4 @@ steps:
   - script: pnpm release
     displayName: "Publish UI Kit to npm"
     env:
-      NPM_TOKEN: $(PUBLISH_TOKEN) # semantic-release requires NPM_TOKEN
+      NPM_TOKEN: $(NPM_TOKEN) # semantic-release requires NPM_TOKEN

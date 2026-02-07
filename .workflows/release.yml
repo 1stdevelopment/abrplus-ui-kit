@@ -40,7 +40,7 @@ steps:
       NPM_TOKEN: $(NPM_TOKEN)
 
   # Run semantic-release (no npm publish)
-  - script: pnpm semantic-release --no-ci
+  - script: pnpm release
     displayName: "Generate changelog & git push"
     env:
       GIT_AUTH_TOKEN: $(GIT_PAT)

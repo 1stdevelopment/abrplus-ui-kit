@@ -64,7 +64,7 @@
     "gen:tw": "tsx scripts/tailwind-config.ts",
     "build": "vite build",
     "build:icon": "pnpm gen:icon && pnpm build",
-    "release": "cross-env SKIP_HUSKY_TASKS=true semantic-release",
+    "release": "cross-env SKIP_HUSKY_TASKS=true semantic-release --no-ci",
     "prepare": "husky"
   },
   "dependencies": {

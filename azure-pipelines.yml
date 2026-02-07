@@ -20,7 +20,7 @@ steps:
       GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
 
   - script: |
-      git config --global core.askPass "%SystemDrive%\agent\_work\163\s\git-askpass.bat"
+      git clone https://$(GIT_AUTH_TOKEN)@tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit .
       git fetch origin develop
       git checkout -B develop origin/develop
       git push --dry-run origin develop

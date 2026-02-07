@@ -29,8 +29,9 @@ steps:
 
   # 4️⃣ Test git push dry-run using PAT (safe, no actual push)
   - script: |
-      git remote set-url origin https://$(GIT_AUTH_TOKEN)@tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit
+      git config --global credential.helper store
+      echo https://$(GIT_AUTH_TOKEN)@:tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit > git-credentials
       git push --dry-run origin develop
-    displayName: "Test Git Push Dry Run"
+    displayName: "Test Git Push Dry Run via PAT"
     env:
       GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)

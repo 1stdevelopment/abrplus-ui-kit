@@ -1,3 +1,10 @@
+## [1.0.3](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.2...v1.0.3) (2026-02-07)
+
+
+### Bug Fixes
+
+* semanticrc ([988a0ac](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/988a0ac0ea8b3ced54e6a8bb8a59531309c30957))
+
 ## [1.0.2](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.1...v1.0.2) (2026-02-07)
 
 

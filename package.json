@@ -64,7 +64,7 @@
     "gen:tw": "tsx scripts/tailwind-config.ts",
     "build": "pnpm format && pnpm lint && pnpm test && pnpm compile && vite build",
     "build:icon": "pnpm gen:icon && pnpm build",
-    "release": "echo //registry.npmjs.org/:_authToken=$NPM_TOKEN > .npmrc && semantic-release && rimraf .npmrc",
+    "release": "echo //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN > .npmrc && semantic-release && rimraf .npmrc",
     "prepare": "husky"
   },
   "dependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "abrplus-ui-kit",
-  "version": "0.2.10",
+  "version": "0.3.0",
   "private": false,
   "type": "module",
   "main": "./dist/index.cjs.js",
@@ -74,7 +74,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@use-gesture/react": "^10.3.0",
     "i18next-browser-languagedetector": "^7.2.0",
-    "jalaali-react-date-picker": "https://github.com/1stdevelopment/jalaali-react-date-picker",
+    "jalaali-react-date-picker": "git+https://github.com/1stdevelopment/jalaali-react-date-picker.git",
     "react-copy-to-clipboard": "5.1.0"
   },
   "devDependencies": {

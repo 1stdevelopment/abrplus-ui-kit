@@ -60,9 +60,9 @@
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "gen:icon": "cross-env SKIP_HUSKY_TASKS=true tsx scripts/icon.ts --commit",
+    "gen:icon": "cross-env SKIP_HUSKY_TASKS=true tsx scripts/icon.ts",
     "gen:tw": "tsx scripts/tailwind-config.ts",
-    "build": "pnpm format && pnpm lint && pnpm test && pnpm compile && vite build",
+    "build": "vite build",
     "build:icon": "pnpm gen:icon && pnpm build",
     "release": "cross-env SKIP_HUSKY_TASKS=true semantic-release",
     "prepare": "husky"

@@ -3,31 +3,24 @@ name: Test-Pipeline
 pool:
   name: Dev Agents
 
-variables:
-  # Define dummy environment variables or use pipeline secrets
-  PUBLISH_TOKEN: $(PUBLISH_TOKEN)
-  GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
-
 steps:
-  # 1️⃣ Checkout repo
   - checkout: self
     clean: true
     persistCredentials: true
     fetchDepth: 0
 
-  # 2️⃣ Print environment variables
   - script: |
-      echo "PUBLISH_TOKEN = $PUBLISH_TOKEN"
-      echo "GIT_AUTH_TOKEN = $GIT_AUTH_TOKEN"
+      echo PUBLISH_TOKEN = %PUBLISH_TOKEN%
+      echo GIT_AUTH_TOKEN = %GIT_AUTH_TOKEN%
     displayName: "Check Environment Variables"
+    env:
+      PUBLISH_TOKEN: $(PUBLISH_TOKEN)
+      GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
 
-  # 3️⃣ Show git status
   - script: |
       git status
       git log -3 --oneline
     displayName: "Test Git Commands"
 
-  # 4️⃣ Test git push dry-run (does not actually push)
-  - script: |
-      git push --dry-run origin develop
+  - script: git push --dry-run origin develop
     displayName: "Test Git Push Dry Run"

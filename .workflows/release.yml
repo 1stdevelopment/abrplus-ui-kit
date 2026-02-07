@@ -40,5 +40,5 @@ steps:
   - script: pnpm release
     displayName: "Bump version & Publish UI Kit"
     env:
-      NPM_TOKEN: $(NPM_TOKEN)
+      NPM_TOKEN: $(PUBLISH_TOKEN)
       GIT_AUTH_TOKEN: $(GIT_PAT)

@@ -21,18 +21,6 @@ steps:
 
   # 3️⃣ Configure Git to use PAT non-interactively and test push
   - script: |
-      REM Create Git AskPass script for non-interactive authentication
-      echo @echo off > git-askpass.bat
-      echo echo %GIT_AUTH_TOKEN% >> git-askpass.bat
-
-      REM Set Git to use AskPass
-      git config --global core.askPass "%CD%\git-askpass.bat"
-
-      REM Ensure we have the latest develop branch
-      git fetch origin develop
-      git checkout -B develop origin/develop
-
-      REM Test push (dry-run)
       git push --dry-run origin develop
     displayName: "Test Git Push Dry Run via PAT"
     env:

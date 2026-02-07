@@ -10,34 +10,39 @@ pool:
   name: Dev Agents
 
 steps:
-  # 1️⃣ Checkout repo
+  # Checkout repo
   - checkout: self
     clean: true
     persistCredentials: true # required for semantic-release git tags
+    fetchDepth: 0 # ensures full history for tagging
 
-  # 2️⃣ Install Node.js
+  # Install Node.js
   - task: NodeTool@0
     displayName: "Install Node.js"
     inputs:
       versionSpec: "22.x"
       checkLatest: true
 
-  # 3️⃣ Install pnpm
+  # Install pnpm
   - script: npm i -g pnpm@8.14.0
     displayName: "Install pnpm"
 
-  # 4️⃣ Install dependencies
+  # Install dependencies
   - script: pnpm install --frozen-lockfile
     displayName: "Install dependencies"
 
-  # 5️⃣ Build UI Kit
+  # Build UI Kit
   - script: pnpm vite build
     displayName: "Build UI Kit"
     env:
       NODE_OPTIONS: --max_old_space_size=4096
 
-  # 6️⃣ Release + publish to npm
-  - script: pnpm release
+  - script: git fetch origin develop && git reset --hard origin/develop
+    displayName: "Sync local branch with remote"
+
+  # Release + publish to npm
+  - script: git pull origin develop && pnpm release
     displayName: "Bump version & Publish UI Kit"
     env:
       PUBLISH_TOKEN: $(PUBLISH_TOKEN)
+      GIT_AUTH_TOKEN: $(GIT_PAT)

@@ -8,8 +8,10 @@ const execAsync = promisify(exec);
 export async function commitChanges(filesToCommit: string[]) {
   console.log(chalk.cyan('→ Committing generated icons'));
   const { stdout } = await execAsync('git status --porcelain');
-  if (!stdout.trim()) {
-    console.log(chalk.yellow('→ No changes detected, skipping commit'));
+  const relevantChanges = filesToCommit.some((f) => stdout.includes(f));
+
+  if (!relevantChanges) {
+    console.log(chalk.yellow('→ No changes detected in icon files, skipping commit'));
     return;
   }
   await execAsync(`git add ${filesToCommit.map((f) => `"${f}"`).join(' ')}`);

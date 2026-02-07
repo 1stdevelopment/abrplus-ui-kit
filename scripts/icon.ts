@@ -81,7 +81,8 @@ async function run() {
 
     await writeFiles(iconsPack, iconNames);
 
-    await commitChanges([ICON_NAMES_FILE, ICONS_PACK_FILE]);
+    const shouldCommit = process.argv.includes('--commit');
+    if (shouldCommit) await commitChanges([ICON_NAMES_FILE, ICONS_PACK_FILE]);
 
     console.log(chalk.greenBright(`✔ Generated ${iconNames.length} icons successfully`));
   } catch (err) {

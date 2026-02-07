@@ -60,12 +60,11 @@
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "gen:icon": "cross-env SKIP_HUSKY_TASKS=true tsx scripts/icon.ts",
+    "gen:icon": "cross-env SKIP_HUSKY_TASKS=true tsx scripts/icon.ts --commit",
     "gen:tw": "tsx scripts/tailwind-config.ts",
     "build": "pnpm format && pnpm lint && pnpm test && pnpm compile && vite build",
-    "build:icon": "pnpm gen:icon --commit && pnpm build",
-    "release": "pnpm semantic-release",
-    "release:icon": "pnpm build:icon && pnpm release",
+    "build:icon": "pnpm gen:icon && pnpm build",
+    "release": "echo //registry.npmjs.org/:_authToken=$PUBLISH_TOKEN > .npmrc && semantic-release && rimraf .npmrc",
     "prepare": "husky"
   },
   "dependencies": {

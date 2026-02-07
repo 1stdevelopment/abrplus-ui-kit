@@ -40,7 +40,7 @@ steps:
       NODE_OPTIONS: --max_old_space_size=4096
 
   # 6️⃣ Publish UI Kit to npm using semantic-release
-  - script: pnpm semantic-release
+  - script: pnpm release
     displayName: "Publish UI Kit to npm"
     env:
       NPM_TOKEN: $(PUBLISH_TOKEN) # semantic-release requires NPM_TOKEN

@@ -17,6 +17,10 @@ steps:
 
   - script: git fetch origin develop && git checkout -B develop origin/develop && git status && git log -3 --oneline
     displayName: "Test Git Commands"
+    env:
+      GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
 
   - script: git push --dry-run origin develop
     displayName: "Test Git Push Dry Run"
+    env:
+      GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)

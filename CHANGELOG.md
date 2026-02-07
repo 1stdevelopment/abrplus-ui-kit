@@ -1,3 +1,12 @@
+## [1.0.1](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.0...v1.0.1) (2026-02-07)
+
+
+### Bug Fixes
+
+* pipelines ([2acfe4f](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/2acfe4f28a822273ed3b783c8408e55bb98353e7))
+* pipelines ([bf476e7](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/bf476e7b7a9d9394b473331f6229e263e25dd79c))
+* realeas-icon, package.json scripts ([0afeb35](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/0afeb353839a9ab153fb23b89794b74d41c4dba9))
+
 # 1.0.0 (2026-02-07)
 
 

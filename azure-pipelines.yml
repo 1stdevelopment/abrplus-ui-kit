@@ -9,17 +9,13 @@ steps:
     persistCredentials: true
     fetchDepth: 0
 
-  - script: |
-      echo PUBLISH_TOKEN = %PUBLISH_TOKEN%
-      echo GIT_AUTH_TOKEN = %GIT_AUTH_TOKEN%
+  - script: echo PUBLISH_TOKEN = %PUBLISH_TOKEN% && echo GIT_AUTH_TOKEN = %GIT_AUTH_TOKEN%
     displayName: "Check Environment Variables"
     env:
       PUBLISH_TOKEN: $(PUBLISH_TOKEN)
       GIT_AUTH_TOKEN: $(GIT_AUTH_TOKEN)
 
-  - script: |
-      git status
-      git log -3 --oneline
+  - script: git fetch origin develop && git checkout -B develop origin/develop && git status && git log -3 --oneline
     displayName: "Test Git Commands"
 
   - script: git push --dry-run origin develop

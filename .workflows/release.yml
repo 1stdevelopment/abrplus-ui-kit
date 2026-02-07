@@ -10,28 +10,23 @@ pool:
   name: Dev Agents
 
 steps:
-  # Checkout repo
   - checkout: self
     clean: true
-    persistCredentials: true # required for semantic-release git tags
-    fetchDepth: 0 # ensures full history for tagging
+    persistCredentials: true
+    fetchDepth: 0
 
-  # Install Node.js
   - task: NodeTool@0
     displayName: "Install Node.js"
     inputs:
       versionSpec: "22.x"
       checkLatest: true
 
-  # Install pnpm
   - script: npm i -g pnpm@8.14.0
     displayName: "Install pnpm"
 
-  # Install dependencies
   - script: pnpm install --frozen-lockfile
     displayName: "Install dependencies"
 
-  # Build UI Kit
   - script: pnpm vite build
     displayName: "Build UI Kit"
     env:
@@ -44,8 +39,14 @@ steps:
     env:
       NPM_TOKEN: $(NPM_TOKEN)
 
-  - script: pnpm release
-    displayName: "Bump version & Publish UI Kit"
+  # Run semantic-release (no npm publish)
+  - script: pnpm semantic-release --no-ci
+    displayName: "Generate changelog & git push"
+    env:
+      GIT_AUTH_TOKEN: $(GIT_PAT)
+
+  # Manual npm publish
+  - script: pnpm publish --access public
+    displayName: "Publish to npm"
     env:
       NPM_TOKEN: $(NPM_TOKEN)
-      GIT_AUTH_TOKEN: $(GIT_PAT)

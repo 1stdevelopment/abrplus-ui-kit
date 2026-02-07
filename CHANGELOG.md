@@ -1,3 +1,10 @@
+## [1.0.2](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.1...v1.0.2) (2026-02-07)
+
+
+### Bug Fixes
+
+* pipelines ([9a40ec8](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/9a40ec89b98f56d3550dd6d92b0e1b59c6baf1d6))
+
 ## [1.0.1](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.0...v1.0.1) (2026-02-07)
 
 

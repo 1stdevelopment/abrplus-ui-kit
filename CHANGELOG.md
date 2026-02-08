@@ -1,3 +1,10 @@
+## [1.0.1](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.0...v1.0.1) (2026-02-08)
+
+
+### Bug Fixes
+
+* realeas-icon, package.json scripts ([0afeb35](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/0afeb353839a9ab153fb23b89794b74d41c4dba9))
+
 # 1.0.0 (2026-02-07)
 
 

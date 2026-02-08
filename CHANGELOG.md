@@ -284,6 +284,15 @@
 
 * gitignote dist added ([d9dc640](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/d9dc640bd96be8ff0a101c6c4b394c799c4a007c))
 * release pipeline publish ([df20d82](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/df20d82dcdf2973c2b1984dbfe20ae98389cb3eb))
+* vitest bug ([73582e7](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/73582e72e616cf4979dd13240fe0e705ef1be725))
+
+## [1.0.4](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.3...v1.0.4) (2026-02-08)
+
+
+### Bug Fixes
+
+* gitignote dist added ([d9dc640](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/d9dc640bd96be8ff0a101c6c4b394c799c4a007c))
+* release pipeline publish ([df20d82](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/df20d82dcdf2973c2b1984dbfe20ae98389cb3eb))
 
 ## [1.0.4](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.3...v1.0.4) (2026-02-08)
 

@@ -14,13 +14,15 @@ steps:
 
   - powershell: |
       $url = "https://drive.usercontent.google.com/u/0/uc?id=1IcnNf7YUzIkceDeW-8aI3eCxbEWLOTxv&export=download"
+      $file = "$(Agent.TempDirectory)\file.json"
 
-      $res = Invoke-WebRequest -Uri $url -UseBasicParsing
+      Invoke-WebRequest -Uri $url -OutFile $file -UseBasicParsing
 
-      Write-Host "Status:" $res.StatusCode
-      Write-Host "Content-Type:" $res.Headers["Content-Type"]
-
-      if ($res.Headers["Content-Type"] -notmatch "application/json") {
-        Write-Error "Not JSON"
+      try {
+       Get-Content $file -Raw | ConvertFrom-Json | Out-Null
+       Write-Host "✅ File is valid JSON"
       }
-    displayName: "Check Drive link"
+      catch {
+       Write-Error "❌ File is NOT valid JSON"
+      }
+    displayName: "Download & validate JSON"

@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ['main', 'develop'],
+  branches: ['main'],
   tagFormat: 'v${version}',
   repository: {
     type: 'git',

@@ -27,7 +27,7 @@ steps:
   - script: pnpm install --frozen-lockfile
     displayName: "Install dependencies"
 
-  - script: pnpm build:icon
+  - script: pnpm build
     displayName: "Build UI Kit"
     env:
       NODE_OPTIONS: --max_old_space_size=4096

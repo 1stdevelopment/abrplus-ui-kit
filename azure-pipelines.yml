@@ -1,0 +1,26 @@
+name: Drive-Link-Test
+
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  name: Dev Agents
+
+steps:
+  - checkout: self
+    clean: true
+
+  - powershell: |
+      $url = "https://drive.usercontent.google.com/u/0/uc?id=1IcnNf7YUzIkceDeW-8aI3eCxbEWLOTxv&export=download"
+
+      $res = Invoke-WebRequest -Uri $url -UseBasicParsing
+
+      Write-Host "Status:" $res.StatusCode
+      Write-Host "Content-Type:" $res.Headers["Content-Type"]
+
+      if ($res.Headers["Content-Type"] -notmatch "application/json") {
+        Write-Error "Not JSON"
+      }
+    displayName: "Check Drive link"

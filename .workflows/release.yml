@@ -1,4 +1,4 @@
-name: AbrPlus-Ui-Kit
+name: Release Abrplus-Ui-Kit
 
 trigger:
   batch: true
@@ -27,7 +27,7 @@ steps:
   - script: pnpm install --frozen-lockfile
     displayName: "Install dependencies"
 
-  - script: pnpm vite build
+  - script: pnpm build
     displayName: "Build UI Kit"
     env:
       NODE_OPTIONS: --max_old_space_size=4096
@@ -39,14 +39,9 @@ steps:
     env:
       NPM_TOKEN: $(NPM_TOKEN)
 
-  # Run semantic-release (no npm publish)
+  # Bump Version / Generate ChangeLog / Publish UI Kit
   - script: pnpm release
-    displayName: "Generate changelog & git push"
+    displayName: "Publish"
     env:
       GIT_AUTH_TOKEN: $(GIT_PAT)
-
-  # Manual npm publish
-  - script: pnpm publish --access public --no-git-checks
-    displayName: "Publish to npm"
-    env:
       NPM_TOKEN: $(NPM_TOKEN)

@@ -1,3 +1,10 @@
+## [1.0.6](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.5...v1.0.6) (2026-02-08)
+
+
+### Bug Fixes
+
+* bump version commit ([749dbf4](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/749dbf41aff0a293410f497ee667e0f40dfac7bb))
+
 ## [1.0.4](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.3...v1.0.4) (2026-02-08)
 
 

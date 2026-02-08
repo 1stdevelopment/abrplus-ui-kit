@@ -26,6 +26,13 @@
 
 * release pipeline publish ([df20d82](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/df20d82dcdf2973c2b1984dbfe20ae98389cb3eb))
 
+## [1.0.4](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.3...v1.0.4) (2026-02-08)
+
+
+### Bug Fixes
+
+* release pipeline publish ([df20d82](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/df20d82dcdf2973c2b1984dbfe20ae98389cb3eb))
+
 ## [1.0.3](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.2...v1.0.3) (2026-02-07)
 
 ### Bug Fixes

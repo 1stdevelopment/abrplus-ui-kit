@@ -20,7 +20,9 @@ export async function commitChanges(filesToCommit: string[], message: string) {
     path.relative(process.cwd(), file).replace(/\\/g, '/'),
   );
 
-  const relevantChanges = normalizedFiles.some((file) => changedFiles.includes(file));
+  const relevantChanges = changedFiles.length
+    ? normalizedFiles.some((file) => changedFiles.includes(file))
+    : false;
 
   if (!relevantChanges) {
     console.log(

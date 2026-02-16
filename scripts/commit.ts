@@ -11,7 +11,11 @@ export async function commitChanges(filesToCommit: string[]) {
   const relevantChanges = filesToCommit.some((f) => stdout.includes(f));
 
   if (!relevantChanges) {
-    console.log(chalk.yellow('→ No changes detected in icon files, skipping commit'));
+    console.log(
+      chalk.yellow(
+        `→ No changes detected in ${normalizedFiles.map((f) => `"${f}"`).join(' ')} files, skipping commit`,
+      ),
+    );
     return;
   }
   await execAsync(`git add ${filesToCommit.map((f) => `"${f}"`).join(' ')}`);

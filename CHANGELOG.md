@@ -1,3 +1,11 @@
+## [1.0.7](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.6...v1.0.7) (2026-02-15)
+
+
+### Bug Fixes
+
+* commit script ([140cbe6](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/140cbe60e97029e1252a0654db5c04cebdde8c42))
+* regenerate icon constants ([183eb06](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/commit/183eb06b63bf35ad943fac4da6d2b999a8a13480))
+
 ## [1.0.6](https://tfs.1st.co.com/tfs/AbrPlus/AbrPlus-UI-Kit/_git/AbrPlus-UI-Kit/compare/v1.0.5...v1.0.6) (2026-02-08)
 
 

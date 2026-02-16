@@ -88,7 +88,8 @@ async function run() {
     await writeFiles(iconsPack, iconNames);
 
     const shouldCommit = process.argv.includes('--commit');
-    if (shouldCommit) await commitChanges([ICON_NAMES_FILE, ICONS_PACK_FILE]);
+    if (shouldCommit)
+      await commitChanges([ICON_NAMES_FILE, ICONS_PACK_FILE], 'fix: regenerate icon constants');
 
     console.log(chalk.greenBright(`✔ Generated ${iconNames.length} icons successfully`));
   } catch (err) {

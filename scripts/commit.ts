@@ -7,14 +7,12 @@ import { promisify } from 'util';
 const execAsync = promisify(exec);
 /* -------------------------------------------------------------------------- */
 export async function commitChanges(filesToCommit: string[], message: string) {
-  console.log(chalk.cyan('→ Committing generated icons'));
-
   const { stdout } = await execAsync('git status --porcelain');
 
   const changedFiles = stdout
     .split('\n')
     .filter(Boolean)
-    .map((line) => line.substring(3).trim()); // remove "M  "
+    .map((line) => line.substring(3).trim());
 
   const normalizedFiles = filesToCommit.map((file) =>
     path.relative(process.cwd(), file).replace(/\\/g, '/'),
@@ -23,7 +21,7 @@ export async function commitChanges(filesToCommit: string[], message: string) {
   const relevantChanges = changedFiles.length
     ? normalizedFiles.some((file) => changedFiles.includes(file))
     : false;
-
+  console.log({ normalizedFiles, changedFiles, relevantChanges });
   if (!relevantChanges) {
     console.log(
       chalk.yellow(

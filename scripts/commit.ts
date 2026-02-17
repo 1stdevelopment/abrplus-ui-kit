@@ -7,22 +7,15 @@ import { promisify } from 'util';
 const execAsync = promisify(exec);
 /* -------------------------------------------------------------------------- */
 export async function commitChanges(filesToCommit: string[], message: string) {
-  const { stdout } = await execAsync('git status --porcelain');
-
-  const changedFiles = stdout
-    .split('\n')
-    .filter(Boolean)
-    .map((line) => line.substring(3).trim());
-
   const normalizedFiles = filesToCommit.map((file) =>
     path.relative(process.cwd(), file).replace(/\\/g, '/'),
   );
 
-  const relevantChanges = changedFiles.length
-    ? normalizedFiles.some((file) => changedFiles.includes(file))
-    : false;
-  console.log({ normalizedFiles, changedFiles, relevantChanges });
-  if (!relevantChanges) {
+  await execAsync(`git add ${normalizedFiles.map((f) => `"${f}"`).join(' ')}`);
+
+  const { stdout: staged } = await execAsync('git diff --cached --name-only');
+
+  if (!staged.trim()) {
     console.log(
       chalk.yellow(
         `→ No changes detected in ${normalizedFiles.map((f) => `"${f}"`).join(' ')} files, skipping commit`,
@@ -30,8 +23,6 @@ export async function commitChanges(filesToCommit: string[], message: string) {
     );
     return;
   }
-
-  await execAsync(`git add ${normalizedFiles.map((f) => `"${f}"`).join(' ')}`);
 
   await execAsync(`git commit -m "${message}"`);
 

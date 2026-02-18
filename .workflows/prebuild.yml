@@ -17,13 +17,13 @@ steps:
     inputs:
       versionSpec: "22.x"
       checkLatest: true
-    enabled: true
+    enabled: false
     displayName: "Install Node.js"
 
   - script: |
       npm i -g pnpm@8.14.0
-    enabled: true
-    displayName: "Install Package Manager"
+    enabled: false
+    displayName: "Install pnpm"
 
   - script: |
       pnpm install

@@ -17,11 +17,13 @@ steps:
 
   - task: NodeTool@0
     displayName: "Install Node.js"
+    enabled: false
     inputs:
       versionSpec: "22.x"
       checkLatest: true
 
   - script: npm i -g pnpm@8.14.0
+    enabled: false
     displayName: "Install pnpm"
 
   - script: pnpm install --frozen-lockfile

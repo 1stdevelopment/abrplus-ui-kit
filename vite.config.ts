@@ -46,7 +46,7 @@ export default defineConfig({
     },
     cssCodeSplit: true,
     sourcemap: false,
-    minify: false,
+    minify: true,
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {

@@ -91,7 +91,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 389,
+    "iconIdx": 392,
     "height": 1024
   },
   "account": {
@@ -125,7 +125,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 567,
+    "iconIdx": 570,
     "height": 1024
   },
   "account_circle_fill": {
@@ -159,7 +159,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 564,
+    "iconIdx": 567,
     "height": 1024
   },
   "account-box-fill": {
@@ -193,7 +193,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 565,
+    "iconIdx": 568,
     "height": 1024
   },
   "account-box-line": {
@@ -227,7 +227,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 566,
+    "iconIdx": 569,
     "height": 1024
   },
   "Actitvity": {
@@ -305,7 +305,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 369,
+    "iconIdx": 372,
     "height": 1024
   },
   "add": {
@@ -339,7 +339,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 573,
+    "iconIdx": 576,
     "height": 1024
   },
   "add_circle": {
@@ -373,7 +373,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 569,
+    "iconIdx": 572,
     "height": 1024
   },
   "add_circle_line": {
@@ -407,7 +407,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 568,
+    "iconIdx": 571,
     "height": 1024
   },
   "Add_header": {
@@ -441,7 +441,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 570,
+    "iconIdx": 573,
     "height": 1024
   },
   "Add_photo": {
@@ -475,7 +475,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 530,
+    "iconIdx": 533,
     "height": 1024
   },
   "add_square": {
@@ -509,7 +509,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 571,
+    "iconIdx": 574,
     "height": 1024
   },
   "add_user_outline": {
@@ -543,7 +543,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 572,
+    "iconIdx": 575,
     "height": 1024
   },
   "add-line-outlined": {
@@ -577,7 +577,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 118,
+    "iconIdx": 121,
     "height": 1024
   },
   "Additional-info": {
@@ -611,7 +611,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 476,
+    "iconIdx": 479,
     "height": 1024
   },
   "address-duotone": {
@@ -656,7 +656,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 230,
+    "iconIdx": 233,
     "height": 1024
   },
   "admin_line": {
@@ -690,7 +690,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 574,
+    "iconIdx": 577,
     "height": 1024
   },
   "advance": {
@@ -752,7 +752,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 517,
+    "iconIdx": 520,
     "height": 1024
   },
   "advance-filter": {
@@ -786,7 +786,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 492,
+    "iconIdx": 495,
     "height": 1024
   },
   "alarm_fill": {
@@ -820,7 +820,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 575,
+    "iconIdx": 578,
     "height": 1024
   },
   "alarm-outlined": {
@@ -855,7 +855,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 280,
+    "iconIdx": 283,
     "height": 1024
   },
   "Alert": {
@@ -889,7 +889,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 579,
+    "iconIdx": 582,
     "height": 1024
   },
   "alert_circle": {
@@ -923,7 +923,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 577,
+    "iconIdx": 580,
     "height": 1024
   },
   "alert_circle_outline": {
@@ -957,7 +957,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 576,
+    "iconIdx": 579,
     "height": 1024
   },
   "alert-line": {
@@ -991,7 +991,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 578,
+    "iconIdx": 581,
     "height": 1024
   },
   "all-works-duotone": {
@@ -1076,7 +1076,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 138,
+    "iconIdx": 141,
     "height": 1024
   },
   "Anonymous-audience-duotone": {
@@ -1121,7 +1121,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 156,
+    "iconIdx": 159,
     "height": 1024
   },
   "api-app-outlined": {
@@ -1155,7 +1155,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 0,
+    "iconIdx": 3,
     "height": 1024
   },
   "app_added": {
@@ -1196,7 +1196,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 510,
+    "iconIdx": 513,
     "height": 1024
   },
   "apply_filter": {
@@ -1237,7 +1237,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 504,
+    "iconIdx": 507,
     "height": 1024
   },
   "appointment": {
@@ -1271,7 +1271,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 580,
+    "iconIdx": 583,
     "height": 1024
   },
   "Appointment": {
@@ -1414,7 +1414,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 290,
+    "iconIdx": 293,
     "height": 1024
   },
   "appointment_repeat": {
@@ -1455,7 +1455,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 424,
+    "iconIdx": 427,
     "height": 1024
   },
   "appointments-duotone": {
@@ -1500,7 +1500,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 218,
+    "iconIdx": 221,
     "height": 1024
   },
   "Apps": {
@@ -1534,7 +1534,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 581,
+    "iconIdx": 584,
     "height": 1024
   },
   "apps_line": {
@@ -1568,7 +1568,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 511,
+    "iconIdx": 514,
     "height": 1024
   },
   "apps_selected": {
@@ -1609,7 +1609,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 505,
+    "iconIdx": 508,
     "height": 1024
   },
   "archive": {
@@ -1643,7 +1643,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 493,
+    "iconIdx": 496,
     "height": 1024
   },
   "arrow_left_fill": {
@@ -1677,7 +1677,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 582,
+    "iconIdx": 585,
     "height": 1024
   },
   "arrow-autofit-height-collapse-outlined": {
@@ -1725,7 +1725,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 104,
+    "iconIdx": 107,
     "height": 1024
   },
   "arrow-autofit-height-expand-outlined": {
@@ -1760,7 +1760,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 105,
+    "iconIdx": 108,
     "height": 1024
   },
   "arrow-forward-up-outlined": {
@@ -1795,7 +1795,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 126,
+    "iconIdx": 129,
     "height": 1024
   },
   "arrow-right-fill": {
@@ -1829,7 +1829,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 583,
+    "iconIdx": 586,
     "height": 1024
   },
   "Ascending": {
@@ -1863,7 +1863,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 285,
+    "iconIdx": 288,
     "height": 1024
   },
   "Assign": {
@@ -1897,7 +1897,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 584,
+    "iconIdx": 587,
     "height": 1024
   },
   "Asterisk": {
@@ -1931,7 +1931,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 585,
+    "iconIdx": 588,
     "height": 1024
   },
   "at_fill": {
@@ -1965,7 +1965,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 586,
+    "iconIdx": 589,
     "height": 1024
   },
   "at_line": {
@@ -1999,7 +1999,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 587,
+    "iconIdx": 590,
     "height": 1024
   },
   "attachment": {
@@ -2033,7 +2033,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 494,
+    "iconIdx": 497,
     "height": 1024
   },
   "attachment_fill": {
@@ -2067,7 +2067,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 588,
+    "iconIdx": 591,
     "height": 1024
   },
   "attachment_line": {
@@ -2101,7 +2101,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 589,
+    "iconIdx": 592,
     "height": 1024
   },
   "authentication-code": {
@@ -2188,7 +2188,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 372,
+    "iconIdx": 375,
     "height": 1024
   },
   "Automatic-response": {
@@ -2275,7 +2275,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 394,
+    "iconIdx": 397,
     "height": 1024
   },
   "award": {
@@ -2309,7 +2309,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 591,
+    "iconIdx": 594,
     "height": 1024
   },
   "award_fill": {
@@ -2343,7 +2343,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 590,
+    "iconIdx": 593,
     "height": 1024
   },
   "award-credit-outlined": {
@@ -2378,7 +2378,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 281,
+    "iconIdx": 284,
     "height": 1024
   },
   "award-outlined": {
@@ -2441,7 +2441,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 282,
+    "iconIdx": 285,
     "height": 1024
   },
   "Back": {
@@ -2475,7 +2475,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 592,
+    "iconIdx": 595,
     "height": 1024
   },
   "bar_chart": {
@@ -2509,7 +2509,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 519,
+    "iconIdx": 522,
     "height": 1024
   },
   "basic-flow-settings-duotone": {
@@ -2554,7 +2554,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 197,
+    "iconIdx": 200,
     "height": 1024
   },
   "Bell": {
@@ -2588,7 +2588,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 593,
+    "iconIdx": 596,
     "height": 1024
   },
   "Billable_Object_State_Changed": {
@@ -2629,7 +2629,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 594,
+    "iconIdx": 597,
     "height": 1024
   },
   "bornze-star-filled": {
@@ -2675,7 +2675,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 120,
+    "iconIdx": 123,
     "height": 1024
   },
   "Box": {
@@ -2709,7 +2709,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 596,
+    "iconIdx": 599,
     "height": 1024
   },
   "Box_fill": {
@@ -2743,7 +2743,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 595,
+    "iconIdx": 598,
     "height": 1024
   },
   "box-seam-outlined": {
@@ -2778,7 +2778,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 283,
+    "iconIdx": 286,
     "height": 1024
   },
   "branches": {
@@ -2864,7 +2864,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 373,
+    "iconIdx": 376,
     "height": 1024
   },
   "branches-and-departments-duotone": {
@@ -2909,7 +2909,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 221,
+    "iconIdx": 224,
     "height": 1024
   },
   "bubble_chart": {
@@ -2943,7 +2943,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 520,
+    "iconIdx": 523,
     "height": 1024
   },
   "building_fill": {
@@ -2977,7 +2977,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 597,
+    "iconIdx": 600,
     "height": 1024
   },
   "building-bank-outlined": {
@@ -3012,7 +3012,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 240,
+    "iconIdx": 243,
     "height": 1024
   },
   "building-outlined": {
@@ -3047,7 +3047,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 241,
+    "iconIdx": 244,
     "height": 1024
   },
   "building-warehouse-outlined": {
@@ -3089,7 +3089,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 242,
+    "iconIdx": 245,
     "height": 1024
   },
   "Bulk-Calls-outlined": {
@@ -3123,7 +3123,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 16,
+    "iconIdx": 19,
     "height": 1024
   },
   "Buy": {
@@ -3157,7 +3157,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 333,
+    "iconIdx": 336,
     "height": 1024
   },
   "buy-2": {
@@ -3236,7 +3236,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 330,
+    "iconIdx": 333,
     "height": 1024
   },
   "buy-invoice-duotone": {
@@ -3289,7 +3289,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 139,
+    "iconIdx": 142,
     "height": 1024
   },
   "calculator": {
@@ -3323,7 +3323,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 489,
+    "iconIdx": 492,
     "height": 1024
   },
   "caleander3-outlined": {
@@ -3357,7 +3357,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 106,
+    "iconIdx": 109,
     "height": 1024
   },
   "calendar_check_fill": {
@@ -3391,7 +3391,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 598,
+    "iconIdx": 601,
     "height": 1024
   },
   "calendar_event_fill": {
@@ -3425,7 +3425,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 599,
+    "iconIdx": 602,
     "height": 1024
   },
   "calendar_event_line": {
@@ -3459,7 +3459,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 600,
+    "iconIdx": 603,
     "height": 1024
   },
   "calendar_fill": {
@@ -3493,7 +3493,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 601,
+    "iconIdx": 604,
     "height": 1024
   },
   "calendar_header": {
@@ -3527,7 +3527,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 602,
+    "iconIdx": 605,
     "height": 1024
   },
   "calendar_todo_fill": {
@@ -3561,7 +3561,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 603,
+    "iconIdx": 606,
     "height": 1024
   },
   "calendar-duotone": {
@@ -3606,7 +3606,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 174,
+    "iconIdx": 177,
     "height": 1024
   },
   "calendar-time-outlined": {
@@ -3641,7 +3641,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 243,
+    "iconIdx": 246,
     "height": 1024
   },
   "call": {
@@ -3675,7 +3675,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 604,
+    "iconIdx": 607,
     "height": 1024
   },
   "call_dashboard": {
@@ -3762,7 +3762,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 374,
+    "iconIdx": 377,
     "height": 1024
   },
   "call-Cancel-outlined": {
@@ -3797,7 +3797,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 133,
+    "iconIdx": 136,
     "height": 1024
   },
   "call-Cancel-outlined-1": {
@@ -3831,7 +3831,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 125,
+    "iconIdx": 128,
     "height": 1024
   },
   "call-center-monitorting-outlined": {
@@ -3861,7 +3861,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 63,
+    "iconIdx": 66,
     "height": 1024
   },
   "call-center-outlined": {
@@ -3891,7 +3891,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 64,
+    "iconIdx": 67,
     "height": 1024
   },
   "call-graphic": {
@@ -3921,7 +3921,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 310,
+    "iconIdx": 313,
     "height": 1024
   },
   "call-graphic-design-outlined": {
@@ -3951,7 +3951,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 65,
+    "iconIdx": 68,
     "height": 1024
   },
   "call-monitor": {
@@ -3984,7 +3984,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 311,
+    "iconIdx": 314,
     "height": 1024
   },
   "call-overview": {
@@ -4017,7 +4017,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 312,
+    "iconIdx": 315,
     "height": 1024
   },
   "call-overview-outlined": {
@@ -4050,7 +4050,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 66,
+    "iconIdx": 69,
     "height": 1024
   },
   "call-receve-outlined": {
@@ -4085,7 +4085,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 132,
+    "iconIdx": 135,
     "height": 1024
   },
   "call-report-outlined": {
@@ -4118,7 +4118,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 53,
+    "iconIdx": 56,
     "height": 1024
   },
   "call-request": {
@@ -4148,7 +4148,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 313,
+    "iconIdx": 316,
     "height": 1024
   },
   "call-request-outlined": {
@@ -4178,7 +4178,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 67,
+    "iconIdx": 70,
     "height": 1024
   },
   "call-system": {
@@ -4208,7 +4208,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 314,
+    "iconIdx": 317,
     "height": 1024
   },
   "callcenter": {
@@ -4238,7 +4238,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 315,
+    "iconIdx": 318,
     "height": 1024
   },
   "calls": {
@@ -4286,7 +4286,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 605,
+    "iconIdx": 608,
     "height": 1024
   },
   "camera_line": {
@@ -4320,7 +4320,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 531,
+    "iconIdx": 534,
     "height": 1024
   },
   "card": {
@@ -4354,7 +4354,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 608,
+    "iconIdx": 611,
     "height": 1024
   },
   "card_fill": {
@@ -4388,7 +4388,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 606,
+    "iconIdx": 609,
     "height": 1024
   },
   "Card_issuance": {
@@ -4422,7 +4422,41 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 607,
+    "iconIdx": 610,
+    "height": 1024
+  },
+  "cash-banknote-outlined": {
+    "icon": {
+      "paths": [
+        "M870.4 341.356c0-15.842-6.298-31.048-17.498-42.25-11.206-11.203-26.413-17.5-42.253-17.5h-597.3c-15.842 0-31.048 6.298-42.25 17.5s-17.5 26.408-17.5 42.25v341.3c0 15.84 6.298 31.046 17.5 42.253 11.202 11.2 26.408 17.498 42.25 17.498h597.3c15.84 0 31.046-6.298 42.253-17.498 11.2-11.206 17.498-26.413 17.498-42.253v-341.3zM614.4 512.006c0-27.158-10.796-53.196-30-72.4s-45.242-30-72.4-30c-27.158 0-53.196 10.796-72.4 30s-30 45.242-30 72.4c0 27.158 10.796 53.196 30 72.4s45.242 30 72.4 30c27.158 0 53.196-10.796 72.4-30s30-45.242 30-72.4zM256.45 486.406c14.128 0.012 25.6 11.469 25.6 25.6s-11.472 25.587-25.6 25.6h-0.45c-14.138 0-25.6-11.462-25.6-25.6s11.462-25.6 25.6-25.6h0.45zM768.448 486.406c14.131 0.012 25.6 11.469 25.6 25.6s-11.469 25.587-25.6 25.6h-0.448c-14.138 0-25.6-11.462-25.6-25.6s11.462-25.6 25.6-25.6h0.448zM665.6 512.006c0 40.737-16.192 79.795-45 108.6-28.806 28.808-67.863 45-108.6 45s-79.795-16.192-108.6-45c-28.806-28.805-45-67.862-45-108.6s16.195-79.795 45-108.6c28.805-28.805 67.862-45 108.6-45s79.795 16.195 108.6 45c28.808 28.806 45 67.863 45 108.6zM921.6 682.656c0 29.421-11.693 57.645-32.499 78.451-20.806 20.8-49.030 32.499-78.451 32.499h-597.3c-29.421 0-57.645-11.699-78.45-32.499-20.804-20.806-32.5-49.030-32.5-78.451v-341.3c0-29.421 11.696-57.646 32.5-78.45s49.029-32.5 78.45-32.5h597.3c29.421 0 57.645 11.696 78.451 32.5s32.499 49.028 32.499 78.45v341.3z"
+      ],
+      "attrs": [
+        {
+          "fill": "rgb(43, 64, 99)"
+        }
+      ],
+      "isMulticolor": false,
+      "isMulticolor2": false,
+      "grid": 23,
+      "tags": [
+        "cash-banknote-outlined"
+      ]
+    },
+    "attrs": [
+      {
+        "fill": "rgb(43, 64, 99)"
+      }
+    ],
+    "properties": {
+      "order": 2570,
+      "id": 838,
+      "name": "cash-banknote-outlined",
+      "prevSize": 32,
+      "code": 61402
+    },
+    "setIdx": 0,
+    "setId": 2,
+    "iconIdx": 0,
     "height": 1024
   },
   "cash-outlined": {
@@ -4456,7 +4490,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 1,
+    "iconIdx": 4,
     "height": 1024
   },
   "category-outlined": {
@@ -4491,7 +4525,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 244,
+    "iconIdx": 247,
     "height": 1024
   },
   "charkhe_check": {
@@ -4532,7 +4566,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 419,
+    "iconIdx": 422,
     "height": 1024
   },
   "charkhe_close": {
@@ -4573,7 +4607,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 420,
+    "iconIdx": 423,
     "height": 1024
   },
   "chart-pie-outlined": {
@@ -4608,7 +4642,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 245,
+    "iconIdx": 248,
     "height": 1024
   },
   "chat-smile-2-outlined": {
@@ -4642,7 +4676,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 59,
+    "iconIdx": 62,
     "height": 1024
   },
   "check-double": {
@@ -4676,7 +4710,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 491,
+    "iconIdx": 494,
     "height": 1024
   },
   "check-outlined": {
@@ -4710,7 +4744,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 2,
+    "iconIdx": 5,
     "height": 1024
   },
   "checkbox_indeterminate_line": {
@@ -4744,7 +4778,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 609,
+    "iconIdx": 612,
     "height": 1024
   },
   "checkbox_line": {
@@ -4778,7 +4812,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 610,
+    "iconIdx": 613,
     "height": 1024
   },
   "checkbox_multiple_blank_fill": {
@@ -4812,7 +4846,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 611,
+    "iconIdx": 614,
     "height": 1024
   },
   "checkbox_multiple_blank_line": {
@@ -4846,7 +4880,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 612,
+    "iconIdx": 615,
     "height": 1024
   },
   "checkbox_multiple_fill": {
@@ -4880,7 +4914,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 613,
+    "iconIdx": 616,
     "height": 1024
   },
   "checkbox_multiple_line": {
@@ -4914,7 +4948,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 614,
+    "iconIdx": 617,
     "height": 1024
   },
   "Checkmark": {
@@ -4948,7 +4982,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 617,
+    "iconIdx": 620,
     "height": 1024
   },
   "Checkmark_Circle": {
@@ -4982,7 +5016,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 616,
+    "iconIdx": 619,
     "height": 1024
   },
   "Checkmark_Circle_outline": {
@@ -5016,7 +5050,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 615,
+    "iconIdx": 618,
     "height": 1024
   },
   "checks-outlined": {
@@ -5050,7 +5084,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 3,
+    "iconIdx": 6,
     "height": 1024
   },
   "Chevron_Down": {
@@ -5084,7 +5118,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 618,
+    "iconIdx": 621,
     "height": 1024
   },
   "chevron_duo_down": {
@@ -5118,7 +5152,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 619,
+    "iconIdx": 622,
     "height": 1024
   },
   "chevron_duo_up": {
@@ -5152,7 +5186,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 620,
+    "iconIdx": 623,
     "height": 1024
   },
   "Chevron_Left": {
@@ -5186,7 +5220,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 621,
+    "iconIdx": 624,
     "height": 1024
   },
   "Chevron_Right": {
@@ -5220,7 +5254,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 622,
+    "iconIdx": 625,
     "height": 1024
   },
   "Chevron_Up": {
@@ -5254,7 +5288,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 623,
+    "iconIdx": 626,
     "height": 1024
   },
   "circle-check-filled": {
@@ -5288,7 +5322,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 26,
+    "iconIdx": 29,
     "height": 1024
   },
   "classification": {
@@ -5343,7 +5377,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 624,
+    "iconIdx": 627,
     "height": 1024
   },
   "clipboard-plus-outlined": {
@@ -5378,7 +5412,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 246,
+    "iconIdx": 249,
     "height": 1024
   },
   "clipboard-text-outlined": {
@@ -5413,7 +5447,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 247,
+    "iconIdx": 250,
     "height": 1024
   },
   "clock-hour-9-outlined": {
@@ -5447,7 +5481,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 46,
+    "iconIdx": 49,
     "height": 1024
   },
   "clock-outlined": {
@@ -5481,7 +5515,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 131,
+    "iconIdx": 134,
     "height": 1024
   },
   "Close": {
@@ -5515,7 +5549,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 627,
+    "iconIdx": 630,
     "height": 1024
   },
   "Close_Circle": {
@@ -5549,7 +5583,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 626,
+    "iconIdx": 629,
     "height": 1024
   },
   "Close_Circle_fill": {
@@ -5583,7 +5617,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 625,
+    "iconIdx": 628,
     "height": 1024
   },
   "cloud_download_fill": {
@@ -5617,7 +5651,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 628,
+    "iconIdx": 631,
     "height": 1024
   },
   "cloud_download_outline": {
@@ -5651,7 +5685,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 629,
+    "iconIdx": 632,
     "height": 1024
   },
   "club-registration-duotone": {
@@ -5696,7 +5730,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 189,
+    "iconIdx": 192,
     "height": 1024
   },
   "club-settings-duotone": {
@@ -5741,7 +5775,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 190,
+    "iconIdx": 193,
     "height": 1024
   },
   "coins-outlined": {
@@ -5775,7 +5809,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 4,
+    "iconIdx": 7,
     "height": 1024
   },
   "collapse": {
@@ -5809,7 +5843,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 366,
+    "iconIdx": 369,
     "height": 1024
   },
   "collapse-outlined": {
@@ -5843,7 +5877,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 5,
+    "iconIdx": 8,
     "height": 1024
   },
   "Color-Management-duotone": {
@@ -5888,7 +5922,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 233,
+    "iconIdx": 236,
     "height": 1024
   },
   "communication-duotone": {
@@ -5933,7 +5967,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 191,
+    "iconIdx": 194,
     "height": 1024
   },
   "company_personal": {
@@ -5967,7 +6001,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 630,
+    "iconIdx": 633,
     "height": 1024
   },
   "company_personal-outlined": {
@@ -6001,7 +6035,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 94,
+    "iconIdx": 97,
     "height": 1024
   },
   "Competition": {
@@ -6104,7 +6138,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 414,
+    "iconIdx": 417,
     "height": 1024
   },
   "Complementary-Bank": {
@@ -6207,7 +6241,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 392,
+    "iconIdx": 395,
     "height": 1024
   },
   "completed_task": {
@@ -6255,7 +6289,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 631,
+    "iconIdx": 634,
     "height": 1024
   },
   "connect-app": {
@@ -6392,7 +6426,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 302,
+    "iconIdx": 305,
     "height": 1024
   },
   "connection-outlined": {
@@ -6434,7 +6468,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 248,
+    "iconIdx": 251,
     "height": 1024
   },
   "contact-outlined": {
@@ -6469,7 +6503,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 249,
+    "iconIdx": 252,
     "height": 1024
   },
   "contact-settings-duotone": {
@@ -6515,7 +6549,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 155,
+    "iconIdx": 158,
     "height": 1024
   },
   "contacts": {
@@ -6549,7 +6583,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 634,
+    "iconIdx": 637,
     "height": 1024
   },
   "contacts_book_fill": {
@@ -6583,7 +6617,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 632,
+    "iconIdx": 635,
     "height": 1024
   },
   "contacts_fill": {
@@ -6617,7 +6651,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 633,
+    "iconIdx": 636,
     "height": 1024
   },
   "Contract": {
@@ -6651,7 +6685,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 636,
+    "iconIdx": 639,
     "height": 1024
   },
   "Contract_fill": {
@@ -6685,7 +6719,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 635,
+    "iconIdx": 638,
     "height": 1024
   },
   "contract-list-duotone": {
@@ -6746,7 +6780,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 140,
+    "iconIdx": 143,
     "height": 1024
   },
   "Contracts": {
@@ -6847,7 +6881,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 412,
+    "iconIdx": 415,
     "height": 1024
   },
   "contracts-duotone": {
@@ -6892,7 +6926,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 175,
+    "iconIdx": 178,
     "height": 1024
   },
   "Conversation": {
@@ -6926,7 +6960,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 638,
+    "iconIdx": 641,
     "height": 1024
   },
   "Conversation_fill": {
@@ -6960,7 +6994,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 637,
+    "iconIdx": 640,
     "height": 1024
   },
   "convert": {
@@ -6994,7 +7028,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 525,
+    "iconIdx": 528,
     "height": 1024
   },
   "copy-content-outlined": {
@@ -7028,7 +7062,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 6,
+    "iconIdx": 9,
     "height": 1024
   },
   "country-state-duotone": {
@@ -7073,7 +7107,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 123,
+    "iconIdx": 126,
     "height": 1024
   },
   "credit-card-outlined": {
@@ -7122,7 +7156,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 250,
+    "iconIdx": 253,
     "height": 1024
   },
   "Crm-history": {
@@ -7217,7 +7251,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 388,
+    "iconIdx": 391,
     "height": 1024
   },
   "crop_fill": {
@@ -7251,7 +7285,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 532,
+    "iconIdx": 535,
     "height": 1024
   },
   "crop_line": {
@@ -7285,7 +7319,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 533,
+    "iconIdx": 536,
     "height": 1024
   },
   "currency-duotone": {
@@ -7330,7 +7364,48 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 236,
+    "iconIdx": 239,
+    "height": 1024
+  },
+  "currency-rate-filled": {
+    "icon": {
+      "paths": [
+        "M255.093 463.724l-86.342-42.402c-16.849-8.259-37.222-1.657-46.051 14.908l-49.786 93.421c-9.048 16.975-2.638 38.104 14.329 47.156 16.961 9.042 38.044 2.604 47.094-14.358l3.215-5.946c6.445 49.274 22.424 97.148 47.599 140.726 41.644 72.070 105.83 128.435 182.647 160.429 57.626 24 119.961 33.299 181.481 27.482 19.143-1.811 33.202-18.816 31.392-37.965-1.816-19.136-18.778-33.184-37.907-31.386-50.237 4.755-101.174-2.842-148.229-22.438-62.717-26.125-115.114-72.147-149.112-130.995-25.848-44.736-39.914-94.997-41.389-146.147l20.386 10.027c17.261 8.47 38.107 1.353 46.577-15.913 8.465-17.265 1.345-38.122-15.905-46.599zM838.848 326.768c-41.645-72.074-105.83-128.436-182.65-160.433-50.252-20.932-104.096-30.691-157.852-28.984-19.219 0.612-34.34 16.709-33.729 35.937s16.724 34.317 35.942 33.706c43.884-1.394 87.841 6.544 128.865 23.628 62.723 26.125 115.151 72.169 149.155 131.017 23.488 40.655 37.318 85.875 40.749 132.172l-15.379-10.542c-15.84-10.883-37.51-6.846-48.397 8.997-10.893 15.847-6.906 37.539 8.928 48.442l60.051 41.27c4.358 5.673 10.458 9.961 17.619 12.098l8.685 6.001c8.166 5.619 18.336 7.482 27.968 5.132s17.83-8.689 22.496-17.441l49.786-93.422c9.043-16.973 2.611-38.064-14.349-47.116-16.966-9.052-38.048-2.617-47.098 14.358l-3.13 5.89c-6.445-49.271-22.49-97.137-47.661-140.708z",
+        "M511.776 296.297c119.061 0.010 215.552 96.57 215.565 215.688 0 119.126-96.497 215.74-215.565 215.747-119.076 0-215.625-96.614-215.625-215.747 0.011-119.123 96.556-215.688 215.625-215.688zM511.713 376.109c-12.795 0.024-23.183 10.381-23.187 23.187v5.625c-13.971 1.974-27.030 8.406-37.125 18.5-12.273 12.278-19.185 28.948-19.188 46.312 0 17.368 6.913 34.031 19.188 46.312s28.953 19.188 46.312 19.188h28.125c5.038 0.001 9.871 2.004 13.438 5.562 3.568 3.571 5.625 8.451 5.625 13.5-0.006 5.043-2.061 9.871-5.625 13.437-3.569 3.565-8.395 5.624-13.438 5.625h-70.374c-12.817 0-23.246 10.366-23.251 23.187 0.008 12.819 10.436 23.251 23.251 23.251h33.062v4.937c0.010 12.802 10.395 23.164 23.187 23.189 12.813 0 23.24-10.372 23.25-23.189v-5.687c13.981-1.971 27.087-8.335 37.188-18.438 12.266-12.275 19.119-28.955 19.125-46.312 0-17.358-6.863-34.033-19.125-46.312-12.275-12.28-28.954-19.187-46.313-19.188h-28.125c-5.044 0-9.932-1.997-13.5-5.562-3.569-3.571-5.562-8.45-5.562-13.5 0.003-5.039 2.006-9.871 5.562-13.437 3.569-3.568 8.455-5.625 13.5-5.625h70.375c12.813-0.003 23.181-10.37 23.188-23.188-0.006-12.819-10.374-23.247-23.188-23.25h-33.125v-4.938c-0.004-12.82-10.434-23.187-23.25-23.187z"
+      ],
+      "attrs": [
+        {
+          "fill": "rgb(43, 64, 99)"
+        },
+        {
+          "fill": "rgb(43, 64, 99)"
+        }
+      ],
+      "isMulticolor": false,
+      "isMulticolor2": false,
+      "grid": 23,
+      "tags": [
+        "exchange-currency-filled"
+      ]
+    },
+    "attrs": [
+      {
+        "fill": "rgb(43, 64, 99)"
+      },
+      {
+        "fill": "rgb(43, 64, 99)"
+      }
+    ],
+    "properties": {
+      "order": 2569,
+      "id": 837,
+      "name": "currency-rate-filled",
+      "prevSize": 32,
+      "code": 61403
+    },
+    "setIdx": 0,
+    "setId": 2,
+    "iconIdx": 1,
     "height": 1024
   },
   "current-location-outlined": {
@@ -7364,7 +7439,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 117,
+    "iconIdx": 120,
     "height": 1024
   },
   "customer-card-duotone": {
@@ -7409,7 +7484,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 196,
+    "iconIdx": 199,
     "height": 1024
   },
   "customer-classification-duotone": {
@@ -7454,7 +7529,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 210,
+    "iconIdx": 213,
     "height": 1024
   },
   "customer-club": {
@@ -7487,7 +7562,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 316,
+    "iconIdx": 319,
     "height": 1024
   },
   "dashboard": {
@@ -7521,7 +7596,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 640,
+    "iconIdx": 643,
     "height": 1024
   },
   "dashboard_fill": {
@@ -7555,7 +7630,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 639,
+    "iconIdx": 642,
     "height": 1024
   },
   "dashboard-layout-outlined": {
@@ -7589,7 +7664,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 7,
+    "iconIdx": 10,
     "height": 1024
   },
   "dashboard-outlined": {
@@ -7624,7 +7699,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 251,
+    "iconIdx": 254,
     "height": 1024
   },
   "dashboards-outlined": {
@@ -7659,7 +7734,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 252,
+    "iconIdx": 255,
     "height": 1024
   },
   "database": {
@@ -7693,7 +7768,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 518,
+    "iconIdx": 521,
     "height": 1024
   },
   "Default-category-duotone": {
@@ -7738,7 +7813,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 172,
+    "iconIdx": 175,
     "height": 1024
   },
   "default-lines-duotone": {
@@ -7783,7 +7858,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 227,
+    "iconIdx": 230,
     "height": 1024
   },
   "Delete": {
@@ -7817,7 +7892,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 535,
+    "iconIdx": 538,
     "height": 1024
   },
   "Delete_fill": {
@@ -7851,7 +7926,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 534,
+    "iconIdx": 537,
     "height": 1024
   },
   "delete-back-outlined": {
@@ -7885,7 +7960,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 112,
+    "iconIdx": 115,
     "height": 1024
   },
   "Department": {
@@ -7994,7 +8069,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 375,
+    "iconIdx": 378,
     "height": 1024
   },
   "department-management-duotone": {
@@ -8039,7 +8114,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 79,
+    "iconIdx": 82,
     "height": 1024
   },
   "Descending": {
@@ -8073,7 +8148,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 284,
+    "iconIdx": 287,
     "height": 1024
   },
   "desktop-wallpaper-outlined": {
@@ -8115,7 +8190,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 253,
+    "iconIdx": 256,
     "height": 1024
   },
   "details": {
@@ -8149,7 +8224,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 641,
+    "iconIdx": 644,
     "height": 1024
   },
   "Details": {
@@ -8211,7 +8286,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 334,
+    "iconIdx": 337,
     "height": 1024
   },
   "dialpad-Filled": {
@@ -8246,7 +8321,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 113,
+    "iconIdx": 116,
     "height": 1024
   },
   "discord-Filled": {
@@ -8280,7 +8355,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 56,
+    "iconIdx": 59,
     "height": 1024
   },
   "discuss-fill": {
@@ -8314,7 +8389,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 421,
+    "iconIdx": 424,
     "height": 1024
   },
   "discuss-line": {
@@ -8348,7 +8423,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 422,
+    "iconIdx": 425,
     "height": 1024
   },
   "Double_Left": {
@@ -8382,7 +8457,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 642,
+    "iconIdx": 645,
     "height": 1024
   },
   "Double_Right": {
@@ -8416,7 +8491,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 643,
+    "iconIdx": 646,
     "height": 1024
   },
   "Double_Right-outlined": {
@@ -8451,7 +8526,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 96,
+    "iconIdx": 99,
     "height": 1024
   },
   "download_fill": {
@@ -8485,7 +8560,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 644,
+    "iconIdx": 647,
     "height": 1024
   },
   "download2-outlined": {
@@ -8526,7 +8601,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 27,
+    "iconIdx": 30,
     "height": 1024
   },
   "drag_and_drop": {
@@ -8560,7 +8635,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 645,
+    "iconIdx": 648,
     "height": 1024
   },
   "duc_history": {
@@ -8601,7 +8676,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 496,
+    "iconIdx": 499,
     "height": 1024
   },
   "duc_history_line": {
@@ -8642,7 +8717,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 495,
+    "iconIdx": 498,
     "height": 1024
   },
   "Edit": {
@@ -8676,7 +8751,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 539,
+    "iconIdx": 542,
     "height": 1024
   },
   "edit_box_fill": {
@@ -8710,7 +8785,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 536,
+    "iconIdx": 539,
     "height": 1024
   },
   "Edit_fill": {
@@ -8744,7 +8819,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 537,
+    "iconIdx": 540,
     "height": 1024
   },
   "edit_history": {
@@ -8778,7 +8853,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 538,
+    "iconIdx": 541,
     "height": 1024
   },
   "edit-charkhe": {
@@ -8823,7 +8898,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 423,
+    "iconIdx": 426,
     "height": 1024
   },
   "edit-phrase-duotone": {
@@ -8868,7 +8943,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 170,
+    "iconIdx": 173,
     "height": 1024
   },
   "editor": {
@@ -8909,7 +8984,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 516,
+    "iconIdx": 519,
     "height": 1024
   },
   "email": {
@@ -8943,7 +9018,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 647,
+    "iconIdx": 650,
     "height": 1024
   },
   "email_dashboard": {
@@ -9054,7 +9129,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 376,
+    "iconIdx": 379,
     "height": 1024
   },
   "email_fill": {
@@ -9088,7 +9163,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 646,
+    "iconIdx": 649,
     "height": 1024
   },
   "email-duotone": {
@@ -9133,7 +9208,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 157,
+    "iconIdx": 160,
     "height": 1024
   },
   "email2-outlined": {
@@ -9168,7 +9243,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 97,
+    "iconIdx": 100,
     "height": 1024
   },
   "Evaluation-Forms-duotone": {
@@ -9213,7 +9288,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 20,
+    "iconIdx": 23,
     "height": 1024
   },
   "Event": {
@@ -9314,7 +9389,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 405,
+    "iconIdx": 408,
     "height": 1024
   },
   "event-list-duotone": {
@@ -9359,7 +9434,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 223,
+    "iconIdx": 226,
     "height": 1024
   },
   "Excel": {
@@ -9446,7 +9521,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 391,
+    "iconIdx": 394,
     "height": 1024
   },
   "Executed-programs": {
@@ -9549,7 +9624,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 393,
+    "iconIdx": 396,
     "height": 1024
   },
   "expand": {
@@ -9583,7 +9658,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 365,
+    "iconIdx": 368,
     "height": 1024
   },
   "expand-layout-outlined": {
@@ -9617,7 +9692,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 8,
+    "iconIdx": 11,
     "height": 1024
   },
   "Export": {
@@ -9658,7 +9733,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 648,
+    "iconIdx": 651,
     "height": 1024
   },
   "eye_fill": {
@@ -9692,7 +9767,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 540,
+    "iconIdx": 543,
     "height": 1024
   },
   "eye_off_fill": {
@@ -9726,7 +9801,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 541,
+    "iconIdx": 544,
     "height": 1024
   },
   "fax": {
@@ -9760,7 +9835,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 650,
+    "iconIdx": 653,
     "height": 1024
   },
   "fax_fill": {
@@ -9794,7 +9869,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 649,
+    "iconIdx": 652,
     "height": 1024
   },
   "fax-duotone": {
@@ -9839,7 +9914,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 188,
+    "iconIdx": 191,
     "height": 1024
   },
   "file": {
@@ -9873,7 +9948,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 656,
+    "iconIdx": 659,
     "height": 1024
   },
   "file_copy_fill": {
@@ -9907,7 +9982,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 542,
+    "iconIdx": 545,
     "height": 1024
   },
   "file_copy_line": {
@@ -9941,7 +10016,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 543,
+    "iconIdx": 546,
     "height": 1024
   },
   "file_excel_ill": {
@@ -9975,7 +10050,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 651,
+    "iconIdx": 654,
     "height": 1024
   },
   "file_excel_line": {
@@ -10009,7 +10084,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 652,
+    "iconIdx": 655,
     "height": 1024
   },
   "file_fill": {
@@ -10043,7 +10118,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 653,
+    "iconIdx": 656,
     "height": 1024
   },
   "file_list_fill": {
@@ -10077,7 +10152,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 654,
+    "iconIdx": 657,
     "height": 1024
   },
   "file_word": {
@@ -10111,7 +10186,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 655,
+    "iconIdx": 658,
     "height": 1024
   },
   "file-certificate-outlined": {
@@ -10146,7 +10221,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 254,
+    "iconIdx": 257,
     "height": 1024
   },
   "File-download-Filled": {
@@ -10200,7 +10275,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 98,
+    "iconIdx": 101,
     "height": 1024
   },
   "file-Filled": {
@@ -10278,7 +10353,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 99,
+    "iconIdx": 102,
     "height": 1024
   },
   "file-outlined": {
@@ -10312,7 +10387,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 9,
+    "iconIdx": 12,
     "height": 1024
   },
   "file-phone-management-outlined": {
@@ -10346,7 +10421,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 80,
+    "iconIdx": 83,
     "height": 1024
   },
   "files-duotone": {
@@ -10391,7 +10466,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 184,
+    "iconIdx": 187,
     "height": 1024
   },
   "Filter": {
@@ -10425,7 +10500,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 658,
+    "iconIdx": 661,
     "height": 1024
   },
   "filter_line": {
@@ -10459,7 +10534,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 657,
+    "iconIdx": 660,
     "height": 1024
   },
   "Filtered": {
@@ -10500,7 +10575,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 659,
+    "iconIdx": 662,
     "height": 1024
   },
   "Financial": {
@@ -10534,7 +10609,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 528,
+    "iconIdx": 531,
     "height": 1024
   },
   "Financial_fill": {
@@ -10568,7 +10643,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 529,
+    "iconIdx": 532,
     "height": 1024
   },
   "financial-accounts-duotone": {
@@ -10613,7 +10688,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 208,
+    "iconIdx": 211,
     "height": 1024
   },
   "floor-outlined": {
@@ -10648,7 +10723,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 102,
+    "iconIdx": 105,
     "height": 1024
   },
   "Flow_up": {
@@ -10689,7 +10764,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 660,
+    "iconIdx": 663,
     "height": 1024
   },
   "flow-design-duotone": {
@@ -10734,7 +10809,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 217,
+    "iconIdx": 220,
     "height": 1024
   },
   "folder_fill": {
@@ -10768,7 +10843,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 661,
+    "iconIdx": 664,
     "height": 1024
   },
   "folder_line": {
@@ -10802,7 +10877,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 662,
+    "iconIdx": 665,
     "height": 1024
   },
   "folder-add-line": {
@@ -10836,7 +10911,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 475,
+    "iconIdx": 478,
     "height": 1024
   },
   "folder-folders-Filled": {
@@ -10870,7 +10945,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 135,
+    "iconIdx": 138,
     "height": 1024
   },
   "folder-reduce-line": {
@@ -10904,7 +10979,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 477,
+    "iconIdx": 480,
     "height": 1024
   },
   "folder-transfer-line": {
@@ -10938,7 +11013,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 478,
+    "iconIdx": 481,
     "height": 1024
   },
   "folder-user-line": {
@@ -10972,7 +11047,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 479,
+    "iconIdx": 482,
     "height": 1024
   },
   "folders-Filled": {
@@ -11018,7 +11093,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 134,
+    "iconIdx": 137,
     "height": 1024
   },
   "folders-outlined": {
@@ -11053,7 +11128,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 255,
+    "iconIdx": 258,
     "height": 1024
   },
   "forget-pass": {
@@ -11180,7 +11255,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 377,
+    "iconIdx": 380,
     "height": 1024
   },
   "Form": {
@@ -11276,7 +11351,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 411,
+    "iconIdx": 414,
     "height": 1024
   },
   "form-category-settings-duotone": {
@@ -11322,7 +11397,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 176,
+    "iconIdx": 179,
     "height": 1024
   },
   "forms_fill": {
@@ -11356,7 +11431,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 527,
+    "iconIdx": 530,
     "height": 1024
   },
   "forms-duotone": {
@@ -11401,7 +11476,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 185,
+    "iconIdx": 188,
     "height": 1024
   },
   "forward": {
@@ -11435,7 +11510,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 460,
+    "iconIdx": 463,
     "height": 1024
   },
   "Forward": {
@@ -11469,7 +11544,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 663,
+    "iconIdx": 666,
     "height": 1024
   },
   "funds-line": {
@@ -11499,7 +11574,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 506,
+    "iconIdx": 509,
     "height": 1024
   },
   "gauge-outlined": {
@@ -11533,7 +11608,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 51,
+    "iconIdx": 54,
     "height": 1024
   },
   "general_notification": {
@@ -11567,7 +11642,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 665,
+    "iconIdx": 668,
     "height": 1024
   },
   "general_notification_fill": {
@@ -11601,7 +11676,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 664,
+    "iconIdx": 667,
     "height": 1024
   },
   "general-notify-duotone": {
@@ -11710,7 +11785,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 153,
+    "iconIdx": 156,
     "height": 1024
   },
   "Get_money": {
@@ -11759,7 +11834,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 417,
+    "iconIdx": 420,
     "height": 1024
   },
   "git-merge-outlined": {
@@ -11794,7 +11869,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 256,
+    "iconIdx": 259,
     "height": 1024
   },
   "git-merge-outlined1": {
@@ -11828,7 +11903,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 10,
+    "iconIdx": 13,
     "height": 1024
   },
   "gold-star-filled": {
@@ -11874,7 +11949,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 121,
+    "iconIdx": 124,
     "height": 1024
   },
   "grip-vertical-outlined": {
@@ -11957,7 +12032,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 107,
+    "iconIdx": 110,
     "height": 1024
   },
   "group_fill": {
@@ -11991,7 +12066,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 667,
+    "iconIdx": 670,
     "height": 1024
   },
   "group_fill-1": {
@@ -12025,7 +12100,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 666,
+    "iconIdx": 669,
     "height": 1024
   },
   "group_line": {
@@ -12059,7 +12134,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 668,
+    "iconIdx": 671,
     "height": 1024
   },
   "Group-138566": {
@@ -12152,7 +12227,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 378,
+    "iconIdx": 381,
     "height": 1024
   },
   "Group-138599": {
@@ -12185,7 +12260,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 507,
+    "iconIdx": 510,
     "height": 1024
   },
   "Group-251575": {
@@ -12288,7 +12363,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 379,
+    "iconIdx": 382,
     "height": 1024
   },
   "Group-251798": {
@@ -12399,7 +12474,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 381,
+    "iconIdx": 384,
     "height": 1024
   },
   "Group-253622": {
@@ -12486,7 +12561,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 350,
+    "iconIdx": 353,
     "height": 1024
   },
   "Group-254011": {
@@ -12520,7 +12595,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 425,
+    "iconIdx": 428,
     "height": 1024
   },
   "group-and-users-duotone": {
@@ -12565,7 +12640,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 226,
+    "iconIdx": 229,
     "height": 1024
   },
   "Group-send": {
@@ -12694,7 +12769,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 390,
+    "iconIdx": 393,
     "height": 1024
   },
   "headphones-outlined": {
@@ -12728,7 +12803,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 28,
+    "iconIdx": 31,
     "height": 1024
   },
   "health-outlined": {
@@ -12763,7 +12838,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 257,
+    "iconIdx": 260,
     "height": 1024
   },
   "heatmap-outlined": {
@@ -12798,7 +12873,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 52,
+    "iconIdx": 55,
     "height": 1024
   },
   "Help_fill": {
@@ -12832,7 +12907,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 669,
+    "iconIdx": 672,
     "height": 1024
   },
   "Help_header": {
@@ -12866,7 +12941,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 670,
+    "iconIdx": 673,
     "height": 1024
   },
   "history": {
@@ -12900,7 +12975,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 671,
+    "iconIdx": 674,
     "height": 1024
   },
   "history-outlined": {
@@ -12935,7 +13010,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 258,
+    "iconIdx": 261,
     "height": 1024
   },
   "history-tree": {
@@ -12969,7 +13044,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 480,
+    "iconIdx": 483,
     "height": 1024
   },
   "holiday-and-occasion-duotone": {
@@ -13014,7 +13089,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 183,
+    "iconIdx": 186,
     "height": 1024
   },
   "home": {
@@ -13048,7 +13123,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 673,
+    "iconIdx": 676,
     "height": 1024
   },
   "home_fill": {
@@ -13082,7 +13157,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 672,
+    "iconIdx": 675,
     "height": 1024
   },
   "icon_Link_page": {
@@ -13116,7 +13191,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 674,
+    "iconIdx": 677,
     "height": 1024
   },
   "icon_Visibility": {
@@ -13150,7 +13225,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 544,
+    "iconIdx": 547,
     "height": 1024
   },
   "icon-apps-filled": {
@@ -13191,7 +13266,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 164,
+    "iconIdx": 167,
     "height": 1024
   },
   "icon-apps-plus-filled": {
@@ -13232,7 +13307,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 165,
+    "iconIdx": 168,
     "height": 1024
   },
   "identities-duotone": {
@@ -13277,7 +13352,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 224,
+    "iconIdx": 227,
     "height": 1024
   },
   "iframe-duotone": {
@@ -13370,7 +13445,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 166,
+    "iconIdx": 169,
     "height": 1024
   },
   "Image": {
@@ -13404,7 +13479,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 547,
+    "iconIdx": 550,
     "height": 1024
   },
   "image_add_line": {
@@ -13438,7 +13513,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 545,
+    "iconIdx": 548,
     "height": 1024
   },
   "image_line": {
@@ -13472,7 +13547,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 546,
+    "iconIdx": 549,
     "height": 1024
   },
   "Import": {
@@ -13513,7 +13588,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 675,
+    "iconIdx": 678,
     "height": 1024
   },
   "important": {
@@ -13624,7 +13699,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 286,
+    "iconIdx": 289,
     "height": 1024
   },
   "Important-days": {
@@ -13751,7 +13826,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 399,
+    "iconIdx": 402,
     "height": 1024
   },
   "important-list-duotone": {
@@ -13828,7 +13903,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 141,
+    "iconIdx": 144,
     "height": 1024
   },
   "inbox": {
@@ -13862,7 +13937,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 677,
+    "iconIdx": 680,
     "height": 1024
   },
   "inbox_fill": {
@@ -13896,7 +13971,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 676,
+    "iconIdx": 679,
     "height": 1024
   },
   "incoming": {
@@ -13937,7 +14012,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 678,
+    "iconIdx": 681,
     "height": 1024
   },
   "indeterminate_circle_line": {
@@ -13971,7 +14046,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 679,
+    "iconIdx": 682,
     "height": 1024
   },
   "Info_fill": {
@@ -14005,7 +14080,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 680,
+    "iconIdx": 683,
     "height": 1024
   },
   "info-octagon-outlined": {
@@ -14035,7 +14110,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 68,
+    "iconIdx": 71,
     "height": 1024
   },
   "information": {
@@ -14069,7 +14144,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 681,
+    "iconIdx": 684,
     "height": 1024
   },
   "instagram": {
@@ -14103,7 +14178,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 481,
+    "iconIdx": 484,
     "height": 1024
   },
   "Integrated-bank": {
@@ -14230,7 +14305,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 401,
+    "iconIdx": 404,
     "height": 1024
   },
   "internal-call": {
@@ -14271,7 +14346,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 482,
+    "iconIdx": 485,
     "height": 1024
   },
   "Internal-phone-report-outlined": {
@@ -14319,7 +14394,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 81,
+    "iconIdx": 84,
     "height": 1024
   },
   "inventory": {
@@ -14353,7 +14428,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 684,
+    "iconIdx": 687,
     "height": 1024
   },
   "inventory_fill": {
@@ -14387,7 +14462,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 682,
+    "iconIdx": 685,
     "height": 1024
   },
   "inventory_management": {
@@ -14435,7 +14510,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 683,
+    "iconIdx": 686,
     "height": 1024
   },
   "inventory-settings-duotone": {
@@ -14480,7 +14555,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 211,
+    "iconIdx": 214,
     "height": 1024
   },
   "invite": {
@@ -14513,7 +14588,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 508,
+    "iconIdx": 511,
     "height": 1024
   },
   "Invite-Trades": {
@@ -14547,7 +14622,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 335,
+    "iconIdx": 338,
     "height": 1024
   },
   "invoice": {
@@ -14588,7 +14663,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 686,
+    "iconIdx": 689,
     "height": 1024
   },
   "invoice_fill": {
@@ -14629,7 +14704,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 685,
+    "iconIdx": 688,
     "height": 1024
   },
   "invoices": {
@@ -14663,7 +14738,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 688,
+    "iconIdx": 691,
     "height": 1024
   },
   "invoices_fill": {
@@ -14704,7 +14779,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 687,
+    "iconIdx": 690,
     "height": 1024
   },
   "item-phone-call-duotone": {
@@ -14749,7 +14824,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 198,
+    "iconIdx": 201,
     "height": 1024
   },
   "Jobs": {
@@ -14868,7 +14943,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 415,
+    "iconIdx": 418,
     "height": 1024
   },
   "journey-outlined": {
@@ -14903,7 +14978,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 259,
+    "iconIdx": 262,
     "height": 1024
   },
   "Kanban_View": {
@@ -14958,7 +15033,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 689,
+    "iconIdx": 692,
     "height": 1024
   },
   "keyboard_fill": {
@@ -14992,7 +15067,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 690,
+    "iconIdx": 693,
     "height": 1024
   },
   "keyboard_outline": {
@@ -15026,7 +15101,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 691,
+    "iconIdx": 694,
     "height": 1024
   },
   "language-management-duotone": {
@@ -15071,7 +15146,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 237,
+    "iconIdx": 240,
     "height": 1024
   },
   "layout-board-outlined": {
@@ -15106,7 +15181,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 260,
+    "iconIdx": 263,
     "height": 1024
   },
   "layout-grid-outlined": {
@@ -15141,7 +15216,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 261,
+    "iconIdx": 264,
     "height": 1024
   },
   "layout-management-duotone": {
@@ -15186,7 +15261,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 169,
+    "iconIdx": 172,
     "height": 1024
   },
   "lead": {
@@ -15227,7 +15302,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 692,
+    "iconIdx": 695,
     "height": 1024
   },
   "License": {
@@ -15261,7 +15336,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 694,
+    "iconIdx": 697,
     "height": 1024
   },
   "License_fill": {
@@ -15295,7 +15370,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 693,
+    "iconIdx": 696,
     "height": 1024
   },
   "line_chart": {
@@ -15329,7 +15404,48 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 521,
+    "iconIdx": 524,
+    "height": 1024
+  },
+  "liner-chart-filled": {
+    "icon": {
+      "paths": [
+        "M658.547 416.007c7.469-9.251 18.304-15.217 30.163-16.611s23.795 1.894 33.235 9.157l4.275 3.75 182.042 180.703c7.078 7.027 11.616 16.173 12.928 26.021l0.41 5.918v225.877c0 11.066-4.096 21.747-11.501 30.016s-17.613 13.549-28.685 14.848l-5.325 0.314-734.182-0.41-5.007-0.902-4.869-1.536-4.779-2.074-4.551-2.669-4.278-3.162-2.73-2.483-3.277-3.706-2.913-4.019-2.458-4.339-0.728-1.581-1.82-4.653-1.229-4.787-0.683-4.883-0.182-4.966 0.41-4.966 0.865-4.749c0.455-1.805 1.001-3.475 1.592-5.056l2.094-4.742 2.685-4.518 182.044-271.057c5.603-8.374 13.86-14.653 23.463-17.844s20.004-3.112 29.557 0.225l5.188 2.259 149.139 73.998 159.106-197.373z",
+        "M659.091 144.275c7.552-9.005 18.336-14.746 30.067-16.011 11.738-1.264 23.507 2.047 32.832 9.235l4.23 3.75 182.042 180.703c8.166 8.13 12.902 19.039 13.254 30.511s-3.706 22.648-11.354 31.257c-7.648 8.609-18.31 14.006-29.818 15.094-11.514 1.089-23.008-2.213-32.154-9.234l-4.282-3.749-146.816-145.692-195.651 233.017c-5.943 7.076-13.924 12.18-22.872 14.627s-18.435 2.119-27.19-0.938l-5.234-2.214-148.092-73.456-113.732 150.526c-6.649 8.801-16.305 14.892-27.155 17.13s-22.152 0.467-31.782-4.977l-4.778-3.117c-8.867-6.6-15.003-16.184-17.257-26.956s-0.471-21.988 5.014-31.547l3.14-4.744 136.532-180.703c5.837-7.717 14.010-13.376 23.321-16.148s19.273-2.512 28.425 0.743l5.006 2.124 149.776 74.314 204.525-243.543z"
+      ],
+      "attrs": [
+        {
+          "fill": "rgb(43, 64, 99)"
+        },
+        {
+          "fill": "rgb(43, 64, 99)"
+        }
+      ],
+      "isMulticolor": false,
+      "isMulticolor2": false,
+      "grid": 23,
+      "tags": [
+        "liner-chart-filled"
+      ]
+    },
+    "attrs": [
+      {
+        "fill": "rgb(43, 64, 99)"
+      },
+      {
+        "fill": "rgb(43, 64, 99)"
+      }
+    ],
+    "properties": {
+      "order": 2568,
+      "id": 836,
+      "name": "liner-chart-filled",
+      "prevSize": 32,
+      "code": 61404
+    },
+    "setIdx": 0,
+    "setId": 2,
+    "iconIdx": 2,
     "height": 1024
   },
   "link": {
@@ -15363,7 +15479,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 695,
+    "iconIdx": 698,
     "height": 1024
   },
   "linkedin": {
@@ -15397,7 +15513,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 483,
+    "iconIdx": 486,
     "height": 1024
   },
   "List_View": {
@@ -15452,7 +15568,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 696,
+    "iconIdx": 699,
     "height": 1024
   },
   "list_with_possible_workers_to_choose_svgrepo_com": {
@@ -15486,7 +15602,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 697,
+    "iconIdx": 700,
     "height": 1024
   },
   "list-check": {
@@ -15520,7 +15636,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 497,
+    "iconIdx": 500,
     "height": 1024
   },
   "loader-2-line": {
@@ -15554,7 +15670,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 461,
+    "iconIdx": 464,
     "height": 1024
   },
   "localize": {
@@ -15588,7 +15704,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 699,
+    "iconIdx": 702,
     "height": 1024
   },
   "localize_fill": {
@@ -15622,7 +15738,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 698,
+    "iconIdx": 701,
     "height": 1024
   },
   "lock": {
@@ -15656,7 +15772,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 549,
+    "iconIdx": 552,
     "height": 1024
   },
   "lock-1": {
@@ -15690,7 +15806,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 548,
+    "iconIdx": 551,
     "height": 1024
   },
   "login_box_fill": {
@@ -15724,7 +15840,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 700,
+    "iconIdx": 703,
     "height": 1024
   },
   "login-outlined": {
@@ -15758,7 +15874,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 160,
+    "iconIdx": 163,
     "height": 1024
   },
   "logout_box_fill": {
@@ -15792,7 +15908,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 701,
+    "iconIdx": 704,
     "height": 1024
   },
   "logout-outlined": {
@@ -15826,7 +15942,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 159,
+    "iconIdx": 162,
     "height": 1024
   },
   "M_account": {
@@ -15860,7 +15976,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 363,
+    "iconIdx": 366,
     "height": 1024
   },
   "M_advertising": {
@@ -15894,7 +16010,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 304,
+    "iconIdx": 307,
     "height": 1024
   },
   "M_automation-marketing": {
@@ -15935,7 +16051,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 426,
+    "iconIdx": 429,
     "height": 1024
   },
   "M_buy-and-sell": {
@@ -15969,7 +16085,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 321,
+    "iconIdx": 324,
     "height": 1024
   },
   "M_call-event": {
@@ -16010,7 +16126,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 305,
+    "iconIdx": 308,
     "height": 1024
   },
   "M_calls": {
@@ -16044,7 +16160,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 427,
+    "iconIdx": 430,
     "height": 1024
   },
   "M_campaign": {
@@ -16078,7 +16194,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 428,
+    "iconIdx": 431,
     "height": 1024
   },
   "M_campaign-managment": {
@@ -16119,7 +16235,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 306,
+    "iconIdx": 309,
     "height": 1024
   },
   "M_catalog_products": {
@@ -16153,7 +16269,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 429,
+    "iconIdx": 432,
     "height": 1024
   },
   "M_chatplus": {
@@ -16187,7 +16303,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 430,
+    "iconIdx": 433,
     "height": 1024
   },
   "M_connections": {
@@ -16221,7 +16337,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 431,
+    "iconIdx": 434,
     "height": 1024
   },
   "M_contacts": {
@@ -16255,7 +16371,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 432,
+    "iconIdx": 435,
     "height": 1024
   },
   "M_contracts": {
@@ -16303,7 +16419,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 433,
+    "iconIdx": 436,
     "height": 1024
   },
   "M_customer-journey": {
@@ -16358,7 +16474,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 307,
+    "iconIdx": 310,
     "height": 1024
   },
   "M_dashboard": {
@@ -16392,7 +16508,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 434,
+    "iconIdx": 437,
     "height": 1024
   },
   "M_digital-marketing": {
@@ -16447,7 +16563,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 308,
+    "iconIdx": 311,
     "height": 1024
   },
   "M_documents": {
@@ -16502,7 +16618,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 294,
+    "iconIdx": 297,
     "height": 1024
   },
   "M_email": {
@@ -16536,7 +16652,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 435,
+    "iconIdx": 438,
     "height": 1024
   },
   "M_event-managment": {
@@ -16577,7 +16693,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 436,
+    "iconIdx": 439,
     "height": 1024
   },
   "M_fax": {
@@ -16611,7 +16727,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 437,
+    "iconIdx": 440,
     "height": 1024
   },
   "M_finance": {
@@ -16645,7 +16761,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 322,
+    "iconIdx": 325,
     "height": 1024
   },
   "M_financial": {
@@ -16679,7 +16795,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 295,
+    "iconIdx": 298,
     "height": 1024
   },
   "M_followup": {
@@ -16720,7 +16836,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 438,
+    "iconIdx": 441,
     "height": 1024
   },
   "M_form": {
@@ -16754,7 +16870,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 319,
+    "iconIdx": 322,
     "height": 1024
   },
   "M_inbox": {
@@ -16788,7 +16904,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 296,
+    "iconIdx": 299,
     "height": 1024
   },
   "M_inventory": {
@@ -16822,7 +16938,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 439,
+    "iconIdx": 442,
     "height": 1024
   },
   "M_invoice": {
@@ -16856,7 +16972,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 440,
+    "iconIdx": 443,
     "height": 1024
   },
   "M_invoice-buy": {
@@ -16897,7 +17013,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 323,
+    "iconIdx": 326,
     "height": 1024
   },
   "M_invoice-sell": {
@@ -16938,7 +17054,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 324,
+    "iconIdx": 327,
     "height": 1024
   },
   "M_lead": {
@@ -16972,7 +17088,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 441,
+    "iconIdx": 444,
     "height": 1024
   },
   "M_opportunity": {
@@ -17006,7 +17122,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 442,
+    "iconIdx": 445,
     "height": 1024
   },
   "M_orders": {
@@ -17040,7 +17156,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 443,
+    "iconIdx": 446,
     "height": 1024
   },
   "M_payment": {
@@ -17074,7 +17190,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 445,
+    "iconIdx": 448,
     "height": 1024
   },
   "M_payment-link": {
@@ -17115,7 +17231,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 444,
+    "iconIdx": 447,
     "height": 1024
   },
   "M_person": {
@@ -17149,7 +17265,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 364,
+    "iconIdx": 367,
     "height": 1024
   },
   "M_points": {
@@ -17183,7 +17299,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 297,
+    "iconIdx": 300,
     "height": 1024
   },
   "M_price-list": {
@@ -17217,7 +17333,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 326,
+    "iconIdx": 329,
     "height": 1024
   },
   "M_print": {
@@ -17251,7 +17367,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 446,
+    "iconIdx": 449,
     "height": 1024
   },
   "M_products": {
@@ -17292,7 +17408,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 298,
+    "iconIdx": 301,
     "height": 1024
   },
   "M_products-item": {
@@ -17333,7 +17449,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 447,
+    "iconIdx": 450,
     "height": 1024
   },
   "M_qout": {
@@ -17374,7 +17490,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 448,
+    "iconIdx": 451,
     "height": 1024
   },
   "M_qout-buy": {
@@ -17415,7 +17531,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 327,
+    "iconIdx": 330,
     "height": 1024
   },
   "M_qout-sell": {
@@ -17456,7 +17572,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 325,
+    "iconIdx": 328,
     "height": 1024
   },
   "M_receive": {
@@ -17490,7 +17606,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 449,
+    "iconIdx": 452,
     "height": 1024
   },
   "M_remind": {
@@ -17531,7 +17647,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 451,
+    "iconIdx": 454,
     "height": 1024
   },
   "M_remind-all": {
@@ -17572,7 +17688,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 309,
+    "iconIdx": 312,
     "height": 1024
   },
   "M_remind-calls": {
@@ -17613,7 +17729,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 450,
+    "iconIdx": 453,
     "height": 1024
   },
   "M_reports": {
@@ -17647,7 +17763,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 452,
+    "iconIdx": 455,
     "height": 1024
   },
   "M_requests": {
@@ -17688,7 +17804,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 299,
+    "iconIdx": 302,
     "height": 1024
   },
   "M_return-invoice": {
@@ -17729,7 +17845,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 320,
+    "iconIdx": 323,
     "height": 1024
   },
   "M_sell": {
@@ -17763,7 +17879,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 453,
+    "iconIdx": 456,
     "height": 1024
   },
   "M_services": {
@@ -17804,7 +17920,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 300,
+    "iconIdx": 303,
     "height": 1024
   },
   "M_sms": {
@@ -17838,7 +17954,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 454,
+    "iconIdx": 457,
     "height": 1024
   },
   "M_sms-managment": {
@@ -17879,7 +17995,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 455,
+    "iconIdx": 458,
     "height": 1024
   },
   "M_social-media": {
@@ -17913,7 +18029,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 456,
+    "iconIdx": 459,
     "height": 1024
   },
   "M_target-group": {
@@ -17947,7 +18063,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 457,
+    "iconIdx": 460,
     "height": 1024
   },
   "M_visitor": {
@@ -17988,7 +18104,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 303,
+    "iconIdx": 306,
     "height": 1024
   },
   "M_warehouses": {
@@ -18029,7 +18145,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 819,
+    "iconIdx": 822,
     "height": 1024
   },
   "M_warranty": {
@@ -18063,7 +18179,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 301,
+    "iconIdx": 304,
     "height": 1024
   },
   "mail_send_fill": {
@@ -18097,7 +18213,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 702,
+    "iconIdx": 705,
     "height": 1024
   },
   "mail_send_line": {
@@ -18131,7 +18247,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 703,
+    "iconIdx": 706,
     "height": 1024
   },
   "mail-center-send": {
@@ -18165,7 +18281,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 469,
+    "iconIdx": 472,
     "height": 1024
   },
   "mail-close": {
@@ -18199,7 +18315,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 470,
+    "iconIdx": 473,
     "height": 1024
   },
   "mail-pending": {
@@ -18233,7 +18349,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 471,
+    "iconIdx": 474,
     "height": 1024
   },
   "mail-received": {
@@ -18274,7 +18390,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 472,
+    "iconIdx": 475,
     "height": 1024
   },
   "mail-refresh": {
@@ -18315,7 +18431,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 473,
+    "iconIdx": 476,
     "height": 1024
   },
   "mail-send": {
@@ -18356,7 +18472,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 468,
+    "iconIdx": 471,
     "height": 1024
   },
   "manage-user-accounts-duotone": {
@@ -18401,7 +18517,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 222,
+    "iconIdx": 225,
     "height": 1024
   },
   "Manual-insertion": {
@@ -18512,7 +18628,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 402,
+    "iconIdx": 405,
     "height": 1024
   },
   "map": {
@@ -18546,7 +18662,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 459,
+    "iconIdx": 462,
     "height": 1024
   },
   "map-fill": {
@@ -18580,7 +18696,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 458,
+    "iconIdx": 461,
     "height": 1024
   },
   "map-pin-filled": {
@@ -18645,7 +18761,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 114,
+    "iconIdx": 117,
     "height": 1024
   },
   "map-pin-outlined": {
@@ -18679,7 +18795,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 116,
+    "iconIdx": 119,
     "height": 1024
   },
   "map-pin-outlined1": {
@@ -18713,7 +18829,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 11,
+    "iconIdx": 14,
     "height": 1024
   },
   "map-pin-plus-outlined": {
@@ -18747,7 +18863,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 115,
+    "iconIdx": 118,
     "height": 1024
   },
   "marketing-duotone": {
@@ -18792,7 +18908,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 215,
+    "iconIdx": 218,
     "height": 1024
   },
   "meet-Filled": {
@@ -18869,7 +18985,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 57,
+    "iconIdx": 60,
     "height": 1024
   },
   "meeting_dashboard": {
@@ -18970,7 +19086,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 382,
+    "iconIdx": 385,
     "height": 1024
   },
   "meeting-room-outlined": {
@@ -19005,7 +19121,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 103,
+    "iconIdx": 106,
     "height": 1024
   },
   "message_fill": {
@@ -19039,7 +19155,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 704,
+    "iconIdx": 707,
     "height": 1024
   },
   "message_sms": {
@@ -19073,7 +19189,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 705,
+    "iconIdx": 708,
     "height": 1024
   },
   "message-2-outlined": {
@@ -19108,7 +19224,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 90,
+    "iconIdx": 93,
     "height": 1024
   },
   "message-2-plus-outlined": {
@@ -19142,7 +19258,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 39,
+    "iconIdx": 42,
     "height": 1024
   },
   "messages-outlined": {
@@ -19177,7 +19293,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 262,
+    "iconIdx": 265,
     "height": 1024
   },
   "microphone-off2-outlined": {
@@ -19222,7 +19338,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 69,
+    "iconIdx": 72,
     "height": 1024
   },
   "microphone-outlined": {
@@ -19256,7 +19372,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 92,
+    "iconIdx": 95,
     "height": 1024
   },
   "missed": {
@@ -19297,7 +19413,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 487,
+    "iconIdx": 490,
     "height": 1024
   },
   "mobile": {
@@ -19331,7 +19447,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 707,
+    "iconIdx": 710,
     "height": 1024
   },
   "mobile_fill": {
@@ -19365,7 +19481,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 706,
+    "iconIdx": 709,
     "height": 1024
   },
   "moon": {
@@ -19399,7 +19515,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 708,
+    "iconIdx": 711,
     "height": 1024
   },
   "more_alt": {
@@ -19433,7 +19549,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 709,
+    "iconIdx": 712,
     "height": 1024
   },
   "more_line": {
@@ -19467,7 +19583,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 711,
+    "iconIdx": 714,
     "height": 1024
   },
   "more_line-1": {
@@ -19501,7 +19617,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 710,
+    "iconIdx": 713,
     "height": 1024
   },
   "more_pic": {
@@ -19535,7 +19651,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 550,
+    "iconIdx": 553,
     "height": 1024
   },
   "more_vertical": {
@@ -19569,7 +19685,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 712,
+    "iconIdx": 715,
     "height": 1024
   },
   "mouse_fill": {
@@ -19603,7 +19719,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 713,
+    "iconIdx": 716,
     "height": 1024
   },
   "mouse_outline": {
@@ -19637,7 +19753,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 714,
+    "iconIdx": 717,
     "height": 1024
   },
   "Move": {
@@ -19671,7 +19787,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 715,
+    "iconIdx": 718,
     "height": 1024
   },
   "my_dashboard": {
@@ -19712,7 +19828,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 490,
+    "iconIdx": 493,
     "height": 1024
   },
   "my-activities-duotone": {
@@ -19837,7 +19953,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 168,
+    "iconIdx": 171,
     "height": 1024
   },
   "my-work-list-duotone": {
@@ -19923,7 +20039,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 136,
+    "iconIdx": 139,
     "height": 1024
   },
   "new-pass": {
@@ -20082,7 +20198,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 383,
+    "iconIdx": 386,
     "height": 1024
   },
   "Newsletters": {
@@ -20161,7 +20277,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 400,
+    "iconIdx": 403,
     "height": 1024
   },
   "node-tree": {
@@ -20195,7 +20311,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 498,
+    "iconIdx": 501,
     "height": 1024
   },
   "Not-shipped": {
@@ -20230,7 +20346,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 367,
+    "iconIdx": 370,
     "height": 1024
   },
   "note": {
@@ -20264,7 +20380,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 717,
+    "iconIdx": 720,
     "height": 1024
   },
   "note_fill": {
@@ -20298,7 +20414,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 716,
+    "iconIdx": 719,
     "height": 1024
   },
   "notes-duotone": {
@@ -20343,7 +20459,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 219,
+    "iconIdx": 222,
     "height": 1024
   },
   "Notification_header": {
@@ -20377,7 +20493,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 718,
+    "iconIdx": 721,
     "height": 1024
   },
   "Number": {
@@ -20411,7 +20527,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 484,
+    "iconIdx": 487,
     "height": 1024
   },
   "numbering-patterns-duotone": {
@@ -20456,7 +20572,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 231,
+    "iconIdx": 234,
     "height": 1024
   },
   "operator-management-duotone": {
@@ -20533,7 +20649,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 82,
+    "iconIdx": 85,
     "height": 1024
   },
   "Opportunities": {
@@ -20655,7 +20771,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 410,
+    "iconIdx": 413,
     "height": 1024
   },
   "opportunities-duotone": {
@@ -20700,7 +20816,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 181,
+    "iconIdx": 184,
     "height": 1024
   },
   "Opportunity": {
@@ -20734,7 +20850,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 720,
+    "iconIdx": 723,
     "height": 1024
   },
   "Opportunity_fill": {
@@ -20768,7 +20884,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 719,
+    "iconIdx": 722,
     "height": 1024
   },
   "order": {
@@ -20802,7 +20918,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 724,
+    "iconIdx": 727,
     "height": 1024
   },
   "order_fill": {
@@ -20836,7 +20952,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 722,
+    "iconIdx": 725,
     "height": 1024
   },
   "order_fill-1": {
@@ -20870,7 +20986,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 721,
+    "iconIdx": 724,
     "height": 1024
   },
   "order-1": {
@@ -20904,7 +21020,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 723,
+    "iconIdx": 726,
     "height": 1024
   },
   "outcoming": {
@@ -20945,7 +21061,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 725,
+    "iconIdx": 728,
     "height": 1024
   },
   "overview": {
@@ -20981,7 +21097,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 317,
+    "iconIdx": 320,
     "height": 1024
   },
   "Overview-outlined": {
@@ -21011,7 +21127,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 70,
+    "iconIdx": 73,
     "height": 1024
   },
   "Owner": {
@@ -21045,7 +21161,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 499,
+    "iconIdx": 502,
     "height": 1024
   },
   "paperclip-outlined": {
@@ -21080,7 +21196,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 93,
+    "iconIdx": 96,
     "height": 1024
   },
   "pause": {
@@ -21114,7 +21230,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 727,
+    "iconIdx": 730,
     "height": 1024
   },
   "pause_fill": {
@@ -21148,7 +21264,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 726,
+    "iconIdx": 729,
     "height": 1024
   },
   "pay_money": {
@@ -21196,7 +21312,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 418,
+    "iconIdx": 421,
     "height": 1024
   },
   "payam-gostar-paid-duotone": {
@@ -21241,7 +21357,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 207,
+    "iconIdx": 210,
     "height": 1024
   },
   "payamgostar": {
@@ -21296,7 +21412,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 515,
+    "iconIdx": 518,
     "height": 1024
   },
   "Payment": {
@@ -21384,7 +21500,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 395,
+    "iconIdx": 398,
     "height": 1024
   },
   "payment_link": {
@@ -21425,7 +21541,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 728,
+    "iconIdx": 731,
     "height": 1024
   },
   "payment-card-duotone": {
@@ -21478,7 +21594,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 142,
+    "iconIdx": 145,
     "height": 1024
   },
   "Payment-Policies-duotone": {
@@ -21523,7 +21639,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 19,
+    "iconIdx": 22,
     "height": 1024
   },
   "paymentreceipt": {
@@ -21557,7 +21673,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 730,
+    "iconIdx": 733,
     "height": 1024
   },
   "paymentreceipt_fill": {
@@ -21591,7 +21707,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 729,
+    "iconIdx": 732,
     "height": 1024
   },
   "payments-duotone": {
@@ -21636,7 +21752,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 178,
+    "iconIdx": 181,
     "height": 1024
   },
   "performance-duotone": {
@@ -21681,7 +21797,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 195,
+    "iconIdx": 198,
     "height": 1024
   },
   "permission": {
@@ -21715,7 +21831,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 474,
+    "iconIdx": 477,
     "height": 1024
   },
   "personal": {
@@ -21749,7 +21865,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 731,
+    "iconIdx": 734,
     "height": 1024
   },
   "Personal-communication": {
@@ -21797,7 +21913,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 336,
+    "iconIdx": 339,
     "height": 1024
   },
   "personnel-orders-duotone": {
@@ -21842,7 +21958,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 186,
+    "iconIdx": 189,
     "height": 1024
   },
   "phone_fill": {
@@ -21876,7 +21992,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 732,
+    "iconIdx": 735,
     "height": 1024
   },
   "phone-call-outlined": {
@@ -21911,7 +22027,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 263,
+    "iconIdx": 266,
     "height": 1024
   },
   "phone-hold-outlined": {
@@ -21945,7 +22061,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 47,
+    "iconIdx": 50,
     "height": 1024
   },
   "phone-icoming-outlined": {
@@ -21979,7 +22095,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 48,
+    "iconIdx": 51,
     "height": 1024
   },
   "phone-incoming-outlined": {
@@ -22021,7 +22137,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 128,
+    "iconIdx": 131,
     "height": 1024
   },
   "phone-off-outlined": {
@@ -22056,7 +22172,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 129,
+    "iconIdx": 132,
     "height": 1024
   },
   "phone-on-hold-outlined": {
@@ -22097,7 +22213,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 45,
+    "iconIdx": 48,
     "height": 1024
   },
   "phone-outgoing-outlined": {
@@ -22132,7 +22248,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 127,
+    "iconIdx": 130,
     "height": 1024
   },
   "phone-outgoing-outlined1": {
@@ -22166,7 +22282,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 49,
+    "iconIdx": 52,
     "height": 1024
   },
   "phone-outlined": {
@@ -22201,7 +22317,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 130,
+    "iconIdx": 133,
     "height": 1024
   },
   "phone-place-holder-Filled": {
@@ -22326,7 +22442,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 61,
+    "iconIdx": 64,
     "height": 1024
   },
   "phone-x-outlined": {
@@ -22360,7 +22476,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 50,
+    "iconIdx": 53,
     "height": 1024
   },
   "photo-outlined": {
@@ -22394,7 +22510,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 12,
+    "iconIdx": 15,
     "height": 1024
   },
   "pie_chart": {
@@ -22428,7 +22544,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 522,
+    "iconIdx": 525,
     "height": 1024
   },
   "pin_fill": {
@@ -22462,7 +22578,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 733,
+    "iconIdx": 736,
     "height": 1024
   },
   "pin_outline": {
@@ -22496,7 +22612,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 734,
+    "iconIdx": 737,
     "height": 1024
   },
   "pin-outlined": {
@@ -22531,7 +22647,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 95,
+    "iconIdx": 98,
     "height": 1024
   },
   "planed": {
@@ -22650,7 +22766,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 287,
+    "iconIdx": 290,
     "height": 1024
   },
   "planned": {
@@ -22684,7 +22800,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 735,
+    "iconIdx": 738,
     "height": 1024
   },
   "planning-list-duotone": {
@@ -22737,7 +22853,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 143,
+    "iconIdx": 146,
     "height": 1024
   },
   "play": {
@@ -22771,7 +22887,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 737,
+    "iconIdx": 740,
     "height": 1024
   },
   "play_fill": {
@@ -22805,7 +22921,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 736,
+    "iconIdx": 739,
     "height": 1024
   },
   "play-back-next": {
@@ -22846,7 +22962,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 29,
+    "iconIdx": 32,
     "height": 1024
   },
   "play-back-outlined": {
@@ -22887,7 +23003,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 30,
+    "iconIdx": 33,
     "height": 1024
   },
   "play-circle-filled": {
@@ -22921,7 +23037,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 163,
+    "iconIdx": 166,
     "height": 1024
   },
   "play-outlined": {
@@ -22956,7 +23072,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 88,
+    "iconIdx": 91,
     "height": 1024
   },
   "play2-outlined": {
@@ -22990,7 +23106,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 31,
+    "iconIdx": 34,
     "height": 1024
   },
   "player-pause-outlined": {
@@ -23035,7 +23151,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 86,
+    "iconIdx": 89,
     "height": 1024
   },
   "player-pause2-outlined1": {
@@ -23069,7 +23185,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 25,
+    "iconIdx": 28,
     "height": 1024
   },
   "poker-face-outlined": {
@@ -23124,7 +23240,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 32,
+    "iconIdx": 35,
     "height": 1024
   },
   "Postal-areas": {
@@ -23203,7 +23319,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 396,
+    "iconIdx": 399,
     "height": 1024
   },
   "Posted": {
@@ -23244,7 +23360,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 368,
+    "iconIdx": 371,
     "height": 1024
   },
   "posts": {
@@ -23361,7 +23477,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 384,
+    "iconIdx": 387,
     "height": 1024
   },
   "power-bi": {
@@ -23414,7 +23530,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 385,
+    "iconIdx": 388,
     "height": 1024
   },
   "powerbi": {
@@ -23448,7 +23564,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 331,
+    "iconIdx": 334,
     "height": 1024
   },
   "pre-purchase-invoices-duotone": {
@@ -23494,7 +23610,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 201,
+    "iconIdx": 204,
     "height": 1024
   },
   "presentation-outlined": {
@@ -23529,7 +23645,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 264,
+    "iconIdx": 267,
     "height": 1024
   },
   "preview": {
@@ -23563,7 +23679,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 337,
+    "iconIdx": 340,
     "height": 1024
   },
   "price_list": {
@@ -23597,7 +23713,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 739,
+    "iconIdx": 742,
     "height": 1024
   },
   "price_list_fill": {
@@ -23631,7 +23747,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 738,
+    "iconIdx": 741,
     "height": 1024
   },
   "price-list-duotone": {
@@ -23676,7 +23792,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 202,
+    "iconIdx": 205,
     "height": 1024
   },
   "Price-List-duotone": {
@@ -23721,7 +23837,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 18,
+    "iconIdx": 21,
     "height": 1024
   },
   "pricing-inventory": {
@@ -23872,7 +23988,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 293,
+    "iconIdx": 296,
     "height": 1024
   },
   "pricing-inventory-duotone": {
@@ -23925,7 +24041,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 144,
+    "iconIdx": 147,
     "height": 1024
   },
   "printer-duotone": {
@@ -23970,7 +24086,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 228,
+    "iconIdx": 231,
     "height": 1024
   },
   "process-list-duotone": {
@@ -24023,7 +24139,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 145,
+    "iconIdx": 148,
     "height": 1024
   },
   "product_group": {
@@ -24071,7 +24187,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 740,
+    "iconIdx": 743,
     "height": 1024
   },
   "product-1": {
@@ -24152,7 +24268,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 328,
+    "iconIdx": 331,
     "height": 1024
   },
   "product-authenticity-duotone": {
@@ -24197,7 +24313,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 205,
+    "iconIdx": 208,
     "height": 1024
   },
   "product-box-duotone": {
@@ -24250,7 +24366,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 158,
+    "iconIdx": 161,
     "height": 1024
   },
   "Product-category-duotone": {
@@ -24295,7 +24411,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 22,
+    "iconIdx": 25,
     "height": 1024
   },
   "product-management-duotone": {
@@ -24340,7 +24456,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 206,
+    "iconIdx": 209,
     "height": 1024
   },
   "profile_fill": {
@@ -24374,7 +24490,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 741,
+    "iconIdx": 744,
     "height": 1024
   },
   "profile_history": {
@@ -24415,7 +24531,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 742,
+    "iconIdx": 745,
     "height": 1024
   },
   "profile_line": {
@@ -24449,7 +24565,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 743,
+    "iconIdx": 746,
     "height": 1024
   },
   "profile-manegment-duotone": {
@@ -24494,7 +24610,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 238,
+    "iconIdx": 241,
     "height": 1024
   },
   "project-management-duotone": {
@@ -24539,7 +24655,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 216,
+    "iconIdx": 219,
     "height": 1024
   },
   "Purchase-Invoice": {
@@ -24643,7 +24759,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 408,
+    "iconIdx": 411,
     "height": 1024
   },
   "purchase-invoices-duotone": {
@@ -24688,7 +24804,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 180,
+    "iconIdx": 183,
     "height": 1024
   },
   "Purchase-return-invoice": {
@@ -24816,7 +24932,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 406,
+    "iconIdx": 409,
     "height": 1024
   },
   "purchase-return-invoice-duotone": {
@@ -24901,7 +25017,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 146,
+    "iconIdx": 149,
     "height": 1024
   },
   "purchase-return-invoices-duotone": {
@@ -24946,7 +25062,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 204,
+    "iconIdx": 207,
     "height": 1024
   },
   "PurchaseQuote": {
@@ -25015,7 +25131,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 288,
+    "iconIdx": 291,
     "height": 1024
   },
   "puse-circle-filled": {
@@ -25049,7 +25165,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 162,
+    "iconIdx": 165,
     "height": 1024
   },
   "qoute": {
@@ -25083,7 +25199,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 745,
+    "iconIdx": 748,
     "height": 1024
   },
   "qoute_fill": {
@@ -25117,7 +25233,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 744,
+    "iconIdx": 747,
     "height": 1024
   },
   "Quality-Control-Dashboard-outlined": {
@@ -25151,7 +25267,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 17,
+    "iconIdx": 20,
     "height": 1024
   },
   "Quality-Control-Scenario-duotone": {
@@ -25220,7 +25336,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 21,
+    "iconIdx": 24,
     "height": 1024
   },
   "queue-overview": {
@@ -25253,7 +25369,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 318,
+    "iconIdx": 321,
     "height": 1024
   },
   "queue-overview-outlined": {
@@ -25283,7 +25399,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 71,
+    "iconIdx": 74,
     "height": 1024
   },
   "quick_send": {
@@ -25317,7 +25433,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 746,
+    "iconIdx": 749,
     "height": 1024
   },
   "Quote": {
@@ -25394,7 +25510,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 289,
+    "iconIdx": 292,
     "height": 1024
   },
   "radio_button": {
@@ -25428,7 +25544,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 748,
+    "iconIdx": 751,
     "height": 1024
   },
   "radio_button_fill": {
@@ -25462,10 +25578,10 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 747,
+    "iconIdx": 750,
     "height": 1024
   },
-  "rayan-badge-outlined": {
+  "rayan-badge-duotone": {
     "icon": {
       "paths": [
         "M375.469 1021.824c-7.065-4.173-10.57-10.080-12.29-20.704-0.597-3.693-1.426-8.32-1.843-10.272-0.414-1.958-0.772-5.184-0.79-7.168s-0.737-6.253-1.596-9.485c-0.86-3.226-1.571-7.475-1.581-9.427-0.010-1.958-0.73-6.048-1.599-9.088s-1.581-6.65-1.581-8.026c0-1.376-0.708-4.755-1.571-7.507-0.863-2.758-1.574-6.176-1.581-7.603-0.006-1.421-0.721-4.608-1.59-7.085-0.87-2.47-1.581-5.651-1.581-7.059 0-1.414-0.711-4.371-1.58-6.579s-1.581-4.89-1.581-5.971c0-1.088-0.711-3.994-1.581-6.464-0.869-2.477-1.593-5.402-1.606-6.502-0.015-1.101-0.714-3.424-1.555-5.165-0.84-1.734-1.546-4.051-1.571-5.133-0.026-1.088-0.746-3.526-1.609-5.421-0.86-1.894-1.562-4.134-1.562-4.973s-0.712-2.918-1.581-4.621c-0.869-1.709-1.587-3.917-1.599-4.909-0.006-0.998-0.717-3.36-1.58-5.254-0.86-1.894-1.562-4.038-1.562-4.755s-0.712-2.637-1.581-4.256c-0.869-1.619-1.581-3.533-1.581-4.25 0-0.71-0.67-2.758-1.485-4.544-0.815-1.792-2.276-5.203-3.243-7.597-5.011-12.39-20.266-42.694-22.737-45.165-0.541-0.544-0.983-1.485-0.983-2.099s-1.423-2.816-3.161-4.89c-1.739-2.080-3.162-4.006-3.162-4.288 0-0.954-8.029-11.68-11.025-14.739-0.673-0.685-2.823-3.117-4.78-5.408-2.918-3.418-22.371-19.674-27.027-22.586-0.692-0.435-2.915-1.946-4.938-3.36-2.023-1.408-3.898-2.566-4.166-2.566-0.271 0-1.052-0.493-1.738-1.101-0.686-0.602-4.271-2.682-7.966-4.621-9.926-5.203-15.748-8.563-16.248-9.37-0.24-0.39-1.166-0.717-2.051-0.717s-2.551-0.506-3.708-1.126c-1.153-0.627-4.229-2.054-6.837-3.174-2.608-1.126-6.056-2.752-7.662-3.61-1.609-0.864-3.512-1.568-4.227-1.568-0.717 0-2.244-0.531-3.401-1.178-1.154-0.646-3.519-1.67-5.257-2.285-5.943-2.093-8.692-3.091-12.552-4.557-2.121-0.806-4.536-1.466-5.364-1.466s-2.902-0.71-4.605-1.581c-1.704-0.87-3.648-1.581-4.318-1.581s-2.548-0.71-4.169-1.581c-1.622-0.87-3.699-1.581-4.616-1.581s-3.733-0.71-6.259-1.581c-2.525-0.87-5.62-1.581-6.872-1.581-1.254 0-3.673-0.71-5.377-1.581s-3.926-1.581-4.934-1.581c-1.011 0-3.859-0.71-6.335-1.581-2.472-0.864-5.56-1.581-6.856-1.581-1.299 0-4.166-0.71-6.372-1.574-2.206-0.87-5.020-1.581-6.252-1.581s-3.762-0.538-5.624-1.197c-1.855-0.653-5.371-1.382-7.802-1.626-2.434-0.243-7.447-1.101-11.142-1.92-7.665-1.702-22.99-4.454-28.844-5.184-2.172-0.269-5.892-0.992-8.266-1.606s-6.818-1.114-9.878-1.114c-9.426 0-17.427-4.902-21.637-13.261-2.624-5.197-2.447-15.523 0.348-20.568 1.128-2.039 2.639-4.381 3.357-5.206 2.39-2.744 9.477-6.799 11.885-6.799 1.296 0 3.224-0.329 4.286-0.733s5.62-1.144 10.128-1.65c4.508-0.503 10.479-1.426 13.27-2.052s8.415-1.482 12.499-1.906c4.081-0.424 8.117-1.144 8.971-1.599 0.85-0.455 4.52-1.167 8.152-1.578 3.632-0.414 7.624-1.283 8.87-1.934 1.249-0.652 3.319-1.186 4.602-1.186 2.851-0.006 19.229-3.59 24.536-5.37 9.309-3.117 12.945-4.122 15.015-4.147 1.302-0.013 3.793-0.711 5.532-1.552s4.049-1.546 5.137-1.571c1.087-0.025 3.524-0.746 5.421-1.606 1.893-0.86 4.207-1.571 5.137-1.58 0.929-0.013 3.24-0.721 5.137-1.581 1.894-0.86 4.385-1.577 5.532-1.593 1.148-0.013 3.509-0.711 5.247-1.552s3.879-1.539 4.755-1.552c0.876-0.016 2.917-0.74 4.539-1.609s3.503-1.581 4.179-1.581c1.163 0 2.465-0.581 10.39-4.627 1.827-0.932 3.787-1.695 4.359-1.695s2.368-0.711 3.99-1.58c1.621-0.869 3.518-1.581 4.21-1.581 0.696 0 2.166-0.711 3.272-1.58 1.103-0.869 2.583-1.587 3.284-1.596 0.702-0.013 2.165-0.715 3.252-1.565s2.333-1.552 2.766-1.558c0.433-0.010 4.346-1.811 8.693-4.005 9.046-4.571 9.464-4.804 15.631-8.835 2.513-1.644 4.751-2.988 4.972-2.988 2.822 0 37.48-29.953 37.48-32.394 0-0.326 1.692-2.753 3.756-5.389 6.053-7.738 9.549-12.723 12.84-18.324 0.894-1.52 2.317-3.834 3.164-5.137 3.531-5.44 15.802-29.628 15.802-31.145 0-0.518 0.667-2.257 1.486-3.866 1.391-2.74 2.077-4.236 6.322-13.807 0.923-2.077 1.675-4.299 1.675-4.941s0.712-2.497 1.581-4.118c0.869-1.622 1.593-3.663 1.606-4.54 0.016-0.876 0.714-3.015 1.555-4.754s1.552-3.872 1.581-4.741c0.028-0.87 0.739-3.003 1.58-4.742s1.54-4.059 1.555-5.158c0.013-1.097 0.512-2.7 1.11-3.556 0.594-0.856 1.464-3.344 1.928-5.525s1.397-5.026 2.070-6.322c0.676-1.296 1.233-3.325 1.236-4.514 0-1.185 0.534-3.496 1.185-5.137 0.648-1.637 1.501-4.577 1.891-6.534 1.046-5.257 3.208-13.924 4.922-19.756 0.831-2.826 1.511-6.205 1.511-7.507-0.003-1.302 0.705-4.625 1.568-7.381s1.571-6.234 1.571-7.729c0-1.498 0.515-3.957 1.148-5.465 0.629-1.511 1.375-4.966 1.656-7.681s1.046-7.068 1.695-9.676c0.648-2.608 1.476-7.41 1.836-10.669s1.211-8.414 1.887-11.459c0.68-3.044 1.239-7.624 1.249-10.184 0.022-7.52 4.41-14.936 11.69-19.756 3.309-2.194 3.97-2.326 11.524-2.32 7.321 0.010 8.285 0.189 11.174 2.092 7.463 4.915 11.060 11.004 11.844 20.054 0.272 3.129 0.838 6.862 1.258 8.297 0.424 1.436 1.122 6.246 1.552 10.697 0.433 4.447 1.163 9.069 1.621 10.273 0.462 1.201 1.157 5.219 1.543 8.933 0.388 3.711 1.249 8.288 1.916 10.175 0.664 1.884 1.208 4.571 1.208 5.968s0.556 4.287 1.233 6.42c0.68 2.134 1.555 6.493 1.947 9.689s1.062 6.233 1.489 6.748c0.429 0.515 1.153 3.278 1.609 6.139 0.458 2.861 1.365 6.71 2.020 8.563 0.651 1.849 1.185 4.195 1.185 5.209 0 1.018 0.711 3.651 1.58 5.857s1.581 4.909 1.581 6.006c0 1.1 0.664 3.667 1.473 5.702s1.836 5.124 2.285 6.863c0.445 1.738 1.166 4.229 1.603 5.532s1.394 4.15 2.124 6.322c0.733 2.172 1.599 5.197 1.925 6.717 0.328 1.52 1.188 3.903 1.916 5.295 0.724 1.391 1.318 3.173 1.318 3.964 0 0.787 0.712 2.76 1.581 4.381s1.58 3.533 1.58 4.248c0 1.293 1.941 5.93 4.818 11.506 0.828 1.609 1.505 3.347 1.505 3.866s0.749 2.582 1.665 4.584c0.917 2.004 2.393 5.244 3.278 7.201 2.282 5.036 2.602 5.709 3.626 7.706 0.503 0.977 1.271 2.488 1.704 3.357 2.655 5.308 3.233 6.367 7.283 13.305 4.284 7.336 4.514 7.709 7.353 11.904 1.296 1.912 2.712 4.030 3.145 4.703 6.705 10.41 27.14 30.557 41.634 41.049 6.638 4.804 15.148 10.38 18.030 11.812 1.087 0.537 2.51 1.302 3.161 1.691 0.652 0.392 2.074 1.103 3.162 1.581 1.087 0.48 2.509 1.192 3.161 1.58 0.651 0.392 2.074 1.103 3.161 1.581 1.087 0.48 2.509 1.192 3.161 1.58 0.651 0.392 2.074 1.103 3.161 1.581 1.087 0.48 2.51 1.176 3.161 1.549s2.785 1.413 4.742 2.304c1.956 0.895 6.606 3.079 10.333 4.859 3.727 1.776 7.463 3.236 8.298 3.24 0.837 0.003 2.586 0.711 3.891 1.574s2.993 1.571 3.755 1.574c0.765 0.003 2.716 0.718 4.337 1.587s3.768 1.58 4.77 1.58c1.002 0 3.215 0.712 4.918 1.581s3.961 1.58 5.020 1.58c1.056 0 3.471 0.705 5.364 1.565 1.896 0.86 4.333 1.581 5.421 1.606s3.398 0.73 5.137 1.571c1.739 0.841 4.049 1.552 5.137 1.58s3.398 0.74 5.137 1.581c1.74 0.841 3.974 1.539 4.972 1.552 0.992 0.016 3.2 0.74 4.909 1.609 1.702 0.869 4.102 1.58 5.325 1.58 1.229 0 4.262 0.712 6.733 1.581 2.477 0.869 5.53 1.581 6.784 1.581 1.261 0 3.776 0.524 5.594 1.163 1.811 0.639 5.146 1.381 7.405 1.65s6.157 1.17 8.659 1.998c2.502 0.831 5.856 1.511 7.462 1.511 1.6 0 5.421 0.676 8.486 1.507 3.072 0.831 8.288 1.729 11.597 1.998 3.309 0.272 7.219 0.853 8.691 1.296 1.472 0.439 6.24 1.299 10.586 1.906s10.746 1.508 14.221 2.001c10.074 1.432 14.374 3.992 19.686 11.708 2.15 3.126 2.298 3.847 2.368 11.414 0.083 9.169-0.621 10.929-6.79 16.913-4.371 4.243-10.278 6.573-16.666 6.573-2.694 0-8.282 0.685-12.416 1.53-9.139 1.85-24.307 4.531-29.51 5.203-2.106 0.269-5.261 1.005-7.014 1.626-1.76 0.614-4.678 1.126-6.483 1.126s-5.222 0.538-7.603 1.197c-2.374 0.659-6.278 1.517-8.666 1.907-2.394 0.39-5.67 1.274-7.29 1.965-1.613 0.691-3.923 1.242-5.133 1.235-2.099-0.006-9.158 1.869-16.819 4.48-1.958 0.666-5.338 1.504-7.507 1.862-2.171 0.358-5.506 1.216-7.409 1.907-1.903 0.685-4.217 1.248-5.149 1.248-0.929 0-3.016 0.71-4.637 1.581s-3.499 1.581-4.169 1.581c-0.67 0-2.614 0.71-4.318 1.581s-3.847 1.581-4.76 1.581c-0.917 0-3.332 0.659-5.368 1.459-3.686 1.453-6.369 2.445-12.394 4.563-1.739 0.614-4.103 1.638-5.257 2.285-1.156 0.646-2.706 1.178-3.452 1.178-0.743 0-2.643 0.653-4.223 1.446-1.58 0.8-4.473 2.189-6.429 3.078-1.956 0.896-5.197 2.374-7.197 3.29-2.004 0.915-4.062 1.664-4.577 1.664-0.512 0-1.897 0.64-3.076 1.414-3.439 2.272-4.938 3.117-11.623 6.528-8.231 4.198-9.578 4.979-11.316 6.554-0.799 0.723-1.741 1.312-2.099 1.312-0.98 0-7.738 4.627-17.462 11.968-6.644 5.018-11.364 9.549-19.63 18.848-5.983 6.739-11.114 12.813-11.402 13.498-0.285 0.685-2.396 3.885-4.685 7.11-6.246 8.8-8.086 11.75-8.086 12.966 0 0.608-0.357 1.331-0.797 1.6-0.436 0.269-1.457 1.805-2.266 3.405-12.328 24.397-14.269 28.442-17.506 36.499-0.961 2.387-2.418 5.805-3.233 7.59s-1.486 3.834-1.486 4.55c0 0.71-0.711 2.624-1.58 4.25-0.869 1.619-1.581 3.584-1.581 4.371s-0.711 2.822-1.58 4.525c-0.869 1.702-1.581 3.834-1.581 4.742 0 0.902-0.711 3.034-1.58 4.742-0.87 1.702-1.594 3.91-1.606 4.909-0.016 0.992-0.715 3.226-1.555 4.966s-1.552 4.051-1.581 5.139c-0.028 1.082-0.74 3.398-1.58 5.133-0.841 1.741-1.54 4.128-1.556 5.306-0.012 1.178-0.736 3.949-1.606 6.157-0.869 2.202-1.58 4.794-1.58 5.754 0 0.966-0.711 3.622-1.581 5.907s-1.583 5.133-1.59 6.323c-0.006 1.19-0.717 4.416-1.581 7.174-0.863 2.752-1.574 5.958-1.58 7.11-0.006 1.158-0.717 4.358-1.581 7.117-0.863 2.752-1.574 6.131-1.58 7.507-0.006 1.37-0.717 4.749-1.581 7.507-0.863 2.752-1.58 6.483-1.59 8.294s-0.721 5.933-1.581 9.158c-0.86 3.232-1.562 7.334-1.562 9.114 0 1.786-0.54 5.184-1.197 7.565-0.661 2.374-1.395 7.878-1.631 12.224-0.648 11.802-4.116 17.984-12.448 22.176-3.244 1.632-4.913 1.92-11.064 1.888-6.41-0.038-7.659-0.288-10.858-2.176z",
@@ -25515,7 +25631,7 @@ export const iconsPack = {
     "properties": {
       "order": 2554,
       "id": 822,
-      "name": "rayan-badge-outlined",
+      "name": "rayan-badge-duotone",
       "prevSize": 32,
       "code": 61393,
       "codes": [
@@ -25527,10 +25643,10 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 13,
+    "iconIdx": 16,
     "height": 1024
   },
-  "rayan-logo-outlined": {
+  "rayan-logo-duotone": {
     "icon": {
       "paths": [
         "M1557.747 131.562c18.042 0.001 41.21 2.486 69.504 7.438l-13.248 82.749c-25.472-2.829-48.845-4.25-70.067-4.25-12.371 0-23.328 0.564-32.87 1.625-1.773 10.61-2.688 20.701-2.688 30.25 0 12.727 4.467 21.759 13.312 27.063 9.197 5.295 23.859 7.936 44 7.937 16.531 0 42.47-2.088 77.811-6.063 7.11-0.836 14.291-1.474 21.434-2.437l-5.312 83.875-41.933 6.313c-38.899 6.365-72.672 10.982-101.312 13.812-28.653 2.829-65.811 4.25-111.443 4.25v-0.188l-0.186 0.188h-20.685v11.125c0 27.589-9.587 50.399-28.691 68.438-18.739 18.388-43.482 31.823-74.246 40.312-30.419 8.488-63.322 12.749-98.688 12.75-44.922 0-78.739-9.734-101.376-29.188-22.624-19.455-33.939-50.59-33.939-93.375 0-19.103 2.49-56.978 7.437-113.562l1.062-12.188 56.755 4.812-1.062 18c-0.71 12.022-1.568 27.951-2.63 47.75-0.704 19.807-1.062 32.737-1.062 38.749 0 16.624 6.893 27.779 20.691 33.437 13.792 6.010 33.773 8.999 59.936 9 27.584 0 53.242-1.923 76.941-5.812 24.045-3.89 42.451-8.655 55.187-14.312l-0.442-17-111.501-3.75 5.312-91.75h216.691c7.565 0 14.899-0.162 21.997-0.188-0.89-7.625-1.312-15.876-1.312-24.749 0-48.811 9.171-82.775 27.565-101.875 18.394-19.452 44.755-29.188 79.059-29.188zM1783.437 131.062c38.906 0 68.467 8.668 88.627 26 20.506 17.329 34.15 41.005 40.87 71.062 4.096 17.197 6.771 37.027 8.378 59.437h37.754l0.25 0.25v-0.25h16.499c15.187 0 27.725-0.356 37.626-1.062 10.253-1.061 16.646-1.625 19.123-1.625l-4.749-122.563 71.622-3.687v98.687c0 12.378 4.051 20.484 12.186 24.375 8.486 3.889 23.149 5.873 44 5.875h0.064c20.518 0 38.771-0.856 54.688-2.625v-113.563h65.754v114.063l13.312 0.563c1.421 0.105 2.861 0.090 4.307 0.188l143.187-133.375c15.213-14.143 32.698-21.251 52.506-21.251 10.957 0.001 21.203 1.781 30.746 5.313 10.97 3.891 22.477 8.862 34.502 14.875 34.861 18.455 52.698 45.16 53.875 80.125h0.25v54.125c2.829 0 8.16 0.355 15.936 1.062 8.128 0.353 17.318 0.5 27.565 0.5h6.688c24.032-0.004 39.968-4.975 47.75-14.875 5.299-26.516 9.856-47.922 13.747-64.188 5.658-25.459 17.677-44.58 36.064-57.313 18.394-13.087 40.909-19.625 67.437-19.625h88.563v178.313c-0.006 26.513-6.899 45.791-20.691 57.812-13.434 12.019-31.136 18-53.062 18-10.253-0.002-24.403-1.715-42.432-5.25-17.683-3.537-34.816-8.719-51.443-15.438-5.555-2.296-10.554-4.895-15.123-7.562-2.298 2.099-4.666 4.135-7.187 6-18.733 13.784-40.294 20.682-64.685 20.687h-5.875v-0.062c-41.978-0.048-70.054-11.983-84.442-35.812-14.726 8.563-34.739 16.166-60.122 22.625-40.32 10.257-97.818 15.374-172.435 15.375l-11.878-0.25c-27.194-1.276-51.008-7.039-71.437-17.25-5.184-2.711-9.734-5.803-13.747-9.125-21.984 16.264-49.389 24.5-82.317 24.5h-0.064c-16.966-0.001-33.050-1.423-48.25-4.25-14.848-3.183-28.64-11.148-41.376-23.875-0.602-0.621-1.107-1.349-1.683-2-9.037 8.789-19.411 15.346-31.251 19.5-20.16 7.069-44.755 10.625-73.747 10.625v-0.25l-0.25 0.25h-38.63c-1.766 13.585-4.454 25.603-8.058 36.063-6.72 20.868-24.768 39.981-54.125 57.313-29.005 17.68-74.285 30.616-135.814 38.75l-9.562-89.688c38.202-3.537 69.888-8.3 94.995-14.312 25.114-6.013 43.52-12.196 55.194-18.563v-11.688c-3.936 0.531-7.827 1.161-11.693 1.625-17.325 2.121-36.243 3.124-56.749 3.125-25.114 0-45.997-5.473-62.624-16.438-16.262-11.319-24.378-30.436-24.378-57.313 0.006-2.833 0.358-7.768 1.062-14.812l18.566-167.125h56.186zM4252.998 143.75c20.518 12.38 36.64 28.505 48.314 48.313 11.667 19.451 17.498 41.766 17.498 66.875v44c0 27.229-5.683 47.914-16.998 62.062-11.315 13.792-29.165 20.685-53.562 20.688-25.107 0-49.702-3.848-73.747-11.625-9.037-3.102-16.883-6.424-23.501-9.938-16.768 8.719-36.314 14.246-58.752 16.313-26.88 2.476-64.192 3.687-111.936 3.687h-11.686v-0.25l-0.25 0.25h-38.688c-1.766 13.58-4.397 25.606-8 36.063-6.72 20.868-24.768 39.981-54.125 57.313-29.005 17.684-74.272 30.614-135.814 38.75l-9.562-89.688c38.202-3.537 69.888-8.3 95.002-14.312 25.082-6.007 43.45-12.203 55.123-18.563v-11.688c-3.917 0.529-7.776 1.164-11.629 1.625-17.331 2.122-36.294 3.125-56.813 3.125-25.094-0.004-45.939-5.478-62.56-16.438-16.269-11.318-24.435-30.431-24.435-57.313 0-2.832 0.358-7.77 1.062-14.812l18.56-167.125h56.25c38.912 0 68.467 8.668 88.627 26 20.499 17.327 34.093 41.015 40.813 71.062 4.096 17.197 6.829 37.027 8.435 59.437h37.754l0.25 0.25v-0.25c10.938 0 21.626-0.103 32.058-0.125-0.474-3.956-0.749-7.974-0.749-12.063 0-5.659 0.506-11.695 1.562-18.062l12.25-62.063c3.891-18.746 12.71-34.161 26.502-46.188 13.792-12.020 29.363-17.288 46.688-15.875l33.997 3.125 28.064-54.062 104 61.5zM903.002 159.187c4.243 66.844 6.374 120.786 6.374 161.812l-0.563 20.75c-1.197 20.291-4.224 39.181-8.998 56.688-6.368 23.698-22.643 46.716-48.813 69-25.824 22.275-65.274 38.349-118.317 48.25l-10.56-89.125c26.867-5.658 49.843-12.556 68.941-20.687 19.098-7.782 33.446-15.385 42.995-22.813 3.942-3.212 7.002-6.27 9.376-9l-11.501-209.063 71.066-5.812zM635.375 495h-149.625v-67.938h149.625v67.938zM310.375 336.375c-0.003 26.517-8.112 48.632-24.375 66.312-15.916 17.685-37.516 30.761-64.75 39.25-26.882 8.489-57.148 12.75-90.75 12.75-86.993-0.006-130.495-40.516-130.5-121.5 0-16.978 2.841-59.108 8.5-126.312l56.75 4.813-1.562 30.25c-2.122 43.141-3.188 67.738-3.188 73.75 0.005 16.604 6.347 27.924 19.062 33.937 13.087 5.66 31.343 8.5 54.688 8.5 20.852-0.001 41.353-1.424 61.5-4.25 20.511-3.183 36.641-6.882 48.313-11.125l-5.313-164.5 71.625-7.938v166.063zM3670.253 302.938c0 27.587-5.83 48.477-17.504 62.625-11.315 13.793-29.37 20.687-54.125 20.688-14.854 0-31.334-1.922-49.376-5.812-17.67-4.243-34.112-10.79-49.312-19.625-1.408-0.852-2.669-1.916-4-2.813-1.478 1.272-2.906 2.624-4.499 3.812-22.285 16.271-49.709 24.438-82.246 24.438l-10.125-0.375c-14.733-1.162-27.194-5.050-37.504-11.437-4.058 10.409-9.888 19.84-17.626 28.25-15.91 17.678-37.466 30.761-64.685 39.25-26.88 8.489-57.152 12.75-90.752 12.75-87.014 0-130.502-40.501-130.502-121.5 0.006-16.979 2.784-59.064 8.442-126.25l56.813 4.75-1.626 30.25c-2.125 43.151-3.187 67.738-3.187 73.75 0 16.62 6.394 27.924 19.123 33.937 13.082 5.658 31.29 8.499 54.624 8.5 20.87 0 41.402-1.42 61.562-4.25 20.518-3.183 36.64-6.881 48.314-11.125l-5.312-164.5 71.629-7.938v92.875c0.006 9.18 2.995 15.885 8.998 20.125 5.965 4.211 17.67 6.279 35.123 6.312 20.557-0.032 36.275-1.537 47.123-4.687v-116.25h65.254v110.625c21.805 6.964 47.597 12.058 77.434 15.125l-4.749-142.688 72.691-3.187v154.375zM768.998 384.125l-65.811 4.25-6.374-364 72.186-6.312v366.062zM433.75 268.438c0 5.659 1.066 9.774 3.188 12.25 2.477 2.474 7.304 4.189 14.375 5.25 7.076 1.059 18.748 1.625 35 1.625 45.27 0 75.333-0.919 90.188-2.687l-5.812-133.125 72.685-3.187v126.25c0 42.445-14.201 71.29-42.498 86.5-27.939 15.198-66.125 22.812-114.563 22.812l-17.062-0.375c-16.31-0.73-30.44-2.52-42.375-5.437-15.917-4.244-29.347-13.476-40.312-27.625-10.611-14.501-16.292-36.248-17-65.25l-7.937-261.062 72.125-6.312v250.375zM4189.312 289.375c3.219 0.973 6.592 1.995 10.125 2.938 21.222 5.305 41.050 8.857 59.437 10.625v-33.938c0-19.8-9.747-35.37-29.184-46.687l-40.378-23.5v90.562zM2801.69 220.188c-8.845 0.001-15.386 1.776-19.629 5.313-3.885 3.534-6.733 9.527-8.499 18l-8.563 38.312c5.37 1.413 11.053 2.852 17.062 4.188 22.637 4.951 46.163 8.65 70.566 11.125v-76.938h-50.938zM1769.69 291.812c6.368 0.707 18.746 1.062 37.12 1.062 23.002-0.529 40.954-1.284 53.875-1.812-0.416-5.322-0.832-10.044-1.37-14.125-2.125-19.091-8.666-33.39-19.629-42.938-10.963-9.549-29.158-14.374-54.624-14.375h-8.499l-6.874 72.188zM3778.938 291.812c6.368 0.707 18.797 1.062 37.19 1.062 23.002-0.529 40.954-1.283 53.875-1.812-0.422-5.322-0.838-10.044-1.376-14.125-2.125-19.085-8.672-33.39-19.629-42.938s-29.171-14.372-54.624-14.375h-8.499l-6.938 72.188zM2379.501 289.375c77.235-1.174 133.709-7.53 169.376-19.312v-11.688c0-4.595-1.28-8.297-3.75-11.125-2.125-3.183-5.824-6.024-11.123-8.5l-70.067-27.563-84.435 78.188zM4062.003 265.25c-1.062 6.013 0.211 11.193 3.744 15.437 3.891 4.227 9.741 6.313 17.504 6.313l47.75-0.5v-71.625l-57.875-5.313-11.123 55.688zM187.313 232.375h-73.75v-77.437h73.75v77.437zM3522.189 55.687h47.251v67.937h-163.437v-67.937h47.744v-55.687h68.442v55.687zM2100.499 116.188h-73.747v-77.438h73.747v77.438z",
@@ -25581,7 +25697,7 @@ export const iconsPack = {
     "properties": {
       "order": 2553,
       "id": 821,
-      "name": "rayan-logo-outlined",
+      "name": "rayan-logo-duotone",
       "prevSize": 32,
       "code": 61397,
       "codes": [
@@ -25593,7 +25709,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 14,
+    "iconIdx": 17,
     "height": 1024
   },
   "receipt-buy-outlined": {
@@ -25663,7 +25779,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 265,
+    "iconIdx": 268,
     "height": 1024
   },
   "receipt-outlined": {
@@ -25697,7 +25813,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 15,
+    "iconIdx": 18,
     "height": 1024
   },
   "receipt-sell-outlined": {
@@ -25777,7 +25893,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 266,
+    "iconIdx": 269,
     "height": 1024
   },
   "Receive": {
@@ -25882,7 +25998,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 404,
+    "iconIdx": 407,
     "height": 1024
   },
   "receive-duotone": {
@@ -25927,7 +26043,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 177,
+    "iconIdx": 180,
     "height": 1024
   },
   "receive-duotone1": {
@@ -25980,7 +26096,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 147,
+    "iconIdx": 150,
     "height": 1024
   },
   "receiving-payment": {
@@ -26014,7 +26130,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 338,
+    "iconIdx": 341,
     "height": 1024
   },
   "record1-outlined": {
@@ -26055,7 +26171,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 72,
+    "iconIdx": 75,
     "height": 1024
   },
   "Reference": {
@@ -26096,7 +26212,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 749,
+    "iconIdx": 752,
     "height": 1024
   },
   "Remove_Circle": {
@@ -26130,7 +26246,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 750,
+    "iconIdx": 753,
     "height": 1024
   },
   "remove_select": {
@@ -26164,7 +26280,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 751,
+    "iconIdx": 754,
     "height": 1024
   },
   "remove-line-outlined": {
@@ -26198,7 +26314,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 119,
+    "iconIdx": 122,
     "height": 1024
   },
   "reply": {
@@ -26232,7 +26348,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 500,
+    "iconIdx": 503,
     "height": 1024
   },
   "reply1": {
@@ -26266,7 +26382,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 463,
+    "iconIdx": 466,
     "height": 1024
   },
   "report": {
@@ -26300,7 +26416,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 753,
+    "iconIdx": 756,
     "height": 1024
   },
   "Report": {
@@ -26379,7 +26495,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 380,
+    "iconIdx": 383,
     "height": 1024
   },
   "report_fill": {
@@ -26413,7 +26529,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 752,
+    "iconIdx": 755,
     "height": 1024
   },
   "report-analytics-outlined": {
@@ -26448,7 +26564,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 267,
+    "iconIdx": 270,
     "height": 1024
   },
   "report-duotone": {
@@ -26517,7 +26633,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 167,
+    "iconIdx": 170,
     "height": 1024
   },
   "report-voice-outlined": {
@@ -26572,7 +26688,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 83,
+    "iconIdx": 86,
     "height": 1024
   },
   "reports": {
@@ -26606,7 +26722,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 755,
+    "iconIdx": 758,
     "height": 1024
   },
   "reports_fill": {
@@ -26640,7 +26756,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 754,
+    "iconIdx": 757,
     "height": 1024
   },
   "request-outlined": {
@@ -26675,7 +26791,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 268,
+    "iconIdx": 271,
     "height": 1024
   },
   "reset-outlined": {
@@ -26709,7 +26825,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 33,
+    "iconIdx": 36,
     "height": 1024
   },
   "Resive-email": {
@@ -26804,7 +26920,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 398,
+    "iconIdx": 401,
     "height": 1024
   },
   "Return_invoice": {
@@ -26838,7 +26954,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 757,
+    "iconIdx": 760,
     "height": 1024
   },
   "Return_invoice_fill": {
@@ -26872,7 +26988,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 756,
+    "iconIdx": 759,
     "height": 1024
   },
   "return-invoices-from-sales-duotone": {
@@ -26917,7 +27033,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 203,
+    "iconIdx": 206,
     "height": 1024
   },
   "rhythm-line-outlined": {
@@ -26951,7 +27067,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 60,
+    "iconIdx": 63,
     "height": 1024
   },
   "room-duotone": {
@@ -26996,7 +27112,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 182,
+    "iconIdx": 185,
     "height": 1024
   },
   "rotate-clockwise-outlined": {
@@ -27026,7 +27142,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 73,
+    "iconIdx": 76,
     "height": 1024
   },
   "S_address": {
@@ -27123,7 +27239,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 339,
+    "iconIdx": 342,
     "height": 1024
   },
   "S_calender": {
@@ -27250,7 +27366,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 340,
+    "iconIdx": 343,
     "height": 1024
   },
   "S_call": {
@@ -27337,7 +27453,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 341,
+    "iconIdx": 344,
     "height": 1024
   },
   "S_celebrate": {
@@ -27456,7 +27572,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 342,
+    "iconIdx": 345,
     "height": 1024
   },
   "S_classification": {
@@ -27591,7 +27707,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 343,
+    "iconIdx": 346,
     "height": 1024
   },
   "S_club": {
@@ -27692,7 +27808,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 344,
+    "iconIdx": 347,
     "height": 1024
   },
   "S_color": {
@@ -27763,7 +27879,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 345,
+    "iconIdx": 348,
     "height": 1024
   },
   "S_country": {
@@ -27834,7 +27950,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 346,
+    "iconIdx": 349,
     "height": 1024
   },
   "S_crm-object": {
@@ -27921,7 +28037,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 347,
+    "iconIdx": 350,
     "height": 1024
   },
   "S_event": {
@@ -28056,7 +28172,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 348,
+    "iconIdx": 351,
     "height": 1024
   },
   "S_flow": {
@@ -28183,7 +28299,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 349,
+    "iconIdx": 352,
     "height": 1024
   },
   "S_inventory": {
@@ -28348,7 +28464,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 351,
+    "iconIdx": 354,
     "height": 1024
   },
   "S_language": {
@@ -28483,7 +28599,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 352,
+    "iconIdx": 355,
     "height": 1024
   },
   "S_money": {
@@ -28596,7 +28712,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 353,
+    "iconIdx": 356,
     "height": 1024
   },
   "S_number-pattern": {
@@ -28691,7 +28807,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 354,
+    "iconIdx": 357,
     "height": 1024
   },
   "S_product": {
@@ -28762,7 +28878,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 355,
+    "iconIdx": 358,
     "height": 1024
   },
   "S_room": {
@@ -28881,7 +28997,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 356,
+    "iconIdx": 359,
     "height": 1024
   },
   "S_sms": {
@@ -28984,7 +29100,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 357,
+    "iconIdx": 360,
     "height": 1024
   },
   "S_sync": {
@@ -29095,7 +29211,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 358,
+    "iconIdx": 361,
     "height": 1024
   },
   "S_system": {
@@ -29254,7 +29370,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 360,
+    "iconIdx": 363,
     "height": 1024
   },
   "S_system-item": {
@@ -29373,7 +29489,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 359,
+    "iconIdx": 362,
     "height": 1024
   },
   "S_tag": {
@@ -29452,7 +29568,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 361,
+    "iconIdx": 364,
     "height": 1024
   },
   "S_user": {
@@ -29587,7 +29703,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 362,
+    "iconIdx": 365,
     "height": 1024
   },
   "sale-2": {
@@ -29684,7 +29800,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 329,
+    "iconIdx": 332,
     "height": 1024
   },
   "Sales-Invoice": {
@@ -29772,7 +29888,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 409,
+    "iconIdx": 412,
     "height": 1024
   },
   "sales-invoice-duotone": {
@@ -29825,7 +29941,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 148,
+    "iconIdx": 151,
     "height": 1024
   },
   "sales-Invoices-duotone": {
@@ -29870,7 +29986,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 179,
+    "iconIdx": 182,
     "height": 1024
   },
   "sales-pre-invoice-duotone": {
@@ -29915,7 +30031,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 212,
+    "iconIdx": 215,
     "height": 1024
   },
   "Sales-Program-duotone": {
@@ -29961,7 +30077,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 23,
+    "iconIdx": 26,
     "height": 1024
   },
   "Sales-return-invoice": {
@@ -30097,7 +30213,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 407,
+    "iconIdx": 410,
     "height": 1024
   },
   "sales-returne-invoice-duotone": {
@@ -30150,7 +30266,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 149,
+    "iconIdx": 152,
     "height": 1024
   },
   "sales-settings-duotone": {
@@ -30195,7 +30311,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 209,
+    "iconIdx": 212,
     "height": 1024
   },
   "save": {
@@ -30229,7 +30345,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 759,
+    "iconIdx": 762,
     "height": 1024
   },
   "save_fill": {
@@ -30263,7 +30379,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 758,
+    "iconIdx": 761,
     "height": 1024
   },
   "score-outlined": {
@@ -30305,7 +30421,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 269,
+    "iconIdx": 272,
     "height": 1024
   },
   "Scoring": {
@@ -30339,7 +30455,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 761,
+    "iconIdx": 764,
     "height": 1024
   },
   "Scoring_fill": {
@@ -30373,7 +30489,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 760,
+    "iconIdx": 763,
     "height": 1024
   },
   "scoring-duotone": {
@@ -30419,7 +30535,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 173,
+    "iconIdx": 176,
     "height": 1024
   },
   "screen-share-outlined": {
@@ -30454,7 +30570,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 89,
+    "iconIdx": 92,
     "height": 1024
   },
   "screenshot": {
@@ -30488,7 +30604,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 552,
+    "iconIdx": 555,
     "height": 1024
   },
   "screenshot_fill": {
@@ -30522,7 +30638,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 551,
+    "iconIdx": 554,
     "height": 1024
   },
   "Search_fail": {
@@ -30563,7 +30679,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 503,
+    "iconIdx": 506,
     "height": 1024
   },
   "search_fill": {
@@ -30597,7 +30713,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 553,
+    "iconIdx": 556,
     "height": 1024
   },
   "Search_header": {
@@ -30631,7 +30747,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 554,
+    "iconIdx": 557,
     "height": 1024
   },
   "security-duotone": {
@@ -30676,7 +30792,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 199,
+    "iconIdx": 202,
     "height": 1024
   },
   "select": {
@@ -30710,7 +30826,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 763,
+    "iconIdx": 766,
     "height": 1024
   },
   "select_all": {
@@ -30744,7 +30860,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 501,
+    "iconIdx": 504,
     "height": 1024
   },
   "Select_Box": {
@@ -30778,7 +30894,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 762,
+    "iconIdx": 765,
     "height": 1024
   },
   "Select_Color": {
@@ -30812,7 +30928,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 555,
+    "iconIdx": 558,
     "height": 1024
   },
   "Send-email": {
@@ -30907,7 +31023,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 397,
+    "iconIdx": 400,
     "height": 1024
   },
   "send-outlined": {
@@ -30949,7 +31065,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 100,
+    "iconIdx": 103,
     "height": 1024
   },
   "send-sms": {
@@ -31044,7 +31160,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 386,
+    "iconIdx": 389,
     "height": 1024
   },
   "Server-Settings-duotone": {
@@ -31089,7 +31205,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 225,
+    "iconIdx": 228,
     "height": 1024
   },
   "settings_fill": {
@@ -31123,7 +31239,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 764,
+    "iconIdx": 767,
     "height": 1024
   },
   "settings_header": {
@@ -31157,7 +31273,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 765,
+    "iconIdx": 768,
     "height": 1024
   },
   "settings-search-duotone": {
@@ -31203,7 +31319,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 84,
+    "iconIdx": 87,
     "height": 1024
   },
   "share_box_fill": {
@@ -31237,7 +31353,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 766,
+    "iconIdx": 769,
     "height": 1024
   },
   "share_dashboard": {
@@ -31278,7 +31394,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 512,
+    "iconIdx": 515,
     "height": 1024
   },
   "share_fill": {
@@ -31312,7 +31428,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 767,
+    "iconIdx": 770,
     "height": 1024
   },
   "share_line": {
@@ -31346,7 +31462,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 768,
+    "iconIdx": 771,
     "height": 1024
   },
   "share-box-line": {
@@ -31376,7 +31492,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 509,
+    "iconIdx": 512,
     "height": 1024
   },
   "shield-check-outlined": {
@@ -31410,7 +31526,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 40,
+    "iconIdx": 43,
     "height": 1024
   },
   "shield-checkered-filled": {
@@ -31444,7 +31560,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 42,
+    "iconIdx": 45,
     "height": 1024
   },
   "shield-pause-outlined": {
@@ -31478,7 +31594,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 41,
+    "iconIdx": 44,
     "height": 1024
   },
   "sign_out": {
@@ -31512,7 +31628,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 772,
+    "iconIdx": 775,
     "height": 1024
   },
   "sign_out_fill": {
@@ -31546,7 +31662,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 770,
+    "iconIdx": 773,
     "height": 1024
   },
   "sign_out_fill-1": {
@@ -31580,7 +31696,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 769,
+    "iconIdx": 772,
     "height": 1024
   },
   "sign_out-1": {
@@ -31614,7 +31730,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 771,
+    "iconIdx": 774,
     "height": 1024
   },
   "silver-star-filled": {
@@ -31660,7 +31776,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 122,
+    "iconIdx": 125,
     "height": 1024
   },
   "sip_fill": {
@@ -31694,7 +31810,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 556,
+    "iconIdx": 559,
     "height": 1024
   },
   "skype-Filled": {
@@ -31728,7 +31844,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 55,
+    "iconIdx": 58,
     "height": 1024
   },
   "smile-outlined": {
@@ -31763,7 +31879,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 87,
+    "iconIdx": 90,
     "height": 1024
   },
   "smile-outlined1": {
@@ -31818,7 +31934,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 34,
+    "iconIdx": 37,
     "height": 1024
   },
   "sms_dashboard": {
@@ -31922,7 +32038,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 387,
+    "iconIdx": 390,
     "height": 1024
   },
   "sms-duotone": {
@@ -31967,7 +32083,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 229,
+    "iconIdx": 232,
     "height": 1024
   },
   "sms-receive": {
@@ -32008,7 +32124,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 464,
+    "iconIdx": 467,
     "height": 1024
   },
   "sms-send": {
@@ -32042,7 +32158,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 465,
+    "iconIdx": 468,
     "height": 1024
   },
   "snooze_header": {
@@ -32076,7 +32192,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 773,
+    "iconIdx": 776,
     "height": 1024
   },
   "social_media": {
@@ -32110,7 +32226,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 774,
+    "iconIdx": 777,
     "height": 1024
   },
   "social-network-messages-duotone": {
@@ -32155,7 +32271,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 154,
+    "iconIdx": 157,
     "height": 1024
   },
   "sound-outlined": {
@@ -32203,7 +32319,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 35,
+    "iconIdx": 38,
     "height": 1024
   },
   "speaker": {
@@ -32237,7 +32353,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 502,
+    "iconIdx": 505,
     "height": 1024
   },
   "sping-speed-outlined": {
@@ -32271,7 +32387,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 150,
+    "iconIdx": 153,
     "height": 1024
   },
   "star-filed": {
@@ -32305,7 +32421,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 108,
+    "iconIdx": 111,
     "height": 1024
   },
   "star-outlined": {
@@ -32339,7 +32455,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 109,
+    "iconIdx": 112,
     "height": 1024
   },
   "stop": {
@@ -32373,7 +32489,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 776,
+    "iconIdx": 779,
     "height": 1024
   },
   "stop_fill": {
@@ -32407,7 +32523,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 775,
+    "iconIdx": 778,
     "height": 1024
   },
   "stop-rexord-outlined": {
@@ -32441,7 +32557,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 74,
+    "iconIdx": 77,
     "height": 1024
   },
   "subtask": {
@@ -32475,7 +32591,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 777,
+    "iconIdx": 780,
     "height": 1024
   },
   "sunny": {
@@ -32509,7 +32625,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 778,
+    "iconIdx": 781,
     "height": 1024
   },
   "Survey": {
@@ -32612,7 +32728,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 416,
+    "iconIdx": 419,
     "height": 1024
   },
   "switch_person": {
@@ -32660,7 +32776,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 779,
+    "iconIdx": 782,
     "height": 1024
   },
   "Sync": {
@@ -32694,7 +32810,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 780,
+    "iconIdx": 783,
     "height": 1024
   },
   "System-items-duotone": {
@@ -32739,7 +32855,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 239,
+    "iconIdx": 242,
     "height": 1024
   },
   "system-logs-duotone": {
@@ -32784,7 +32900,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 220,
+    "iconIdx": 223,
     "height": 1024
   },
   "System-Messages-duotone": {
@@ -32829,7 +32945,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 234,
+    "iconIdx": 237,
     "height": 1024
   },
   "system-settings-duotone": {
@@ -32874,7 +32990,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 235,
+    "iconIdx": 238,
     "height": 1024
   },
   "table": {
@@ -32908,7 +33024,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 523,
+    "iconIdx": 526,
     "height": 1024
   },
   "table-line": {
@@ -32942,7 +33058,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 488,
+    "iconIdx": 491,
     "height": 1024
   },
   "tag": {
@@ -32976,7 +33092,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 782,
+    "iconIdx": 785,
     "height": 1024
   },
   "tag_fill": {
@@ -33010,7 +33126,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 781,
+    "iconIdx": 784,
     "height": 1024
   },
   "taget-blanl-outlined": {
@@ -33051,7 +33167,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 36,
+    "iconIdx": 39,
     "height": 1024
   },
   "Tags": {
@@ -33099,7 +33215,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 784,
+    "iconIdx": 787,
     "height": 1024
   },
   "Tags_fill": {
@@ -33133,7 +33249,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 783,
+    "iconIdx": 786,
     "height": 1024
   },
   "target-arrow-outlined": {
@@ -33168,7 +33284,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 270,
+    "iconIdx": 273,
     "height": 1024
   },
   "target-duotone": {
@@ -33245,7 +33361,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 124,
+    "iconIdx": 127,
     "height": 1024
   },
   "Target-group": {
@@ -33332,7 +33448,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 413,
+    "iconIdx": 416,
     "height": 1024
   },
   "task": {
@@ -33366,7 +33482,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 786,
+    "iconIdx": 789,
     "height": 1024
   },
   "task_assigned": {
@@ -33407,7 +33523,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 785,
+    "iconIdx": 788,
     "height": 1024
   },
   "task-board-duotone": {
@@ -33452,7 +33568,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 193,
+    "iconIdx": 196,
     "height": 1024
   },
   "task-list-duotone": {
@@ -33505,7 +33621,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 137,
+    "iconIdx": 140,
     "height": 1024
   },
   "task-list-outlined": {
@@ -33539,7 +33655,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 161,
+    "iconIdx": 164,
     "height": 1024
   },
   "Team_dashboard": {
@@ -33587,7 +33703,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 787,
+    "iconIdx": 790,
     "height": 1024
   },
   "team_fill": {
@@ -33621,7 +33737,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 788,
+    "iconIdx": 791,
     "height": 1024
   },
   "team_line": {
@@ -33655,7 +33771,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 789,
+    "iconIdx": 792,
     "height": 1024
   },
   "telefax": {
@@ -33690,7 +33806,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 467,
+    "iconIdx": 470,
     "height": 1024
   },
   "telefax-receive": {
@@ -33731,7 +33847,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 466,
+    "iconIdx": 469,
     "height": 1024
   },
   "telefax-send": {
@@ -33772,7 +33888,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 462,
+    "iconIdx": 465,
     "height": 1024
   },
   "telefax1": {
@@ -33876,7 +33992,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 524,
+    "iconIdx": 527,
     "height": 1024
   },
   "telegram": {
@@ -33910,7 +34026,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 485,
+    "iconIdx": 488,
     "height": 1024
   },
   "telegram-Filled": {
@@ -33955,7 +34071,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 54,
+    "iconIdx": 57,
     "height": 1024
   },
   "telephone-system-outlined": {
@@ -33985,7 +34101,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 75,
+    "iconIdx": 78,
     "height": 1024
   },
   "telephone-systems-management-duotone": {
@@ -34031,7 +34147,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 85,
+    "iconIdx": 88,
     "height": 1024
   },
   "template-messages-duotone": {
@@ -34076,7 +34192,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 232,
+    "iconIdx": 235,
     "height": 1024
   },
   "Text-list-check-outlined": {
@@ -34124,7 +34240,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 110,
+    "iconIdx": 113,
     "height": 1024
   },
   "Text-list-numbers-outlined": {
@@ -34158,7 +34274,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 111,
+    "iconIdx": 114,
     "height": 1024
   },
   "ticket": {
@@ -34192,7 +34308,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 332,
+    "iconIdx": 335,
     "height": 1024
   },
   "Ticket": {
@@ -34319,7 +34435,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 403,
+    "iconIdx": 406,
     "height": 1024
   },
   "ticket_fill": {
@@ -34353,7 +34469,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 526,
+    "iconIdx": 529,
     "height": 1024
   },
   "tickets-duotone": {
@@ -34398,7 +34514,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 171,
+    "iconIdx": 174,
     "height": 1024
   },
   "time": {
@@ -34432,7 +34548,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 792,
+    "iconIdx": 795,
     "height": 1024
   },
   "time_fill": {
@@ -34466,7 +34582,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 790,
+    "iconIdx": 793,
     "height": 1024
   },
   "time_line": {
@@ -34500,7 +34616,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 791,
+    "iconIdx": 794,
     "height": 1024
   },
   "timeline-event-minus-outlined": {
@@ -34535,7 +34651,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 271,
+    "iconIdx": 274,
     "height": 1024
   },
   "timer_fill": {
@@ -34569,7 +34685,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 793,
+    "iconIdx": 796,
     "height": 1024
   },
   "timer_line": {
@@ -34603,7 +34719,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 794,
+    "iconIdx": 797,
     "height": 1024
   },
   "timer-duotone": {
@@ -34648,7 +34764,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 192,
+    "iconIdx": 195,
     "height": 1024
   },
   "Timing": {
@@ -34749,7 +34865,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 371,
+    "iconIdx": 374,
     "height": 1024
   },
   "todo_line": {
@@ -34783,7 +34899,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 795,
+    "iconIdx": 798,
     "height": 1024
   },
   "toggle_fill": {
@@ -34817,7 +34933,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 557,
+    "iconIdx": 560,
     "height": 1024
   },
   "toggle_line": {
@@ -34851,7 +34967,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 558,
+    "iconIdx": 561,
     "height": 1024
   },
   "trash-x-outlined": {
@@ -34893,7 +35009,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 101,
+    "iconIdx": 104,
     "height": 1024
   },
   "tree_view_arrow_down": {
@@ -34927,7 +35043,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 796,
+    "iconIdx": 799,
     "height": 1024
   },
   "tree_view_arrow_left": {
@@ -34961,7 +35077,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 797,
+    "iconIdx": 800,
     "height": 1024
   },
   "tree_view_arrow_right": {
@@ -34995,7 +35111,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 798,
+    "iconIdx": 801,
     "height": 1024
   },
   "tree_view_arrow_up": {
@@ -35029,7 +35145,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 799,
+    "iconIdx": 802,
     "height": 1024
   },
   "trumpet-outlined": {
@@ -35063,7 +35179,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 272,
+    "iconIdx": 275,
     "height": 1024
   },
   "Unit-Measurement-Categories-duotone": {
@@ -35108,7 +35224,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 24,
+    "iconIdx": 27,
     "height": 1024
   },
   "update-information-duotone": {
@@ -35153,7 +35269,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 187,
+    "iconIdx": 190,
     "height": 1024
   },
   "update-place-holder-Filled": {
@@ -35270,7 +35386,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 62,
+    "iconIdx": 65,
     "height": 1024
   },
   "update-telephone-line-duotone": {
@@ -35315,7 +35431,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 200,
+    "iconIdx": 203,
     "height": 1024
   },
   "upload": {
@@ -35349,7 +35465,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 802,
+    "iconIdx": 805,
     "height": 1024
   },
   "upload_cloud_fill": {
@@ -35383,7 +35499,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 800,
+    "iconIdx": 803,
     "height": 1024
   },
   "upload_cloud_line": {
@@ -35417,7 +35533,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 801,
+    "iconIdx": 804,
     "height": 1024
   },
   "upset-outlined": {
@@ -35472,7 +35588,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 37,
+    "iconIdx": 40,
     "height": 1024
   },
   "User": {
@@ -35506,7 +35622,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 816,
+    "iconIdx": 819,
     "height": 1024
   },
   "user_add_fill": {
@@ -35540,7 +35656,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 803,
+    "iconIdx": 806,
     "height": 1024
   },
   "User_dashboard": {
@@ -35581,7 +35697,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 804,
+    "iconIdx": 807,
     "height": 1024
   },
   "user_fill": {
@@ -35615,7 +35731,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 805,
+    "iconIdx": 808,
     "height": 1024
   },
   "user_follow_fill": {
@@ -35649,7 +35765,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 806,
+    "iconIdx": 809,
     "height": 1024
   },
   "User_Group": {
@@ -35683,7 +35799,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 807,
+    "iconIdx": 810,
     "height": 1024
   },
   "user_received_fill": {
@@ -35717,7 +35833,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 808,
+    "iconIdx": 811,
     "height": 1024
   },
   "user_received_line": {
@@ -35751,7 +35867,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 809,
+    "iconIdx": 812,
     "height": 1024
   },
   "user_search": {
@@ -35785,7 +35901,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 811,
+    "iconIdx": 814,
     "height": 1024
   },
   "user_search_fill": {
@@ -35819,7 +35935,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 810,
+    "iconIdx": 813,
     "height": 1024
   },
   "user_shared_fill": {
@@ -35853,7 +35969,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 812,
+    "iconIdx": 815,
     "height": 1024
   },
   "user_shared_line": {
@@ -35887,7 +36003,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 813,
+    "iconIdx": 816,
     "height": 1024
   },
   "user_unfollow_fill": {
@@ -35921,7 +36037,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 814,
+    "iconIdx": 817,
     "height": 1024
   },
   "user_unfollow_line": {
@@ -35955,7 +36071,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 815,
+    "iconIdx": 818,
     "height": 1024
   },
   "user-analitics-outlined": {
@@ -35997,7 +36113,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 273,
+    "iconIdx": 276,
     "height": 1024
   },
   "user-avatar-outlined": {
@@ -36031,7 +36147,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 38,
+    "iconIdx": 41,
     "height": 1024
   },
   "user-award-add-outlined": {
@@ -36094,7 +36210,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 274,
+    "iconIdx": 277,
     "height": 1024
   },
   "user-managment-outlined": {
@@ -36136,7 +36252,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 275,
+    "iconIdx": 278,
     "height": 1024
   },
   "user-star-outlined": {
@@ -36192,7 +36308,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 278,
+    "iconIdx": 281,
     "height": 1024
   },
   "user-view-outlined": {
@@ -36234,7 +36350,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 279,
+    "iconIdx": 282,
     "height": 1024
   },
   "users-group-outlined": {
@@ -36269,7 +36385,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 276,
+    "iconIdx": 279,
     "height": 1024
   },
   "users-outlined": {
@@ -36304,7 +36420,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 277,
+    "iconIdx": 280,
     "height": 1024
   },
   "users-plus-outlined": {
@@ -36338,7 +36454,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 76,
+    "iconIdx": 79,
     "height": 1024
   },
   "video": {
@@ -36372,7 +36488,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 818,
+    "iconIdx": 821,
     "height": 1024
   },
   "video_fill": {
@@ -36406,7 +36522,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 817,
+    "iconIdx": 820,
     "height": 1024
   },
   "video-incoming-filled": {
@@ -36447,7 +36563,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 44,
+    "iconIdx": 47,
     "height": 1024
   },
   "video-off2-outlined": {
@@ -36492,7 +36608,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 77,
+    "iconIdx": 80,
     "height": 1024
   },
   "video-outconming-filled": {
@@ -36533,7 +36649,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 43,
+    "iconIdx": 46,
     "height": 1024
   },
   "video-outlined": {
@@ -36567,7 +36683,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 91,
+    "iconIdx": 94,
     "height": 1024
   },
   "Visibility_Off": {
@@ -36601,7 +36717,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 559,
+    "iconIdx": 562,
     "height": 1024
   },
   "volume-outlined": {
@@ -36635,7 +36751,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 78,
+    "iconIdx": 81,
     "height": 1024
   },
   "waiting-inventory": {
@@ -36740,7 +36856,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 291,
+    "iconIdx": 294,
     "height": 1024
   },
   "waiting-inventory-duotone": {
@@ -36793,7 +36909,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 151,
+    "iconIdx": 154,
     "height": 1024
   },
   "waiting-item": {
@@ -36888,7 +37004,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 292,
+    "iconIdx": 295,
     "height": 1024
   },
   "waiting-item-duotone": {
@@ -36941,7 +37057,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 152,
+    "iconIdx": 155,
     "height": 1024
   },
   "Warehouse-duotone": {
@@ -36986,7 +37102,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 214,
+    "iconIdx": 217,
     "height": 1024
   },
   "warehouse-transactions-duotone": {
@@ -37031,7 +37147,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 213,
+    "iconIdx": 216,
     "height": 1024
   },
   "Web_frame": {
@@ -37061,7 +37177,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 514,
+    "iconIdx": 517,
     "height": 1024
   },
   "Web_frame_fill": {
@@ -37091,7 +37207,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 513,
+    "iconIdx": 516,
     "height": 1024
   },
   "website": {
@@ -37125,7 +37241,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 821,
+    "iconIdx": 824,
     "height": 1024
   },
   "website_fill": {
@@ -37159,7 +37275,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 820,
+    "iconIdx": 823,
     "height": 1024
   },
   "whatsapp": {
@@ -37193,7 +37309,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 486,
+    "iconIdx": 489,
     "height": 1024
   },
   "whatsapp-Filled": {
@@ -37272,7 +37388,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 58,
+    "iconIdx": 61,
     "height": 1024
   },
   "Work-flow": {
@@ -37407,7 +37523,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 370,
+    "iconIdx": 373,
     "height": 1024
   },
   "working-hours-duotone": {
@@ -37452,7 +37568,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 194,
+    "iconIdx": 197,
     "height": 1024
   },
   "zoom_in": {
@@ -37486,7 +37602,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 561,
+    "iconIdx": 564,
     "height": 1024
   },
   "zoom_in_fill": {
@@ -37520,7 +37636,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 560,
+    "iconIdx": 563,
     "height": 1024
   },
   "zoom_out": {
@@ -37554,7 +37670,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 563,
+    "iconIdx": 566,
     "height": 1024
   },
   "zoom_out-fill": {
@@ -37588,7 +37704,7 @@ export const iconsPack = {
     },
     "setIdx": 0,
     "setId": 2,
-    "iconIdx": 562,
+    "iconIdx": 565,
     "height": 1024
   }
 } as const;

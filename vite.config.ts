@@ -29,7 +29,11 @@ export default defineConfig({
       exclude: ['**/*.stories.*', '**/*.test.*', '**/__tests__/**'],
     }),
   ],
-
+  resolve: {
+    alias: {
+      src: path.resolve(__dirname, './src'),
+    },
+  },
   build: {
     lib: {
       entry: {

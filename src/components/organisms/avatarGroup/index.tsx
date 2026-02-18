@@ -11,7 +11,7 @@ export interface AvatarGroupItemType {
 }
 export interface AvatarGroupItemsProps<T extends AvatarGroupItemType = AvatarGroupItemType> {
   items: T[];
-  renderItem?: (item: T) => JSX.Element;
+  renderItem?: (item: T, index: number) => JSX.Element;
   max?: number;
   avatarProps?: { size?: number };
   nameExtractor?: (item: T) => string;
@@ -60,7 +60,7 @@ export function AvatarGroup<T extends AvatarGroupItemType>({
             />
           }
         >
-          {renderItem?.(item)}
+          {renderItem?.(item, index)}
         </Render>
       ))}
 

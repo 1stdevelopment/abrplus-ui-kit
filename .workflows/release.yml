@@ -17,7 +17,6 @@ steps:
 
   - task: NodeTool@0
     displayName: "Install Node.js"
-    enabled: false
     inputs:
       versionSpec: "22.x"
       checkLatest: true
